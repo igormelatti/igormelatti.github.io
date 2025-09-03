@@ -1,0 +1,413 @@
+<html>
+  <head>
+    <title>Software Testing and Validation (25/26)</title>
+  </head>
+  <body class="patternViewPage">
+    <a name="PageTop"></a>
+    <p><a href="index_eng.html">GO TO ENGLISH VERSION</a></p>
+    <p><a href="../index.html">ALTRI ANNI ACCADEMICI</a></p>
+    <center>
+      <h1>Software Testing and Validation</h1>
+      <h2>per il corso di laurea in Informatica</h2>
+      <h2>Universit&agrave; dell'Aquila</h2>
+      <h2>A. A. 2025/2026</h2>
+      <h2>docente: Igor Melatti</h2>
+      igor.melatti@univaq.it
+    </center>
+    <!--
+	<h3><a name="Avviso"></a> Avviso </h3>
+	<h3>Le informazioni per la partecipazione all'appello di febbraio 2026 sono state inviate sull'indirizzo email ufficiale ai soli studenti iscritti</h3>
+	-->
+    <p/>
+    <p/>
+    <hr/>
+    <h3>Indice:</h3>
+    <p><a href="#esami_date">Informazioni sugli esami</a></p>
+    <p><a href="#programma">Programma del corso</a></p>
+    <p><a href="#libri">Libri di testo</a></p>
+    <p><a href="#lezioni">Materiale sulle lezioni</a></p>
+    <p><a href="#orario">Orario delle lezioni</a></p>
+    <p><a href="#software">Software per il corso</a></p>
+    <hr/>
+    <a name="esami_date"></a>
+    <p/>
+    <h3>Informazioni sugli esami</h3>
+    <h4>Regole per gli esami</h4>
+    <p/>
+    Vedere <a href="lezioni/01_intro_20240924.pdf" target="_top">la lezione 1</a>.
+    <p/>
+    <h4>Testo del progetto</h4>
+    <p/>
+    Vedere <a href="progetto.pdf" target="_top">questo file PDF</a> e <a href="prg.tgz" target="_top">questo file TGZ</a>.
+    <p/>
+    <h4>Date degli appelli</h4>
+    <p/>
+    <!-- N.B.: Per gli appelli "da confermare", le date sono indicative e potrebbero subire spostamenti -->
+    <p/>
+    <table border="1">
+      <tr>
+	<th align="center" bgcolor="#687684" valign="top"><font color="#ffffff">Appello</font></th>
+	<th align="center" bgcolor="#687684" valign="top"><font color="#ffffff">Data</font></th>
+	<th align="center" bgcolor="#687684" valign="top"><font color="#ffffff">Ora</font></th>
+	<th align="center" bgcolor="#687684" valign="top"><font color="#ffffff">Aula</font></th>
+	<th align="center" bgcolor="#687684" valign="top"><font color="#ffffff">Note</font></th>
+	<!-- <th align="center" bgcolor="#687684" valign="top"><font color="#ffffff">Verbale</font></th> -->
+	<th align="center" bgcolor="#687684" valign="top"><font color="#ffffff">Scadenza</font></th>
+      </tr>
+      <tr>
+	<td align="center" valign="top">1</td>
+	<td align="center" valign="top">approx 01/2026</td>
+	<td align="center" valign="top"></td>
+	<td align="center" valign="top"></td>
+	<td align="center" valign="top"></td>
+	<td align="center" valign="top"></td>
+      </tr>
+      <tr>
+	<td align="center" valign="top">2</td>
+	<td align="center" valign="top">approx 01/2026</td>
+	<td align="center" valign="top"></td>
+	<td align="center" valign="top"></td>
+	<td align="center" valign="top"></td>
+	<td align="center" valign="top"></td>
+      </tr>
+      <tr>
+	<td align="center" valign="top">3</td>
+	<td align="center" valign="top">approx 02/2026</td>
+	<td align="center" valign="top"></td>
+	<td align="center" valign="top"></td>
+	<td align="center" valign="top"></td>
+	<td align="center" valign="top"></td>
+      </tr>
+      <tr>
+	<td align="center" valign="top">4</td>
+	<td align="center" valign="top">approx 06/2026</td>
+	<td align="center" valign="top"></td>
+	<td align="center" valign="top"></td>
+	<td align="center" valign="top"></td>
+	<td align="center" valign="top"></td>
+      </tr>
+      <tr>
+	<td align="center" valign="top">2</td>
+	<td align="center" valign="top">approx 06/2026</td>
+	<td align="center" valign="top"></td>
+	<td align="center" valign="top"></td>
+	<td align="center" valign="top"></td>
+	<td align="center" valign="top"></td>
+      </tr>
+      <tr>
+	<td align="center" valign="top">3</td>
+	<td align="center" valign="top">approx 07/2026</td>
+	<td align="center" valign="top"></td>
+	<td align="center" valign="top"></td>
+	<td align="center" valign="top"></td>
+	<td align="center" valign="top"></td>
+      </tr>
+      <tr>
+	<td align="center" valign="top">4</td>
+	<td align="center" valign="top">approx 09/2026</td>
+	<td align="center" valign="top"></td>
+	<td align="center" valign="top"></td>
+	<td align="center" valign="top"></td>
+	<td align="center" valign="top"></td>
+      </tr>
+      <tr>
+      <tr>
+	<td align="center" valign="top">straord</td>
+	<td align="center" valign="top">11/2026</td>
+	<td align="center" valign="top"></td>
+	<td align="center" valign="top"></td>
+	<td align="center" valign="top"></td>
+	<td align="center" valign="top"></td>
+      </tr>
+    </table>
+    <p/>
+    <hr/>
+    <a name="programma"></a>
+    <p/>
+    <h3>Programma del corso</h3>
+    <p/>
+    <h4>Introduzione alla verifica</h4>
+    <ul>
+      <li>il problema della verifica</li>
+      <li>testing, model checking ed altre metodologie</li>
+    </ul> 
+    <p/>
+    <h4>Metodologie di Model Checking per Sistemi a Stati Finiti</h4>
+    <ul>
+      <li>modellazione in Murphi, SPIN e NuSMV</li>
+      <li>logiche temporali CTL ed LTL</li>
+      <li>algoritmi di model checking: teorico, esplicito, simbolico, bounded model checking</li>
+    </ul> 
+    <p/>
+    <h4>Metodologie di Testing</h4>
+    <ul>
+      <li>principali tecniche: testing funzionale e strutturale</li>
+      <li>il testing nel processo di sviluppo del software: unit, integration, regression e system testing</li>
+      <li>uso di JUnit</li>
+    </ul> 
+    <h4>Metodologie di Validazione</h4>
+    <ul>
+      <li>acceptance testing</li>
+    </ul> 
+    <p/>
+    <hr/>
+    <a name="libri"></a>
+    <p/>
+    <h3>Libri di testo consigliati:</h3>
+    <p/>
+    <ul>
+      <li>Gerald Everett, Raymond McLeod Jr.: <em>Software Testing: Testing Across the Entire Software Development Life Cycle</em>, Wiley</li>
+      <ul>
+	<li>Una versione del libro &egrave; disponibile sul sistema bibliotecario di Ateneo</li>
+      </ul>
+      <li>Mauro Pezz&eacute;, Michal Young: <em>Software Testing and Analysis: Process, Principles, and Techniques</em>, Wiley</li>
+      <ul>
+	<li>Una versione del libro &egrave; <a href="https://ix.cs.uoregon.edu/~michal/book/Samples/book.pdf">disponibile qui</a>
+      </ul>
+      <li>Edmund M. Clarke, Thomas A. Henzinger, Helmut Veith, Roderick Bloem (Editors): <em>Handbook of Model Checking</em>, Springer</li>
+      <ul>
+	<li>Una versione del libro &egrave; <a href="http://staff.ustc.edu.cn/~huangwc/book/2018_Book_HandbookOfModelChecking.pdf">disponibile qui</a>
+      </ul>
+      <li>Christel Baier, Joost-Pieter Katoen: <em>Principles of Model Checking</em>, MIT Press</li>
+      <ul>
+	<li>Una versione del libro &egrave; <a href="https://is.ifmo.ru/books/_principles_of_model_checking.pdf">disponibile qui</a>
+      </ul>
+    </ul> 
+    <p/>
+    <hr/>
+    <a name="lezioni"></a>
+    <p/>
+    <h3>Materiale sulle lezioni</h3>
+    <p/>
+    <table border="1">
+      <tr>
+	<th align="center" bgcolor="#687684" valign="top"><font color="#ffffff">N</font></th>
+	<th align="center" bgcolor="#687684" valign="top"><font color="#ffffff">Data</font></th>
+	<th align="center" bgcolor="#687684" valign="top"><font color="#ffffff">Materiale</font></th>
+	<th align="center" bgcolor="#687684" valign="top"><font color="#ffffff">Argomenti</font></th>
+	<th align="center" bgcolor="#687684" valign="top"><font color="#ffffff">Note</font></th>
+      </tr>
+      <!-- <tr> -->
+      <!-- 	<td align="center" valign="top">1</td> -->
+      <!-- 	<td align="center" valign="top">26/09/2024</td> -->
+      <!-- 	<td align="center" valign="top"><a href="lezioni/01_intro_20240924.pdf">slides</a></td> -->
+      <!-- 	<td align="center" valign="top">Introduzione al testing, alla validazione ed alla verifica di sistemi software</td> -->
+      <!-- 	<td align="center" valign="top">Slides 1-73</td> -->
+      <!-- </tr> -->
+      <!-- <tr> -->
+      <!-- 	<td align="center" valign="top"></td> -->
+      <!-- 	<td align="center" valign="top">27/09/2024</td> -->
+      <!-- 	<td align="center" valign="top"></td> -->
+      <!-- 	<td align="center" valign="top">ANNULLATA</td> -->
+      <!-- 	<td align="center" valign="top"></td> -->
+      <!-- </tr> -->
+      <!-- <tr> -->
+      <!-- 	<td align="center" valign="top">2</td> -->
+      <!-- 	<td align="center" valign="top">03/10/2024</td> -->
+      <!-- 	<td align="center" valign="top"><a href="lezioni/02_murphi_20241003.pdf">slides</a> <br/><a href="lezioni/02_murphi_models_20241003.zip">modelli Murphi</a></td> -->
+      <!-- 	<td align="center" valign="top">Il model checker Murphi: linguaggio di input e uso</td> -->
+      <!-- 	<td align="center" valign="top">Lezione 1: slides 73-fine. Lezione 2: Slides 1-end</td> -->
+      <!-- </tr> -->
+      <!-- <tr> -->
+      <!-- 	<td align="center" valign="top">3</td> -->
+      <!-- 	<td align="center" valign="top">04/10/2024</td> -->
+      <!-- 	<td align="center" valign="top"><a href="lezioni/03_ks_murphi_algo_20241004.pdf">slides</a></td> -->
+      <!-- 	<td align="center" valign="top">Il model checker Murphi: algoritmo di verifica (parte 1)</td> -->
+      <!-- 	<td align="center" valign="top">Slides 1-33</td> -->
+      <!-- </tr> -->
+      <!-- <tr> -->
+      <!-- 	<td align="center" valign="top">4</td> -->
+      <!-- 	<td align="center" valign="top">10/10/2024</td> -->
+      <!-- 	<td align="center" valign="top">Vedere slides lezione 3</td> -->
+      <!-- 	<td align="center" valign="top">Il model checker Murphi: algoritmo di verifica (parte 2)</td> -->
+      <!-- 	<td align="center" valign="top">Slides 34-75</td> -->
+      <!-- </tr> -->
+      <!-- <tr> -->
+      <!-- 	<td align="center" valign="top">5</td> -->
+      <!-- 	<td align="center" valign="top">11/10/2024</td> -->
+      <!-- 	<td align="center" valign="top"><a href="lezioni/04_ltl_ctl_20241011.pdf">slides</a></td> -->
+      <!-- 	<td align="center" valign="top">Il model checker Murphi: algoritmo di verifica (parte 3). Propriet&agrave; di safety e liveness. La logica temporale LTL (parte 1)</td> -->
+      <!-- 	<td align="center" valign="top">Lezione 3: Slides 76-fine. Lezione 5: Slides 1-14</td> -->
+      <!-- </tr> -->
+      <!-- <tr> -->
+      <!-- 	<td align="center" valign="top">6</td> -->
+      <!-- 	<td align="center" valign="top">17/10/2024</td> -->
+      <!-- 	<td align="center" valign="top"><a href="lezioni/05_ltl_ctl_mc_20241017.pdf">slides</a></td> -->
+      <!-- 	<td align="center" valign="top">La logica temporale LTL (parte 2) e CTL. Algoritmi per il CTL Model Checking</td> -->
+      <!-- 	<td align="center" valign="top">Lezione 5: Slides 15-fine. Lezione 6: Slides 1-4</td> -->
+      <!-- </tr> -->
+      <!-- <tr> -->
+      <!-- 	<td align="center" valign="top">7</td> -->
+      <!-- 	<td align="center" valign="top">18/10/2024</td> -->
+      <!-- 	<td align="center" valign="top"><a href="lezioni/06_spin_20241018.pdf">slides</a></td></td> -->
+      <!-- 	<td align="center" valign="top">Algoritmi per il Model Checking di formule CTL ed LTL. SPIN e Promela (parte 1)</td> -->
+      <!-- 	<td align="center" valign="top">Lezione 6: Slides 5-fine. Lezione 7: Slides 1-8</td> -->
+      <!-- </tr> -->
+      <!-- <tr> -->
+      <!-- 	<td align="center" valign="top">8</td> -->
+      <!-- 	<td align="center" valign="top">24/10/2024</td> -->
+      <!-- 	<td align="center" valign="top">Vedere slides lezione 7</td> -->
+      <!-- 	<td align="center" valign="top">SPIN e Promela (parte 2)</td> -->
+      <!-- 	<td align="center" valign="top">Slides 9-45</td> -->
+      <!-- </tr> -->
+      <!-- <tr> -->
+      <!-- 	<td align="center" valign="top">9</td> -->
+      <!-- 	<td align="center" valign="top">25/10/2024</td> -->
+      <!-- 	<td align="center" valign="top">Vedere slides lezione 8; <a href="lezioni/06_spin_models_20241025.tgz">modelli SPIN</a></td> -->
+      <!-- 	<td align="center" valign="top">SPIN e Promela (parte 3)</td> -->
+      <!-- 	<td align="center" valign="top">Slides 46-fine</td> -->
+      <!-- </tr> -->
+      <!-- <tr> -->
+      <!-- 	<td align="center" valign="top">10</td> -->
+      <!-- 	<td align="center" valign="top">31/10/2024</td> -->
+      <!-- 	<td align="center" valign="top"><a href="lezioni/07_nusmv_20241031.pdf">slides</a></td> -->
+      <!-- 	<td align="center" valign="top">NuSMV (parte 1: gli OBDD)</td> -->
+      <!-- 	<td align="center" valign="top">Slides 1-38</td> -->
+      <!-- </tr> -->
+      <!-- <tr> -->
+      <!-- 	<td align="center" valign="top">11</td> -->
+      <!-- 	<td align="center" valign="top">07/11/2024</td> -->
+      <!-- 	<td align="center" valign="top">Vedere slides lezione 10</td> -->
+      <!-- 	<td align="center" valign="top">NuSMV (parte 2: linguaggio di input)</td> -->
+      <!-- 	<td align="center" valign="top">Slides 39-78</td> -->
+      <!-- </tr> -->
+      <!-- <tr> -->
+      <!-- 	<td align="center" valign="top">12</td> -->
+      <!-- 	<td align="center" valign="top">08/11/2024</td> -->
+      <!-- 	<td align="center" valign="top"><\!--<a href="lezioni/07_nusmv_models_20241103.tgz">modelli e script per NuSMV</a><br/>-\-><a href="lezioni/08_models_20241108.tgz">modelli e script per BMC</a><br/><a href="lezioni/08_bmc_20241108.pdf">slides</a></td> -->
+      <!-- 	<td align="center" valign="top">NuSMV (parte 3: algoritmi). Bounded Model Checking</td> -->
+      <!-- 	<td align="center" valign="top">Lezione 10: Slides 79-fine. Lezione 12: Slides 1-fine</td> -->
+      <!-- </tr> -->
+      <!-- <tr> -->
+      <!-- 	<td align="center" valign="top">13</td> -->
+      <!-- 	<td align="center" valign="top">14/11/2024</td> -->
+      <!-- 	<td align="center" valign="top"></td> -->
+      <!-- 	<td align="center" valign="top">Presentazione progetto</td> -->
+      <!-- 	<td align="center" valign="top"></td> -->
+      <!-- </tr> -->
+      <!-- 	<td align="center" valign="top">14</td> -->
+      <!-- 	<td align="center" valign="top">15/11/2024</td> -->
+      <!-- 	<td align="center" valign="top"><a href="lezioni/09_intro_testing_20241115.pdf">slides</a><br/><a href="lezioni/10_testing_finmod_20241115.pdf">slides</a></td> -->
+      <!-- 	<td align="center" valign="top">Introduzione al Testing. Modelli Finiti (parte 1)</td> -->
+      <!-- 	<td align="center" valign="top">Slides 1-fine e 1-12</td> -->
+      <!-- </tr> -->
+      <!-- <tr> -->
+      <!-- 	<td align="center" valign="top">15</td> -->
+      <!-- 	<td align="center" valign="top">21/11/2024</td> -->
+      <!-- 	<td align="center" valign="top">Vedere slides lezione 14</td> -->
+      <!-- 	<td align="center" valign="top">Modelli Finiti (parte 2)</td> -->
+      <!-- 	<td align="center" valign="top">Slides 13-fine</td> -->
+      <!-- </tr> -->
+      <!-- <tr> -->
+      <!-- 	<td align="center" valign="top">16</td> -->
+      <!-- 	<td align="center" valign="top">22/11/2024</td> -->
+      <!-- 	<td align="center" valign="top"><a href="lezioni/11_testing_methods_20241122.pdf">slides</a><br/><a href="lezioni/11_testing_methods_ex_20241122.tgz">examples</a></td> -->
+      <!-- 	<td align="center" valign="top">Testing: Metodologie (parte 1: Category-Partition Testing)<\!-- Testing: Metodologie (parte 2: Catalog-Based Testing e ciclo completo del Black Box Testing) -\-></td> -->
+      <!-- 	<td align="center" valign="top">Slides 1-39</td> -->
+      <!-- </tr> -->
+      <!-- <tr> -->
+      <!-- 	<td align="center" valign="top">17</td> -->
+      <!-- 	<td align="center" valign="top">28/11/2024</td> -->
+      <!-- 	<td align="center" valign="top">Vedere lezione 16</td> -->
+      <!-- 	<td align="center" valign="top">Testing: Metodologie (parte 2: Catalog-Based e Pairwise Combination Testing)</td> -->
+      <!-- 	<td align="center" valign="top">Slides 40-66</td> -->
+      <!-- </tr> -->
+      <!-- <tr> -->
+      <!-- 	<td align="center" valign="top">18</td> -->
+      <!-- 	<td align="center" valign="top">29/11/2024</td> -->
+      <!-- 	<td align="center" valign="top">Vedere slides lezione 16</td> -->
+      <!-- 	<td align="center" valign="top">Testing: Metodologie (parte 3: Structural Testing e Data Flow Testing)</td> -->
+      <!-- 	<td align="center" valign="top">Slides 67-106</td> -->
+      <!-- </tr> -->
+      <!-- <tr> -->
+      <!-- 	<td align="center" valign="top">19</td> -->
+      <!-- 	<td align="center" valign="top">05/12/2024</td> -->
+      <!-- 	<td align="center" valign="top">Vedere slides lezione 16</td> -->
+      <!-- 	<td align="center" valign="top">Testing: Metodologie (parte 4: Model-Based Testing)</td> -->
+      <!-- 	<td align="center" valign="top">Slides 107-150</td> -->
+      <!-- </tr> -->
+      <!-- <tr> -->
+      <!-- 	<td align="center" valign="top">20</td> -->
+      <!-- 	<td align="center" valign="top">06/12/2024</td> -->
+      <!-- 	<td align="center" valign="top">Vedere slides lezione 16</td> -->
+      <!-- 	<td align="center" valign="top">Testing: Metodologie (parte 5: Testing di Software Orientato agli Oggetti)</td> -->
+      <!-- 	<td align="center" valign="top">Slides 151-194</td> -->
+      <!-- </tr> -->
+      <!-- <tr> -->
+      <!-- 	<td align="center" valign="top">21</td> -->
+      <!-- 	<td align="center" valign="top">12/12/2024</td> -->
+      <!-- 	<td align="center" valign="top">Vedere slides lezione 16</td> -->
+      <!-- 	<td align="center" valign="top">Testing: Metodologie (parte 6: Scaffolding)</td> -->
+      <!-- 	<td align="center" valign="top">Slides 195-220</td> -->
+      <!-- </tr> -->
+      <!-- <tr> -->
+      <!-- 	<td align="center" valign="top">22</td> -->
+      <!-- 	<td align="center" valign="top">13/12/2024</td> -->
+      <!-- 	<td align="center" valign="top"><a href="lezioni/12_testing_process_20241213.pdf">slides</a></td> -->
+      <!-- 	<td align="center" valign="top">Integration, System, Acceptance e Regression Testing</td> -->
+      <!-- 	<td align="center" valign="top">Slides 221-fine e 1-fine</td> -->
+      <!-- </tr> -->
+      <!-- <tr> -->
+      <!-- 	<td align="center" valign="top">23</td> -->
+      <!-- 	<td align="center" valign="top">19/12/2024</td> -->
+      <!-- 	<td align="center" valign="top"></td> -->
+      <!-- 	<td align="center" valign="top">Revisione progetti studenti</td> -->
+      <!-- 	<td align="center" valign="top"></td> -->
+      <!-- </tr> -->
+      <!-- <tr> -->
+      <!-- 	<td align="center" valign="top">24</td> -->
+      <!-- 	<td align="center" valign="top">20/12/2024</td> -->
+      <!-- 	<td align="center" valign="top"></td> -->
+      <!-- 	<td align="center" valign="top">Revisione progetti studenti</td> -->
+      <!-- 	<td align="center" valign="top"></td> -->
+      <!-- </tr> -->
+      <!-- <\!-- <tr> -\-> -->
+      <!-- <\!-- 	<td align="center" valign="top">25</td> -\-> -->
+      <!-- <\!-- 	<td align="center" valign="top">12/01/2025</td> -\-> -->
+      <!-- <\!-- 	<td align="center" valign="top"></td> -\-> -->
+      <!-- <\!-- 	<td align="center" valign="top">Revisione progetti studenti</td> -\-> -->
+      <!-- <\!-- 	<td align="center" valign="top"></td> -\-> -->
+      <!-- <\!-- </tr> -\-> -->
+    </table>
+    <p/>
+    <hr/>
+    <a name="orario"></a>
+    <p/>
+    <h3>Orario delle lezioni</h3>
+<p/>
+    <table border="1">
+      <tr>
+    	<th align="center" bgcolor="#687684" valign="top"><font color="#ffffff">Giorno</font></th>
+    	<th align="center" bgcolor="#687684" valign="top"><font color="#ffffff">Dalle</font></th>
+    	<th align="center" bgcolor="#687684" valign="top"><font color="#ffffff">Alle</font></th>
+    	<th align="center" bgcolor="#687684" valign="top"><font color="#ffffff">Aula</font></th>
+      </tr>
+      <!-- <tr> -->
+      <!-- 	<td align="center" valign="top">Gioved&igrave;</td> -->
+      <!-- 	<td align="center" valign="top">09:30</td> -->
+      <!-- 	<td align="center" valign="top">11:30</td> -->
+      <!-- 	<td align="center" valign="top">A.0.6</td> -->
+      <!-- </tr> -->
+      <!-- <tr> -->
+      <!-- 	<td align="center" valign="top">Venerd&igrave;</td> -->
+      <!-- 	<td align="center" valign="top">09:30</td> -->
+      <!-- 	<td align="center" valign="top">11:30</td> -->
+      <!-- 	<td align="center" valign="top">A.0.6</td> -->
+      <!-- </tr> -->
+    </table>
+    <!-- <p/> -->
+    <!-- L'aula A.0.6 si trova oltre la biblioteca al piano terra di Coppito 1 (edificio Renato Ricamo); attenzione: si raggiunge passando al di fuori dell'edificio stesso. -->
+    <p/>
+    <hr/>
+    <a name="software"></a>
+    <p/>
+    <h3>Software (gratis) per il corso</h3>
+    <ul>
+      <li><a href="https://raise.uniroma1.it/software/cmurphi">CMurphi</a></li>
+      <li><a href="https://spinroot.com/">SPIN</a></li>
+      <li><a href="https://nusmv.fbk.eu/">NuSMV</a></li>
+      <li><a href="https://junit.org/junit5/">JUnit</a></li>
+    </ul>
+    <p/>
+  </body>
+</html>

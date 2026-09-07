@@ -1,0 +1,48 @@
+Launched as 5 input/roadNet-PA.html/roadNet-PA.txt.gz 0
+
+
+Execution time and memory used at after reading from file: 2.169630e+03 seconds, 252301312 bytes of memory usage, 246424 kB of memory peak and 36:10 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 1088092
+	Number of allocated nodes: 1088512
+	Number of edges: 3083796
+	Maximum in degree: 9 (node 674502)
+	Maximum out degree: 9 (node 674502)
+
+Execution time and memory used at after adding costs: 2.169770e+03 seconds, 252301312 bytes of memory usage, 246424 kB of memory peak and 36:11 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 1088092
+	Number of allocated nodes: 1088512
+	Number of edges: 3083796
+	Maximum in degree: 9 (node 674502)
+	Maximum out degree: 9 (node 674502)
+
+Execution time and memory used at before starting main computation: 2.482090e+03 seconds, 287039488 bytes of memory usage, 290712 kB of memory peak and 41:23 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 1088092
+	Number of allocated nodes: 1088512
+	Number of edges: 3083796
+	Maximum in degree: 9 (node 674502)
+	Maximum out degree: 9 (node 674502)
+	source 683267 (node 674502) with out degree 9
+	target 840699 (node 847932) with in degree 9
+
+Execution time and memory used at after creating milp without reductions: 2.486880e+03 seconds, 287039488 bytes of memory usage, 290712 kB of memory peak and 41:28 elapsed time
+Statistics on the network after creating milp without reductions
+	Number of nodes: 1088092
+	Number of allocated nodes: 1088512
+	Number of edges: 3083796
+	Maximum in degree: 9 (node 674502)
+	Maximum out degree: 9 (node 674502)
+	source 683267 (node 674502) with out degree 9
+	target 840699 (node 847932) with in degree 9
+
+Execution time and memory used at after reachability and chains reduction: 3.281420e+03 seconds, 287039488 bytes of memory usage, 397140 kB of memory peak and 54:43 elapsed time
+Statistics on the network after reachability and chains reduction
+	Number of nodes: 899629
+	Number of allocated nodes: 1088512
+	Number of edges: 2707153
+	Maximum in degree: 9 (node 674502)
+	Maximum out degree: 9 (node 674502)
+	source 683267 (node 674502) with out degree 9
+	target 840699 (node 847932) with in degree 9

@@ -1,0 +1,44 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/gemsec-Facebook.html/politician_edges.csv.gz.126.lp -o input/gemsec-Facebook.html/politician_edges.csv.gz.126.lp.sol
+Reading problem data from 'input/gemsec-Facebook.html/politician_edges.csv.gz.126.lp'...
+41710 rows, 89324 columns, 208537 non-zeros
+89324 integer variables, all of which are binary
+131039 lines were read
+GLPK Integer Optimizer 5.0
+41710 rows, 89324 columns, 208537 non-zeros
+89324 integer variables, all of which are binary
+Preprocessing...
+41592 rows, 89203 columns, 207631 non-zeros
+89203 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 41592
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+41592 rows, 89203 columns, 207631 non-zeros
+      0: obj =   0.000000000e+00 inf =   2.250e+02 (225)
+    225: obj =   1.303431770e+02 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [426]...
+*  2362: obj =   9.988857005e+01 inf =   0.000e+00 (1111) 16
+*  4054: obj =   7.727246736e+01 inf =   6.592e-16 (1493) 14
+*  5589: obj =   7.660729945e+01 inf =   0.000e+00 (1781) 14
+*  7088: obj =   6.760244369e+01 inf =   4.800e-08 (2350) 13
+*  8537: obj =   5.652461844e+01 inf =   4.900e-08 (2540) 13
+* 10019: obj =   2.259351918e+01 inf =   3.947e-05 (2175) 13
+* 11703: obj =   1.140907644e+00 inf =   2.520e-04 (41981) 14
+Removing LP perturbation [12607]...
+* 12607: obj =   0.000000000e+00 inf =   0.000e+00 (0) 8
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 12607: mip =     not found yet >=              -inf        (1; 0)
++ 12607: >>>>>   0.000000000e+00 >=   0.000000000e+00   0.0% (1; 0)
++ 12607: mip =   0.000000000e+00 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   38.3 secs
+Memory used: 107.1 Mb (112298641 bytes)
+Writing MIP solution to 'input/gemsec-Facebook.html/politician_edges.csv.gz.126.lp.sol'...
+Objective:  obj = 0 (MINimum)

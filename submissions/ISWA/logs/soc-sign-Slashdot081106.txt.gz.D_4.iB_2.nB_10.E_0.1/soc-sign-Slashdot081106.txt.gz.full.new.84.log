@@ -1,0 +1,88 @@
+Version 1.2 launched as -e 0.1 -i 12 input/soc-sign-Slashdot081106.html/soc-sign-Slashdot081106.txt.gz 84
+
+
+Execution time and memory used at after reading from file: 5.823000e+01 seconds, 40726528 bytes of memory usage, 39808 kB of memory peak and 00:59 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 77350
+	Number of allocated nodes: 77824
+	Number of edges: 516575
+	Maximum in degree: 2532 (node 75)
+	Maximum out degree: 426 (node 8794)
+
+Execution time and memory used at after adding costs: 5.824000e+01 seconds, 40726528 bytes of memory usage, 39808 kB of memory peak and 00:59 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 77350
+	Number of allocated nodes: 77824
+	Number of edges: 516575
+	Maximum in degree: 2532 (node 75)
+	Maximum out degree: 426 (node 8794)
+
+Execution time and memory used at before starting main computation: 5.881000e+01 seconds, 41672704 bytes of memory usage, 41516 kB of memory peak and 00:59 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 77350
+	Number of allocated nodes: 77824
+	Number of edges: 516575
+	Maximum in degree: 2532 (node 75)
+	Maximum out degree: 426 (node 8794)
+	source 4649 (node 8794) with out degree 426
+	target 129 (node 75) with in degree 2532
+
+Execution time and memory used at after iteration 1 (MF = 45.823529): 7.092900e+02 seconds, 494399488 bytes of memory usage, 618728 kB of memory peak and 11:50 elapsed time
+Statistics on the network after iteration 1 (MF = 45.823529)
+	Number of nodes: 77350
+	Number of allocated nodes: 77824
+	Number of edges: 516575
+	Maximum in degree: 2532 (node 75)
+	Maximum out degree: 426 (node 8794)
+	source 4649 (node 8794) with out degree 426
+	target 129 (node 75) with in degree 2532
+
+Execution time and memory used at after iteration 2 (MF = 39.227857): 7.872400e+02 seconds, 494399488 bytes of memory usage, 787832 kB of memory peak and 13:08 elapsed time
+Statistics on the network after iteration 2 (MF = 39.227857)
+	Number of nodes: 77350
+	Number of allocated nodes: 77824
+	Number of edges: 516575
+	Maximum in degree: 2532 (node 75)
+	Maximum out degree: 426 (node 8794)
+	source 4649 (node 8794) with out degree 426
+	target 129 (node 75) with in degree 2532
+
+Execution time and memory used at after iteration 3 (MF = 40.251521): 9.853800e+02 seconds, 658395136 bytes of memory usage, 812984 kB of memory peak and 16:26 elapsed time
+Statistics on the network after iteration 3 (MF = 40.251521)
+	Number of nodes: 77350
+	Number of allocated nodes: 77824
+	Number of edges: 516575
+	Maximum in degree: 2532 (node 75)
+	Maximum out degree: 426 (node 8794)
+	source 4649 (node 8794) with out degree 426
+	target 129 (node 75) with in degree 2532
+
+Execution time and memory used at after iteration 4 (MF = 40.961122): 1.635289e+05 seconds, 635748352 bytes of memory usage, 1071532 kB of memory peak and 1-21:25:43 elapsed time
+Statistics on the network after iteration 4 (MF = 40.961122)
+	Number of nodes: 77350
+	Number of allocated nodes: 77824
+	Number of edges: 516575
+	Maximum in degree: 2532 (node 75)
+	Maximum out degree: 426 (node 8794)
+	source 4649 (node 8794) with out degree 426
+	target 129 (node 75) with in degree 2532
+
+Execution time and memory used at after iteration 5 (MF = 43.085869): 1.669853e+05 seconds, 635748352 bytes of memory usage, 1160964 kB of memory peak and 1-22:23:20 elapsed time
+Statistics on the network after iteration 5 (MF = 43.085869)
+	Number of nodes: 77350
+	Number of allocated nodes: 77824
+	Number of edges: 516575
+	Maximum in degree: 2532 (node 75)
+	Maximum out degree: 426 (node 8794)
+	source 4649 (node 8794) with out degree 426
+	target 129 (node 75) with in degree 2532
+
+Execution time and memory used at after iteration 6 (MF = 42.139283): 2.192351e+05 seconds, 635748352 bytes of memory usage, 1931080 kB of memory peak and 2-12:54:12 elapsed time
+Statistics on the network after iteration 6 (MF = 42.139283)
+	Number of nodes: 77350
+	Number of allocated nodes: 77824
+	Number of edges: 516575
+	Maximum in degree: 2532 (node 75)
+	Maximum out degree: 426 (node 8794)
+	source 4649 (node 8794) with out degree 426
+	target 129 (node 75) with in degree 2532

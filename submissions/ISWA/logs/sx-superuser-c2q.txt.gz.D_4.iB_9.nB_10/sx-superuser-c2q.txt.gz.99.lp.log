@@ -1,0 +1,51 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/sx-superuser.html/sx-superuser-c2q.txt.gz.99.lp -o input/sx-superuser.html/sx-superuser-c2q.txt.gz.99.lp.sol
+Reading problem data from 'input/sx-superuser.html/sx-superuser-c2q.txt.gz.99.lp'...
+238338 rows, 569260 columns, 1191677 non-zeros
+569260 integer variables, all of which are binary
+807603 lines were read
+GLPK Integer Optimizer 5.0
+238338 rows, 569260 columns, 1191677 non-zeros
+569260 integer variables, all of which are binary
+Preprocessing...
+238307 rows, 569226 columns, 1179059 non-zeros
+569226 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 238307
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+238307 rows, 569226 columns, 1179059 non-zeros
+      0: obj =   0.000000000e+00 inf =   1.150e+02 (115)
+    115: obj =   1.529639013e+11 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [330]...
+*   598: obj =   1.302089425e+11 inf =   0.000e+00 (233) 3
+*  1013: obj =   1.302089425e+11 inf =   0.000e+00 (237) 3
+*  1376: obj =   1.302089425e+11 inf =   0.000e+00 (259) 4
+*  1756: obj =   7.692186939e+10 inf =   1.527e-16 (942) 3
+*  2120: obj =   7.692186939e+10 inf =   2.220e-16 (978) 3
+*  2468: obj =   7.692186939e+10 inf =   0.000e+00 (1012) 3
+*  2813: obj =   7.692186939e+10 inf =   0.000e+00 (1076) 3
+*  3172: obj =   4.150106242e+10 inf =   0.000e+00 (1039) 3
+*  3521: obj =   3.620117431e+10 inf =   3.117e-05 (1009) 3
+*  3892: obj =   2.038493938e+10 inf =   6.495e-04 (1701) 3
+*  4278: obj =  -6.534442285e+03 inf =   1.614e-03 (85) 3
+*  4640: obj =  -2.251833407e+04 inf =   2.186e-03 (71) 3
+*  5003: obj =  -4.344421021e+04 inf =   2.613e-03 (30) 4
+Removing LP perturbation [5119]...
+*  5119: obj =   0.000000000e+00 inf =   0.000e+00 (0) 1
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++  5119: mip =     not found yet >=              -inf        (1; 0)
++  5175: mip =     not found yet >=   0.000000000e+00        (3; 0)
+Solution found by heuristic: 0
++  5196: mip =   0.000000000e+00 >=     tree is empty   0.0% (0; 5)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   76.7 secs
+Memory used: 679.7 Mb (712730500 bytes)
+Writing MIP solution to 'input/sx-superuser.html/sx-superuser-c2q.txt.gz.99.lp.sol'...
+Objective:  obj = 0 (MINimum)

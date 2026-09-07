@@ -1,0 +1,40 @@
+Version 1.2 launched as -e 0.1 12 input/higgs-twitter.html/higgs-activity_time.txt.gz 64
+
+
+Execution time and memory used at after reading from file: 1.251360e+03 seconds, 68067328 bytes of memory usage, 66508 kB of memory peak and 20:51 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 304691
+	Number of allocated nodes: 305152
+	Number of edges: 461192
+	Maximum in degree: 23143 (node 88)
+	Maximum out degree: 169 (node 89805)
+
+Execution time and memory used at before starting main computation: 1.251370e+03 seconds, 68202496 bytes of memory usage, 68312 kB of memory peak and 20:51 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 304691
+	Number of allocated nodes: 305152
+	Number of edges: 461192
+	Maximum in degree: 23143 (node 88)
+	Maximum out degree: 169 (node 89805)
+	source 58 (node 89805) with out degree 169
+	target 91 (node 88) with in degree 23143
+
+Execution time and memory used at after iteration 1 (MF = 183765249731.000000): 9.060550e+03 seconds, 543256576 bytes of memory usage, 617680 kB of memory peak and 02:31:01 elapsed time
+Statistics on the network after iteration 1 (MF = 183765249731.000000)
+	Number of nodes: 304691
+	Number of allocated nodes: 305152
+	Number of edges: 461192
+	Maximum in degree: 23143 (node 88)
+	Maximum out degree: 169 (node 89805)
+	source 58 (node 89805) with out degree 169
+	target 91 (node 88) with in degree 23143
+
+Execution time and memory used at after iteration 2 (MF = 146203236383.000000): 9.165030e+03 seconds, 543256576 bytes of memory usage, 617756 kB of memory peak and 02:32:45 elapsed time
+Statistics on the network after iteration 2 (MF = 146203236383.000000)
+	Number of nodes: 304691
+	Number of allocated nodes: 305152
+	Number of edges: 461192
+	Maximum in degree: 23143 (node 88)
+	Maximum out degree: 169 (node 89805)
+	source 58 (node 89805) with out degree 169
+	target 91 (node 88) with in degree 23143

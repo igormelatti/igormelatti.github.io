@@ -1,0 +1,41 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/email-Eu-core.html/email-Eu-core.txt.gz.170.lp.reach_chain_detours.lp
+ -o input/email-Eu-core.html/email-Eu-core.txt.gz.170.lp.reach_chain_detours.lp.sol
+Reading problem data from 'input/email-Eu-core.html/email-Eu-core.txt.gz.170.lp.reach_chain_detours.lp'...
+23910 rows, 48596 columns, 119537 non-zeros
+48596 integer variables, all of which are binary
+72511 lines were read
+GLPK Integer Optimizer 5.0
+23910 rows, 48596 columns, 119537 non-zeros
+48596 integer variables, all of which are binary
+Preprocessing...
+23698 rows, 48384 columns, 118194 non-zeros
+48384 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 23698
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+23698 rows, 48384 columns, 118194 non-zeros
+      0: obj =   0.000000000e+00 inf =   1.780e+02 (178)
+    178: obj =   1.562426440e+02 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [380]...
+*  3098: obj =   8.114734522e+01 inf =   1.398e-04 (1177) 27
+*  5593: obj =   6.288227376e+00 inf =   9.436e-03 (775) 24
+*  8523: obj =   5.607985918e+00 inf =   1.515e-02 (1816) 29
+Removing LP perturbation [12038]...
+* 12038: obj =   5.608456000e+00 inf =   0.000e+00 (0) 23
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 12038: mip =     not found yet >=              -inf        (1; 0)
++ 12038: >>>>>   5.608456000e+00 >=   5.608456000e+00   0.0% (1; 0)
++ 12038: mip =   5.608456000e+00 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   19.2 secs
+Memory used: 59.5 Mb (62422438 bytes)
+Writing MIP solution to 'input/email-Eu-core.html/email-Eu-core.txt.gz.170.lp.reach_chain_detours.lp.sol'...
+Objective:  obj = 5.608456 (MINimum)

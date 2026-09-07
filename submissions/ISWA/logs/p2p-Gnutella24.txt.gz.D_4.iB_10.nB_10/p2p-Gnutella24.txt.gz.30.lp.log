@@ -1,0 +1,38 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/p2p-Gnutella24.html/p2p-Gnutella24.txt.gz.30.lp -o input/p2p-Gnutella24.html/p2p-Gnutella24.txt.gz.30.lp.sol
+Reading problem data from 'input/p2p-Gnutella24.html/p2p-Gnutella24.txt.gz.30.lp'...
+65372 rows, 157256 columns, 326847 non-zeros
+157256 integer variables, all of which are binary
+222633 lines were read
+GLPK Integer Optimizer 5.0
+65372 rows, 157256 columns, 326847 non-zeros
+157256 integer variables, all of which are binary
+Preprocessing...
+65361 rows, 157243 columns, 326698 non-zeros
+157243 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 65361
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+65361 rows, 157243 columns, 326698 non-zeros
+      0: obj =   0.000000000e+00 inf =   3.200e+01 (32)
+     32: obj =   3.665896000e+00 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [262]...
+*  1522: obj =   9.677400000e-02 inf =   0.000e+00 (213) 9
+Removing LP perturbation [1653]...
+*  1653: obj =   0.000000000e+00 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++  1653: mip =     not found yet >=              -inf        (1; 0)
++  1653: >>>>>   0.000000000e+00 >=   0.000000000e+00   0.0% (1; 0)
++  1653: mip =   0.000000000e+00 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   6.1 secs
+Memory used: 178.6 Mb (187231821 bytes)
+Writing MIP solution to 'input/p2p-Gnutella24.html/p2p-Gnutella24.txt.gz.30.lp.sol'...
+Objective:  obj = 0 (MINimum)

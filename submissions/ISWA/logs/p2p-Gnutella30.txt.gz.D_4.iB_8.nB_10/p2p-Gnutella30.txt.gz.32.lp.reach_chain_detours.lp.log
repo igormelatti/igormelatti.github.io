@@ -1,0 +1,64 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/p2p-Gnutella30.html/p2p-Gnutella30.txt.gz.32.lp.reach_chain_detours.lp
+ -o input/p2p-Gnutella30.html/p2p-Gnutella30.txt.gz.32.lp.reach_chain_detours.lp.sol
+Reading problem data from 'input/p2p-Gnutella30.html/p2p-Gnutella30.txt.gz.32.lp.reach_chain_detours.lp'...
+31717 rows, 71864 columns, 158572 non-zeros
+71864 integer variables, all of which are binary
+103586 lines were read
+GLPK Integer Optimizer 5.0
+31717 rows, 71864 columns, 158572 non-zeros
+71864 integer variables, all of which are binary
+Preprocessing...
+31714 rows, 71861 columns, 158507 non-zeros
+71861 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 31714
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+31714 rows, 71861 columns, 158507 non-zeros
+      0: obj =   0.000000000e+00 inf =   4.200e+01 (42)
+     42: obj =   2.323148200e+01 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [273]...
+*  2500: obj =   5.305557000e+00 inf =   0.000e+00 (546) 14
+*  4144: obj =   5.305557000e+00 inf =   0.000e+00 (671) 12
+*  5612: obj =   5.305557000e+00 inf =   0.000e+00 (847) 12
+*  7082: obj =   5.305557000e+00 inf =   0.000e+00 (940) 12
+*  8536: obj =   5.305557000e+00 inf =   0.000e+00 (32432) 13
+*  9872: obj =   5.305557000e+00 inf =   0.000e+00 (2402) 12
+* 11154: obj =   5.305557000e+00 inf =   0.000e+00 (2556) 12
+* 12392: obj =   5.305557000e+00 inf =   0.000e+00 (2554) 13
+* 13615: obj =   5.305557000e+00 inf =   0.000e+00 (2580) 12
+* 14826: obj =   5.305557000e+00 inf =   0.000e+00 (32240) 12
+* 15988: obj =   5.305557000e+00 inf =   0.000e+00 (32160) 11
+* 17090: obj =   2.875739821e+00 inf =   1.067e-03 (3840) 11
+* 18131: obj =   2.875595307e+00 inf =   1.618e-02 (3598) 10
+* 19155: obj =   2.875514697e+00 inf =   2.352e-02 (3210) 11
+* 20152: obj =   2.875393639e+00 inf =   4.024e-02 (3161) 9
+* 21070: obj =   2.875294192e+00 inf =   5.975e-02 (3015) 10
+* 22018: obj =   2.875204452e+00 inf =   7.526e-02 (2902) 9
+* 22979: obj =   2.572758685e+00 inf =   7.902e-02 (2822) 9
+* 23926: obj =   2.572635182e+00 inf =   8.392e-02 (2751) 10
+* 24928: obj =   2.572536874e+00 inf =   9.941e-02 (2606) 10
+* 25977: obj =   1.866983969e+00 inf =   9.634e-02 (2591) 10
+* 27036: obj =   1.622814129e+00 inf =   9.095e-02 (2612) 10
+* 28116: obj =   1.622763047e+00 inf =   8.570e-02 (2638) 11
+* 29160: obj =   1.622660225e+00 inf =   8.445e-02 (2486) 10
+* 30192: obj =   7.942831732e-01 inf =   8.279e-02 (2177) 11
+Removing LP perturbation [30870]...
+* 30870: obj =   0.000000000e+00 inf =   0.000e+00 (0) 6
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 30870: mip =     not found yet >=              -inf        (1; 0)
++ 30870: mip =     not found yet >=   0.000000000e+00        (2; 0)
+Solution found by heuristic: 0
++ 31051: mip =   0.000000000e+00 >=     tree is empty   0.0% (0; 3)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   176.1 secs
+Memory used: 88.0 Mb (92296867 bytes)
+Writing MIP solution to 'input/p2p-Gnutella30.html/p2p-Gnutella30.txt.gz.32.lp.reach_chain_detours.lp.sol'...
+Objective:  obj = 0 (MINimum)

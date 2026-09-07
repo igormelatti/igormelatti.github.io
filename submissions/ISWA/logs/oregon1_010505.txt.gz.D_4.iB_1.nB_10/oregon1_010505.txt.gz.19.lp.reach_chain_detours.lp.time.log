@@ -1,0 +1,23 @@
+	Command being timed: "/usr/app/src/glpk-5.0/examples/glpsol --lp input/Oregon-1.html/oregon1_010505.txt.gz.19.lp.reach_chain_detours.lp -o input/Oregon-1.html/oregon1_010505.txt.gz.19.lp.reach_chain_detours.lp.sol"
+	User time (seconds): 8358.40
+	System time (seconds): 35.07
+	Percent of CPU this job got: 99%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 2:20:04
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 1436152
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 8
+	Minor (reclaiming a frame) page faults: 3857198
+	Voluntary context switches: 63
+	Involuntary context switches: 43956
+	Swaps: 0
+	File system inputs: 752
+	File system outputs: 2840
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

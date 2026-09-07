@@ -1,0 +1,51 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/cit-HepPh.html/cit-HepPh.txt.gz.287.lp.reach_chain_detours.lp
+ -o input/cit-HepPh.html/cit-HepPh.txt.gz.287.lp.reach_chain_detours.lp.sol
+Reading problem data from 'input/cit-HepPh.html/cit-HepPh.txt.gz.287.lp.reach_chain_detours.lp'...
+139961 rows, 292621 columns, 699792 non-zeros
+292621 integer variables, all of which are binary
+432587 lines were read
+GLPK Integer Optimizer 5.0
+139961 rows, 292621 columns, 699792 non-zeros
+292621 integer variables, all of which are binary
+Preprocessing...
+139958 rows, 292618 columns, 699113 non-zeros
+292618 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 139958
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+139958 rows, 292618 columns, 699113 non-zeros
+      0: obj =   0.000000000e+00 inf =   3.770e+02 (377)
+    377: obj =   2.033373040e+02 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [578]...
+*  1181: obj =   2.008305420e+02 inf =   0.000e+00 (607) 4
+*  1870: obj =   2.008305420e+02 inf =   0.000e+00 (623) 7
+*  2520: obj =   2.008305420e+02 inf =   0.000e+00 (649) 6
+*  3160: obj =   1.418854444e+02 inf =   0.000e+00 (2822) 5
+*  3776: obj =   1.418854444e+02 inf =   1.110e-15 (2965) 5
+*  4349: obj =   1.418854444e+02 inf =   1.330e-07 (3105) 5
+*  4960: obj =   9.886167718e+01 inf =   1.470e-04 (2271) 6
+*  5582: obj =   9.460722569e+01 inf =   1.663e-04 (2071) 5
+*  6305: obj =   2.539864713e+00 inf =   1.096e-03 (1737) 4
+*  6918: obj =   2.539856164e+00 inf =   2.429e-03 (1705) 6
+*  7518: obj =   2.539852096e+00 inf =   2.525e-03 (1740) 5
+*  8103: obj =   2.539845208e+00 inf =   2.509e-03 (1736) 5
+*  8679: obj =   6.415841398e-01 inf =   1.722e-03 (1723) 5
+Removing LP perturbation [9236]...
+*  9236: obj =   0.000000000e+00 inf =   7.772e-16 (0) 5
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++  9236: mip =     not found yet >=              -inf        (1; 0)
+Solution found by heuristic: 0
++  9236: mip =   0.000000000e+00 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   72.6 secs
+Memory used: 360.1 Mb (377610808 bytes)
+Writing MIP solution to 'input/cit-HepPh.html/cit-HepPh.txt.gz.287.lp.reach_chain_detours.lp.sol'...
+Objective:  obj = 0 (MINimum)

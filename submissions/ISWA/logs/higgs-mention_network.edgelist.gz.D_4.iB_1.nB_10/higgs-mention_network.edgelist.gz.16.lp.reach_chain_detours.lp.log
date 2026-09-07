@@ -1,0 +1,39 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/higgs-twitter.html/higgs-mention_network.edgelist.gz.16.lp.reach_chain_detours.lp
+ -o input/higgs-twitter.html/higgs-mention_network.edgelist.gz.16.lp.reach_chain_detours.lp.sol
+Reading problem data from 'input/higgs-twitter.html/higgs-mention_network.edgelist.gz.16.lp.reach_chain_detours.lp'...
+5931 rows, 13317 columns, 29642 non-zeros
+13317 integer variables, all of which are binary
+19253 lines were read
+GLPK Integer Optimizer 5.0
+5931 rows, 13317 columns, 29642 non-zeros
+13317 integer variables, all of which are binary
+Preprocessing...
+1 hidden packing inequaliti(es) were detected
+5919 rows, 13305 columns, 29011 non-zeros
+13305 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 5919
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+5919 rows, 13305 columns, 29011 non-zeros
+      0: obj =   0.000000000e+00 inf =   4.610e+02 (461)
+    461: obj =   1.244000000e+03 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [665]...
+Removing LP perturbation [6355]...
+*  6355: obj =   1.930000000e+02 inf =   0.000e+00 (0) 47
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++  6355: mip =     not found yet >=              -inf        (1; 0)
++  6355: >>>>>   1.930000000e+02 >=   1.930000000e+02   0.0% (1; 0)
++  6355: mip =   1.930000000e+02 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   3.4 secs
+Memory used: 15.8 Mb (16547739 bytes)
+Writing MIP solution to 'input/higgs-twitter.html/higgs-mention_network.edgelist.gz.16.lp.reach_chain_detours.lp.sol'...
+Objective:  obj = 193 (MINimum)

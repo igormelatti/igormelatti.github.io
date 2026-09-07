@@ -1,0 +1,68 @@
+Launched as 5 input/Oregon-1.html/oregon1_010414.txt.gz 0
+
+
+Execution time and memory used at after reading from file: 5.600000e-01 seconds, 16494592 bytes of memory usage, 16144 kB of memory peak and 00:01 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 10790
+	Number of allocated nodes: 11264
+	Number of edges: 22470
+	Maximum in degree: 202 (node 6461)
+	Maximum out degree: 2312 (node 701)
+
+Execution time and memory used at after adding costs: 5.600000e-01 seconds, 16494592 bytes of memory usage, 16144 kB of memory peak and 00:01 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 10790
+	Number of allocated nodes: 11264
+	Number of edges: 22470
+	Maximum in degree: 202 (node 6461)
+	Maximum out degree: 2312 (node 701)
+
+Execution time and memory used at before starting main computation: 5.700000e-01 seconds, 16494592 bytes of memory usage, 16624 kB of memory peak and 00:01 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 10790
+	Number of allocated nodes: 11264
+	Number of edges: 22470
+	Maximum in degree: 202 (node 6461)
+	Maximum out degree: 2312 (node 701)
+	source 31 (node 701) with out degree 2312
+	target 171 (node 6461) with in degree 202
+
+Execution time and memory used at after creating milp without reductions: 5.900000e-01 seconds, 16494592 bytes of memory usage, 16624 kB of memory peak and 00:01 elapsed time
+Statistics on the network after creating milp without reductions
+	Number of nodes: 10790
+	Number of allocated nodes: 11264
+	Number of edges: 22470
+	Maximum in degree: 202 (node 6461)
+	Maximum out degree: 2312 (node 701)
+	source 31 (node 701) with out degree 2312
+	target 171 (node 6461) with in degree 202
+
+Execution time and memory used at after reachability and chains reduction: 2.090000e+00 seconds, 16584704 bytes of memory usage, 17148 kB of memory peak and 00:02 elapsed time
+Statistics on the network after reachability and chains reduction
+	Number of nodes: 303
+	Number of allocated nodes: 11264
+	Number of edges: 1564
+	Maximum in degree: 165 (node 6461)
+	Maximum out degree: 126 (node 701)
+	source 31 (node 701) with out degree 126
+	target 171 (node 6461) with in degree 165
+
+Execution time and memory used at after detours elimination: 2.090000e+00 seconds, 17108992 bytes of memory usage, 17148 kB of memory peak and 00:02 elapsed time
+Statistics on the network after detours elimination
+	Number of nodes: 303
+	Number of allocated nodes: 11264
+	Number of edges: 1564
+	Maximum in degree: 165 (node 6461)
+	Maximum out degree: 126 (node 701)
+	source 31 (node 701) with out degree 126
+	target 171 (node 6461) with in degree 165
+
+Execution time and memory used at after creating milp with detours elimination (all transformations): 2.100000e+00 seconds, 17108992 bytes of memory usage, 17148 kB of memory peak and 00:02 elapsed time
+Statistics on the network after creating milp with detours elimination (all transformations)
+	Number of nodes: 303
+	Number of allocated nodes: 11264
+	Number of edges: 1564
+	Maximum in degree: 165 (node 6461)
+	Maximum out degree: 126 (node 701)
+	source 31 (node 701) with out degree 126
+	target 171 (node 6461) with in degree 165

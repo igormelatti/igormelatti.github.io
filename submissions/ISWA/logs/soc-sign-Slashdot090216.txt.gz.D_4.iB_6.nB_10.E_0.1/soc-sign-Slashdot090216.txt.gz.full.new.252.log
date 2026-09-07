@@ -1,0 +1,68 @@
+Version 1.2 launched as -e 0.1 -i 12 input/soc-sign-Slashdot090216.html/soc-sign-Slashdot090216.txt.gz 252
+
+
+Execution time and memory used at after reading from file: 6.325000e+01 seconds, 42172416 bytes of memory usage, 41220 kB of memory peak and 01:04 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 81867
+	Number of allocated nodes: 81920
+	Number of edges: 545671
+	Maximum in degree: 2541 (node 80)
+	Maximum out degree: 428 (node 8897)
+
+Execution time and memory used at after adding costs: 6.326000e+01 seconds, 42172416 bytes of memory usage, 41220 kB of memory peak and 01:04 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 81867
+	Number of allocated nodes: 81920
+	Number of edges: 545671
+	Maximum in degree: 2541 (node 80)
+	Maximum out degree: 428 (node 8897)
+
+Execution time and memory used at before starting main computation: 6.386000e+01 seconds, 43118592 bytes of memory usage, 42944 kB of memory peak and 01:04 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 81867
+	Number of allocated nodes: 81920
+	Number of edges: 545671
+	Maximum in degree: 2541 (node 80)
+	Maximum out degree: 428 (node 8897)
+	source 4663 (node 8897) with out degree 428
+	target 132 (node 80) with in degree 2541
+
+Execution time and memory used at after iteration 1 (MF = 45.825194): 8.053600e+02 seconds, 521117696 bytes of memory usage, 651296 kB of memory peak and 13:26 elapsed time
+Statistics on the network after iteration 1 (MF = 45.825194)
+	Number of nodes: 81867
+	Number of allocated nodes: 81920
+	Number of edges: 545671
+	Maximum in degree: 2541 (node 80)
+	Maximum out degree: 428 (node 8897)
+	source 4663 (node 8897) with out degree 428
+	target 132 (node 80) with in degree 2541
+
+Execution time and memory used at after iteration 2 (MF = 22.003368): 1.729012e+05 seconds, 686346240 bytes of memory usage, 1024076 kB of memory peak and 2-00:01:51 elapsed time
+Statistics on the network after iteration 2 (MF = 22.003368)
+	Number of nodes: 81867
+	Number of allocated nodes: 81920
+	Number of edges: 545671
+	Maximum in degree: 2541 (node 80)
+	Maximum out degree: 428 (node 8897)
+	source 4663 (node 8897) with out degree 428
+	target 132 (node 80) with in degree 2541
+
+Execution time and memory used at after iteration 3 (MF = 26.539239): 1.740913e+05 seconds, 705187840 bytes of memory usage, 1024076 kB of memory peak and 2-00:21:41 elapsed time
+Statistics on the network after iteration 3 (MF = 26.539239)
+	Number of nodes: 81867
+	Number of allocated nodes: 81920
+	Number of edges: 545671
+	Maximum in degree: 2541 (node 80)
+	Maximum out degree: 428 (node 8897)
+	source 4663 (node 8897) with out degree 428
+	target 132 (node 80) with in degree 2541
+
+Execution time and memory used at after iteration 4 (MF = 22.858201): 2.017080e+05 seconds, 686346240 bytes of memory usage, 1024076 kB of memory peak and 2-08:02:00 elapsed time
+Statistics on the network after iteration 4 (MF = 22.858201)
+	Number of nodes: 81867
+	Number of allocated nodes: 81920
+	Number of edges: 545671
+	Maximum in degree: 2541 (node 80)
+	Maximum out degree: 428 (node 8897)
+	source 4663 (node 8897) with out degree 428
+	target 132 (node 80) with in degree 2541

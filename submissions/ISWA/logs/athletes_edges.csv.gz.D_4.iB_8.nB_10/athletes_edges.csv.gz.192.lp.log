@@ -1,0 +1,71 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/gemsec-Facebook.html/athletes_edges.csv.gz.192.lp -o input/gemsec-Facebook.html/athletes_edges.csv.gz.192.lp.sol
+Reading problem data from 'input/gemsec-Facebook.html/athletes_edges.csv.gz.192.lp'...
+86815 rows, 187492 columns, 434062 non-zeros
+187492 integer variables, all of which are binary
+274312 lines were read
+GLPK Integer Optimizer 5.0
+86815 rows, 187492 columns, 434062 non-zeros
+187492 integer variables, all of which are binary
+Preprocessing...
+1 hidden packing inequaliti(es) were detected
+86616 rows, 187290 columns, 432775 non-zeros
+187290 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 86616
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+86616 rows, 187290 columns, 432775 non-zeros
+      0: obj =   0.000000000e+00 inf =   2.500e+02 (250)
+    250: obj =   1.613722460e+02 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [454]...
+*  1316: obj =   1.560181210e+02 inf =   0.000e+00 (450) 7
+*  2112: obj =   1.268236375e+02 inf =   0.000e+00 (1582) 7
+*  2892: obj =   1.100266582e+02 inf =   0.000e+00 (1859) 7
+*  3650: obj =   1.099084653e+02 inf =   0.000e+00 (1891) 6
+*  4388: obj =   1.081620201e+02 inf =   0.000e+00 (1838) 6
+*  5100: obj =   1.067846922e+02 inf =   0.000e+00 (1921) 6
+*  5721: obj =   1.067846922e+02 inf =   0.000e+00 (2029) 5
+*  6306: obj =   1.063045857e+02 inf =   0.000e+00 (2040) 5
+*  6863: obj =   1.063045857e+02 inf =   0.000e+00 (2155) 5
+*  7419: obj =   1.063045857e+02 inf =   0.000e+00 (2173) 5
+*  7959: obj =   1.063045857e+02 inf =   0.000e+00 (2280) 5
+*  8473: obj =   1.063045857e+02 inf =   0.000e+00 (2360) 4
+*  8995: obj =   1.063045857e+02 inf =   6.661e-16 (2359) 5
+*  9494: obj =   1.063045857e+02 inf =   0.000e+00 (2416) 5
+* 10007: obj =   1.063045857e+02 inf =   0.000e+00 (2485) 4
+* 10541: obj =   7.726361801e+01 inf =   1.169e-06 (3113) 6
+* 11045: obj =   7.726358275e+01 inf =   7.191e-04 (2924) 5
+* 11518: obj =   7.726352950e+01 inf =   1.357e-03 (2851) 4
+* 12026: obj =   7.263396910e+01 inf =   1.535e-03 (2611) 5
+* 12641: obj =   7.060163491e+01 inf =   1.391e-03 (2450) 6
+* 13339: obj =   3.466116036e+01 inf =   1.345e-03 (2752) 5
+* 13911: obj =   3.075763230e+01 inf =   1.936e-03 (87359) 5
+* 14607: obj =   1.608849658e+01 inf =   2.762e-03 (2596) 6
+* 15251: obj =   7.003972098e+00 inf =   3.765e-03 (3428) 6
+* 15819: obj =   7.003775693e+00 inf =   4.499e-03 (3247) 5
+* 16399: obj =   7.003573865e+00 inf =   5.060e-03 (3035) 6
+* 16945: obj =   6.449666594e+00 inf =   5.419e-03 (2707) 6
+* 17566: obj =   3.501951008e+00 inf =   5.661e-03 (2501) 5
+* 18087: obj =   3.480975213e+00 inf =   5.217e-03 (2368) 5
+* 18640: obj =   3.462106382e+00 inf =   4.142e-03 (87208) 6
+* 19106: obj =   2.459471757e+00 inf =   3.742e-03 (2461) 4
+* 19591: obj =   2.459455622e+00 inf =   3.610e-03 (2317) 5
+* 20118: obj =   1.074227731e+00 inf =   3.189e-03 (2028) 5
+Removing LP perturbation [20308]...
+* 20308: obj =   0.000000000e+00 inf =   0.000e+00 (0) 2
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 20308: mip =     not found yet >=              -inf        (1; 0)
++ 20308: >>>>>   0.000000000e+00 >=   0.000000000e+00   0.0% (1; 0)
++ 20308: mip =   0.000000000e+00 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   168.7 secs
+Memory used: 223.5 Mb (234364816 bytes)
+Writing MIP solution to 'input/gemsec-Facebook.html/athletes_edges.csv.gz.192.lp.sol'...
+Objective:  obj = 0 (MINimum)

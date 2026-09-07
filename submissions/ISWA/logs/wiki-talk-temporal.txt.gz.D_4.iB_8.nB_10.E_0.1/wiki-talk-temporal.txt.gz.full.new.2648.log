@@ -1,0 +1,20 @@
+Version 1.2 launched as -e 0.1 12 input/wiki-talk-temporal.html/wiki-talk-temporal.txt.gz 2648
+
+
+Execution time and memory used at after reading from file: 1.287088e+04 seconds, 260497408 bytes of memory usage, 254428 kB of memory peak and 03:34:34 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 1140149
+	Number of allocated nodes: 1140736
+	Number of edges: 3130742
+	Maximum in degree: 3315 (node 37)
+	Maximum out degree: 141883 (node 1034)
+
+Execution time and memory used at before starting main computation: 1.288750e+04 seconds, 264146944 bytes of memory usage, 262928 kB of memory peak and 03:34:50 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 1140149
+	Number of allocated nodes: 1140736
+	Number of edges: 3130742
+	Maximum in degree: 3315 (node 37)
+	Maximum out degree: 141883 (node 1034)
+	source 1034 (node 1034) with out degree 141883
+	target 37 (node 37) with in degree 3315

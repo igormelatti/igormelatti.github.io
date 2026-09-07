@@ -1,0 +1,88 @@
+Version 1.2 launched as -e 0.1 12 input/ca-CondMat.html/ca-CondMat.txt.gz 120
+
+
+Execution time and memory used at after reading from file: 7.000000e+00 seconds, 23285760 bytes of memory usage, 22776 kB of memory peak and 00:07 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 23133
+	Number of allocated nodes: 23552
+	Number of edges: 186878
+	Maximum in degree: 279 (node 73647)
+	Maximum out degree: 279 (node 73647)
+
+Execution time and memory used at after adding costs: 7.000000e+00 seconds, 23285760 bytes of memory usage, 22776 kB of memory peak and 00:07 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 23133
+	Number of allocated nodes: 23552
+	Number of edges: 186878
+	Maximum in degree: 279 (node 73647)
+	Maximum out degree: 279 (node 73647)
+
+Execution time and memory used at before starting main computation: 7.130000e+00 seconds, 23961600 bytes of memory usage, 23916 kB of memory peak and 00:07 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 23133
+	Number of allocated nodes: 23552
+	Number of edges: 186878
+	Maximum in degree: 279 (node 73647)
+	Maximum out degree: 279 (node 73647)
+	source 349 (node 73647) with out degree 279
+	target 3073 (node 78667) with in degree 201
+
+Execution time and memory used at after iteration 1 (MF = 158.451613): 8.379000e+01 seconds, 183209984 bytes of memory usage, 254296 kB of memory peak and 01:24 elapsed time
+Statistics on the network after iteration 1 (MF = 158.451613)
+	Number of nodes: 23133
+	Number of allocated nodes: 23552
+	Number of edges: 186878
+	Maximum in degree: 279 (node 73647)
+	Maximum out degree: 279 (node 73647)
+	source 349 (node 73647) with out degree 279
+	target 3073 (node 78667) with in degree 201
+
+Execution time and memory used at after iteration 2 (MF = 129.996416): 1.735000e+02 seconds, 261410816 bytes of memory usage, 281972 kB of memory peak and 02:54 elapsed time
+Statistics on the network after iteration 2 (MF = 129.996416)
+	Number of nodes: 23133
+	Number of allocated nodes: 23552
+	Number of edges: 186878
+	Maximum in degree: 279 (node 73647)
+	Maximum out degree: 279 (node 73647)
+	source 349 (node 73647) with out degree 279
+	target 3073 (node 78667) with in degree 201
+
+Execution time and memory used at after iteration 3 (MF = 104.028674): 1.319020e+03 seconds, 253612032 bytes of memory usage, 281972 kB of memory peak and 21:59 elapsed time
+Statistics on the network after iteration 3 (MF = 104.028674)
+	Number of nodes: 23133
+	Number of allocated nodes: 23552
+	Number of edges: 186878
+	Maximum in degree: 279 (node 73647)
+	Maximum out degree: 279 (node 73647)
+	source 349 (node 73647) with out degree 279
+	target 3073 (node 78667) with in degree 201
+
+Execution time and memory used at after iteration 4 (MF = 83.763441): 1.562940e+03 seconds, 255545344 bytes of memory usage, 371152 kB of memory peak and 26:03 elapsed time
+Statistics on the network after iteration 4 (MF = 83.763441)
+	Number of nodes: 23133
+	Number of allocated nodes: 23552
+	Number of edges: 186878
+	Maximum in degree: 279 (node 73647)
+	Maximum out degree: 279 (node 73647)
+	source 349 (node 73647) with out degree 279
+	target 3073 (node 78667) with in degree 201
+
+Execution time and memory used at after iteration 5 (MF = 101.258065): 2.761735e+05 seconds, 274214912 bytes of memory usage, 3075948 kB of memory peak and 3-04:43:45 elapsed time
+Statistics on the network after iteration 5 (MF = 101.258065)
+	Number of nodes: 23133
+	Number of allocated nodes: 23552
+	Number of edges: 186878
+	Maximum in degree: 279 (node 73647)
+	Maximum out degree: 279 (node 73647)
+	source 349 (node 73647) with out degree 279
+	target 3073 (node 78667) with in degree 201
+
+Execution time and memory used at after iteration 6 (MF = 109.197133): 2.827300e+05 seconds, 253612032 bytes of memory usage, 3075948 kB of memory peak and 3-06:33:03 elapsed time
+Statistics on the network after iteration 6 (MF = 109.197133)
+	Number of nodes: 23133
+	Number of allocated nodes: 23552
+	Number of edges: 186878
+	Maximum in degree: 279 (node 73647)
+	Maximum out degree: 279 (node 73647)
+	source 349 (node 73647) with out degree 279
+	target 3073 (node 78667) with in degree 201

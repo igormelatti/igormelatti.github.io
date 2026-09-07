@@ -1,0 +1,40 @@
+Version 1.2 launched as -e 0.1 12 input/sx-superuser.html/sx-superuser-c2a.txt.gz 852
+
+
+Execution time and memory used at after reading from file: 8.902000e+01 seconds, 35872768 bytes of memory usage, 35068 kB of memory peak and 01:29 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 101052
+	Number of allocated nodes: 101376
+	Number of edges: 269448
+	Maximum in degree: 2512 (node 8672)
+	Maximum out degree: 2135 (node 83283)
+
+Execution time and memory used at before starting main computation: 8.912000e+01 seconds, 36278272 bytes of memory usage, 36340 kB of memory peak and 01:29 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 101052
+	Number of allocated nodes: 101376
+	Number of edges: 269448
+	Maximum in degree: 2512 (node 8672)
+	Maximum out degree: 2135 (node 83283)
+	source 19650 (node 83283) with out degree 2135
+	target 2233 (node 8672) with in degree 2512
+
+Execution time and memory used at after iteration 1 (MF = 1602516111315.000000): 1.707900e+03 seconds, 289546240 bytes of memory usage, 344548 kB of memory peak and 28:28 elapsed time
+Statistics on the network after iteration 1 (MF = 1602516111315.000000)
+	Number of nodes: 101052
+	Number of allocated nodes: 101376
+	Number of edges: 269448
+	Maximum in degree: 2512 (node 8672)
+	Maximum out degree: 2135 (node 83283)
+	source 19650 (node 83283) with out degree 2135
+	target 2233 (node 8672) with in degree 2512
+
+Execution time and memory used at after iteration 2 (MF = 1087318655421.000000): 1.743680e+03 seconds, 289546240 bytes of memory usage, 345368 kB of memory peak and 29:04 elapsed time
+Statistics on the network after iteration 2 (MF = 1087318655421.000000)
+	Number of nodes: 101052
+	Number of allocated nodes: 101376
+	Number of edges: 269448
+	Maximum in degree: 2512 (node 8672)
+	Maximum out degree: 2135 (node 83283)
+	source 19650 (node 83283) with out degree 2135
+	target 2233 (node 8672) with in degree 2512

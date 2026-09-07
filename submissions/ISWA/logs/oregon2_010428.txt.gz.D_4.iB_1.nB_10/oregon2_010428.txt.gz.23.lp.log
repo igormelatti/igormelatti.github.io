@@ -1,0 +1,76 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/Oregon-2.html/oregon2_010428.txt.gz.23.lp -o input/Oregon-2.html/oregon2_010428.txt.gz.23.lp.sol
+Reading problem data from 'input/Oregon-2.html/oregon2_010428.txt.gz.23.lp'...
+31438 rows, 73983 columns, 157177 non-zeros
+73983 integer variables, all of which are binary
+105426 lines were read
+GLPK Integer Optimizer 5.0
+31438 rows, 73983 columns, 157177 non-zeros
+73983 integer variables, all of which are binary
+Preprocessing...
+1 hidden packing inequaliti(es) were detected
+31044 rows, 73562 columns, 153011 non-zeros
+73562 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 31044
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+31044 rows, 73562 columns, 153011 non-zeros
+      0: obj =   0.000000000e+00 inf =   2.380e+02 (238)
+    238: obj =   6.236633300e+01 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [440]...
+*  2975: obj =   3.813003265e+01 inf =   3.148e-05 (307) 23
+Removing LP perturbation [3848]...
+*  3848: obj =   2.567153257e+01 inf =   0.000e+00 (0) 7
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++  3848: mip =     not found yet >=              -inf        (1; 0)
++  3863: mip =     not found yet >=   2.567488213e+01        (4; 0)
++  3929: mip =     not found yet >=   2.567488213e+01        (7; 0)
++  3974: mip =     not found yet >=   2.567488213e+01        (10; 0)
++  3983: mip =     not found yet >=   2.567488213e+01        (13; 0)
++  4002: mip =     not found yet >=   2.567488213e+01        (16; 0)
++  4028: mip =     not found yet >=   2.567488213e+01        (19; 0)
++  4052: mip =     not found yet >=   2.567488213e+01        (22; 0)
++  4110: >>>>>   2.661902800e+01 >=   2.567488213e+01   3.5% (23; 0)
++  4164: mip =   2.661902800e+01 >=   2.572032000e+01   3.4% (24; 2)
++  4234: mip =   2.661902800e+01 >=   2.572032000e+01   3.4% (27; 2)
+Time used: 61.4 secs.  Memory used: 73.6 Mb.
++  4295: mip =   2.661902800e+01 >=   2.572032000e+01   3.4% (30; 2)
++  4336: mip =   2.661902800e+01 >=   2.572139850e+01   3.4% (32; 3)
++  4386: mip =   2.661902800e+01 >=   2.572139850e+01   3.4% (35; 3)
++  4420: mip =   2.661902800e+01 >=   2.572139850e+01   3.4% (38; 3)
++  4481: mip =   2.661902800e+01 >=   2.574405763e+01   3.3% (40; 4)
++  4527: mip =   2.661902800e+01 >=   2.574405763e+01   3.3% (43; 4)
++  4586: mip =   2.661902800e+01 >=   2.574691630e+01   3.3% (45; 5)
++  4611: mip =   2.661902800e+01 >=   2.576286430e+01   3.2% (48; 5)
++  4686: mip =   2.661902800e+01 >=   2.576286430e+01   3.2% (51; 5)
++  4748: >>>>>   2.623767200e+01 >=   2.576286430e+01   1.8% (52; 5)
+Time used: 122.1 secs.  Memory used: 80.7 Mb.
++  4772: mip =   2.623767200e+01 >=   2.576286430e+01   1.8% (27; 61)
++  4809: mip =   2.623767200e+01 >=   2.576286430e+01   1.8% (30; 61)
++  4853: mip =   2.623767200e+01 >=   2.576426200e+01   1.8% (32; 62)
++  4879: mip =   2.623767200e+01 >=   2.576648530e+01   1.8% (35; 62)
++  4941: mip =   2.623767200e+01 >=   2.577389761e+01   1.8% (37; 63)
++  4954: mip =   2.623767200e+01 >=   2.577389761e+01   1.8% (40; 63)
++  4957: mip =   2.623767200e+01 >=   2.577389761e+01   1.8% (43; 63)
++  5047: >>>>>   2.613636200e+01 >=   2.577389761e+01   1.4% (45; 63)
++  5124: >>>>>   2.587711700e+01 >=   2.578709390e+01   0.3% (41; 72)
++  5155: mip =   2.587711700e+01 >=   2.579772570e+01   0.3% (21; 113)
++  5267: mip =   2.587711700e+01 >=   2.583223090e+01   0.2% (19; 118)
+Time used: 184.8 secs.  Memory used: 84.4 Mb.
++  5317: mip =   2.587711700e+01 >=   2.584323490e+01   0.1% (16; 127)
++  5340: mip =   2.587711700e+01 >=   2.585516200e+01 < 0.1% (16; 130)
++  5378: mip =   2.587711700e+01 >=   2.586259643e+01 < 0.1% (14; 134)
++  5398: mip =   2.587711700e+01 >=   2.586479800e+01 < 0.1% (9; 140)
++  5429: mip =   2.587711700e+01 >=     tree is empty   0.0% (0; 187)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   216.6 secs
+Memory used: 105.8 Mb (110913888 bytes)
+Writing MIP solution to 'input/Oregon-2.html/oregon2_010428.txt.gz.23.lp.sol'...
+Objective:  obj = 25.877117 (MINimum)

@@ -1,0 +1,49 @@
+Version 1.2 launched as -e 0.1 12 input/email-EuAll.html/email-EuAll.txt.gz 368
+
+
+Execution time and memory used at after reading from file: 3.161400e+02 seconds, 61612032 bytes of memory usage, 60204 kB of memory peak and 05:16 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 265214
+	Number of allocated nodes: 265216
+	Number of edges: 418956
+	Maximum in degree: 7631 (node 179170)
+	Maximum out degree: 929 (node 83)
+
+Execution time and memory used at after adding costs: 3.161500e+02 seconds, 61612032 bytes of memory usage, 60204 kB of memory peak and 05:16 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 265214
+	Number of allocated nodes: 265216
+	Number of edges: 418956
+	Maximum in degree: 7631 (node 179170)
+	Maximum out degree: 929 (node 83)
+
+Execution time and memory used at before starting main computation: 3.163700e+02 seconds, 62693376 bytes of memory usage, 62780 kB of memory peak and 05:17 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 265214
+	Number of allocated nodes: 265216
+	Number of edges: 418956
+	Maximum in degree: 7631 (node 179170)
+	Maximum out degree: 929 (node 83)
+	source 2299 (node 83) with out degree 929
+	target 1264 (node 179170) with in degree 7631
+
+Execution time and memory used at after iteration 1 (MF = 1.138902): 3.458110e+03 seconds, 489095168 bytes of memory usage, 560216 kB of memory peak and 57:39 elapsed time
+Statistics on the network after iteration 1 (MF = 1.138902)
+	Number of nodes: 265214
+	Number of allocated nodes: 265216
+	Number of edges: 418956
+	Maximum in degree: 7631 (node 179170)
+	Maximum out degree: 929 (node 83)
+	source 2299 (node 83) with out degree 929
+	target 1264 (node 179170) with in degree 7631
+GMF with memory efficient alternating algo is 0.000000
+
+Execution time and memory used at after executing the alternating algorithm: 3.500560e+03 seconds, 472481792 bytes of memory usage, 560216 kB of memory peak and 58:21 elapsed time
+Statistics on the network after executing the alternating algorithm
+	Number of nodes: 265214
+	Number of allocated nodes: 265216
+	Number of edges: 418956
+	Maximum in degree: 7631 (node 179170)
+	Maximum out degree: 929 (node 83)
+	source 2299 (node 83) with out degree 929
+	target 1264 (node 179170) with in degree 7631

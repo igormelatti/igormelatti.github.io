@@ -1,0 +1,157 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/gemsec-Facebook.html/public_figure_edges.csv.gz.225.lp -o input/gemsec-Facebook.html/public_figure_edges.csv.gz.225.lp.sol
+Reading problem data from 'input/gemsec-Facebook.html/public_figure_edges.csv.gz.225.lp'...
+67042 rows, 145645 columns, 335197 non-zeros
+145645 integer variables, all of which are binary
+212692 lines were read
+GLPK Integer Optimizer 5.0
+67042 rows, 145645 columns, 335197 non-zeros
+145645 integer variables, all of which are binary
+Preprocessing...
+66983 rows, 145585 columns, 334440 non-zeros
+145585 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 66983
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+66983 rows, 145585 columns, 334440 non-zeros
+      0: obj =   0.000000000e+00 inf =   2.740e+02 (274)
+    274: obj =   1.840379460e+02 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [480]...
+*  1845: obj =   1.579016835e+02 inf =   0.000e+00 (1063) 11
+*  3087: obj =   1.155767594e+02 inf =   0.000e+00 (1903) 10
+*  4099: obj =   1.155767594e+02 inf =   4.030e-07 (1982) 10
+*  5002: obj =   1.155767590e+02 inf =   2.316e-06 (2097) 7
+*  5839: obj =   1.155767580e+02 inf =   5.399e-06 (2326) 8
+*  6638: obj =   1.155767550e+02 inf =   1.257e-05 (2531) 6
+*  7411: obj =   1.155767546e+02 inf =   9.091e-06 (2602) 7
+*  8274: obj =   8.270982339e+01 inf =   1.002e-05 (68096) 9
+*  9082: obj =   8.270979392e+01 inf =   7.789e-05 (68122) 8
+*  9866: obj =   8.270979390e+01 inf =   7.828e-05 (68152) 7
+* 10769: obj =   5.955554269e+01 inf =   2.029e-04 (2955) 9
+* 11757: obj =   5.955550682e+01 inf =   2.069e-03 (2879) 10
+* 12761: obj =   5.599229339e+01 inf =   2.684e-03 (2789) 9
+* 13704: obj =   5.403231338e+01 inf =   2.880e-03 (2832) 8
+* 14618: obj =   4.964607658e+01 inf =   3.205e-03 (2866) 9
+* 15574: obj =   9.733280422e+00 inf =   3.474e-03 (2631) 6
+* 16360: obj =   9.733237634e+00 inf =   3.966e-03 (2532) 7
+* 17117: obj =   9.733202135e+00 inf =   3.411e-03 (2409) 7
+* 17899: obj =   5.179989857e+00 inf =   3.321e-03 (3473) 8
+* 18701: obj =   8.804969320e-01 inf =   4.183e-03 (2791) 7
+* 19522: obj =   3.731959784e-01 inf =   3.600e-03 (2469) 8
+* 20373: obj =   3.731533824e-01 inf =   3.801e-03 (2196) 8
+* 21234: obj =   5.829597081e-02 inf =   4.192e-03 (2103) 9
+* 22171: obj =   2.993315311e-02 inf =   4.653e-03 (1389) 8
+Removing LP perturbation [22335]...
+* 22335: obj =   0.000000000e+00 inf =   2.776e-15 (0) 2
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 22335: mip =     not found yet >=              -inf        (1; 0)
++ 22335: mip =     not found yet >=   0.000000000e+00        (2; 0)
++ 23219: mip =     not found yet >=   0.000000000e+00        (3; 0)
++ 23963: mip =     not found yet >=   0.000000000e+00        (4; 0)
+Time used: 83.1 secs.  Memory used: 146.5 Mb.
++ 23997: mip =     not found yet >=   0.000000000e+00        (5; 0)
++ 24000: mip =     not found yet >=   0.000000000e+00        (6; 0)
+Time used: 161.7 secs.  Memory used: 146.5 Mb.
++ 24007: mip =     not found yet >=   0.000000000e+00        (7; 0)
++ 24008: mip =     not found yet >=   0.000000000e+00        (8; 0)
+Time used: 240.2 secs.  Memory used: 146.5 Mb.
++ 24016: mip =     not found yet >=   0.000000000e+00        (9; 0)
++ 24101: mip =     not found yet >=   0.000000000e+00        (10; 0)
+Time used: 323.0 secs.  Memory used: 146.5 Mb.
++ 24113: mip =     not found yet >=   0.000000000e+00        (11; 0)
++ 24160: mip =     not found yet >=   0.000000000e+00        (12; 0)
+Time used: 398.4 secs.  Memory used: 146.5 Mb.
++ 24263: mip =     not found yet >=   0.000000000e+00        (13; 0)
++ 24270: mip =     not found yet >=   0.000000000e+00        (14; 0)
+Time used: 478.0 secs.  Memory used: 146.5 Mb.
++ 24272: mip =     not found yet >=   0.000000000e+00        (15; 0)
++ 24273: mip =     not found yet >=   0.000000000e+00        (16; 0)
+Time used: 549.8 secs.  Memory used: 146.5 Mb.
++ 24284: mip =     not found yet >=   0.000000000e+00        (17; 0)
++ 24335: mip =     not found yet >=   0.000000000e+00        (18; 0)
+Time used: 619.0 secs.  Memory used: 146.5 Mb.
++ 24344: mip =     not found yet >=   0.000000000e+00        (19; 0)
++ 24346: mip =     not found yet >=   0.000000000e+00        (20; 0)
+Time used: 686.6 secs.  Memory used: 146.5 Mb.
++ 24347: mip =     not found yet >=   0.000000000e+00        (21; 0)
++ 24348: mip =     not found yet >=   0.000000000e+00        (22; 0)
+Time used: 753.7 secs.  Memory used: 146.5 Mb.
++ 24356: mip =     not found yet >=   0.000000000e+00        (23; 0)
++ 24357: mip =     not found yet >=   0.000000000e+00        (24; 0)
+Time used: 819.1 secs.  Memory used: 146.5 Mb.
++ 24369: mip =     not found yet >=   0.000000000e+00        (25; 0)
++ 24370: mip =     not found yet >=   0.000000000e+00        (26; 0)
+Time used: 885.7 secs.  Memory used: 146.5 Mb.
++ 24371: mip =     not found yet >=   0.000000000e+00        (27; 0)
++ 24384: mip =     not found yet >=   0.000000000e+00        (28; 0)
+Time used: 952.4 secs.  Memory used: 146.5 Mb.
++ 24385: mip =     not found yet >=   0.000000000e+00        (29; 0)
++ 24386: mip =     not found yet >=   0.000000000e+00        (30; 0)
+Time used: 1019.1 secs.  Memory used: 146.5 Mb.
++ 24395: mip =     not found yet >=   0.000000000e+00        (31; 0)
++ 24400: mip =     not found yet >=   0.000000000e+00        (32; 0)
+Time used: 1085.9 secs.  Memory used: 146.5 Mb.
++ 24405: mip =     not found yet >=   0.000000000e+00        (33; 0)
++ 24516: mip =     not found yet >=   0.000000000e+00        (34; 0)
+Time used: 1150.4 secs.  Memory used: 146.5 Mb.
++ 24596: mip =     not found yet >=   0.000000000e+00        (35; 0)
++ 24600: mip =     not found yet >=   0.000000000e+00        (36; 0)
+Time used: 1210.5 secs.  Memory used: 146.5 Mb.
++ 24604: mip =     not found yet >=   0.000000000e+00        (37; 0)
++ 24605: mip =     not found yet >=   0.000000000e+00        (38; 0)
++ 24622: mip =     not found yet >=   0.000000000e+00        (39; 0)
+Time used: 1298.0 secs.  Memory used: 146.5 Mb.
++ 24889: mip =     not found yet >=   0.000000000e+00        (40; 0)
++ 24890: mip =     not found yet >=   0.000000000e+00        (41; 0)
++ 24926: mip =     not found yet >=   0.000000000e+00        (42; 0)
++ 24972: mip =     not found yet >=   0.000000000e+00        (43; 0)
++ 24978: mip =     not found yet >=   0.000000000e+00        (44; 0)
++ 24981: mip =     not found yet >=   0.000000000e+00        (45; 0)
++ 24982: mip =     not found yet >=   0.000000000e+00        (46; 0)
+Time used: 1361.1 secs.  Memory used: 146.5 Mb.
++ 24991: mip =     not found yet >=   0.000000000e+00        (47; 0)
++ 24992: mip =     not found yet >=   0.000000000e+00        (48; 0)
++ 24998: mip =     not found yet >=   0.000000000e+00        (49; 0)
++ 24999: mip =     not found yet >=   0.000000000e+00        (50; 0)
++ 25000: mip =     not found yet >=   0.000000000e+00        (51; 0)
++ 25001: mip =     not found yet >=   0.000000000e+00        (52; 0)
++ 25002: mip =     not found yet >=   0.000000000e+00        (53; 0)
++ 25008: mip =     not found yet >=   0.000000000e+00        (54; 0)
++ 25010: mip =     not found yet >=   0.000000000e+00        (56; 0)
++ 25016: mip =     not found yet >=   0.000000000e+00        (58; 0)
+Time used: 1425.7 secs.  Memory used: 146.6 Mb.
++ 25033: mip =     not found yet >=   0.000000000e+00        (60; 0)
++ 25035: mip =     not found yet >=   0.000000000e+00        (62; 0)
++ 25037: mip =     not found yet >=   0.000000000e+00        (64; 0)
++ 25109: mip =     not found yet >=   0.000000000e+00        (66; 0)
++ 25113: mip =     not found yet >=   0.000000000e+00        (68; 0)
++ 25119: mip =     not found yet >=   0.000000000e+00        (70; 0)
++ 25123: mip =     not found yet >=   0.000000000e+00        (72; 0)
+Time used: 1486.7 secs.  Memory used: 146.6 Mb.
++ 25125: mip =     not found yet >=   0.000000000e+00        (74; 0)
++ 25128: mip =     not found yet >=   0.000000000e+00        (76; 0)
++ 25132: mip =     not found yet >=   0.000000000e+00        (78; 0)
++ 25135: mip =     not found yet >=   0.000000000e+00        (80; 0)
++ 25145: mip =     not found yet >=   0.000000000e+00        (82; 0)
++ 25149: mip =     not found yet >=   0.000000000e+00        (84; 0)
++ 25151: mip =     not found yet >=   0.000000000e+00        (86; 0)
++ 25153: mip =     not found yet >=   0.000000000e+00        (88; 0)
++ 25155: mip =     not found yet >=   0.000000000e+00        (90; 0)
+Time used: 1549.0 secs.  Memory used: 146.6 Mb.
++ 25306: mip =     not found yet >=   0.000000000e+00        (92; 0)
++ 25310: mip =     not found yet >=   0.000000000e+00        (94; 0)
++ 25312: mip =     not found yet >=   0.000000000e+00        (96; 0)
+Solution found by heuristic: 0
++ 25328: mip =   0.000000000e+00 >=     tree is empty   0.0% (0; 193)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   1693.3 secs
+Memory used: 182.2 Mb (191014581 bytes)
+Writing MIP solution to 'input/gemsec-Facebook.html/public_figure_edges.csv.gz.225.lp.sol'...
+Objective:  obj = 0 (MINimum)

@@ -1,0 +1,94 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/sx-superuser.html/sx-superuser-c2q.txt.gz.66.lp -o input/sx-superuser.html/sx-superuser-c2q.txt.gz.66.lp.sol
+Reading problem data from 'input/sx-superuser.html/sx-superuser-c2q.txt.gz.66.lp'...
+238338 rows, 569260 columns, 1191677 non-zeros
+569260 integer variables, all of which are binary
+807603 lines were read
+GLPK Integer Optimizer 5.0
+238338 rows, 569260 columns, 1191677 non-zeros
+569260 integer variables, all of which are binary
+Preprocessing...
+238307 rows, 569226 columns, 1179059 non-zeros
+569226 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 238307
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+238307 rows, 569226 columns, 1179059 non-zeros
+      0: obj =   0.000000000e+00 inf =   1.150e+02 (115)
+    115: obj =   1.529639013e+11 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [330]...
+*   598: obj =   1.302089425e+11 inf =   0.000e+00 (233) 3
+*  1013: obj =   1.302089425e+11 inf =   0.000e+00 (237) 3
+*  1397: obj =   1.302089425e+11 inf =   0.000e+00 (255) 4
+*  1782: obj =   7.920555134e+10 inf =   0.000e+00 (941) 3
+*  2148: obj =   7.920555134e+10 inf =   5.551e-17 (984) 3
+*  2504: obj =   7.920555134e+10 inf =   0.000e+00 (1016) 3
+*  2852: obj =   7.920555134e+10 inf =   3.469e-16 (1082) 3
+*  3214: obj =   4.391997188e+10 inf =   6.849e-06 (1037) 3
+*  3565: obj =   4.226375188e+10 inf =   5.793e-04 (1017) 3
+*  3899: obj =   2.552129466e+10 inf =   2.168e-03 (1653) 3
+*  4274: obj =   2.293782820e+10 inf =   2.130e-03 (1487) 3
+*  4636: obj =   2.293777240e+10 inf =   4.254e-03 (1401) 4
+*  5033: obj =   1.525117621e+10 inf =   2.960e-03 (1093) 3
+*  5390: obj =   1.525113492e+10 inf =   8.358e-03 (1024) 3
+*  5789: obj =   1.269718211e+10 inf =   6.468e-03 (887) 3
+*  6161: obj =   1.269712886e+10 inf =   8.666e-03 (753) 2
+*  6497: obj =   1.269708721e+10 inf =   1.324e-02 (761) 3
+*  6848: obj =   1.269702046e+10 inf =   1.625e-02 (687) 3
+*  7144: obj =   1.269700477e+10 inf =   1.795e-02 (713) 3
+*  7444: obj =   1.142294859e+10 inf =   2.282e-02 (413) 3
+*  7742: obj =   1.142289514e+10 inf =   2.614e-02 (333) 3
+*  8052: obj =   1.142286355e+10 inf =   2.562e-02 (1222) 3
+*  8355: obj =   1.142241124e+10 inf =   2.217e-02 (1192) 3
+*  8662: obj =   1.142165044e+10 inf =   3.819e-02 (1104) 3
+*  9045: obj =   1.142149817e+10 inf =   4.387e-02 (897) 3
+*  9410: obj =   1.142144268e+10 inf =   3.825e-02 (830) 3
+*  9764: obj =   1.142139571e+10 inf =   3.519e-02 (763) 3
+* 10054: obj =   1.142137618e+10 inf =   3.455e-02 (728) 3
+* 10348: obj =   1.142134985e+10 inf =   3.352e-02 (738) 3
+* 10651: obj =   1.142131148e+10 inf =   3.418e-02 (696) 3
+* 10949: obj =   1.142127897e+10 inf =   3.292e-02 (684) 2
+* 11229: obj =   1.142123001e+10 inf =   3.228e-02 (684) 3
+* 11507: obj =   1.142120774e+10 inf =   3.092e-02 (675) 2
+* 11780: obj =   1.142118719e+10 inf =   2.995e-02 (666) 3
+* 12047: obj =   1.142118271e+10 inf =   2.926e-02 (682) 2
+* 12312: obj =   1.142117573e+10 inf =   2.884e-02 (706) 2
+* 12571: obj =   1.142116655e+10 inf =   2.865e-02 (723) 3
+* 12829: obj =   1.142115882e+10 inf =   2.819e-02 (725) 2
+* 13090: obj =   1.142112090e+10 inf =   2.943e-02 (710) 2
+* 13354: obj =   1.142106256e+10 inf =   2.960e-02 (656) 2
+* 13602: obj =   1.142105858e+10 inf =   2.905e-02 (638) 3
+* 13851: obj =   1.142104037e+10 inf =   2.959e-02 (642) 2
+* 14095: obj =   1.142104011e+10 inf =   2.880e-02 (655) 2
+* 14341: obj =   1.142102765e+10 inf =   2.895e-02 (659) 2
+* 14584: obj =   1.142102381e+10 inf =   2.842e-02 (668) 2
+* 14819: obj =   1.142101811e+10 inf =   2.795e-02 (681) 3
+* 15059: obj =   1.142100585e+10 inf =   2.775e-02 (679) 2
+* 15300: obj =   1.142099134e+10 inf =   2.751e-02 (691) 2
+* 15529: obj =   1.142098200e+10 inf =   2.724e-02 (692) 2
+* 15758: obj =   1.142097774e+10 inf =   2.660e-02 (699) 2
+* 15985: obj =   1.142097747e+10 inf =   2.568e-02 (702) 2
+* 16207: obj =   1.142097731e+10 inf =   2.469e-02 (697) 3
+* 16450: obj =   1.142095423e+10 inf =   2.508e-02 (631) 2
+* 16729: obj =   1.142066910e+10 inf =   2.517e-02 (608) 3
+* 17060: obj =   1.142065364e+10 inf =   2.503e-02 (566) 3
+* 17366: obj =   1.142063638e+10 inf =   2.537e-02 (460) 3
+* 17714: obj =   1.142063399e+10 inf =   2.468e-02 (187) 2
+Removing LP perturbation [17986]...
+* 17986: obj =   1.141833871e+10 inf =   0.000e+00 (0) 3
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 17986: mip =     not found yet >=              -inf        (1; 0)
++ 17986: >>>>>   1.141833871e+10 >=   1.141833871e+10   0.0% (1; 0)
++ 17986: mip =   1.141833871e+10 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   292.1 secs
+Memory used: 652.0 Mb (683657220 bytes)
+Writing MIP solution to 'input/sx-superuser.html/sx-superuser-c2q.txt.gz.66.lp.sol'...
+Objective:  obj = 1.141833871e+10 (MINimum)

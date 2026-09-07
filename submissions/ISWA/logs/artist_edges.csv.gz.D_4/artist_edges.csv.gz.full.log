@@ -1,0 +1,68 @@
+Launched as 5 input/gemsec-Facebook.html/artist_edges.csv.gz 0
+
+
+Execution time and memory used at after reading from file: 2.652700e+02 seconds, 47013888 bytes of memory usage, 45948 kB of memory peak and 04:25 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 50517
+	Number of allocated nodes: 51200
+	Number of edges: 819091
+	Maximum in degree: 1290 (node 48099)
+	Maximum out degree: 1238 (node 7675)
+
+Execution time and memory used at after adding costs: 2.652900e+02 seconds, 47013888 bytes of memory usage, 45948 kB of memory peak and 04:25 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 50517
+	Number of allocated nodes: 51200
+	Number of edges: 819091
+	Maximum in degree: 1290 (node 48099)
+	Maximum out degree: 1238 (node 7675)
+
+Execution time and memory used at before starting main computation: 2.656700e+02 seconds, 47824896 bytes of memory usage, 47420 kB of memory peak and 04:25 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 50517
+	Number of allocated nodes: 51200
+	Number of edges: 819091
+	Maximum in degree: 1290 (node 48099)
+	Maximum out degree: 1238 (node 7675)
+	source 556 (node 7675) with out degree 1238
+	target 1616 (node 48099) with in degree 1290
+
+Execution time and memory used at after creating milp without reductions: 2.667700e+02 seconds, 47824896 bytes of memory usage, 47420 kB of memory peak and 04:26 elapsed time
+Statistics on the network after creating milp without reductions
+	Number of nodes: 50517
+	Number of allocated nodes: 51200
+	Number of edges: 819091
+	Maximum in degree: 1290 (node 48099)
+	Maximum out degree: 1238 (node 7675)
+	source 556 (node 7675) with out degree 1238
+	target 1616 (node 48099) with in degree 1290
+
+Execution time and memory used at after reachability and chains reduction: 4.638600e+02 seconds, 48586752 bytes of memory usage, 53448 kB of memory peak and 07:44 elapsed time
+Statistics on the network after reachability and chains reduction
+	Number of nodes: 24097
+	Number of allocated nodes: 51200
+	Number of edges: 401579
+	Maximum in degree: 982 (node 48099)
+	Maximum out degree: 1097 (node 7675)
+	source 556 (node 7675) with out degree 1097
+	target 1616 (node 48099) with in degree 982
+
+Execution time and memory used at after detours elimination: 4.643300e+02 seconds, 49500160 bytes of memory usage, 53448 kB of memory peak and 07:44 elapsed time
+Statistics on the network after detours elimination
+	Number of nodes: 24097
+	Number of allocated nodes: 51200
+	Number of edges: 401579
+	Maximum in degree: 982 (node 48099)
+	Maximum out degree: 1097 (node 7675)
+	source 556 (node 7675) with out degree 1097
+	target 1616 (node 48099) with in degree 982
+
+Execution time and memory used at after creating milp with detours elimination (all transformations): 4.648800e+02 seconds, 49500160 bytes of memory usage, 53448 kB of memory peak and 07:45 elapsed time
+Statistics on the network after creating milp with detours elimination (all transformations)
+	Number of nodes: 24097
+	Number of allocated nodes: 51200
+	Number of edges: 401579
+	Maximum in degree: 982 (node 48099)
+	Maximum out degree: 1097 (node 7675)
+	source 556 (node 7675) with out degree 1097
+	target 1616 (node 48099) with in degree 982

@@ -1,0 +1,45 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/wiki-Vote.html/wiki-Vote.txt.gz.450.lp.reach_chain_detours.lp
+ -o input/wiki-Vote.html/wiki-Vote.txt.gz.450.lp.reach_chain_detours.lp.sol
+Reading problem data from 'input/wiki-Vote.html/wiki-Vote.txt.gz.450.lp.reach_chain_detours.lp'...
+39449 rows, 80191 columns, 197232 non-zeros
+80191 integer variables, all of which are binary
+119645 lines were read
+GLPK Integer Optimizer 5.0
+39449 rows, 80191 columns, 197232 non-zeros
+80191 integer variables, all of which are binary
+Preprocessing...
+1 hidden packing inequaliti(es) were detected
+39306 rows, 80048 columns, 195884 non-zeros
+80048 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 39306
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+39306 rows, 80048 columns, 195884 non-zeros
+      0: obj =   0.000000000e+00 inf =   1.860e+02 (186)
+    186: obj =   9.189333300e+01 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [391]...
+*  2176: obj =   8.655555500e+01 inf =   0.000e+00 (296) 17
+*  3764: obj =   8.655555500e+01 inf =   0.000e+00 (397) 15
+*  5183: obj =   4.176721791e+01 inf =   7.118e-05 (1213) 13
+*  6425: obj =   1.311615217e+01 inf =   9.468e-03 (1150) 12
+*  7625: obj =   1.311611276e+01 inf =   2.160e-02 (1091) 12
+*  8911: obj =   1.311607029e+01 inf =   3.082e-02 (1014) 13
+Removing LP perturbation [10092]...
+* 10092: obj =   0.000000000e+00 inf =   0.000e+00 (0) 11
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 10092: mip =     not found yet >=              -inf        (1; 0)
+Solution found by heuristic: 0
++ 10092: mip =   0.000000000e+00 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   35.3 secs
+Memory used: 99.2 Mb (103979430 bytes)
+Writing MIP solution to 'input/wiki-Vote.html/wiki-Vote.txt.gz.450.lp.reach_chain_detours.lp.sol'...
+Objective:  obj = 0 (MINimum)

@@ -1,0 +1,50 @@
+Version 1.2 launched as -e 0.1 12 input/sx-askubuntu.html/sx-askubuntu-c2a.txt.gz 288
+
+
+Execution time and memory used at after reading from file: 3.374000e+01 seconds, 29282304 bytes of memory usage, 28632 kB of memory peak and 00:34 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 75555
+	Number of allocated nodes: 75776
+	Number of edges: 165570
+	Maximum in degree: 1738 (node 449)
+	Maximum out degree: 1447 (node 22949)
+
+Execution time and memory used at before starting main computation: 3.378000e+01 seconds, 29552640 bytes of memory usage, 29672 kB of memory peak and 00:34 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 75555
+	Number of allocated nodes: 75776
+	Number of edges: 165570
+	Maximum in degree: 1738 (node 449)
+	Maximum out degree: 1447 (node 22949)
+	source 4992 (node 22949) with out degree 1447
+	target 145 (node 449) with in degree 1738
+
+Execution time and memory used at after iteration 1 (MF = 939242229989.000000): 6.467900e+02 seconds, 188493824 bytes of memory usage, 218944 kB of memory peak and 10:47 elapsed time
+Statistics on the network after iteration 1 (MF = 939242229989.000000)
+	Number of nodes: 75555
+	Number of allocated nodes: 75776
+	Number of edges: 165570
+	Maximum in degree: 1738 (node 449)
+	Maximum out degree: 1447 (node 22949)
+	source 4992 (node 22949) with out degree 1447
+	target 145 (node 449) with in degree 1738
+
+Execution time and memory used at after iteration 2 (MF = 855136877858.000000): 7.172100e+02 seconds, 240390144 bytes of memory usage, 273476 kB of memory peak and 11:57 elapsed time
+Statistics on the network after iteration 2 (MF = 855136877858.000000)
+	Number of nodes: 75555
+	Number of allocated nodes: 75776
+	Number of edges: 165570
+	Maximum in degree: 1738 (node 449)
+	Maximum out degree: 1447 (node 22949)
+	source 4992 (node 22949) with out degree 1447
+	target 145 (node 449) with in degree 1738
+
+Execution time and memory used at after iteration 3 (MF = 833911829400.000000): 2.876740e+03 seconds, 425652224 bytes of memory usage, 459232 kB of memory peak and 47:57 elapsed time
+Statistics on the network after iteration 3 (MF = 833911829400.000000)
+	Number of nodes: 75555
+	Number of allocated nodes: 75776
+	Number of edges: 165570
+	Maximum in degree: 1738 (node 449)
+	Maximum out degree: 1447 (node 22949)
+	source 4992 (node 22949) with out degree 1447
+	target 145 (node 449) with in degree 1738

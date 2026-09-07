@@ -1,0 +1,68 @@
+Version 1.2 launched as -e 0.1 12 input/web-BerkStan.html/web-BerkStan.txt.gz 48
+
+
+Execution time and memory used at after reading from file: 4.436610e+03 seconds, 345186304 bytes of memory usage, 337132 kB of memory peak and 01:13:58 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 685230
+	Number of allocated nodes: 686080
+	Number of edges: 7600595
+	Maximum in degree: 84208 (node 438238)
+	Maximum out degree: 249 (node 292640)
+
+Execution time and memory used at after adding costs: 4.436770e+03 seconds, 345186304 bytes of memory usage, 337132 kB of memory peak and 01:13:58 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 685230
+	Number of allocated nodes: 686080
+	Number of edges: 7600595
+	Maximum in degree: 84208 (node 438238)
+	Maximum out degree: 249 (node 292640)
+
+Execution time and memory used at before starting main computation: 4.486900e+03 seconds, 360730624 bytes of memory usage, 355472 kB of memory peak and 01:14:48 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 685230
+	Number of allocated nodes: 686080
+	Number of edges: 7600595
+	Maximum in degree: 84208 (node 438238)
+	Maximum out degree: 249 (node 292640)
+	source 288962 (node 292640) with out degree 249
+	target 9 (node 438238) with in degree 84208
+
+Execution time and memory used at after iteration 1 (MF = 0.010869): 9.659502e+04 seconds, 6920114176 bytes of memory usage, 9031184 kB of memory peak and 1-02:50:06 elapsed time
+Statistics on the network after iteration 1 (MF = 0.010869)
+	Number of nodes: 685230
+	Number of allocated nodes: 686080
+	Number of edges: 7600595
+	Maximum in degree: 84208 (node 438238)
+	Maximum out degree: 249 (node 292640)
+	source 288962 (node 292640) with out degree 249
+	target 9 (node 438238) with in degree 84208
+
+Execution time and memory used at after iteration 2 (MF = 0.001906): 1.183088e+05 seconds, 6920114176 bytes of memory usage, 9090040 kB of memory peak and 1-08:52:01 elapsed time
+Statistics on the network after iteration 2 (MF = 0.001906)
+	Number of nodes: 685230
+	Number of allocated nodes: 686080
+	Number of edges: 7600595
+	Maximum in degree: 84208 (node 438238)
+	Maximum out degree: 249 (node 292640)
+	source 288962 (node 292640) with out degree 249
+	target 9 (node 438238) with in degree 84208
+
+Execution time and memory used at after iteration 3 (MF = 0.009141): 1.411873e+05 seconds, 6920114176 bytes of memory usage, 11668444 kB of memory peak and 1-15:13:22 elapsed time
+Statistics on the network after iteration 3 (MF = 0.009141)
+	Number of nodes: 685230
+	Number of allocated nodes: 686080
+	Number of edges: 7600595
+	Maximum in degree: 84208 (node 438238)
+	Maximum out degree: 249 (node 292640)
+	source 288962 (node 292640) with out degree 249
+	target 9 (node 438238) with in degree 84208
+
+Execution time and memory used at after iteration 4 (MF = 0.006121): 1.634056e+05 seconds, 6920114176 bytes of memory usage, 11668444 kB of memory peak and 1-21:23:42 elapsed time
+Statistics on the network after iteration 4 (MF = 0.006121)
+	Number of nodes: 685230
+	Number of allocated nodes: 686080
+	Number of edges: 7600595
+	Maximum in degree: 84208 (node 438238)
+	Maximum out degree: 249 (node 292640)
+	source 288962 (node 292640) with out degree 249
+	target 9 (node 438238) with in degree 84208

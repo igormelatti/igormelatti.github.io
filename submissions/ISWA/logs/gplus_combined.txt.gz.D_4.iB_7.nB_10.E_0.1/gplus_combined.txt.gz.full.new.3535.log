@@ -1,0 +1,38 @@
+Version 1.2 launched as -e 0.1 12 input/ego-Gplus.html/gplus_combined.txt.gz 3535
+
+
+Execution time and memory used at after reading from file: 1.204507e+05 seconds, 465592320 bytes of memory usage, 454716 kB of memory peak and 1-09:27:40 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 107614
+	Number of allocated nodes: 108544
+	Number of edges: 13673453
+	Maximum in degree: 17055 (node 111091089527727420853)
+	Maximum out degree: 5056 (node 106228758905254036967)
+
+Execution time and memory used at after adding costs: 1.204526e+05 seconds, 465592320 bytes of memory usage, 454716 kB of memory peak and 1-09:27:42 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 107614
+	Number of allocated nodes: 108544
+	Number of edges: 13673453
+	Maximum in degree: 17055 (node 111091089527727420853)
+	Maximum out degree: 5056 (node 106228758905254036967)
+
+Execution time and memory used at before starting main computation: 1.205019e+05 seconds, 467890176 bytes of memory usage, 458376 kB of memory peak and 1-09:28:31 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 107614
+	Number of allocated nodes: 108544
+	Number of edges: 13673453
+	Maximum in degree: 17055 (node 111091089527727420853)
+	Maximum out degree: 5056 (node 106228758905254036967)
+	source 6966 (node 106228758905254036967) with out degree 5056
+	target 208 (node 111091089527727420853) with in degree 17055
+
+Execution time and memory used at after iteration 1 (MF = 1014.782416): 2.696106e+05 seconds, 12843892736 bytes of memory usage, 16518956 kB of memory peak and 3-02:53:54 elapsed time
+Statistics on the network after iteration 1 (MF = 1014.782416)
+	Number of nodes: 107614
+	Number of allocated nodes: 108544
+	Number of edges: 13673453
+	Maximum in degree: 17055 (node 111091089527727420853)
+	Maximum out degree: 5056 (node 106228758905254036967)
+	source 6966 (node 106228758905254036967) with out degree 5056
+	target 208 (node 111091089527727420853) with in degree 17055

@@ -1,0 +1,68 @@
+Version 1.2 launched as -e 0.1 12 input/roadNet-CA.html/roadNet-CA.txt.gz 6
+
+
+Execution time and memory used at after reading from file: 2.041782e+04 seconds, 442953728 bytes of memory usage, 432608 kB of memory peak and 05:40:19 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 1965206
+	Number of allocated nodes: 1966080
+	Number of edges: 5533214
+	Maximum in degree: 12 (node 562818)
+	Maximum out degree: 12 (node 562818)
+
+Execution time and memory used at after adding costs: 2.041815e+04 seconds, 442953728 bytes of memory usage, 432608 kB of memory peak and 05:40:19 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 1965206
+	Number of allocated nodes: 1966080
+	Number of edges: 5533214
+	Maximum in degree: 12 (node 562818)
+	Maximum out degree: 12 (node 562818)
+
+Execution time and memory used at before starting main computation: 2.138197e+04 seconds, 505536512 bytes of memory usage, 509564 kB of memory peak and 05:56:23 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 1965206
+	Number of allocated nodes: 1966080
+	Number of edges: 5533214
+	Maximum in degree: 12 (node 562818)
+	Maximum out degree: 12 (node 562818)
+	source 571924 (node 562818) with out degree 12
+	target 529105 (node 521168) with in degree 10
+
+Execution time and memory used at after iteration 1 (MF = 7.166667): 3.118852e+05 seconds, 5718355968 bytes of memory usage, 8165764 kB of memory peak and 3-14:38:36 elapsed time
+Statistics on the network after iteration 1 (MF = 7.166667)
+	Number of nodes: 1965206
+	Number of allocated nodes: 1966080
+	Number of edges: 5533214
+	Maximum in degree: 12 (node 562818)
+	Maximum out degree: 12 (node 562818)
+	source 571924 (node 562818) with out degree 12
+	target 529105 (node 521168) with in degree 10
+
+Execution time and memory used at after iteration 2 (MF = 4.750000): 3.191111e+05 seconds, 5718355968 bytes of memory usage, 8166308 kB of memory peak and 3-16:39:02 elapsed time
+Statistics on the network after iteration 2 (MF = 4.750000)
+	Number of nodes: 1965206
+	Number of allocated nodes: 1966080
+	Number of edges: 5533214
+	Maximum in degree: 12 (node 562818)
+	Maximum out degree: 12 (node 562818)
+	source 571924 (node 562818) with out degree 12
+	target 529105 (node 521168) with in degree 10
+
+Execution time and memory used at after iteration 3 (MF = 5.583333): 3.279831e+05 seconds, 5718355968 bytes of memory usage, 8166308 kB of memory peak and 3-19:06:54 elapsed time
+Statistics on the network after iteration 3 (MF = 5.583333)
+	Number of nodes: 1965206
+	Number of allocated nodes: 1966080
+	Number of edges: 5533214
+	Maximum in degree: 12 (node 562818)
+	Maximum out degree: 12 (node 562818)
+	source 571924 (node 562818) with out degree 12
+	target 529105 (node 521168) with in degree 10
+
+Execution time and memory used at after iteration 4 (MF = 7.166667): 3.388978e+05 seconds, 5718355968 bytes of memory usage, 8166308 kB of memory peak and 3-22:08:49 elapsed time
+Statistics on the network after iteration 4 (MF = 7.166667)
+	Number of nodes: 1965206
+	Number of allocated nodes: 1966080
+	Number of edges: 5533214
+	Maximum in degree: 12 (node 562818)
+	Maximum out degree: 12 (node 562818)
+	source 571924 (node 562818) with out degree 12
+	target 529105 (node 521168) with in degree 10

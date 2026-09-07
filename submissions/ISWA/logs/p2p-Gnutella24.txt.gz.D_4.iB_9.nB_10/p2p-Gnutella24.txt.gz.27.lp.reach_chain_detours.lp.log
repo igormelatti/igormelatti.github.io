@@ -1,0 +1,42 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/p2p-Gnutella24.html/p2p-Gnutella24.txt.gz.27.lp.reach_chain_detours.lp
+ -o input/p2p-Gnutella24.html/p2p-Gnutella24.txt.gz.27.lp.reach_chain_detours.lp.sol
+Reading problem data from 'input/p2p-Gnutella24.html/p2p-Gnutella24.txt.gz.27.lp.reach_chain_detours.lp'...
+22906 rows, 52102 columns, 114517 non-zeros
+52102 integer variables, all of which are binary
+75013 lines were read
+GLPK Integer Optimizer 5.0
+22906 rows, 52102 columns, 114517 non-zeros
+52102 integer variables, all of which are binary
+Preprocessing...
+22900 rows, 52096 columns, 114432 non-zeros
+52096 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 22900
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+22900 rows, 52096 columns, 114432 non-zeros
+      0: obj =   0.000000000e+00 inf =   3.000e+01 (30)
+     30: obj =   3.449306000e+00 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [256]...
+*  3077: obj =   3.133640000e-01 inf =   0.000e+00 (1013) 18
+*  5226: obj =   3.133640000e-01 inf =   0.000e+00 (999) 18
+*  7137: obj =   3.133640000e-01 inf =   0.000e+00 (1234) 17
+*  9021: obj =   1.520740000e-01 inf =   0.000e+00 (1368) 17
+Removing LP perturbation [10216]...
+* 10216: obj =   1.497690000e-01 inf =   0.000e+00 (0) 11
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 10216: mip =     not found yet >=              -inf        (1; 0)
++ 10216: >>>>>   1.497690000e-01 >=   1.497690000e-01   0.0% (1; 0)
++ 10216: mip =   1.497690000e-01 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   23.2 secs
+Memory used: 61.5 Mb (64486414 bytes)
+Writing MIP solution to 'input/p2p-Gnutella24.html/p2p-Gnutella24.txt.gz.27.lp.reach_chain_detours.lp.sol'...
+Objective:  obj = 0.149769 (MINimum)

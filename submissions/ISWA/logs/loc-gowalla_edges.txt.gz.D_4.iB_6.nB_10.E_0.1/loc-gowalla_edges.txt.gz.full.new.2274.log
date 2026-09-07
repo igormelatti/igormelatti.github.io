@@ -1,0 +1,48 @@
+Version 1.2 launched as -e 0.1 12 input/loc-Gowalla.html/loc-gowalla_edges.txt.gz 2274
+
+
+Execution time and memory used at after reading from file: 3.375520e+03 seconds, 100237312 bytes of memory usage, 97924 kB of memory peak and 56:16 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 196591
+	Number of allocated nodes: 196608
+	Number of edges: 1900654
+	Maximum in degree: 14730 (node 307)
+	Maximum out degree: 14730 (node 307)
+
+Execution time and memory used at after adding costs: 3.375580e+03 seconds, 100237312 bytes of memory usage, 97924 kB of memory peak and 56:16 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 196591
+	Number of allocated nodes: 196608
+	Number of edges: 1900654
+	Maximum in degree: 14730 (node 307)
+	Maximum out degree: 14730 (node 307)
+
+Execution time and memory used at before starting main computation: 3.412540e+03 seconds, 106455040 bytes of memory usage, 106268 kB of memory peak and 56:53 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 196591
+	Number of allocated nodes: 196608
+	Number of edges: 1900654
+	Maximum in degree: 14730 (node 307)
+	Maximum out degree: 14730 (node 307)
+	source 307 (node 307) with out degree 14730
+	target 440 (node 440) with in degree 3800
+
+Execution time and memory used at after iteration 1 (MF = 565.202172): 1.325568e+04 seconds, 1776046080 bytes of memory usage, 2451808 kB of memory peak and 03:40:59 elapsed time
+Statistics on the network after iteration 1 (MF = 565.202172)
+	Number of nodes: 196591
+	Number of allocated nodes: 196608
+	Number of edges: 1900654
+	Maximum in degree: 14730 (node 307)
+	Maximum out degree: 14730 (node 307)
+	source 307 (node 307) with out degree 14730
+	target 440 (node 440) with in degree 3800
+
+Execution time and memory used at after iteration 2 (MF = 253.253360): 1.550556e+04 seconds, 1776046080 bytes of memory usage, 2454756 kB of memory peak and 04:18:29 elapsed time
+Statistics on the network after iteration 2 (MF = 253.253360)
+	Number of nodes: 196591
+	Number of allocated nodes: 196608
+	Number of edges: 1900654
+	Maximum in degree: 14730 (node 307)
+	Maximum out degree: 14730 (node 307)
+	source 307 (node 307) with out degree 14730
+	target 440 (node 440) with in degree 3800

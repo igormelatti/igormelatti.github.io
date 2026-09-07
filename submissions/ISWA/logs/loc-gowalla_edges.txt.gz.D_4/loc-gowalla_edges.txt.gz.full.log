@@ -1,0 +1,48 @@
+Launched as 5 input/loc-Gowalla.html/loc-gowalla_edges.txt.gz 0
+
+
+Execution time and memory used at after reading from file: 3.117940e+03 seconds, 100208640 bytes of memory usage, 97896 kB of memory peak and 51:58 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 196591
+	Number of allocated nodes: 196608
+	Number of edges: 1900654
+	Maximum in degree: 14730 (node 307)
+	Maximum out degree: 14730 (node 307)
+
+Execution time and memory used at after adding costs: 3.117980e+03 seconds, 100208640 bytes of memory usage, 97896 kB of memory peak and 51:58 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 196591
+	Number of allocated nodes: 196608
+	Number of edges: 1900654
+	Maximum in degree: 14730 (node 307)
+	Maximum out degree: 14730 (node 307)
+
+Execution time and memory used at before starting main computation: 3.149400e+03 seconds, 106426368 bytes of memory usage, 106240 kB of memory peak and 52:29 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 196591
+	Number of allocated nodes: 196608
+	Number of edges: 1900654
+	Maximum in degree: 14730 (node 307)
+	Maximum out degree: 14730 (node 307)
+	source 307 (node 307) with out degree 14730
+	target 440 (node 440) with in degree 3800
+
+Execution time and memory used at after creating milp without reductions: 3.152380e+03 seconds, 106426368 bytes of memory usage, 106240 kB of memory peak and 52:32 elapsed time
+Statistics on the network after creating milp without reductions
+	Number of nodes: 196591
+	Number of allocated nodes: 196608
+	Number of edges: 1900654
+	Maximum in degree: 14730 (node 307)
+	Maximum out degree: 14730 (node 307)
+	source 307 (node 307) with out degree 14730
+	target 440 (node 440) with in degree 3800
+
+Execution time and memory used at after reachability and chains reduction: 3.212520e+03 seconds, 164323328 bytes of memory usage, 163904 kB of memory peak and 53:33 elapsed time
+Statistics on the network after reachability and chains reduction
+	Number of nodes: 147046
+	Number of allocated nodes: 196608
+	Number of edges: 1798316
+	Maximum in degree: 14730 (node 307)
+	Maximum out degree: 14730 (node 307)
+	source 307 (node 307) with out degree 14730
+	target 440 (node 440) with in degree 3206

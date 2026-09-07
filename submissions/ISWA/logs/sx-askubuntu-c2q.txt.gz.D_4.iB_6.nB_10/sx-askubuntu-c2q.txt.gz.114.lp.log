@@ -1,0 +1,65 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/sx-askubuntu.html/sx-askubuntu-c2q.txt.gz.114.lp -o input/sx-askubuntu.html/sx-askubuntu-c2q.txt.gz.114.lp.sol
+Reading problem data from 'input/sx-askubuntu.html/sx-askubuntu-c2q.txt.gz.114.lp'...
+159454 rows, 395481 columns, 797257 non-zeros
+395481 integer variables, all of which are binary
+554940 lines were read
+GLPK Integer Optimizer 5.0
+159454 rows, 395481 columns, 797257 non-zeros
+395481 integer variables, all of which are binary
+Preprocessing...
+1 hidden packing inequaliti(es) were detected
+158954 rows, 394896 columns, 791954 non-zeros
+394896 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 158954
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+158954 rows, 394896 columns, 791954 non-zeros
+      0: obj =   0.000000000e+00 inf =   1.950e+02 (195)
+    195: obj =   2.642777545e+11 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [399]...
+*   854: obj =   2.555604034e+11 inf =   0.000e+00 (399) 4
+*  1437: obj =   2.555604034e+11 inf =   0.000e+00 (408) 5
+*  1971: obj =   2.299871287e+11 inf =   0.000e+00 (1211) 5
+*  2501: obj =   2.173786821e+11 inf =   2.776e-16 (1302) 4
+*  2970: obj =   2.173786821e+11 inf =   0.000e+00 (1359) 4
+*  3412: obj =   2.173786821e+11 inf =   0.000e+00 (1412) 4
+*  3841: obj =   2.173786821e+11 inf =   0.000e+00 (1490) 3
+*  4250: obj =   2.173786821e+11 inf =   4.441e-16 (1526) 4
+*  4652: obj =   2.173786821e+11 inf =   0.000e+00 (1581) 3
+*  5038: obj =   2.173786821e+11 inf =   0.000e+00 (1630) 4
+*  5419: obj =   2.173786821e+11 inf =   1.388e-16 (1662) 3
+*  5796: obj =   2.053875548e+11 inf =   0.000e+00 (1626) 4
+*  6188: obj =   2.053875548e+11 inf =   0.000e+00 (1567) 4
+*  6587: obj =   2.040122249e+11 inf =   0.000e+00 (1517) 3
+*  6977: obj =   2.017066328e+11 inf =   0.000e+00 (1498) 4
+*  7385: obj =   1.530476195e+11 inf =   5.380e-07 (1422) 4
+*  7777: obj =   1.530476143e+11 inf =   2.078e-04 (1415) 4
+*  8158: obj =   9.782460488e+10 inf =   6.477e-04 (1266) 3
+*  8631: obj =   7.511143181e+10 inf =   6.763e-03 (1149) 5
+*  9151: obj =   4.719776937e+10 inf =   7.451e-03 (1757) 4
+*  9683: obj =   3.397784559e+10 inf =   1.272e-02 (1327) 5
+* 10190: obj =   3.397780518e+10 inf =   9.142e-03 (1149) 3
+* 10715: obj =   3.397775052e+10 inf =   7.293e-03 (939) 5
+* 11167: obj =   3.397766814e+10 inf =   6.776e-03 (853) 3
+* 11636: obj =   3.397756068e+10 inf =   8.313e-03 (724) 5
+* 12075: obj =   3.397748253e+10 inf =   7.310e-03 (664) 4
+* 12569: obj =   3.397746705e+10 inf =   7.610e-03 (264) 3
+Removing LP perturbation [12918]...
+* 12918: obj =   3.397800982e+10 inf =   0.000e+00 (0) 2
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 12918: mip =     not found yet >=              -inf        (1; 0)
++ 12918: >>>>>   3.397800982e+10 >=   3.397800982e+10   0.0% (1; 0)
++ 12918: mip =   3.397800982e+10 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   140.7 secs
+Memory used: 438.6 Mb (459939030 bytes)
+Writing MIP solution to 'input/sx-askubuntu.html/sx-askubuntu-c2q.txt.gz.114.lp.sol'...
+Objective:  obj = 3.397800982e+10 (MINimum)

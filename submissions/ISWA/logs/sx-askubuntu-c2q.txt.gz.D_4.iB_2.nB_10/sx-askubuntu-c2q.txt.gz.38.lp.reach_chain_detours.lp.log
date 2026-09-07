@@ -1,0 +1,41 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/sx-askubuntu.html/sx-askubuntu-c2q.txt.gz.38.lp.reach_chain_detours.lp
+ -o input/sx-askubuntu.html/sx-askubuntu-c2q.txt.gz.38.lp.reach_chain_detours.lp.sol
+Reading problem data from 'input/sx-askubuntu.html/sx-askubuntu-c2q.txt.gz.38.lp.reach_chain_detours.lp'...
+15113 rows, 32322 columns, 75552 non-zeros
+32322 integer variables, all of which are binary
+47440 lines were read
+GLPK Integer Optimizer 5.0
+15113 rows, 32322 columns, 75552 non-zeros
+32322 integer variables, all of which are binary
+Preprocessing...
+1 hidden packing inequaliti(es) were detected
+15111 rows, 32320 columns, 75058 non-zeros
+32320 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 15111
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+15111 rows, 32320 columns, 75058 non-zeros
+      0: obj =   0.000000000e+00 inf =   1.400e+02 (140)
+    140: obj =   1.887956793e+11 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [340]...
+*  4463: obj =   1.703019166e+11 inf =   9.000e-09 (927) 35
+*  8714: obj =   1.356474108e+11 inf =   2.801e-03 (770) 36
+Removing LP perturbation [9503]...
+*  9503: obj =   1.356303294e+11 inf =   0.000e+00 (0) 3
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++  9503: mip =     not found yet >=              -inf        (1; 0)
++  9503: >>>>>   1.356303294e+11 >=   1.356303294e+11   0.0% (1; 0)
++  9503: mip =   1.356303294e+11 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   10.7 secs
+Memory used: 39.3 Mb (41234914 bytes)
+Writing MIP solution to 'input/sx-askubuntu.html/sx-askubuntu-c2q.txt.gz.38.lp.reach_chain_detours.lp.sol'...
+Objective:  obj = 1.356303294e+11 (MINimum)

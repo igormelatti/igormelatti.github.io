@@ -1,0 +1,42 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/gemsec-Facebook.html/government_edges.csv.gz.41.lp.reach_chain_detours.lp
+ -o input/gemsec-Facebook.html/government_edges.csv.gz.41.lp.reach_chain_detours.lp.sol
+Reading problem data from 'input/gemsec-Facebook.html/government_edges.csv.gz.41.lp.reach_chain_detours.lp'...
+20697 rows, 43400 columns, 103472 non-zeros
+43400 integer variables, all of which are binary
+64102 lines were read
+GLPK Integer Optimizer 5.0
+20697 rows, 43400 columns, 103472 non-zeros
+43400 integer variables, all of which are binary
+Preprocessing...
+1 hidden packing inequaliti(es) were detected
+20695 rows, 43398 columns, 102769 non-zeros
+43398 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 20695
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+20695 rows, 43398 columns, 102769 non-zeros
+      0: obj =   0.000000000e+00 inf =   3.750e+02 (375)
+    375: obj =   2.693670470e+02 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [577]...
+*  3893: obj =   2.512913855e+02 inf =   1.774e-03 (1315) 30
+*  6987: obj =   2.360228460e+02 inf =   1.353e-03 (1356) 29
+* 10331: obj =   1.657103761e+02 inf =   9.585e-04 (1215) 30
+Removing LP perturbation [13200]...
+* 13200: obj =   1.129267840e+02 inf =   0.000e+00 (0) 25
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 13200: mip =     not found yet >=              -inf        (1; 0)
++ 13200: >>>>>   1.129267840e+02 >=   1.129267840e+02   0.0% (1; 0)
++ 13200: mip =   1.129267840e+02 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   18.9 secs
+Memory used: 52.7 Mb (55298464 bytes)
+Writing MIP solution to 'input/gemsec-Facebook.html/government_edges.csv.gz.41.lp.reach_chain_detours.lp.sol'...
+Objective:  obj = 112.926784 (MINimum)

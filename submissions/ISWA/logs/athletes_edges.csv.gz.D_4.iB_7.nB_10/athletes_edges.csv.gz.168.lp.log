@@ -1,0 +1,115 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/gemsec-Facebook.html/athletes_edges.csv.gz.168.lp -o input/gemsec-Facebook.html/athletes_edges.csv.gz.168.lp.sol
+Reading problem data from 'input/gemsec-Facebook.html/athletes_edges.csv.gz.168.lp'...
+86815 rows, 187492 columns, 434062 non-zeros
+187492 integer variables, all of which are binary
+274312 lines were read
+GLPK Integer Optimizer 5.0
+86815 rows, 187492 columns, 434062 non-zeros
+187492 integer variables, all of which are binary
+Preprocessing...
+1 hidden packing inequaliti(es) were detected
+86616 rows, 187290 columns, 432775 non-zeros
+187290 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 86616
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+86616 rows, 187290 columns, 432775 non-zeros
+      0: obj =   0.000000000e+00 inf =   2.500e+02 (250)
+    250: obj =   1.613722460e+02 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [454]...
+*  1061: obj =   1.560181210e+02 inf =   0.000e+00 (439) 5
+*  1943: obj =   1.560181210e+02 inf =   0.000e+00 (468) 8
+*  2541: obj =   1.298969569e+02 inf =   0.000e+00 (1667) 5
+*  3032: obj =   1.152673298e+02 inf =   0.000e+00 (1834) 4
+*  3553: obj =   1.150513221e+02 inf =   0.000e+00 (1861) 4
+*  4000: obj =   1.118595429e+02 inf =   0.000e+00 (1782) 4
+*  4455: obj =   1.118595429e+02 inf =   0.000e+00 (1854) 4
+*  4899: obj =   1.107531648e+02 inf =   0.000e+00 (1911) 3
+*  5515: obj =   1.107531648e+02 inf =   0.000e+00 (1997) 6
+*  6204: obj =   1.092255532e+02 inf =   5.274e-16 (2041) 5
+*  6866: obj =   1.092255532e+02 inf =   0.000e+00 (2157) 6
+*  7478: obj =   1.092255532e+02 inf =   0.000e+00 (2205) 6
+*  8088: obj =   1.092255532e+02 inf =   0.000e+00 (2289) 5
+*  8689: obj =   1.092255532e+02 inf =   0.000e+00 (2365) 5
+*  9279: obj =   1.092255532e+02 inf =   0.000e+00 (2372) 6
+*  9895: obj =   1.092255532e+02 inf =   0.000e+00 (2472) 5
+* 10445: obj =   8.638757108e+01 inf =   0.000e+00 (3121) 6
+* 11032: obj =   8.638756346e+01 inf =   1.474e-04 (2980) 5
+* 11603: obj =   8.638751876e+01 inf =   6.693e-04 (2857) 6
+* 12218: obj =   7.557285788e+01 inf =   1.188e-03 (2597) 6
+* 12994: obj =   6.427122194e+01 inf =   1.073e-03 (87831) 7
+* 13741: obj =   3.021928624e+01 inf =   3.678e-03 (2749) 6
+* 14370: obj =   2.682281599e+01 inf =   4.376e-03 (3151) 6
+* 14969: obj =   2.682254325e+01 inf =   5.039e-03 (2883) 6
+* 15577: obj =   2.682240863e+01 inf =   5.436e-03 (2748) 6
+* 16287: obj =   2.209284637e+01 inf =   5.059e-03 (2771) 6
+* 17038: obj =   2.209273367e+01 inf =   6.528e-03 (2451) 8
+* 17659: obj =   2.196103887e+01 inf =   6.797e-03 (87471) 6
+* 18196: obj =   2.196097390e+01 inf =   7.307e-03 (87500) 5
+* 18770: obj =   2.196093467e+01 inf =   6.382e-03 (87542) 5
+* 19321: obj =   2.196082578e+01 inf =   5.657e-03 (87632) 6
+* 19891: obj =   2.196066142e+01 inf =   4.189e-03 (87676) 5
+* 20476: obj =   1.101687117e+01 inf =   3.844e-03 (3052) 5
+* 21033: obj =   2.951892401e+00 inf =   3.273e-03 (3241) 5
+* 21532: obj =   2.951436202e+00 inf =   3.243e-03 (3177) 5
+* 22046: obj =   2.951286103e+00 inf =   3.626e-03 (3047) 5
+* 22558: obj =   2.951173174e+00 inf =   4.980e-03 (2960) 6
+* 23062: obj =   2.951082471e+00 inf =   8.942e-03 (2850) 4
+* 23594: obj =   2.951041322e+00 inf =   1.078e-02 (2764) 6
+* 24115: obj =   2.463122955e+00 inf =   1.203e-02 (2611) 5
+* 24622: obj =   2.463105585e+00 inf =   1.222e-02 (2585) 5
+* 25136: obj =   2.463083610e+00 inf =   1.175e-02 (2509) 5
+* 25660: obj =   2.463066005e+00 inf =   1.075e-02 (2424) 5
+* 26203: obj =   2.428203281e+00 inf =   9.444e-03 (2317) 5
+* 26726: obj =   2.428188454e+00 inf =   7.790e-03 (2329) 6
+* 27249: obj =   2.428161460e+00 inf =   6.434e-03 (2119) 5
+* 27794: obj =   1.791539248e+00 inf =   5.310e-03 (2403) 5
+* 28444: obj =   1.002157332e+00 inf =   4.349e-03 (1927) 6
+* 29146: obj =   2.810918906e-01 inf =   3.797e-03 (1709) 7
+* 29794: obj =   2.810611468e-01 inf =   3.705e-03 (1630) 6
+Removing LP perturbation [30124]...
+* 30124: obj =   0.000000000e+00 inf =   0.000e+00 (0) 3
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 30124: mip =     not found yet >=              -inf        (1; 0)
++ 30124: mip =     not found yet >=   0.000000000e+00        (2; 0)
++ 30285: mip =     not found yet >=   0.000000000e+00        (3; 0)
++ 30290: mip =     not found yet >=   0.000000000e+00        (4; 0)
++ 30291: mip =     not found yet >=   0.000000000e+00        (5; 0)
+Time used: 77.5 secs.  Memory used: 187.0 Mb.
++ 30325: mip =     not found yet >=   0.000000000e+00        (6; 0)
++ 30350: mip =     not found yet >=   0.000000000e+00        (7; 0)
++ 30455: mip =     not found yet >=   0.000000000e+00        (8; 0)
+Time used: 150.0 secs.  Memory used: 187.0 Mb.
++ 30458: mip =     not found yet >=   0.000000000e+00        (9; 0)
++ 30459: mip =     not found yet >=   0.000000000e+00        (10; 0)
++ 30465: mip =     not found yet >=   0.000000000e+00        (11; 0)
++ 30559: mip =     not found yet >=   0.000000000e+00        (12; 0)
+Time used: 225.6 secs.  Memory used: 187.0 Mb.
++ 30593: mip =     not found yet >=   0.000000000e+00        (13; 0)
++ 30594: mip =     not found yet >=   0.000000000e+00        (14; 0)
++ 30729: mip =     not found yet >=   0.000000000e+00        (15; 0)
++ 30736: mip =     not found yet >=   0.000000000e+00        (16; 0)
+Time used: 301.5 secs.  Memory used: 187.0 Mb.
++ 30741: mip =     not found yet >=   0.000000000e+00        (17; 0)
++ 30749: mip =     not found yet >=   0.000000000e+00        (18; 0)
++ 31134: mip =     not found yet >=   0.000000000e+00        (19; 0)
++ 31153: mip =     not found yet >=   0.000000000e+00        (20; 0)
++ 31420: mip =     not found yet >=   0.000000000e+00        (21; 0)
+Time used: 375.4 secs.  Memory used: 187.0 Mb.
++ 31499: mip =     not found yet >=   0.000000000e+00        (22; 0)
++ 31616: mip =     not found yet >=   0.000000000e+00        (23; 0)
+Solution found by heuristic: 0
++ 32015: mip =   0.000000000e+00 >=     tree is empty   0.0% (0; 45)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   660.4 secs
+Memory used: 233.0 Mb (244273598 bytes)
+Writing MIP solution to 'input/gemsec-Facebook.html/athletes_edges.csv.gz.168.lp.sol'...
+Objective:  obj = 0 (MINimum)

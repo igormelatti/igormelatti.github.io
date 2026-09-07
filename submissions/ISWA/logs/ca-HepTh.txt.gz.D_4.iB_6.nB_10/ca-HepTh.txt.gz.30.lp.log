@@ -1,0 +1,59 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/ca-HepTh.html/ca-HepTh.txt.gz.30.lp -o input/ca-HepTh.html/ca-HepTh.txt.gz.30.lp.sol
+Reading problem data from 'input/ca-HepTh.html/ca-HepTh.txt.gz.30.lp'...
+51949 rows, 113767 columns, 259732 non-zeros
+113767 integer variables, all of which are binary
+165721 lines were read
+GLPK Integer Optimizer 5.0
+51949 rows, 113767 columns, 259732 non-zeros
+113767 integer variables, all of which are binary
+Preprocessing...
+51822 rows, 113640 columns, 259105 non-zeros
+113640 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 51822
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+51822 rows, 113640 columns, 259105 non-zeros
+      0: obj =   0.000000000e+00 inf =   6.000e+01 (60)
+     60: obj =   7.340000500e+01 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [261]...
+*  2085: obj =   3.166154000e+01 inf =   1.878e-15 (706) 18
+*  3809: obj =   3.166137365e+01 inf =   4.119e-03 (2287) 16
+*  5374: obj =   3.166102629e+01 inf =   1.776e-02 (2080) 15
+*  7186: obj =   3.166089625e+01 inf =   2.236e-02 (1868) 16
+*  8569: obj =   3.166078321e+01 inf =   3.356e-02 (1837) 12
+*  9733: obj =   3.166071714e+01 inf =   3.788e-02 (1890) 11
+* 10833: obj =   3.166066224e+01 inf =   3.974e-02 (2008) 11
+* 11903: obj =   3.166062360e+01 inf =   3.985e-02 (2065) 10
+* 12959: obj =   3.166056931e+01 inf =   4.107e-02 (2129) 9
+* 13988: obj =   3.166047389e+01 inf =   4.337e-02 (2207) 10
+* 15019: obj =   3.166039359e+01 inf =   4.373e-02 (2355) 10
+* 16045: obj =   3.166030244e+01 inf =   4.373e-02 (2447) 9
+* 17065: obj =   3.166027368e+01 inf =   4.059e-02 (2591) 9
+* 18105: obj =   3.166020690e+01 inf =   3.802e-02 (2708) 10
+* 19332: obj =   3.166005338e+01 inf =   3.742e-02 (2655) 12
+* 20668: obj =   3.165993888e+01 inf =   3.685e-02 (2545) 13
+* 22054: obj =   2.978280822e+01 inf =   3.580e-02 (2396) 13
+* 23493: obj =   2.907500802e+01 inf =   3.516e-02 (2071) 13
+* 24978: obj =   2.869031350e+01 inf =   3.391e-02 (1665) 13
+* 26377: obj =   2.836717724e+01 inf =   3.253e-02 (1437) 13
+* 27787: obj =   2.813632964e+01 inf =   3.011e-02 (999) 14
+* 29253: obj =   2.799775265e+01 inf =   2.859e-02 (289) 13
+Removing LP perturbation [29853]...
+* 29853: obj =   2.800000000e+01 inf =   0.000e+00 (0) 6
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 29853: mip =     not found yet >=              -inf        (1; 0)
++ 29853: >>>>>   2.800000000e+01 >=   2.800000000e+01   0.0% (1; 0)
++ 29853: mip =   2.800000000e+01 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   112.5 secs
+Memory used: 137.4 Mb (144085958 bytes)
+Writing MIP solution to 'input/ca-HepTh.html/ca-HepTh.txt.gz.30.lp.sol'...
+Objective:  obj = 28 (MINimum)

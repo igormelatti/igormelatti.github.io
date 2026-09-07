@@ -1,0 +1,49 @@
+Version 1.2 launched as -e 0.1 12 input/web-NotreDame.html/web-NotreDame.txt.gz 2752
+
+
+Execution time and memory used at after reading from file: 9.730000e+02 seconds, 103059456 bytes of memory usage, 100680 kB of memory peak and 16:14 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 325729
+	Number of allocated nodes: 326656
+	Number of edges: 1469679
+	Maximum in degree: 10721 (node 12129)
+	Maximum out degree: 3444 (node 7137)
+
+Execution time and memory used at after adding costs: 9.730400e+02 seconds, 103059456 bytes of memory usage, 100680 kB of memory peak and 16:14 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 325729
+	Number of allocated nodes: 326656
+	Number of edges: 1469679
+	Maximum in degree: 10721 (node 12129)
+	Maximum out degree: 3444 (node 7137)
+
+Execution time and memory used at before starting main computation: 9.778000e+02 seconds, 107384832 bytes of memory usage, 106660 kB of memory peak and 16:18 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 325729
+	Number of allocated nodes: 326656
+	Number of edges: 1469679
+	Maximum in degree: 10721 (node 12129)
+	Maximum out degree: 3444 (node 7137)
+	source 7137 (node 7137) with out degree 3444
+	target 31331 (node 31331) with in degree 4299
+
+Execution time and memory used at after iteration 1 (MF = 0.293823): 9.628550e+03 seconds, 1459601408 bytes of memory usage, 1752192 kB of memory peak and 02:40:30 elapsed time
+Statistics on the network after iteration 1 (MF = 0.293823)
+	Number of nodes: 325729
+	Number of allocated nodes: 326656
+	Number of edges: 1469679
+	Maximum in degree: 10721 (node 12129)
+	Maximum out degree: 3444 (node 7137)
+	source 7137 (node 7137) with out degree 3444
+	target 31331 (node 31331) with in degree 4299
+GMF with memory efficient alternating algo is 0.000000
+
+Execution time and memory used at after executing the alternating algorithm: 9.645000e+03 seconds, 1411215360 bytes of memory usage, 1758832 kB of memory peak and 02:40:46 elapsed time
+Statistics on the network after executing the alternating algorithm
+	Number of nodes: 325729
+	Number of allocated nodes: 326656
+	Number of edges: 1469679
+	Maximum in degree: 10721 (node 12129)
+	Maximum out degree: 3444 (node 7137)
+	source 7137 (node 7137) with out degree 3444
+	target 31331 (node 31331) with in degree 4299

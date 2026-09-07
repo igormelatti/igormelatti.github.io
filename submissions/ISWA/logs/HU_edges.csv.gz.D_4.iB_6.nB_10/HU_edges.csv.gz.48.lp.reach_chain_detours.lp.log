@@ -1,0 +1,40 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/gemsec-Deezer.html/HU_edges.csv.gz.48.lp.reach_chain_detours.lp
+ -o input/gemsec-Deezer.html/HU_edges.csv.gz.48.lp.reach_chain_detours.lp.sol
+Reading problem data from 'input/gemsec-Deezer.html/HU_edges.csv.gz.48.lp.reach_chain_detours.lp'...
+15466 rows, 36277 columns, 77317 non-zeros
+36277 integer variables, all of which are binary
+51748 lines were read
+GLPK Integer Optimizer 5.0
+15466 rows, 36277 columns, 77317 non-zeros
+36277 integer variables, all of which are binary
+Preprocessing...
+15464 rows, 36275 columns, 77192 non-zeros
+36275 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 15464
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+15464 rows, 36275 columns, 77192 non-zeros
+      0: obj =   0.000000000e+00 inf =   5.800e+01 (58)
+     58: obj =   3.396174700e+01 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [449]...
+*  4654: obj =   1.360656941e+00 inf =   5.884e-06 (732) 36
+*  7884: obj =   7.977883628e-01 inf =   9.337e-04 (685) 27
+Removing LP perturbation [8733]...
+*  8733: obj =   0.000000000e+00 inf =   6.661e-15 (0) 7
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++  8733: mip =     not found yet >=              -inf        (1; 0)
+Solution found by heuristic: 0
++  8733: mip =   0.000000000e+00 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   11.2 secs
+Memory used: 41.9 Mb (43919337 bytes)
+Writing MIP solution to 'input/gemsec-Deezer.html/HU_edges.csv.gz.48.lp.reach_chain_detours.lp.sol'...
+Objective:  obj = 0 (MINimum)

@@ -1,0 +1,40 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/gemsec-Facebook.html/public_figure_edges.csv.gz.50.lp.reach_chain_detours.lp
+ -o input/gemsec-Facebook.html/public_figure_edges.csv.gz.50.lp.reach_chain_detours.lp.sol
+Reading problem data from 'input/gemsec-Facebook.html/public_figure_edges.csv.gz.50.lp.reach_chain_detours.lp'...
+19734 rows, 41766 columns, 98657 non-zeros
+41766 integer variables, all of which are binary
+61505 lines were read
+GLPK Integer Optimizer 5.0
+19734 rows, 41766 columns, 98657 non-zeros
+41766 integer variables, all of which are binary
+Preprocessing...
+19732 rows, 41764 columns, 98284 non-zeros
+41764 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 19732
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+19732 rows, 41764 columns, 98284 non-zeros
+      0: obj =   0.000000000e+00 inf =   1.690e+02 (169)
+    169: obj =   1.147893700e+02 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [374]...
+*  3856: obj =   6.600466262e+01 inf =   1.800e-06 (1106) 32
+*  7714: obj =   6.755197797e+00 inf =   4.630e-04 (454) 34
+Removing LP perturbation [8268]...
+*  8268: obj =   5.214421000e+00 inf =   0.000e+00 (0) 4
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++  8268: mip =     not found yet >=              -inf        (1; 0)
++  8268: >>>>>   5.214421000e+00 >=   5.214421000e+00   0.0% (1; 0)
++  8268: mip =   5.214421000e+00 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   10.9 secs
+Memory used: 50.6 Mb (53043314 bytes)
+Writing MIP solution to 'input/gemsec-Facebook.html/public_figure_edges.csv.gz.50.lp.reach_chain_detours.lp.sol'...
+Objective:  obj = 5.214421 (MINimum)

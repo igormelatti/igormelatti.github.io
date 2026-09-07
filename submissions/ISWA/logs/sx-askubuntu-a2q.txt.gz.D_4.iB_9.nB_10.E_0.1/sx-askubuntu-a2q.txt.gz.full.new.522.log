@@ -1,0 +1,40 @@
+Version 1.2 launched as -e 0.1 12 input/sx-askubuntu.html/sx-askubuntu-a2q.txt.gz 522
+
+
+Execution time and memory used at after reading from file: 5.787000e+01 seconds, 39788544 bytes of memory usage, 38892 kB of memory peak and 00:58 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 137517
+	Number of allocated nodes: 138240
+	Number of edges: 247253
+	Maximum in degree: 589 (node 7035)
+	Maximum out degree: 2047 (node 15811)
+
+Execution time and memory used at before starting main computation: 5.794000e+01 seconds, 40058880 bytes of memory usage, 40176 kB of memory peak and 00:58 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 137517
+	Number of allocated nodes: 138240
+	Number of edges: 247253
+	Maximum in degree: 589 (node 7035)
+	Maximum out degree: 2047 (node 15811)
+	source 4729 (node 15811) with out degree 2047
+	target 2236 (node 7035) with in degree 589
+
+Execution time and memory used at after iteration 1 (MF = 432660917760.000000): 2.319490e+03 seconds, 286486528 bytes of memory usage, 329604 kB of memory peak and 38:39 elapsed time
+Statistics on the network after iteration 1 (MF = 432660917760.000000)
+	Number of nodes: 137517
+	Number of allocated nodes: 138240
+	Number of edges: 247253
+	Maximum in degree: 589 (node 7035)
+	Maximum out degree: 2047 (node 15811)
+	source 4729 (node 15811) with out degree 2047
+	target 2236 (node 7035) with in degree 589
+
+Execution time and memory used at after iteration 2 (MF = 312256809719.000000): 2.369120e+03 seconds, 286486528 bytes of memory usage, 338632 kB of memory peak and 39:29 elapsed time
+Statistics on the network after iteration 2 (MF = 312256809719.000000)
+	Number of nodes: 137517
+	Number of allocated nodes: 138240
+	Number of edges: 247253
+	Maximum in degree: 589 (node 7035)
+	Maximum out degree: 2047 (node 15811)
+	source 4729 (node 15811) with out degree 2047
+	target 2236 (node 7035) with in degree 589

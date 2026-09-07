@@ -1,0 +1,68 @@
+Launched as 5 input/gemsec-Deezer.html/HU_edges.csv.gz 0
+
+
+Execution time and memory used at after reading from file: 4.430000e+01 seconds, 27455488 bytes of memory usage, 26848 kB of memory peak and 00:44 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 47540
+	Number of allocated nodes: 48128
+	Number of edges: 222888
+	Maximum in degree: 87 (node 7471)
+	Maximum out degree: 96 (node 40491)
+
+Execution time and memory used at after adding costs: 4.430000e+01 seconds, 27455488 bytes of memory usage, 26848 kB of memory peak and 00:44 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 47540
+	Number of allocated nodes: 48128
+	Number of edges: 222888
+	Maximum in degree: 87 (node 7471)
+	Maximum out degree: 96 (node 40491)
+
+Execution time and memory used at before starting main computation: 4.435000e+01 seconds, 27996160 bytes of memory usage, 28044 kB of memory peak and 00:44 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 47540
+	Number of allocated nodes: 48128
+	Number of edges: 222888
+	Maximum in degree: 87 (node 7471)
+	Maximum out degree: 96 (node 40491)
+	source 1857 (node 40491) with out degree 96
+	target 19047 (node 7471) with in degree 87
+
+Execution time and memory used at after creating milp without reductions: 4.469000e+01 seconds, 27996160 bytes of memory usage, 28044 kB of memory peak and 00:44 elapsed time
+Statistics on the network after creating milp without reductions
+	Number of nodes: 47540
+	Number of allocated nodes: 48128
+	Number of edges: 222888
+	Maximum in degree: 87 (node 7471)
+	Maximum out degree: 96 (node 40491)
+	source 1857 (node 40491) with out degree 96
+	target 19047 (node 7471) with in degree 87
+
+Execution time and memory used at after reachability and chains reduction: 1.242000e+02 seconds, 29106176 bytes of memory usage, 30008 kB of memory peak and 02:04 elapsed time
+Statistics on the network after reachability and chains reduction
+	Number of nodes: 5351
+	Number of allocated nodes: 48128
+	Number of edges: 15463
+	Maximum in degree: 58 (node 7471)
+	Maximum out degree: 65 (node 40491)
+	source 1857 (node 40491) with out degree 65
+	target 19047 (node 7471) with in degree 58
+
+Execution time and memory used at after detours elimination: 1.242200e+02 seconds, 29241344 bytes of memory usage, 30008 kB of memory peak and 02:04 elapsed time
+Statistics on the network after detours elimination
+	Number of nodes: 5351
+	Number of allocated nodes: 48128
+	Number of edges: 15463
+	Maximum in degree: 58 (node 7471)
+	Maximum out degree: 65 (node 40491)
+	source 1857 (node 40491) with out degree 65
+	target 19047 (node 7471) with in degree 58
+
+Execution time and memory used at after creating milp with detours elimination (all transformations): 1.242400e+02 seconds, 29241344 bytes of memory usage, 30008 kB of memory peak and 02:04 elapsed time
+Statistics on the network after creating milp with detours elimination (all transformations)
+	Number of nodes: 5351
+	Number of allocated nodes: 48128
+	Number of edges: 15463
+	Maximum in degree: 58 (node 7471)
+	Maximum out degree: 65 (node 40491)
+	source 1857 (node 40491) with out degree 65
+	target 19047 (node 7471) with in degree 58

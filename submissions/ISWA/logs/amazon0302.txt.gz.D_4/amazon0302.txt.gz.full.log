@@ -1,0 +1,48 @@
+Launched as 5 input/amazon0302.html/amazon0302.txt.gz 0
+
+
+Execution time and memory used at after reading from file: 2.084020e+03 seconds, 87384064 bytes of memory usage, 85372 kB of memory peak and 35:13 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 262111
+	Number of allocated nodes: 262144
+	Number of edges: 1234877
+	Maximum in degree: 420 (node 14949)
+	Maximum out degree: 5 (node 0)
+
+Execution time and memory used at after adding costs: 2.084060e+03 seconds, 87384064 bytes of memory usage, 85372 kB of memory peak and 35:13 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 262111
+	Number of allocated nodes: 262144
+	Number of edges: 1234877
+	Maximum in degree: 420 (node 14949)
+	Maximum out degree: 5 (node 0)
+
+Execution time and memory used at before starting main computation: 2.094710e+03 seconds, 95494144 bytes of memory usage, 95820 kB of memory peak and 35:23 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 262111
+	Number of allocated nodes: 262144
+	Number of edges: 1234877
+	Maximum in degree: 420 (node 14949)
+	Maximum out degree: 5 (node 0)
+	source 0 (node 0) with out degree 5
+	target 15486 (node 14949) with in degree 420
+
+Execution time and memory used at after creating milp without reductions: 2.096990e+03 seconds, 95494144 bytes of memory usage, 95820 kB of memory peak and 35:26 elapsed time
+Statistics on the network after creating milp without reductions
+	Number of nodes: 262111
+	Number of allocated nodes: 262144
+	Number of edges: 1234877
+	Maximum in degree: 420 (node 14949)
+	Maximum out degree: 5 (node 0)
+	source 0 (node 0) with out degree 5
+	target 15486 (node 14949) with in degree 420
+
+Execution time and memory used at after reachability and chains reduction: 2.462530e+03 seconds, 133943296 bytes of memory usage, 141224 kB of memory peak and 41:33 elapsed time
+Statistics on the network after reachability and chains reduction
+	Number of nodes: 238203
+	Number of allocated nodes: 262144
+	Number of edges: 1124240
+	Maximum in degree: 420 (node 14949)
+	Maximum out degree: 5 (node 0)
+	source 0 (node 0) with out degree 5
+	target 15486 (node 14949) with in degree 420

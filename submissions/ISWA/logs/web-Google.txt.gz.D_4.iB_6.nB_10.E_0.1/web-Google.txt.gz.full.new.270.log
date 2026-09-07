@@ -1,0 +1,68 @@
+Version 1.2 launched as -e 0.1 12 input/web-Google.html/web-Google.txt.gz 270
+
+
+Execution time and memory used at after reading from file: 3.036284e+04 seconds, 289832960 bytes of memory usage, 283076 kB of memory peak and 08:26:05 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 875713
+	Number of allocated nodes: 876544
+	Number of edges: 5105039
+	Maximum in degree: 6326 (node 537039)
+	Maximum out degree: 456 (node 506742)
+
+Execution time and memory used at after adding costs: 3.036304e+04 seconds, 289832960 bytes of memory usage, 283076 kB of memory peak and 08:26:05 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 875713
+	Number of allocated nodes: 876544
+	Number of edges: 5105039
+	Maximum in degree: 6326 (node 537039)
+	Maximum out degree: 456 (node 506742)
+
+Execution time and memory used at before starting main computation: 3.043624e+04 seconds, 305512448 bytes of memory usage, 302804 kB of memory peak and 08:27:18 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 875713
+	Number of allocated nodes: 876544
+	Number of edges: 5105039
+	Maximum in degree: 6326 (node 537039)
+	Maximum out degree: 456 (node 506742)
+	source 89860 (node 506742) with out degree 456
+	target 3178 (node 537039) with in degree 6326
+
+Execution time and memory used at after iteration 1 (MF = 2.277942): 1.501927e+05 seconds, 4833615872 bytes of memory usage, 6033092 kB of memory peak and 1-17:43:22 elapsed time
+Statistics on the network after iteration 1 (MF = 2.277942)
+	Number of nodes: 875713
+	Number of allocated nodes: 876544
+	Number of edges: 5105039
+	Maximum in degree: 6326 (node 537039)
+	Maximum out degree: 456 (node 506742)
+	source 89860 (node 506742) with out degree 456
+	target 3178 (node 537039) with in degree 6326
+
+Execution time and memory used at after iteration 2 (MF = 1.028753): 1.581045e+05 seconds, 6141399040 bytes of memory usage, 7403432 kB of memory peak and 1-19:55:14 elapsed time
+Statistics on the network after iteration 2 (MF = 1.028753)
+	Number of nodes: 875713
+	Number of allocated nodes: 876544
+	Number of edges: 5105039
+	Maximum in degree: 6326 (node 537039)
+	Maximum out degree: 456 (node 506742)
+	source 89860 (node 506742) with out degree 456
+	target 3178 (node 537039) with in degree 6326
+
+Execution time and memory used at after iteration 3 (MF = 1.219109): 1.655210e+05 seconds, 6117924864 bytes of memory usage, 8128780 kB of memory peak and 1-21:58:51 elapsed time
+Statistics on the network after iteration 3 (MF = 1.219109)
+	Number of nodes: 875713
+	Number of allocated nodes: 876544
+	Number of edges: 5105039
+	Maximum in degree: 6326 (node 537039)
+	Maximum out degree: 456 (node 506742)
+	source 89860 (node 506742) with out degree 456
+	target 3178 (node 537039) with in degree 6326
+
+Execution time and memory used at after iteration 4 (MF = 1.541138): 2.409681e+05 seconds, 6083719168 bytes of memory usage, 14907644 kB of memory peak and 2-18:56:24 elapsed time
+Statistics on the network after iteration 4 (MF = 1.541138)
+	Number of nodes: 875713
+	Number of allocated nodes: 876544
+	Number of edges: 5105039
+	Maximum in degree: 6326 (node 537039)
+	Maximum out degree: 456 (node 506742)
+	source 89860 (node 506742) with out degree 456
+	target 3178 (node 537039) with in degree 6326

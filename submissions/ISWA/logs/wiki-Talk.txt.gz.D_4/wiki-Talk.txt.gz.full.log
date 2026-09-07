@@ -1,0 +1,48 @@
+Launched as 5 input/wiki-Talk.html/wiki-Talk.txt.gz 0
+
+
+Execution time and memory used at after reading from file: 2.657551e+04 seconds, 481497088 bytes of memory usage, 470248 kB of memory peak and 07:22:58 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 2394385
+	Number of allocated nodes: 2395136
+	Number of edges: 5021410
+	Maximum in degree: 3311 (node 33)
+	Maximum out degree: 100022 (node 3215)
+
+Execution time and memory used at after adding costs: 2.657573e+04 seconds, 481497088 bytes of memory usage, 470248 kB of memory peak and 07:22:58 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 2394385
+	Number of allocated nodes: 2395136
+	Number of edges: 5021410
+	Maximum in degree: 3311 (node 33)
+	Maximum out degree: 100022 (node 3215)
+
+Execution time and memory used at before starting main computation: 2.659819e+04 seconds, 485281792 bytes of memory usage, 483780 kB of memory peak and 07:23:21 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 2394385
+	Number of allocated nodes: 2395136
+	Number of edges: 5021410
+	Maximum in degree: 3311 (node 33)
+	Maximum out degree: 100022 (node 3215)
+	source 137041 (node 3215) with out degree 100022
+	target 121 (node 33) with in degree 3311
+
+Execution time and memory used at after creating milp without reductions: 2.660748e+04 seconds, 485281792 bytes of memory usage, 483780 kB of memory peak and 07:23:30 elapsed time
+Statistics on the network after creating milp without reductions
+	Number of nodes: 2394385
+	Number of allocated nodes: 2395136
+	Number of edges: 5021410
+	Maximum in degree: 3311 (node 33)
+	Maximum out degree: 100022 (node 3215)
+	source 137041 (node 3215) with out degree 100022
+	target 121 (node 33) with in degree 3311
+
+Execution time and memory used at after reachability and chains reduction: 1.774533e+05 seconds, 485355520 bytes of memory usage, 583188 kB of memory peak and 2-01:17:41 elapsed time
+Statistics on the network after reachability and chains reduction
+	Number of nodes: 91791
+	Number of allocated nodes: 2395136
+	Number of edges: 1441911
+	Maximum in degree: 3024 (node 33)
+	Maximum out degree: 7972 (node 299)
+	source 137041 (node 3215) with out degree 562
+	target 121 (node 33) with in degree 3024

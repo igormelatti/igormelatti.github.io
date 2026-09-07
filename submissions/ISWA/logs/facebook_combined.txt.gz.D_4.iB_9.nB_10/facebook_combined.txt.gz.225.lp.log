@@ -1,0 +1,49 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/ego-Facebook.html/facebook_combined.txt.gz.225.lp -o input/ego-Facebook.html/facebook_combined.txt.gz.225.lp.sol
+Reading problem data from 'input/ego-Facebook.html/facebook_combined.txt.gz.225.lp'...
+88237 rows, 180507 columns, 441172 non-zeros
+180507 integer variables, all of which are binary
+268749 lines were read
+GLPK Integer Optimizer 5.0
+88237 rows, 180507 columns, 441172 non-zeros
+180507 integer variables, all of which are binary
+Preprocessing...
+1 hidden packing inequaliti(es) were detected
+88230 rows, 180500 columns, 439856 non-zeros
+180500 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 88230
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+88230 rows, 180500 columns, 439856 non-zeros
+      0: obj =   0.000000000e+00 inf =   2.510e+02 (251)
+    251: obj =   7.207110200e+01 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [454]...
+*  1440: obj =   6.992658900e+01 inf =   0.000e+00 (460) 8
+*  2479: obj =   5.197410192e+01 inf =   0.000e+00 (998) 9
+*  3494: obj =   5.109684689e+01 inf =   2.216e-05 (1001) 9
+*  4486: obj =   4.711458849e+01 inf =   9.315e-04 (969) 10
+*  5470: obj =   4.300521994e+01 inf =   1.310e-03 (1014) 9
+*  6469: obj =   3.596933801e+01 inf =   6.847e-04 (1130) 9
+*  7475: obj =   3.102714605e+01 inf =   1.564e-03 (879) 10
+*  8502: obj =   2.895284280e+01 inf =   1.275e-03 (999) 10
+*  9553: obj =   2.637239805e+01 inf =   1.112e-03 (885) 9
+* 10555: obj =   6.389480269e+00 inf =   1.402e-03 (1121) 10
+* 11652: obj =   5.901795225e+00 inf =   2.873e-03 (818) 10
+* 12876: obj =   5.901789098e+00 inf =   2.842e-03 (0) 8
+Removing LP perturbation [12876]...
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 12876: mip =     not found yet >=              -inf        (1; 0)
++ 12876: >>>>>   5.901856000e+00 >=   5.901856000e+00   0.0% (1; 0)
++ 12876: mip =   5.901856000e+00 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   61.3 secs
+Memory used: 222.0 Mb (232759674 bytes)
+Writing MIP solution to 'input/ego-Facebook.html/facebook_combined.txt.gz.225.lp.sol'...
+Objective:  obj = 5.901856 (MINimum)

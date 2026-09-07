@@ -1,0 +1,42 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/sx-superuser.html/sx-superuser-c2q.txt.gz.22.lp.reach_chain_detours.lp
+ -o input/sx-superuser.html/sx-superuser-c2q.txt.gz.22.lp.reach_chain_detours.lp.sol
+Reading problem data from 'input/sx-superuser.html/sx-superuser-c2q.txt.gz.22.lp.reach_chain_detours.lp'...
+26253 rows, 56192 columns, 131252 non-zeros
+56192 integer variables, all of which are binary
+82450 lines were read
+GLPK Integer Optimizer 5.0
+26253 rows, 56192 columns, 131252 non-zeros
+56192 integer variables, all of which are binary
+Preprocessing...
+26246 rows, 56185 columns, 130062 non-zeros
+56185 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 26246
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+26246 rows, 56185 columns, 130062 non-zeros
+      0: obj =   0.000000000e+00 inf =   7.500e+01 (75)
+     75: obj =   9.938866048e+10 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [275]...
+*  3290: obj =   7.866787870e+10 inf =   1.289e-03 (2247) 27
+*  6404: obj =   6.983593814e+10 inf =   1.051e-02 (512) 25
+*  8629: obj =   6.983584735e+10 inf =   1.058e-02 (448) 18
+* 11591: obj =   6.887285952e+10 inf =   1.203e-02 (155) 22
+Removing LP perturbation [11770]...
+* 11770: obj =   6.887347608e+10 inf =   0.000e+00 (0) 1
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 11770: mip =     not found yet >=              -inf        (1; 0)
++ 11770: >>>>>   6.887347608e+10 >=   6.887347608e+10   0.0% (1; 0)
++ 11770: mip =   6.887347608e+10 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   20.4 secs
+Memory used: 68.7 Mb (72086231 bytes)
+Writing MIP solution to 'input/sx-superuser.html/sx-superuser-c2q.txt.gz.22.lp.reach_chain_detours.lp.sol'...
+Objective:  obj = 6.887347608e+10 (MINimum)

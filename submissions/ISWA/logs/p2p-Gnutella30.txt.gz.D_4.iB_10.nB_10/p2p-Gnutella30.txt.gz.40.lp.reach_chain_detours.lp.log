@@ -1,0 +1,85 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/p2p-Gnutella30.html/p2p-Gnutella30.txt.gz.40.lp.reach_chain_detours.lp
+ -o input/p2p-Gnutella30.html/p2p-Gnutella30.txt.gz.40.lp.reach_chain_detours.lp.sol
+Reading problem data from 'input/p2p-Gnutella30.html/p2p-Gnutella30.txt.gz.40.lp.reach_chain_detours.lp'...
+31717 rows, 71864 columns, 158572 non-zeros
+71864 integer variables, all of which are binary
+103586 lines were read
+GLPK Integer Optimizer 5.0
+31717 rows, 71864 columns, 158572 non-zeros
+71864 integer variables, all of which are binary
+Preprocessing...
+31714 rows, 71861 columns, 158507 non-zeros
+71861 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 31714
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+31714 rows, 71861 columns, 158507 non-zeros
+      0: obj =   0.000000000e+00 inf =   4.200e+01 (42)
+     42: obj =   2.323148200e+01 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [281]...
+*  2271: obj =   1.037038000e+00 inf =   0.000e+00 (550) 13
+*  3860: obj =   1.037038000e+00 inf =   0.000e+00 (706) 11
+*  5475: obj =   1.037038000e+00 inf =   0.000e+00 (870) 13
+*  7030: obj =   1.037038000e+00 inf =   0.000e+00 (979) 13
+*  8556: obj =   1.037038000e+00 inf =   0.000e+00 (1027) 13
+*  9905: obj =   1.775146854e-01 inf =   4.330e-03 (1705) 13
+* 11174: obj =   6.808808532e-02 inf =   1.631e-02 (1804) 12
+Removing LP perturbation [11774]...
+* 11774: obj =   0.000000000e+00 inf =   0.000e+00 (0) 6
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 11774: mip =     not found yet >=              -inf        (1; 0)
++ 11774: mip =     not found yet >=   0.000000000e+00        (2; 0)
++ 12139: mip =     not found yet >=   0.000000000e+00        (3; 0)
+Time used: 78.0 secs.  Memory used: 70.8 Mb.
++ 12443: mip =     not found yet >=   0.000000000e+00        (4; 0)
++ 12755: mip =     not found yet >=   0.000000000e+00        (5; 0)
+Time used: 154.5 secs.  Memory used: 70.9 Mb.
++ 12841: mip =     not found yet >=   0.000000000e+00        (6; 0)
++ 13086: mip =     not found yet >=   0.000000000e+00        (7; 0)
+Time used: 231.6 secs.  Memory used: 70.9 Mb.
++ 13425: mip =     not found yet >=   0.000000000e+00        (8; 0)
++ 13696: mip =     not found yet >=   0.000000000e+00        (9; 0)
+Time used: 313.0 secs.  Memory used: 70.9 Mb.
++ 13928: mip =     not found yet >=   0.000000000e+00        (10; 0)
++ 14148: mip =     not found yet >=   0.000000000e+00        (11; 0)
+Time used: 393.5 secs.  Memory used: 70.9 Mb.
++ 14438: mip =     not found yet >=   0.000000000e+00        (12; 0)
++ 14717: mip =     not found yet >=   0.000000000e+00        (13; 0)
+Time used: 473.9 secs.  Memory used: 70.9 Mb.
++ 15000: mip =     not found yet >=   0.000000000e+00        (14; 0)
++ 15299: mip =     not found yet >=   0.000000000e+00        (15; 0)
+Time used: 555.9 secs.  Memory used: 70.9 Mb.
++ 15556: mip =     not found yet >=   0.000000000e+00        (16; 0)
++ 15916: mip =     not found yet >=   0.000000000e+00        (17; 0)
+Time used: 639.8 secs.  Memory used: 71.0 Mb.
++ 16207: mip =     not found yet >=   0.000000000e+00        (18; 0)
++ 16578: mip =     not found yet >=   0.000000000e+00        (19; 0)
+Time used: 724.1 secs.  Memory used: 71.0 Mb.
++ 17028: mip =     not found yet >=   0.000000000e+00        (20; 0)
++ 17697: mip =     not found yet >=   0.000000000e+00        (21; 0)
+Time used: 808.5 secs.  Memory used: 71.0 Mb.
+# 18921: obj =  -2.000000000e-09 inf =   0.000e+00 (4762) 12 83%
+# 19636: obj =  -2.000000000e-09 inf =   0.000e+00 (4079) 7 100%
+# 20331: obj =  -2.000000000e-09 inf =   0.000e+00 (3477) 7 100%
+# 21012: obj =  -2.000000000e-09 inf =   0.000e+00 (2808) 6 100%
+# 21650: obj =  -2.000000000e-09 inf =   0.000e+00 (2208) 7 100%
+# 22276: obj =  -2.000000000e-09 inf =   0.000e+00 (1636) 6 100%
+# 22870: obj =  -2.000000000e-09 inf =   0.000e+00 (1095) 6 100%
+# 23454: obj =  -2.000000000e-09 inf =   0.000e+00 (539) 6 100%
+# 24022: obj =  -2.000000000e-09 inf =   0.000e+00 (34) 5 100%
+# 24056: obj =   0.000000000e+00 inf =   0.000e+00 (0) 100%
+Solution found by heuristic: 0
++ 24056: mip =   0.000000000e+00 >=     tree is empty   0.0% (0; 41)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   896.3 secs
+Memory used: 88.2 Mb (92487421 bytes)
+Writing MIP solution to 'input/p2p-Gnutella30.html/p2p-Gnutella30.txt.gz.40.lp.reach_chain_detours.lp.sol'...
+Objective:  obj = 0 (MINimum)

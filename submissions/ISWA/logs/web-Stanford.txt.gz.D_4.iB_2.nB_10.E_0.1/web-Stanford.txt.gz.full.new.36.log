@@ -1,0 +1,78 @@
+Version 1.2 launched as -e 0.1 12 input/web-Stanford.html/web-Stanford.txt.gz 36
+
+
+Execution time and memory used at after reading from file: 8.395000e+03 seconds, 124420096 bytes of memory usage, 121540 kB of memory peak and 02:19:56 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 281903
+	Number of allocated nodes: 282624
+	Number of edges: 2312497
+	Maximum in degree: 38606 (node 226411)
+	Maximum out degree: 255 (node 82409)
+
+Execution time and memory used at after adding costs: 8.395070e+03 seconds, 124420096 bytes of memory usage, 121540 kB of memory peak and 02:19:56 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 281903
+	Number of allocated nodes: 282624
+	Number of edges: 2312497
+	Maximum in degree: 38606 (node 226411)
+	Maximum out degree: 255 (node 82409)
+
+Execution time and memory used at before starting main computation: 8.395070e+03 seconds, 124420096 bytes of memory usage, 123124 kB of memory peak and 02:19:56 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 281903
+	Number of allocated nodes: 282624
+	Number of edges: 2312497
+	Maximum in degree: 38606 (node 226411)
+	Maximum out degree: 255 (node 82409)
+	source 8946 (node 82409) with out degree 255
+	target 8945 (node 278394) with in degree 182
+
+Execution time and memory used at after iteration 1 (MF = 0.881424): 2.330634e+04 seconds, 2172010496 bytes of memory usage, 2905620 kB of memory peak and 06:28:29 elapsed time
+Statistics on the network after iteration 1 (MF = 0.881424)
+	Number of nodes: 281903
+	Number of allocated nodes: 282624
+	Number of edges: 2312497
+	Maximum in degree: 38606 (node 226411)
+	Maximum out degree: 255 (node 82409)
+	source 8946 (node 82409) with out degree 255
+	target 8945 (node 278394) with in degree 182
+
+Execution time and memory used at after iteration 2 (MF = 0.746713): 2.536223e+04 seconds, 2172010496 bytes of memory usage, 2905680 kB of memory peak and 07:02:45 elapsed time
+Statistics on the network after iteration 2 (MF = 0.746713)
+	Number of nodes: 281903
+	Number of allocated nodes: 282624
+	Number of edges: 2312497
+	Maximum in degree: 38606 (node 226411)
+	Maximum out degree: 255 (node 82409)
+	source 8946 (node 82409) with out degree 255
+	target 8945 (node 278394) with in degree 182
+
+Execution time and memory used at after iteration 3 (MF = 0.758292): 2.782869e+04 seconds, 2172010496 bytes of memory usage, 2905712 kB of memory peak and 07:43:51 elapsed time
+Statistics on the network after iteration 3 (MF = 0.758292)
+	Number of nodes: 281903
+	Number of allocated nodes: 282624
+	Number of edges: 2312497
+	Maximum in degree: 38606 (node 226411)
+	Maximum out degree: 255 (node 82409)
+	source 8946 (node 82409) with out degree 255
+	target 8945 (node 278394) with in degree 182
+
+Execution time and memory used at after iteration 4 (MF = 0.731016): 7.950385e+04 seconds, 3091398656 bytes of memory usage, 6192108 kB of memory peak and 22:05:10 elapsed time
+Statistics on the network after iteration 4 (MF = 0.731016)
+	Number of nodes: 281903
+	Number of allocated nodes: 282624
+	Number of edges: 2312497
+	Maximum in degree: 38606 (node 226411)
+	Maximum out degree: 255 (node 82409)
+	source 8946 (node 82409) with out degree 255
+	target 8945 (node 278394) with in degree 182
+
+Execution time and memory used at after iteration 5 (MF = 0.734876): 1.299829e+05 seconds, 3091398656 bytes of memory usage, 6192108 kB of memory peak and 1-12:06:33 elapsed time
+Statistics on the network after iteration 5 (MF = 0.734876)
+	Number of nodes: 281903
+	Number of allocated nodes: 282624
+	Number of edges: 2312497
+	Maximum in degree: 38606 (node 226411)
+	Maximum out degree: 255 (node 82409)
+	source 8946 (node 82409) with out degree 255
+	target 8945 (node 278394) with in degree 182

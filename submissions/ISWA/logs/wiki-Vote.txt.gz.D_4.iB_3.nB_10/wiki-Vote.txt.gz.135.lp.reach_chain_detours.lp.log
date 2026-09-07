@@ -1,0 +1,56 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/wiki-Vote.html/wiki-Vote.txt.gz.135.lp.reach_chain_detours.lp
+ -o input/wiki-Vote.html/wiki-Vote.txt.gz.135.lp.reach_chain_detours.lp.sol
+Reading problem data from 'input/wiki-Vote.html/wiki-Vote.txt.gz.135.lp.reach_chain_detours.lp'...
+39449 rows, 80191 columns, 197232 non-zeros
+80191 integer variables, all of which are binary
+119645 lines were read
+GLPK Integer Optimizer 5.0
+39449 rows, 80191 columns, 197232 non-zeros
+80191 integer variables, all of which are binary
+Preprocessing...
+1 hidden packing inequaliti(es) were detected
+39306 rows, 80048 columns, 195884 non-zeros
+80048 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 39306
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+39306 rows, 80048 columns, 195884 non-zeros
+      0: obj =   0.000000000e+00 inf =   1.860e+02 (186)
+    186: obj =   9.189333300e+01 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [391]...
+*  2210: obj =   8.655555500e+01 inf =   0.000e+00 (287) 17
+*  3838: obj =   8.655555500e+01 inf =   0.000e+00 (388) 16
+*  5274: obj =   5.625503188e+01 inf =   4.746e-04 (1208) 13
+*  6570: obj =   5.040658296e+01 inf =   1.147e-02 (1124) 13
+*  7830: obj =   2.835034766e+01 inf =   1.859e-02 (1041) 12
+*  9071: obj =   2.054609062e+01 inf =   2.873e-02 (3784) 12
+* 10397: obj =   2.054513222e+01 inf =   2.184e-02 (1086) 13
+* 11546: obj =   2.054510412e+01 inf =   2.604e-02 (1048) 11
+* 12891: obj =   2.054414336e+01 inf =   2.357e-02 (3707) 14
+* 14550: obj =   2.054356367e+01 inf =   4.108e-02 (3385) 16
+* 16201: obj =   2.054330442e+01 inf =   5.192e-02 (3144) 16
+* 17902: obj =   2.054313326e+01 inf =   4.769e-02 (2983) 17
+* 19709: obj =   2.054303035e+01 inf =   5.183e-02 (2796) 17
+* 21583: obj =   2.054288064e+01 inf =   4.650e-02 (2549) 17
+* 23515: obj =   2.054272271e+01 inf =   4.236e-02 (2136) 15
+* 25536: obj =   2.054254554e+01 inf =   3.742e-02 (1542) 16
+* 27627: obj =   2.054239521e+01 inf =   3.570e-02 (672) 14
+Removing LP perturbation [28519]...
+* 28519: obj =   2.054518600e+01 inf =   0.000e+00 (0) 6
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 28519: mip =     not found yet >=              -inf        (1; 0)
++ 28519: >>>>>   2.054518600e+01 >=   2.054518600e+01   0.0% (1; 0)
++ 28519: mip =   2.054518600e+01 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   87.5 secs
+Memory used: 99.2 Mb (103979430 bytes)
+Writing MIP solution to 'input/wiki-Vote.html/wiki-Vote.txt.gz.135.lp.reach_chain_detours.lp.sol'...
+Objective:  obj = 20.545186 (MINimum)

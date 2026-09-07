@@ -1,0 +1,68 @@
+Launched as -i 5 input/soc-RedditHyperlinks.html/soc-redditHyperlinks-body.tsv.gz 0
+
+
+Execution time and memory used at after reading from file: 3.790000e+00 seconds, 23228416 bytes of memory usage, 22720 kB of memory peak and 00:04 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 35776
+	Number of allocated nodes: 35840
+	Number of edges: 137821
+	Maximum in degree: 2161 (node askreddit)
+	Maximum out degree: 1350 (node subredditdrama)
+
+Execution time and memory used at after adding costs: 3.800000e+00 seconds, 23228416 bytes of memory usage, 22720 kB of memory peak and 00:04 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 35776
+	Number of allocated nodes: 35840
+	Number of edges: 137821
+	Maximum in degree: 2161 (node askreddit)
+	Maximum out degree: 1350 (node subredditdrama)
+
+Execution time and memory used at before starting main computation: 3.850000e+00 seconds, 23633920 bytes of memory usage, 23736 kB of memory peak and 00:04 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 35776
+	Number of allocated nodes: 35840
+	Number of edges: 137821
+	Maximum in degree: 2161 (node askreddit)
+	Maximum out degree: 1350 (node subredditdrama)
+	source 122 (node subredditdrama) with out degree 1350
+	target 59 (node askreddit) with in degree 2161
+
+Execution time and memory used at after creating milp without reductions: 4.080000e+00 seconds, 23633920 bytes of memory usage, 23736 kB of memory peak and 00:04 elapsed time
+Statistics on the network after creating milp without reductions
+	Number of nodes: 35776
+	Number of allocated nodes: 35840
+	Number of edges: 137821
+	Maximum in degree: 2161 (node askreddit)
+	Maximum out degree: 1350 (node subredditdrama)
+	source 122 (node subredditdrama) with out degree 1350
+	target 59 (node askreddit) with in degree 2161
+
+Execution time and memory used at after reachability and chains reduction: 7.221000e+01 seconds, 24178688 bytes of memory usage, 26452 kB of memory peak and 01:12 elapsed time
+Statistics on the network after reachability and chains reduction
+	Number of nodes: 10125
+	Number of allocated nodes: 35840
+	Number of edges: 95476
+	Maximum in degree: 1562 (node askreddit)
+	Maximum out degree: 1198 (node subredditdrama)
+	source 122 (node subredditdrama) with out degree 1198
+	target 59 (node askreddit) with in degree 1562
+
+Execution time and memory used at after detours elimination: 7.628300e+02 seconds, 24702976 bytes of memory usage, 26452 kB of memory peak and 12:43 elapsed time
+Statistics on the network after detours elimination
+	Number of nodes: 9849
+	Number of allocated nodes: 35840
+	Number of edges: 94853
+	Maximum in degree: 1562 (node askreddit)
+	Maximum out degree: 1198 (node subredditdrama)
+	source 122 (node subredditdrama) with out degree 1198
+	target 59 (node askreddit) with in degree 1562
+
+Execution time and memory used at after creating milp with detours elimination (all transformations): 7.629800e+02 seconds, 24702976 bytes of memory usage, 26452 kB of memory peak and 12:43 elapsed time
+Statistics on the network after creating milp with detours elimination (all transformations)
+	Number of nodes: 9849
+	Number of allocated nodes: 35840
+	Number of edges: 94853
+	Maximum in degree: 1562 (node askreddit)
+	Maximum out degree: 1198 (node subredditdrama)
+	source 122 (node subredditdrama) with out degree 1198
+	target 59 (node askreddit) with in degree 1562

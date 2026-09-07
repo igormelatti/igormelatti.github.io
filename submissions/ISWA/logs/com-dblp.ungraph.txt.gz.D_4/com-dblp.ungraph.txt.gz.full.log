@@ -1,0 +1,68 @@
+Launched as 5 input/com-DBLP.html/com-dblp.ungraph.txt.gz 0
+
+
+Execution time and memory used at after reading from file: 3.652810e+03 seconds, 88424448 bytes of memory usage, 86388 kB of memory peak and 01:00:53 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 317080
+	Number of allocated nodes: 317440
+	Number of edges: 1049866
+	Maximum in degree: 113 (node 307089)
+	Maximum out degree: 306 (node 38868)
+
+Execution time and memory used at after adding costs: 3.652860e+03 seconds, 88424448 bytes of memory usage, 86388 kB of memory peak and 01:00:53 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 317080
+	Number of allocated nodes: 317440
+	Number of edges: 1049866
+	Maximum in degree: 113 (node 307089)
+	Maximum out degree: 306 (node 38868)
+
+Execution time and memory used at before starting main computation: 3.653860e+03 seconds, 91262976 bytes of memory usage, 90880 kB of memory peak and 01:00:54 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 317080
+	Number of allocated nodes: 317440
+	Number of edges: 1049866
+	Maximum in degree: 113 (node 307089)
+	Maximum out degree: 306 (node 38868)
+	source 3335 (node 38868) with out degree 306
+	target 14055 (node 307089) with in degree 113
+
+Execution time and memory used at after creating milp without reductions: 3.655510e+03 seconds, 91262976 bytes of memory usage, 90880 kB of memory peak and 01:00:56 elapsed time
+Statistics on the network after creating milp without reductions
+	Number of nodes: 317080
+	Number of allocated nodes: 317440
+	Number of edges: 1049866
+	Maximum in degree: 113 (node 307089)
+	Maximum out degree: 306 (node 38868)
+	source 3335 (node 38868) with out degree 306
+	target 14055 (node 307089) with in degree 113
+
+Execution time and memory used at after reachability and chains reduction: 7.171750e+03 seconds, 92856320 bytes of memory usage, 103232 kB of memory peak and 01:59:32 elapsed time
+Statistics on the network after reachability and chains reduction
+	Number of nodes: 3940
+	Number of allocated nodes: 317440
+	Number of edges: 18535
+	Maximum in degree: 105 (node 307089)
+	Maximum out degree: 149 (node 72210)
+	source 3335 (node 38868) with out degree 91
+	target 14055 (node 307089) with in degree 105
+
+Execution time and memory used at after detours elimination: 7.171800e+03 seconds, 93380608 bytes of memory usage, 103232 kB of memory peak and 01:59:32 elapsed time
+Statistics on the network after detours elimination
+	Number of nodes: 3940
+	Number of allocated nodes: 317440
+	Number of edges: 18535
+	Maximum in degree: 105 (node 307089)
+	Maximum out degree: 149 (node 72210)
+	source 3335 (node 38868) with out degree 91
+	target 14055 (node 307089) with in degree 105
+
+Execution time and memory used at after creating milp with detours elimination (all transformations): 7.171830e+03 seconds, 93380608 bytes of memory usage, 103232 kB of memory peak and 01:59:32 elapsed time
+Statistics on the network after creating milp with detours elimination (all transformations)
+	Number of nodes: 3940
+	Number of allocated nodes: 317440
+	Number of edges: 18535
+	Maximum in degree: 105 (node 307089)
+	Maximum out degree: 149 (node 72210)
+	source 3335 (node 38868) with out degree 91
+	target 14055 (node 307089) with in degree 105

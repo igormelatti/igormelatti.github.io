@@ -1,0 +1,68 @@
+Launched as 5 input/soc-Slashdot0902.html/soc-Slashdot0902.txt.gz 0
+
+
+Execution time and memory used at after reading from file: 7.670000e+01 seconds, 52686848 bytes of memory usage, 51488 kB of memory peak and 01:17 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 82168
+	Number of allocated nodes: 82944
+	Number of edges: 870161
+	Maximum in degree: 2552 (node 2494)
+	Maximum out degree: 2510 (node 2494)
+
+Execution time and memory used at after adding costs: 7.672000e+01 seconds, 52686848 bytes of memory usage, 51488 kB of memory peak and 01:17 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 82168
+	Number of allocated nodes: 82944
+	Number of edges: 870161
+	Maximum in degree: 2552 (node 2494)
+	Maximum out degree: 2510 (node 2494)
+
+Execution time and memory used at before starting main computation: 7.973000e+01 seconds, 54849536 bytes of memory usage, 54404 kB of memory peak and 01:20 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 82168
+	Number of allocated nodes: 82944
+	Number of edges: 870161
+	Maximum in degree: 2552 (node 2494)
+	Maximum out degree: 2510 (node 2494)
+	source 515 (node 2494) with out degree 2510
+	target 369 (node 398) with in degree 2354
+
+Execution time and memory used at after creating milp without reductions: 8.091000e+01 seconds, 54849536 bytes of memory usage, 54404 kB of memory peak and 01:21 elapsed time
+Statistics on the network after creating milp without reductions
+	Number of nodes: 82168
+	Number of allocated nodes: 82944
+	Number of edges: 870161
+	Maximum in degree: 2552 (node 2494)
+	Maximum out degree: 2510 (node 2494)
+	source 515 (node 2494) with out degree 2510
+	target 369 (node 398) with in degree 2354
+
+Execution time and memory used at after reachability and chains reduction: 1.915300e+02 seconds, 55525376 bytes of memory usage, 78932 kB of memory peak and 03:12 elapsed time
+Statistics on the network after reachability and chains reduction
+	Number of nodes: 49937
+	Number of allocated nodes: 82944
+	Number of edges: 796494
+	Maximum in degree: 2366 (node 2494)
+	Maximum out degree: 2325 (node 2494)
+	source 515 (node 2494) with out degree 2325
+	target 369 (node 398) with in degree 2179
+
+Execution time and memory used at after detours elimination: 2.130360e+05 seconds, 56246272 bytes of memory usage, 78932 kB of memory peak and 2-11:10:46 elapsed time
+Statistics on the network after detours elimination
+	Number of nodes: 47303
+	Number of allocated nodes: 82944
+	Number of edges: 791048
+	Maximum in degree: 2366 (node 2494)
+	Maximum out degree: 2325 (node 2494)
+	source 515 (node 2494) with out degree 2325
+	target 369 (node 398) with in degree 2179
+
+Execution time and memory used at after creating milp with detours elimination (all transformations): 2.130370e+05 seconds, 56246272 bytes of memory usage, 78932 kB of memory peak and 2-11:10:47 elapsed time
+Statistics on the network after creating milp with detours elimination (all transformations)
+	Number of nodes: 47303
+	Number of allocated nodes: 82944
+	Number of edges: 791048
+	Maximum in degree: 2366 (node 2494)
+	Maximum out degree: 2325 (node 2494)
+	source 515 (node 2494) with out degree 2325
+	target 369 (node 398) with in degree 2179

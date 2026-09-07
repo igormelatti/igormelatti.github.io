@@ -1,0 +1,30 @@
+Version 1.2 launched as -e 0.1 12 input/sx-mathoverflow.html/sx-mathoverflow-a2q.txt.gz 288
+
+
+Execution time and memory used at after reading from file: 2.630000e+00 seconds, 20004864 bytes of memory usage, 19572 kB of memory peak and 00:02 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 21688
+	Number of allocated nodes: 22528
+	Number of edges: 88711
+	Maximum in degree: 485 (node 290)
+	Maximum out degree: 1101 (node 11142)
+
+Execution time and memory used at before starting main computation: 2.650000e+00 seconds, 20140032 bytes of memory usage, 20184 kB of memory peak and 00:02 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 21688
+	Number of allocated nodes: 22528
+	Number of edges: 88711
+	Maximum in degree: 485 (node 290)
+	Maximum out degree: 1101 (node 11142)
+	source 4901 (node 11142) with out degree 1101
+	target 76 (node 290) with in degree 485
+
+Execution time and memory used at after iteration 1 (MF = 497021718492.000000): 4.789000e+01 seconds, 102916096 bytes of memory usage, 118528 kB of memory peak and 00:48 elapsed time
+Statistics on the network after iteration 1 (MF = 497021718492.000000)
+	Number of nodes: 21688
+	Number of allocated nodes: 22528
+	Number of edges: 88711
+	Maximum in degree: 485 (node 290)
+	Maximum out degree: 1101 (node 11142)
+	source 4901 (node 11142) with out degree 1101
+	target 76 (node 290) with in degree 485

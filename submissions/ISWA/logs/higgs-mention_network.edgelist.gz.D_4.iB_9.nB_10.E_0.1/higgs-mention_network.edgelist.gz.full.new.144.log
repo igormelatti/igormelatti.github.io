@@ -1,0 +1,60 @@
+Version 1.2 launched as -e 0.1 12 input/higgs-twitter.html/higgs-mention_network.edgelist.gz 144
+
+
+Execution time and memory used at after reading from file: 8.988000e+01 seconds, 33886208 bytes of memory usage, 33128 kB of memory peak and 01:30 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 116408
+	Number of allocated nodes: 116736
+	Number of edges: 145465
+	Maximum in degree: 11952 (node 88)
+	Maximum out degree: 168 (node 89805)
+
+Execution time and memory used at before starting main computation: 8.988000e+01 seconds, 33886208 bytes of memory usage, 34064 kB of memory peak and 01:30 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 116408
+	Number of allocated nodes: 116736
+	Number of edges: 145465
+	Maximum in degree: 11952 (node 88)
+	Maximum out degree: 168 (node 89805)
+	source 1993 (node 89805) with out degree 168
+	target 34 (node 88) with in degree 11952
+
+Execution time and memory used at after iteration 1 (MF = 394.000000): 9.327700e+02 seconds, 188891136 bytes of memory usage, 208644 kB of memory peak and 15:32 elapsed time
+Statistics on the network after iteration 1 (MF = 394.000000)
+	Number of nodes: 116408
+	Number of allocated nodes: 116736
+	Number of edges: 145465
+	Maximum in degree: 11952 (node 88)
+	Maximum out degree: 168 (node 89805)
+	source 1993 (node 89805) with out degree 168
+	target 34 (node 88) with in degree 11952
+
+Execution time and memory used at after iteration 2 (MF = 151.000000): 9.537400e+02 seconds, 188891136 bytes of memory usage, 208708 kB of memory peak and 15:53 elapsed time
+Statistics on the network after iteration 2 (MF = 151.000000)
+	Number of nodes: 116408
+	Number of allocated nodes: 116736
+	Number of edges: 145465
+	Maximum in degree: 11952 (node 88)
+	Maximum out degree: 168 (node 89805)
+	source 1993 (node 89805) with out degree 168
+	target 34 (node 88) with in degree 11952
+
+Execution time and memory used at after iteration 3 (MF = 339.000000): 9.801300e+02 seconds, 188891136 bytes of memory usage, 221920 kB of memory peak and 16:20 elapsed time
+Statistics on the network after iteration 3 (MF = 339.000000)
+	Number of nodes: 116408
+	Number of allocated nodes: 116736
+	Number of edges: 145465
+	Maximum in degree: 11952 (node 88)
+	Maximum out degree: 168 (node 89805)
+	source 1993 (node 89805) with out degree 168
+	target 34 (node 88) with in degree 11952
+
+Execution time and memory used at after iteration 4 (MF = 285.000000): 1.143010e+03 seconds, 188891136 bytes of memory usage, 304696 kB of memory peak and 19:03 elapsed time
+Statistics on the network after iteration 4 (MF = 285.000000)
+	Number of nodes: 116408
+	Number of allocated nodes: 116736
+	Number of edges: 145465
+	Maximum in degree: 11952 (node 88)
+	Maximum out degree: 168 (node 89805)
+	source 1993 (node 89805) with out degree 168
+	target 34 (node 88) with in degree 11952

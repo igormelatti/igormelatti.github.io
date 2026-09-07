@@ -1,0 +1,68 @@
+Launched as 5 input/email-EuAll.html/email-EuAll.txt.gz 0
+
+
+Execution time and memory used at after reading from file: 2.994100e+02 seconds, 61575168 bytes of memory usage, 60168 kB of memory peak and 05:00 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 265214
+	Number of allocated nodes: 265216
+	Number of edges: 418956
+	Maximum in degree: 7631 (node 179170)
+	Maximum out degree: 929 (node 83)
+
+Execution time and memory used at after adding costs: 2.994200e+02 seconds, 61575168 bytes of memory usage, 60168 kB of memory peak and 05:00 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 265214
+	Number of allocated nodes: 265216
+	Number of edges: 418956
+	Maximum in degree: 7631 (node 179170)
+	Maximum out degree: 929 (node 83)
+
+Execution time and memory used at before starting main computation: 2.996000e+02 seconds, 62656512 bytes of memory usage, 62744 kB of memory peak and 05:00 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 265214
+	Number of allocated nodes: 265216
+	Number of edges: 418956
+	Maximum in degree: 7631 (node 179170)
+	Maximum out degree: 929 (node 83)
+	source 2299 (node 83) with out degree 929
+	target 1264 (node 179170) with in degree 7631
+
+Execution time and memory used at after creating milp without reductions: 3.002300e+02 seconds, 62656512 bytes of memory usage, 62744 kB of memory peak and 05:01 elapsed time
+Statistics on the network after creating milp without reductions
+	Number of nodes: 265214
+	Number of allocated nodes: 265216
+	Number of edges: 418956
+	Maximum in degree: 7631 (node 179170)
+	Maximum out degree: 929 (node 83)
+	source 2299 (node 83) with out degree 929
+	target 1264 (node 179170) with in degree 7631
+
+Execution time and memory used at after reachability and chains reduction: 1.630120e+03 seconds, 65323008 bytes of memory usage, 72732 kB of memory peak and 27:11 elapsed time
+Statistics on the network after reachability and chains reduction
+	Number of nodes: 15806
+	Number of allocated nodes: 265216
+	Number of edges: 114276
+	Maximum in degree: 598 (node 192)
+	Maximum out degree: 587 (node 1417)
+	source 2299 (node 83) with out degree 180
+	target 1264 (node 179170) with in degree 1
+
+Execution time and memory used at after detours elimination: 4.331030e+03 seconds, 65323008 bytes of memory usage, 72732 kB of memory peak and 01:12:12 elapsed time
+Statistics on the network after detours elimination
+	Number of nodes: 15167
+	Number of allocated nodes: 265216
+	Number of edges: 112861
+	Maximum in degree: 595 (node 192)
+	Maximum out degree: 587 (node 1417)
+	source 2299 (node 83) with out degree 180
+	target 1264 (node 179170) with in degree 1
+
+Execution time and memory used at after creating milp with detours elimination (all transformations): 4.331180e+03 seconds, 65323008 bytes of memory usage, 72732 kB of memory peak and 01:12:12 elapsed time
+Statistics on the network after creating milp with detours elimination (all transformations)
+	Number of nodes: 15167
+	Number of allocated nodes: 265216
+	Number of edges: 112861
+	Maximum in degree: 595 (node 192)
+	Maximum out degree: 587 (node 1417)
+	source 2299 (node 83) with out degree 180
+	target 1264 (node 179170) with in degree 1

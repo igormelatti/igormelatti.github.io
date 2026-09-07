@@ -1,0 +1,38 @@
+Version 1.2 launched as -e 0.1 12 input/loc-Gowalla.html/loc-gowalla_edges.txt.gz 758
+
+
+Execution time and memory used at after reading from file: 2.662110e+03 seconds, 100241408 bytes of memory usage, 97928 kB of memory peak and 44:22 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 196591
+	Number of allocated nodes: 196608
+	Number of edges: 1900654
+	Maximum in degree: 14730 (node 307)
+	Maximum out degree: 14730 (node 307)
+
+Execution time and memory used at after adding costs: 2.662150e+03 seconds, 100241408 bytes of memory usage, 97928 kB of memory peak and 44:23 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 196591
+	Number of allocated nodes: 196608
+	Number of edges: 1900654
+	Maximum in degree: 14730 (node 307)
+	Maximum out degree: 14730 (node 307)
+
+Execution time and memory used at before starting main computation: 2.690190e+03 seconds, 106459136 bytes of memory usage, 106272 kB of memory peak and 44:51 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 196591
+	Number of allocated nodes: 196608
+	Number of edges: 1900654
+	Maximum in degree: 14730 (node 307)
+	Maximum out degree: 14730 (node 307)
+	source 307 (node 307) with out degree 14730
+	target 440 (node 440) with in degree 3800
+
+Execution time and memory used at after iteration 1 (MF = 565.534963): 1.006377e+04 seconds, 1775915008 bytes of memory usage, 2452700 kB of memory peak and 02:47:45 elapsed time
+Statistics on the network after iteration 1 (MF = 565.534963)
+	Number of nodes: 196591
+	Number of allocated nodes: 196608
+	Number of edges: 1900654
+	Maximum in degree: 14730 (node 307)
+	Maximum out degree: 14730 (node 307)
+	source 307 (node 307) with out degree 14730
+	target 440 (node 440) with in degree 3800

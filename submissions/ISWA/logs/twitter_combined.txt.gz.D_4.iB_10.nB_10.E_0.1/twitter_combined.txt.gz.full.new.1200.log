@@ -1,0 +1,38 @@
+Version 1.2 launched as -e 0.1 12 input/ego-Twitter.html/twitter_combined.txt.gz 1200
+
+
+Execution time and memory used at after reading from file: 4.069800e+02 seconds, 81362944 bytes of memory usage, 79492 kB of memory peak and 06:47 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 81306
+	Number of allocated nodes: 81920
+	Number of edges: 1768135
+	Maximum in degree: 3383 (node 115485051)
+	Maximum out degree: 1205 (node 59804598)
+
+Execution time and memory used at after adding costs: 4.070700e+02 seconds, 81362944 bytes of memory usage, 79492 kB of memory peak and 06:47 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 81306
+	Number of allocated nodes: 81920
+	Number of edges: 1768135
+	Maximum in degree: 3383 (node 115485051)
+	Maximum out degree: 1205 (node 59804598)
+
+Execution time and memory used at before starting main computation: 4.117100e+02 seconds, 83525632 bytes of memory usage, 82404 kB of memory peak and 06:51 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 81306
+	Number of allocated nodes: 81920
+	Number of edges: 1768135
+	Maximum in degree: 3383 (node 115485051)
+	Maximum out degree: 1205 (node 59804598)
+	source 2969 (node 59804598) with out degree 1205
+	target 1758 (node 115485051) with in degree 3383
+
+Execution time and memory used at after iteration 1 (MF = 632.820619): 8.028970e+03 seconds, 1649213440 bytes of memory usage, 2211228 kB of memory peak and 02:13:49 elapsed time
+Statistics on the network after iteration 1 (MF = 632.820619)
+	Number of nodes: 81306
+	Number of allocated nodes: 81920
+	Number of edges: 1768135
+	Maximum in degree: 3383 (node 115485051)
+	Maximum out degree: 1205 (node 59804598)
+	source 2969 (node 59804598) with out degree 1205
+	target 1758 (node 115485051) with in degree 3383

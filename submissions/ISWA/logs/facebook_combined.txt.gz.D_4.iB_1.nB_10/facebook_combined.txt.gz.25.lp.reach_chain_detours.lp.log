@@ -1,0 +1,42 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/ego-Facebook.html/facebook_combined.txt.gz.25.lp.reach_chain_detours.lp
+ -o input/ego-Facebook.html/facebook_combined.txt.gz.25.lp.reach_chain_detours.lp.sol
+Reading problem data from 'input/ego-Facebook.html/facebook_combined.txt.gz.25.lp.reach_chain_detours.lp'...
+27548 rows, 56165 columns, 137727 non-zeros
+56165 integer variables, all of which are binary
+83718 lines were read
+GLPK Integer Optimizer 5.0
+27548 rows, 56165 columns, 137727 non-zeros
+56165 integer variables, all of which are binary
+Preprocessing...
+1 hidden packing inequaliti(es) were detected
+27546 rows, 56163 columns, 136605 non-zeros
+56163 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 27546
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+27546 rows, 56163 columns, 136605 non-zeros
+      0: obj =   0.000000000e+00 inf =   2.510e+02 (251)
+    251: obj =   7.207110200e+01 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [454]...
+*  3216: obj =   6.814704175e+01 inf =   8.369e-06 (929) 24
+*  5971: obj =   6.480698330e+01 inf =   3.767e-03 (1162) 25
+*  9073: obj =   6.258563458e+01 inf =   5.289e-03 (204) 26
+Removing LP perturbation [9306]...
+*  9306: obj =   6.258578500e+01 inf =   0.000e+00 (0) 1
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++  9306: mip =     not found yet >=              -inf        (1; 0)
++  9306: >>>>>   6.258578500e+01 >=   6.258578500e+01   0.0% (1; 0)
++  9306: mip =   6.258578500e+01 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   15.7 secs
+Memory used: 70.5 Mb (73915273 bytes)
+Writing MIP solution to 'input/ego-Facebook.html/facebook_combined.txt.gz.25.lp.reach_chain_detours.lp.sol'...
+Objective:  obj = 62.585785 (MINimum)

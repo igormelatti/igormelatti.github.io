@@ -1,0 +1,60 @@
+Launched as 5 input/email-Eu-core-temporal.html/email-Eu-core-temporal.txt.gz 0
+
+
+Execution time and memory used at after reading from file: 7.800000e-01 seconds, 15187968 bytes of memory usage, 14868 kB of memory peak and 00:01 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 986
+	Number of allocated nodes: 1024
+	Number of edges: 24929
+	Maximum in degree: 211 (node 90)
+	Maximum out degree: 333 (node 90)
+
+Execution time and memory used at before starting main computation: 7.800000e-01 seconds, 15187968 bytes of memory usage, 15348 kB of memory peak and 00:01 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 986
+	Number of allocated nodes: 1024
+	Number of edges: 24929
+	Maximum in degree: 211 (node 90)
+	Maximum out degree: 333 (node 90)
+	source 160 (node 90) with out degree 333
+	target 62 (node 159) with in degree 178
+
+Execution time and memory used at after creating milp without reductions: 8.100000e-01 seconds, 15187968 bytes of memory usage, 15348 kB of memory peak and 00:01 elapsed time
+Statistics on the network after creating milp without reductions
+	Number of nodes: 986
+	Number of allocated nodes: 1024
+	Number of edges: 24929
+	Maximum in degree: 211 (node 90)
+	Maximum out degree: 333 (node 90)
+	source 160 (node 90) with out degree 333
+	target 62 (node 159) with in degree 178
+
+Execution time and memory used at after reachability and chains reduction: 9.000000e-01 seconds, 16461824 bytes of memory usage, 16112 kB of memory peak and 00:01 elapsed time
+Statistics on the network after reachability and chains reduction
+	Number of nodes: 783
+	Number of allocated nodes: 1024
+	Number of edges: 23909
+	Maximum in degree: 210 (node 90)
+	Maximum out degree: 323 (node 90)
+	source 160 (node 90) with out degree 323
+	target 62 (node 159) with in degree 178
+
+Execution time and memory used at after detours elimination: 9.830000e+00 seconds, 15233024 bytes of memory usage, 16112 kB of memory peak and 00:10 elapsed time
+Statistics on the network after detours elimination
+	Number of nodes: 782
+	Number of allocated nodes: 1024
+	Number of edges: 23907
+	Maximum in degree: 210 (node 90)
+	Maximum out degree: 323 (node 90)
+	source 160 (node 90) with out degree 323
+	target 62 (node 159) with in degree 178
+
+Execution time and memory used at after creating milp with detours elimination (all transformations): 9.860000e+00 seconds, 15233024 bytes of memory usage, 16112 kB of memory peak and 00:10 elapsed time
+Statistics on the network after creating milp with detours elimination (all transformations)
+	Number of nodes: 782
+	Number of allocated nodes: 1024
+	Number of edges: 23907
+	Maximum in degree: 210 (node 90)
+	Maximum out degree: 323 (node 90)
+	source 160 (node 90) with out degree 323
+	target 62 (node 159) with in degree 178

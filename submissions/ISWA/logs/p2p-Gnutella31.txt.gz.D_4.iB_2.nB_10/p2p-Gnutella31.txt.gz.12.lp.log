@@ -1,0 +1,98 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/p2p-Gnutella31.html/p2p-Gnutella31.txt.gz.12.lp -o input/p2p-Gnutella31.html/p2p-Gnutella31.txt.gz.12.lp.sol
+Reading problem data from 'input/p2p-Gnutella31.html/p2p-Gnutella31.txt.gz.12.lp'...
+147895 rows, 358370 columns, 739462 non-zeros
+358370 integer variables, all of which are binary
+506270 lines were read
+GLPK Integer Optimizer 5.0
+147895 rows, 358370 columns, 739462 non-zeros
+358370 integer variables, all of which are binary
+Preprocessing...
+147874 rows, 358348 columns, 739238 non-zeros
+358348 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 147874
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+147874 rows, 358348 columns, 739238 non-zeros
+      0: obj =   0.000000000e+00 inf =   6.800e+01 (68)
+     68: obj =   3.911644400e+01 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [281]...
+*   807: obj =   3.017808700e+01 inf =   0.000e+00 (355) 2
+*  1408: obj =   3.017808700e+01 inf =   0.000e+00 (495) 4
+*  1977: obj =   3.017808700e+01 inf =   0.000e+00 (548) 4
+*  2518: obj =   3.017808700e+01 inf =   0.000e+00 (644) 3
+*  3028: obj =   3.017808700e+01 inf =   0.000e+00 (688) 4
+*  3532: obj =   3.017808700e+01 inf =   0.000e+00 (757) 3
+*  4009: obj =   3.017808700e+01 inf =   0.000e+00 (821) 4
+*  4480: obj =   3.017808700e+01 inf =   0.000e+00 (909) 3
+*  4930: obj =   3.017808700e+01 inf =   0.000e+00 (947) 4
+*  5375: obj =   3.017808700e+01 inf =   0.000e+00 (1029) 3
+*  5807: obj =   3.017808700e+01 inf =   0.000e+00 (1049) 3
+*  6225: obj =   3.017808700e+01 inf =   0.000e+00 (1115) 4
+*  6640: obj =   3.017808700e+01 inf =   0.000e+00 (1162) 3
+*  7041: obj =   3.017808700e+01 inf =   0.000e+00 (1201) 3
+*  7442: obj =   3.017808700e+01 inf =   0.000e+00 (1251) 3
+*  7828: obj =   3.017808700e+01 inf =   0.000e+00 (1259) 3
+*  8208: obj =   3.017808700e+01 inf =   0.000e+00 (1340) 3
+*  8584: obj =   3.017808700e+01 inf =   0.000e+00 (1374) 4
+*  8949: obj =   3.017808700e+01 inf =   0.000e+00 (1369) 3
+*  9314: obj =   3.017808700e+01 inf =   0.000e+00 (1470) 3
+*  9672: obj =   3.017808700e+01 inf =   0.000e+00 (1517) 3
+* 10019: obj =   3.017808700e+01 inf =   0.000e+00 (1501) 3
+* 10371: obj =   3.017808700e+01 inf =   0.000e+00 (1511) 3
+* 10715: obj =   3.017808700e+01 inf =   0.000e+00 (1565) 3
+* 11049: obj =   3.017808700e+01 inf =   0.000e+00 (1607) 3
+* 11389: obj =   3.017808700e+01 inf =   0.000e+00 (1682) 3
+* 11719: obj =   3.017808700e+01 inf =   0.000e+00 (1739) 3
+* 12045: obj =   3.017808700e+01 inf =   0.000e+00 (1744) 2
+* 12374: obj =   3.017808700e+01 inf =   0.000e+00 (1802) 3
+* 12694: obj =   3.017808700e+01 inf =   0.000e+00 (1819) 3
+* 13006: obj =   3.017808700e+01 inf =   0.000e+00 (1822) 3
+* 13323: obj =   3.017808700e+01 inf =   0.000e+00 (1939) 3
+* 13635: obj =   3.017808700e+01 inf =   0.000e+00 (1930) 3
+* 13942: obj =   3.017808700e+01 inf =   0.000e+00 (1964) 2
+* 14248: obj =   3.017808700e+01 inf =   0.000e+00 (1958) 3
+* 14553: obj =   3.017808700e+01 inf =   0.000e+00 (1983) 3
+* 14851: obj =   3.017808700e+01 inf =   0.000e+00 (2014) 3
+* 15148: obj =   3.017808700e+01 inf =   0.000e+00 (2009) 3
+* 15451: obj =   3.017808700e+01 inf =   0.000e+00 (2114) 2
+* 15744: obj =   3.017808700e+01 inf =   0.000e+00 (2101) 3
+* 16033: obj =   3.017808700e+01 inf =   0.000e+00 (2102) 3
+* 16341: obj =   3.017808700e+01 inf =   0.000e+00 (149633) 3
+* 16717: obj =   1.563013704e+01 inf =   1.922e-03 (4484) 3
+* 17179: obj =   1.128080688e+01 inf =   8.113e-03 (1932) 4
+* 17589: obj =   1.128078865e+01 inf =   1.270e-02 (1783) 4
+* 17956: obj =   1.128077222e+01 inf =   2.006e-02 (1653) 4
+* 18331: obj =   1.092459265e+01 inf =   1.968e-02 (1717) 4
+* 18784: obj =   9.082134536e+00 inf =   1.946e-02 (1766) 4
+* 19141: obj =   8.232806578e+00 inf =   1.806e-02 (1737) 3
+* 19517: obj =   7.856074749e+00 inf =   2.065e-02 (1413) 4
+* 19885: obj =   7.260180345e+00 inf =   2.002e-02 (1419) 4
+* 20287: obj =   7.068389111e+00 inf =   2.108e-02 (1306) 4
+* 20682: obj =   6.773869874e+00 inf =   2.289e-02 (1425) 4
+* 21099: obj =   5.999891367e+00 inf =   2.246e-02 (1329) 4
+* 21503: obj =   5.821803869e+00 inf =   2.249e-02 (1129) 4
+* 21927: obj =   5.554677024e+00 inf =   2.074e-02 (1109) 3
+* 22365: obj =   4.965631569e+00 inf =   2.201e-02 (957) 4
+* 22839: obj =   4.808093549e+00 inf =   2.111e-02 (820) 5
+* 23302: obj =   4.808091152e+00 inf =   1.959e-02 (531) 5
+* 23737: obj =   4.808090446e+00 inf =   1.932e-02 (285) 4
+* 24170: obj =   4.780692095e+00 inf =   1.850e-02 (2) 4
+Removing LP perturbation [24171]...
+* 24171: obj =   4.780824000e+00 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 24171: mip =     not found yet >=              -inf        (1; 0)
++ 24171: >>>>>   4.780824000e+00 >=   4.780824000e+00   0.0% (1; 0)
++ 24171: mip =   4.780824000e+00 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   307.2 secs
+Memory used: 403.8 Mb (423391634 bytes)
+Writing MIP solution to 'input/p2p-Gnutella31.html/p2p-Gnutella31.txt.gz.12.lp.sol'...
+Objective:  obj = 4.780824 (MINimum)

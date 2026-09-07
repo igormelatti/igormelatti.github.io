@@ -1,0 +1,74 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/soc-sign-bitcoin-alpha.html/soc-sign-bitcoinalpha.csv.gz.200.lp.reach_chain_detours.lp
+ -o input/soc-sign-bitcoin-alpha.html/soc-sign-bitcoinalpha.csv.gz.200.lp.reach_chain_detours.lp.sol
+Reading problem data from 'input/soc-sign-bitcoin-alpha.html/soc-sign-bitcoinalpha.csv.gz.200.lp.reach_chain_detours.lp'...
+21075 rows, 44372 columns, 105362 non-zeros
+44372 integer variables, all of which are binary
+65452 lines were read
+GLPK Integer Optimizer 5.0
+21075 rows, 44372 columns, 105362 non-zeros
+44372 integer variables, all of which are binary
+Preprocessing...
+20765 rows, 44062 columns, 103578 non-zeros
+44062 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 20765
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+20765 rows, 44062 columns, 103578 non-zeros
+      0: obj =   0.000000000e+00 inf =   2.260e+02 (226)
+    226: obj =   1.394617150e+02 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [429]...
+*  3399: obj =   1.344211730e+02 inf =   0.000e+00 (323) 28
+*  6340: obj =   1.020159835e+02 inf =   0.000e+00 (3640) 28
+*  8259: obj =   1.020159163e+02 inf =   1.029e-02 (3467) 19
+* 10178: obj =   8.473171626e+01 inf =   1.804e-02 (3840) 18
+* 12055: obj =   8.195382447e+01 inf =   1.439e-02 (4021) 18
+* 13910: obj =   5.968416300e+01 inf =   1.769e-02 (3978) 18
+* 16122: obj =   1.241769772e+01 inf =   1.373e-02 (6261) 22
+* 18677: obj =   1.053568263e+01 inf =   1.625e-02 (2573) 25
+* 21415: obj =   9.449109030e+00 inf =   9.951e-03 (6006) 26
+* 24434: obj =   9.448656710e+00 inf =   1.254e-02 (5352) 29
+* 27344: obj =   9.448423724e+00 inf =   1.806e-02 (4898) 27
+* 30087: obj =   9.448111099e+00 inf =   1.865e-02 (4565) 26
+* 33273: obj =   9.447699484e+00 inf =   1.264e-02 (3866) 28
+* 36247: obj =   9.447390576e+00 inf =   1.133e-02 (3250) 25
+* 38919: obj =   8.963567170e+00 inf =   1.605e-02 (3595) 26
+* 41293: obj =   8.963132349e+00 inf =   3.346e-02 (2977) 23
+* 43644: obj =   8.961224525e+00 inf =   2.509e-02 (3848) 24
+* 46206: obj =   8.960266452e+00 inf =   1.818e-02 (3293) 25
+* 49044: obj =   8.959977203e+00 inf =   1.650e-02 (2801) 26
+* 51698: obj =   8.075556216e+00 inf =   1.892e-02 (3070) 25
+* 54158: obj =   8.075252666e+00 inf =   2.624e-02 (2519) 24
+* 56617: obj =   8.072751208e+00 inf =   2.477e-02 (3094) 24
+* 59294: obj =   8.072284265e+00 inf =   1.774e-02 (2492) 26
+* 61874: obj =   6.419903972e+00 inf =   2.123e-02 (2644) 25
+* 64463: obj =   6.417098696e+00 inf =   1.731e-02 (2782) 25
+* 66981: obj =   5.990894115e+00 inf =   2.268e-02 (2804) 25
+* 69493: obj =   5.988358039e+00 inf =   2.676e-02 (2972) 25
+* 71976: obj =   5.987755750e+00 inf =   1.708e-02 (2354) 24
+* 74604: obj =   5.574043820e+00 inf =   2.291e-02 (2265) 26
+* 77125: obj =   5.571138961e+00 inf =   1.679e-02 (2488) 25
+* 79799: obj =   5.168614051e+00 inf =   1.916e-02 (2291) 25
+* 82382: obj =   5.165852578e+00 inf =   1.449e-02 (2457) 26
+* 85092: obj =   4.787842691e+00 inf =   1.805e-02 (2101) 25
+* 87765: obj =   4.785066933e+00 inf =   1.604e-02 (2081) 26
+* 90515: obj =   4.142085198e+00 inf =   1.571e-02 (2126) 26
+* 93591: obj =   3.147695265e+00 inf =   1.463e-02 (971) 26
+Removing LP perturbation [94842]...
+* 94842: obj =   3.118244000e+00 inf =   0.000e+00 (0) 9
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 94842: mip =     not found yet >=              -inf        (1; 0)
++ 94842: >>>>>   3.118244000e+00 >=   3.118244000e+00   0.0% (1; 0)
++ 94842: mip =   3.118244000e+00 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   181.9 secs
+Memory used: 53.3 Mb (55898264 bytes)
+Writing MIP solution to 'input/soc-sign-bitcoin-alpha.html/soc-sign-bitcoinalpha.csv.gz.200.lp.reach_chain_detours.lp.sol'...
+Objective:  obj = 3.118244 (MINimum)

@@ -1,0 +1,68 @@
+Version 1.2 launched as -e 0.1 12 input/ca-HepPh.html/ca-HepPh.txt.gz 26
+
+
+Execution time and memory used at after reading from file: 5.540000e+00 seconds, 23375872 bytes of memory usage, 22864 kB of memory peak and 00:06 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 12008
+	Number of allocated nodes: 12288
+	Number of edges: 236978
+	Maximum in degree: 491 (node 71788)
+	Maximum out degree: 491 (node 71788)
+
+Execution time and memory used at after adding costs: 5.550000e+00 seconds, 23375872 bytes of memory usage, 22864 kB of memory peak and 00:06 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 12008
+	Number of allocated nodes: 12288
+	Number of edges: 236978
+	Maximum in degree: 491 (node 71788)
+	Maximum out degree: 491 (node 71788)
+
+Execution time and memory used at before starting main computation: 5.640000e+00 seconds, 23781376 bytes of memory usage, 23740 kB of memory peak and 00:06 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 12008
+	Number of allocated nodes: 12288
+	Number of edges: 236978
+	Maximum in degree: 491 (node 71788)
+	Maximum out degree: 491 (node 71788)
+	source 363 (node 71788) with out degree 491
+	target 1369 (node 66068) with in degree 266
+
+Execution time and memory used at after iteration 1 (MF = 211.615071): 3.808000e+01 seconds, 222449664 bytes of memory usage, 310432 kB of memory peak and 00:38 elapsed time
+Statistics on the network after iteration 1 (MF = 211.615071)
+	Number of nodes: 12008
+	Number of allocated nodes: 12288
+	Number of edges: 236978
+	Maximum in degree: 491 (node 71788)
+	Maximum out degree: 491 (node 71788)
+	source 363 (node 71788) with out degree 491
+	target 1369 (node 66068) with in degree 266
+
+Execution time and memory used at after iteration 2 (MF = 211.615071): 4.789000e+01 seconds, 222449664 bytes of memory usage, 310504 kB of memory peak and 00:48 elapsed time
+Statistics on the network after iteration 2 (MF = 211.615071)
+	Number of nodes: 12008
+	Number of allocated nodes: 12288
+	Number of edges: 236978
+	Maximum in degree: 491 (node 71788)
+	Maximum out degree: 491 (node 71788)
+	source 363 (node 71788) with out degree 491
+	target 1369 (node 66068) with in degree 266
+
+Execution time and memory used at after iteration 3 (MF = 211.615071): 7.428000e+01 seconds, 315686912 bytes of memory usage, 318868 kB of memory peak and 01:14 elapsed time
+Statistics on the network after iteration 3 (MF = 211.615071)
+	Number of nodes: 12008
+	Number of allocated nodes: 12288
+	Number of edges: 236978
+	Maximum in degree: 491 (node 71788)
+	Maximum out degree: 491 (node 71788)
+	source 363 (node 71788) with out degree 491
+	target 1369 (node 66068) with in degree 266
+
+Execution time and memory used at after iteration 4 (MF = 210.083503): 1.347900e+02 seconds, 315686912 bytes of memory usage, 330552 kB of memory peak and 02:15 elapsed time
+Statistics on the network after iteration 4 (MF = 210.083503)
+	Number of nodes: 12008
+	Number of allocated nodes: 12288
+	Number of edges: 236978
+	Maximum in degree: 491 (node 71788)
+	Maximum out degree: 491 (node 71788)
+	source 363 (node 71788) with out degree 491
+	target 1369 (node 66068) with in degree 266

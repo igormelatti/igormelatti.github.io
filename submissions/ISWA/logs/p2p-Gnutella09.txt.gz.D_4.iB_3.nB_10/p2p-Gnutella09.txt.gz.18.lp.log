@@ -1,0 +1,43 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/p2p-Gnutella09.html/p2p-Gnutella09.txt.gz.18.lp -o input/p2p-Gnutella09.html/p2p-Gnutella09.txt.gz.18.lp.sol
+Reading problem data from 'input/p2p-Gnutella09.html/p2p-Gnutella09.txt.gz.18.lp'...
+26016 rows, 60140 columns, 130067 non-zeros
+60140 integer variables, all of which are binary
+86161 lines were read
+GLPK Integer Optimizer 5.0
+26016 rows, 60140 columns, 130067 non-zeros
+60140 integer variables, all of which are binary
+Preprocessing...
+26002 rows, 60126 columns, 129864 non-zeros
+60126 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 26002
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+26002 rows, 60126 columns, 129864 non-zeros
+      0: obj =   0.000000000e+00 inf =   9.200e+01 (92)
+     92: obj =   7.087581700e+01 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [295]...
+*  2340: obj =   6.336644983e+01 inf =   0.000e+00 (778) 15
+*  4187: obj =   3.392728233e+01 inf =   1.453e-03 (1752) 17
+*  6117: obj =   3.392604042e+01 inf =   5.792e-03 (1639) 20
+*  7931: obj =   2.028911932e+01 inf =   5.075e-03 (1412) 17
+*  9650: obj =   4.587959338e+00 inf =   3.005e-03 (1504) 17
+* 11925: obj =   3.646441648e+00 inf =   5.059e-03 (832) 21
+Removing LP perturbation [13469]...
+* 13469: obj =   3.287582000e+00 inf =   0.000e+00 (0) 15
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 13469: mip =     not found yet >=              -inf        (1; 0)
++ 13469: >>>>>   3.287582000e+00 >=   3.287582000e+00   0.0% (1; 0)
++ 13469: mip =   3.287582000e+00 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   34.1 secs
+Memory used: 70.5 Mb (73936676 bytes)
+Writing MIP solution to 'input/p2p-Gnutella09.html/p2p-Gnutella09.txt.gz.18.lp.sol'...
+Objective:  obj = 3.287582 (MINimum)

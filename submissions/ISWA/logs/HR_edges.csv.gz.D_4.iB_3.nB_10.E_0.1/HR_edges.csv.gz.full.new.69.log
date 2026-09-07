@@ -1,0 +1,88 @@
+Version 1.2 launched as -e 0.1 12 input/gemsec-Deezer.html/HR_edges.csv.gz 69
+
+
+Execution time and memory used at after reading from file: 1.210400e+02 seconds, 37212160 bytes of memory usage, 36376 kB of memory peak and 02:01 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 54575
+	Number of allocated nodes: 55296
+	Number of edges: 498203
+	Maximum in degree: 352 (node 43244)
+	Maximum out degree: 240 (node 53296)
+
+Execution time and memory used at after adding costs: 1.210600e+02 seconds, 37212160 bytes of memory usage, 36376 kB of memory peak and 02:01 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 54575
+	Number of allocated nodes: 55296
+	Number of edges: 498203
+	Maximum in degree: 352 (node 43244)
+	Maximum out degree: 240 (node 53296)
+
+Execution time and memory used at before starting main computation: 1.213600e+02 seconds, 38293504 bytes of memory usage, 38128 kB of memory peak and 02:01 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 54575
+	Number of allocated nodes: 55296
+	Number of edges: 498203
+	Maximum in degree: 352 (node 43244)
+	Maximum out degree: 240 (node 53296)
+	source 2148 (node 53296) with out degree 240
+	target 793 (node 43244) with in degree 352
+
+Execution time and memory used at after iteration 1 (MF = 80.537162): 7.276000e+02 seconds, 478269440 bytes of memory usage, 593356 kB of memory peak and 12:08 elapsed time
+Statistics on the network after iteration 1 (MF = 80.537162)
+	Number of nodes: 54575
+	Number of allocated nodes: 55296
+	Number of edges: 498203
+	Maximum in degree: 352 (node 43244)
+	Maximum out degree: 240 (node 53296)
+	source 2148 (node 53296) with out degree 240
+	target 793 (node 43244) with in degree 352
+
+Execution time and memory used at after iteration 2 (MF = 57.582770): 7.520500e+02 seconds, 478269440 bytes of memory usage, 593656 kB of memory peak and 12:32 elapsed time
+Statistics on the network after iteration 2 (MF = 57.582770)
+	Number of nodes: 54575
+	Number of allocated nodes: 55296
+	Number of edges: 498203
+	Maximum in degree: 352 (node 43244)
+	Maximum out degree: 240 (node 53296)
+	source 2148 (node 53296) with out degree 240
+	target 793 (node 43244) with in degree 352
+
+Execution time and memory used at after iteration 3 (MF = 67.136824): 1.543310e+04 seconds, 1147985920 bytes of memory usage, 1192148 kB of memory peak and 04:17:14 elapsed time
+Statistics on the network after iteration 3 (MF = 67.136824)
+	Number of nodes: 54575
+	Number of allocated nodes: 55296
+	Number of edges: 498203
+	Maximum in degree: 352 (node 43244)
+	Maximum out degree: 240 (node 53296)
+	source 2148 (node 53296) with out degree 240
+	target 793 (node 43244) with in degree 352
+
+Execution time and memory used at after iteration 4 (MF = 55.373311): 1.875018e+04 seconds, 1131433984 bytes of memory usage, 1192148 kB of memory peak and 05:12:31 elapsed time
+Statistics on the network after iteration 4 (MF = 55.373311)
+	Number of nodes: 54575
+	Number of allocated nodes: 55296
+	Number of edges: 498203
+	Maximum in degree: 352 (node 43244)
+	Maximum out degree: 240 (node 53296)
+	source 2148 (node 53296) with out degree 240
+	target 793 (node 43244) with in degree 352
+
+Execution time and memory used at after iteration 5 (MF = 55.341216): 4.367256e+04 seconds, 1131433984 bytes of memory usage, 1699300 kB of memory peak and 12:07:54 elapsed time
+Statistics on the network after iteration 5 (MF = 55.341216)
+	Number of nodes: 54575
+	Number of allocated nodes: 55296
+	Number of edges: 498203
+	Maximum in degree: 352 (node 43244)
+	Maximum out degree: 240 (node 53296)
+	source 2148 (node 53296) with out degree 240
+	target 793 (node 43244) with in degree 352
+
+Execution time and memory used at after iteration 6 (MF = 59.324324): 5.990018e+04 seconds, 1131433984 bytes of memory usage, 2211908 kB of memory peak and 16:38:23 elapsed time
+Statistics on the network after iteration 6 (MF = 59.324324)
+	Number of nodes: 54575
+	Number of allocated nodes: 55296
+	Number of edges: 498203
+	Maximum in degree: 352 (node 43244)
+	Maximum out degree: 240 (node 53296)
+	source 2148 (node 53296) with out degree 240
+	target 793 (node 43244) with in degree 352

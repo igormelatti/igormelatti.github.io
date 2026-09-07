@@ -1,0 +1,43 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/gemsec-Facebook.html/government_edges.csv.gz.287.lp.reach_chain_detours.lp
+ -o input/gemsec-Facebook.html/government_edges.csv.gz.287.lp.reach_chain_detours.lp.sol
+Reading problem data from 'input/gemsec-Facebook.html/government_edges.csv.gz.287.lp.reach_chain_detours.lp'...
+20697 rows, 43400 columns, 103472 non-zeros
+43400 integer variables, all of which are binary
+64102 lines were read
+GLPK Integer Optimizer 5.0
+20697 rows, 43400 columns, 103472 non-zeros
+43400 integer variables, all of which are binary
+Preprocessing...
+1 hidden packing inequaliti(es) were detected
+20695 rows, 43398 columns, 102769 non-zeros
+43398 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 20695
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+20695 rows, 43398 columns, 102769 non-zeros
+      0: obj =   0.000000000e+00 inf =   3.750e+02 (375)
+    375: obj =   2.693670470e+02 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [577]...
+*  3796: obj =   2.059793444e+02 inf =   3.013e-04 (1214) 30
+*  6448: obj =   1.580548370e+02 inf =   9.626e-04 (1339) 24
+*  9567: obj =   5.277946307e+00 inf =   1.451e-03 (1658) 27
+* 12525: obj =   6.929292077e-02 inf =   4.892e-04 (488) 28
+Removing LP perturbation [12611]...
+* 12611: obj =   0.000000000e+00 inf =   1.532e-13 (0) 1
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 12611: mip =     not found yet >=              -inf        (1; 0)
+Solution found by heuristic: 0
++ 12741: mip =   0.000000000e+00 >=     tree is empty   0.0% (0; 5)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   21.1 secs
+Memory used: 54.9 Mb (57607904 bytes)
+Writing MIP solution to 'input/gemsec-Facebook.html/government_edges.csv.gz.287.lp.reach_chain_detours.lp.sol'...
+Objective:  obj = 0 (MINimum)

@@ -1,0 +1,50 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/soc-sign-bitcoin-alpha.html/soc-sign-bitcoinalpha.csv.gz.225.lp
+ -o input/soc-sign-bitcoin-alpha.html/soc-sign-bitcoinalpha.csv.gz.225.lp.sol
+Reading problem data from 'input/soc-sign-bitcoin-alpha.html/soc-sign-bitcoinalpha.csv.gz.225.lp'...
+24189 rows, 52155 columns, 120932 non-zeros
+52155 integer variables, all of which are binary
+76349 lines were read
+GLPK Integer Optimizer 5.0
+24189 rows, 52155 columns, 120932 non-zeros
+52155 integer variables, all of which are binary
+Preprocessing...
+23546 rows, 51508 columns, 117625 non-zeros
+51508 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 23546
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+23546 rows, 51508 columns, 117625 non-zeros
+      0: obj =   0.000000000e+00 inf =   2.510e+02 (251)
+    251: obj =   1.534256900e+02 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [454]...
+*  3094: obj =   1.483851480e+02 inf =   0.000e+00 (362) 25
+*  5653: obj =   1.483851480e+02 inf =   0.000e+00 (382) 25
+*  7926: obj =   1.240653622e+02 inf =   1.554e-05 (3195) 21
+*  9391: obj =   1.236368513e+02 inf =   6.582e-03 (3136) 15
+* 10844: obj =   9.091290747e+01 inf =   1.202e-02 (3251) 14
+* 12314: obj =   9.080235977e+01 inf =   1.214e-02 (3133) 14
+* 14239: obj =   8.606301899e+01 inf =   4.927e-03 (3412) 18
+* 17045: obj =   4.633321154e+01 inf =   8.836e-03 (3824) 24
+* 19688: obj =   2.319688714e-01 inf =   1.493e-02 (451) 23
+* 22374: obj =   6.517950824e-02 inf =   1.266e-02 (2731) 24
+* 25776: obj =   1.232621025e-02 inf =   1.915e-02 (535) 26
+* 28550: obj =   1.231494501e-02 inf =   2.130e-02 (135) 24
+Removing LP perturbation [28755]...
+* 28755: obj =   1.238700000e-02 inf =   0.000e+00 (0) 2
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 28755: mip =     not found yet >=              -inf        (1; 0)
++ 28755: >>>>>   1.238700000e-02 >=   1.238700000e-02   0.0% (1; 0)
++ 28755: mip =   1.238700000e-02 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   60.8 secs
+Memory used: 65.1 Mb (68241554 bytes)
+Writing MIP solution to 'input/soc-sign-bitcoin-alpha.html/soc-sign-bitcoinalpha.csv.gz.225.lp.sol'...
+Objective:  obj = 0.012387 (MINimum)

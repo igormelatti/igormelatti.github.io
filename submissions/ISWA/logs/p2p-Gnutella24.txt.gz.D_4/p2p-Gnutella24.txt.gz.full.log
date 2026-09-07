@@ -1,0 +1,68 @@
+Launched as 5 input/p2p-Gnutella24.html/p2p-Gnutella24.txt.gz 0
+
+
+Execution time and memory used at after reading from file: 4.300000e+00 seconds, 19775488 bytes of memory usage, 19348 kB of memory peak and 00:05 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 26518
+	Number of allocated nodes: 26624
+	Number of edges: 65369
+	Maximum in degree: 355 (node 68)
+	Maximum out degree: 79 (node 8537)
+
+Execution time and memory used at after adding costs: 4.300000e+00 seconds, 19775488 bytes of memory usage, 19348 kB of memory peak and 00:05 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 26518
+	Number of allocated nodes: 26624
+	Number of edges: 65369
+	Maximum in degree: 355 (node 68)
+	Maximum out degree: 79 (node 8537)
+
+Execution time and memory used at before starting main computation: 4.320000e+00 seconds, 20062208 bytes of memory usage, 20108 kB of memory peak and 00:05 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 26518
+	Number of allocated nodes: 26624
+	Number of edges: 65369
+	Maximum in degree: 355 (node 68)
+	Maximum out degree: 79 (node 8537)
+	source 2019 (node 8537) with out degree 79
+	target 681 (node 205) with in degree 32
+
+Execution time and memory used at after creating milp without reductions: 4.410000e+00 seconds, 20062208 bytes of memory usage, 20108 kB of memory peak and 00:05 elapsed time
+Statistics on the network after creating milp without reductions
+	Number of nodes: 26518
+	Number of allocated nodes: 26624
+	Number of edges: 65369
+	Maximum in degree: 355 (node 68)
+	Maximum out degree: 79 (node 8537)
+	source 2019 (node 8537) with out degree 79
+	target 681 (node 205) with in degree 32
+
+Execution time and memory used at after reachability and chains reduction: 1.798000e+01 seconds, 20758528 bytes of memory usage, 21248 kB of memory peak and 00:18 elapsed time
+Statistics on the network after reachability and chains reduction
+	Number of nodes: 6296
+	Number of allocated nodes: 26624
+	Number of edges: 22903
+	Maximum in degree: 30 (node 205)
+	Maximum out degree: 37 (node 8537)
+	source 2019 (node 8537) with out degree 37
+	target 681 (node 205) with in degree 30
+
+Execution time and memory used at after detours elimination: 1.091900e+02 seconds, 20086784 bytes of memory usage, 21248 kB of memory peak and 01:50 elapsed time
+Statistics on the network after detours elimination
+	Number of nodes: 6296
+	Number of allocated nodes: 26624
+	Number of edges: 22903
+	Maximum in degree: 30 (node 205)
+	Maximum out degree: 37 (node 8537)
+	source 2019 (node 8537) with out degree 37
+	target 681 (node 205) with in degree 30
+
+Execution time and memory used at after creating milp with detours elimination (all transformations): 1.092200e+02 seconds, 20086784 bytes of memory usage, 21248 kB of memory peak and 01:50 elapsed time
+Statistics on the network after creating milp with detours elimination (all transformations)
+	Number of nodes: 6296
+	Number of allocated nodes: 26624
+	Number of edges: 22903
+	Maximum in degree: 30 (node 205)
+	Maximum out degree: 37 (node 8537)
+	source 2019 (node 8537) with out degree 37
+	target 681 (node 205) with in degree 30

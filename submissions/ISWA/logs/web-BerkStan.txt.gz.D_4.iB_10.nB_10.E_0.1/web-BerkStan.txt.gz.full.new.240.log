@@ -1,0 +1,49 @@
+Version 1.2 launched as -e 0.1 12 input/web-BerkStan.html/web-BerkStan.txt.gz 240
+
+
+Execution time and memory used at after reading from file: 4.312340e+03 seconds, 345182208 bytes of memory usage, 337128 kB of memory peak and 01:11:53 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 685230
+	Number of allocated nodes: 686080
+	Number of edges: 7600595
+	Maximum in degree: 84208 (node 438238)
+	Maximum out degree: 249 (node 292640)
+
+Execution time and memory used at after adding costs: 4.312500e+03 seconds, 345182208 bytes of memory usage, 337128 kB of memory peak and 01:11:53 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 685230
+	Number of allocated nodes: 686080
+	Number of edges: 7600595
+	Maximum in degree: 84208 (node 438238)
+	Maximum out degree: 249 (node 292640)
+
+Execution time and memory used at before starting main computation: 4.363230e+03 seconds, 360726528 bytes of memory usage, 355468 kB of memory peak and 01:12:44 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 685230
+	Number of allocated nodes: 686080
+	Number of edges: 7600595
+	Maximum in degree: 84208 (node 438238)
+	Maximum out degree: 249 (node 292640)
+	source 288962 (node 292640) with out degree 249
+	target 9 (node 438238) with in degree 84208
+
+Execution time and memory used at after iteration 1 (MF = 0.010869): 9.620320e+04 seconds, 6920265728 bytes of memory usage, 9029864 kB of memory peak and 1-02:43:32 elapsed time
+Statistics on the network after iteration 1 (MF = 0.010869)
+	Number of nodes: 685230
+	Number of allocated nodes: 686080
+	Number of edges: 7600595
+	Maximum in degree: 84208 (node 438238)
+	Maximum out degree: 249 (node 292640)
+	source 288962 (node 292640) with out degree 249
+	target 9 (node 438238) with in degree 84208
+GMF with memory efficient alternating algo is 0.000000
+
+Execution time and memory used at after executing the alternating algorithm: 1.184749e+05 seconds, 6632988672 bytes of memory usage, 9030852 kB of memory peak and 1-08:54:45 elapsed time
+Statistics on the network after executing the alternating algorithm
+	Number of nodes: 685230
+	Number of allocated nodes: 686080
+	Number of edges: 7600595
+	Maximum in degree: 84208 (node 438238)
+	Maximum out degree: 249 (node 292640)
+	source 288962 (node 292640) with out degree 249
+	target 9 (node 438238) with in degree 84208

@@ -1,0 +1,101 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/p2p-Gnutella30.html/p2p-Gnutella30.txt.gz.40.lp -o input/p2p-Gnutella30.html/p2p-Gnutella30.txt.gz.40.lp.sol
+Reading problem data from 'input/p2p-Gnutella30.html/p2p-Gnutella30.txt.gz.40.lp'...
+88331 rows, 213338 columns, 441642 non-zeros
+213338 integer variables, all of which are binary
+301674 lines were read
+GLPK Integer Optimizer 5.0
+88331 rows, 213338 columns, 441642 non-zeros
+213338 integer variables, all of which are binary
+Preprocessing...
+88323 rows, 213327 columns, 441520 non-zeros
+213327 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 88323
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+88323 rows, 213327 columns, 441520 non-zeros
+      0: obj =   0.000000000e+00 inf =   4.200e+01 (42)
+     42: obj =   2.323148200e+01 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [281]...
+*   920: obj =   1.037038000e+00 inf =   0.000e+00 (296) 3
+*  1659: obj =   1.037038000e+00 inf =   0.000e+00 (411) 5
+*  2306: obj =   1.037038000e+00 inf =   0.000e+00 (511) 5
+*  2923: obj =   1.037038000e+00 inf =   0.000e+00 (558) 4
+*  3518: obj =   1.037038000e+00 inf =   0.000e+00 (631) 5
+*  4067: obj =   1.037038000e+00 inf =   0.000e+00 (88738) 4
+*  4626: obj =   1.037038000e+00 inf =   0.000e+00 (711) 4
+*  5165: obj =   1.037038000e+00 inf =   0.000e+00 (944) 4
+*  5762: obj =   1.037038000e+00 inf =   0.000e+00 (1085) 5
+*  6320: obj =   1.037038000e+00 inf =   0.000e+00 (1134) 4
+*  6882: obj =   1.037038000e+00 inf =   0.000e+00 (1138) 5
+*  7422: obj =   1.037038000e+00 inf =   0.000e+00 (1227) 4
+*  7947: obj =   1.037038000e+00 inf =   0.000e+00 (1210) 4
+*  8477: obj =   1.037038000e+00 inf =   0.000e+00 (1279) 5
+*  8969: obj =   1.037038000e+00 inf =   0.000e+00 (1298) 4
+*  9472: obj =   1.037038000e+00 inf =   0.000e+00 (1329) 4
+*  9981: obj =   1.037038000e+00 inf =   0.000e+00 (1386) 5
+* 10527: obj =   1.037038000e+00 inf =   0.000e+00 (1733) 5
+* 11040: obj =   2.171132697e-01 inf =   1.613e-04 (2493) 5
+* 11562: obj =   2.170884521e-01 inf =   1.085e-02 (2293) 6
+* 12073: obj =   1.409710048e-01 inf =   1.725e-02 (2359) 5
+* 12578: obj =   1.409411525e-01 inf =   2.568e-02 (2386) 5
+* 13074: obj =   1.139493219e-01 inf =   2.544e-02 (2301) 5
+* 13557: obj =   1.139001325e-01 inf =   2.613e-02 (2293) 4
+* 14049: obj =   1.138742310e-01 inf =   3.171e-02 (2181) 5
+* 14550: obj =   1.138457195e-01 inf =   4.063e-02 (2222) 5
+* 15041: obj =   1.138206238e-01 inf =   4.551e-02 (2234) 5
+* 15536: obj =   1.137899718e-01 inf =   5.448e-02 (2200) 5
+* 16033: obj =   1.137749886e-01 inf =   5.387e-02 (2198) 5
+* 16523: obj =   1.137473472e-01 inf =   5.057e-02 (2098) 5
+* 16993: obj =   9.369740032e-02 inf =   5.185e-02 (2176) 4
+* 17444: obj =   9.367283420e-02 inf =   6.026e-02 (2104) 5
+* 17929: obj =   7.436846729e-02 inf =   5.784e-02 (1867) 5
+* 18328: obj =   7.435461585e-02 inf =   5.471e-02 (1927) 3
+* 18781: obj =   7.433273750e-02 inf =   5.210e-02 (1933) 5
+* 19260: obj =   4.315763516e-02 inf =   5.016e-02 (1728) 5
+Removing LP perturbation [19623]...
+* 19623: obj =   0.000000000e+00 inf =   1.087e-14 (0) 3
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 19623: mip =     not found yet >=              -inf        (1; 0)
++ 19623: mip =     not found yet >=   0.000000000e+00        (2; 0)
+Time used: 164.2 secs.  Memory used: 204.9 Mb.
++ 19946: mip =     not found yet >=   0.000000000e+00        (3; 0)
+Time used: 333.2 secs.  Memory used: 204.9 Mb.
++ 20272: mip =     not found yet >=   0.000000000e+00        (4; 0)
+Time used: 496.2 secs.  Memory used: 204.9 Mb.
++ 20601: mip =     not found yet >=   0.000000000e+00        (5; 0)
+Time used: 664.1 secs.  Memory used: 205.0 Mb.
++ 21031: mip =     not found yet >=   0.000000000e+00        (6; 0)
+Time used: 829.2 secs.  Memory used: 205.0 Mb.
++ 21376: mip =     not found yet >=   0.000000000e+00        (7; 0)
+Time used: 993.3 secs.  Memory used: 205.0 Mb.
++ 21606: mip =     not found yet >=   0.000000000e+00        (8; 0)
+Time used: 1159.5 secs.  Memory used: 205.0 Mb.
++ 21906: mip =     not found yet >=   0.000000000e+00        (9; 0)
+Time used: 1328.7 secs.  Memory used: 205.0 Mb.
++ 22229: mip =     not found yet >=   0.000000000e+00        (10; 0)
+Time used: 1499.4 secs.  Memory used: 205.0 Mb.
++ 22539: mip =     not found yet >=   0.000000000e+00        (11; 0)
+Time used: 1668.0 secs.  Memory used: 205.0 Mb.
++ 23070: mip =     not found yet >=   0.000000000e+00        (12; 0)
+Time used: 1835.2 secs.  Memory used: 205.0 Mb.
++ 23421: mip =     not found yet >=   0.000000000e+00        (13; 0)
+Time used: 2000.9 secs.  Memory used: 205.0 Mb.
++ 24199: mip =     not found yet >=   0.000000000e+00        (14; 0)
+Time used: 2172.2 secs.  Memory used: 205.1 Mb.
++ 24664: mip =     not found yet >=   0.000000000e+00        (15; 0)
+Time used: 2339.5 secs.  Memory used: 205.1 Mb.
+Solution found by heuristic: 0
++ 25446: mip =   0.000000000e+00 >=     tree is empty   0.0% (0; 29)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   2533.7 secs
+Memory used: 254.4 Mb (266794027 bytes)
+Writing MIP solution to 'input/p2p-Gnutella30.html/p2p-Gnutella30.txt.gz.40.lp.sol'...
+Objective:  obj = 0 (MINimum)

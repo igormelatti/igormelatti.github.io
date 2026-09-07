@@ -1,0 +1,68 @@
+Version 1.2 launched as -e 0.1 12 input/as-Skitter.html/as-skitter.txt.gz 1484
+
+
+Execution time and memory used at after reading from file: 5.763677e+04 seconds, 586489856 bytes of memory usage, 572780 kB of memory peak and 16:00:43 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 1696415
+	Number of allocated nodes: 1696768
+	Number of edges: 11095298
+	Maximum in degree: 3714 (node 149419)
+	Maximum out degree: 35387 (node 7046)
+
+Execution time and memory used at after adding costs: 5.763706e+04 seconds, 586489856 bytes of memory usage, 572780 kB of memory peak and 16:00:43 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 1696415
+	Number of allocated nodes: 1696768
+	Number of edges: 11095298
+	Maximum in degree: 3714 (node 149419)
+	Maximum out degree: 35387 (node 7046)
+
+Execution time and memory used at before starting main computation: 5.820558e+04 seconds, 614199296 bytes of memory usage, 606948 kB of memory peak and 16:10:12 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 1696415
+	Number of allocated nodes: 1696768
+	Number of edges: 11095298
+	Maximum in degree: 3714 (node 149419)
+	Maximum out degree: 35387 (node 7046)
+	source 7046 (node 7046) with out degree 35387
+	target 149419 (node 149419) with in degree 3714
+
+Execution time and memory used at after iteration 1 (MF = 20.132529): 3.230435e+05 seconds, 10559668224 bytes of memory usage, 12911876 kB of memory peak and 3-17:44:29 elapsed time
+Statistics on the network after iteration 1 (MF = 20.132529)
+	Number of nodes: 1696415
+	Number of allocated nodes: 1696768
+	Number of edges: 11095298
+	Maximum in degree: 3714 (node 149419)
+	Maximum out degree: 35387 (node 7046)
+	source 7046 (node 7046) with out degree 35387
+	target 149419 (node 149419) with in degree 3714
+
+Execution time and memory used at after iteration 2 (MF = 3.136953): 3.247257e+05 seconds, 10560212992 bytes of memory usage, 12912344 kB of memory peak and 3-18:12:31 elapsed time
+Statistics on the network after iteration 2 (MF = 3.136953)
+	Number of nodes: 1696415
+	Number of allocated nodes: 1696768
+	Number of edges: 11095298
+	Maximum in degree: 3714 (node 149419)
+	Maximum out degree: 35387 (node 7046)
+	source 7046 (node 7046) with out degree 35387
+	target 149419 (node 149419) with in degree 3714
+
+Execution time and memory used at after iteration 3 (MF = 17.171837): 3.293638e+05 seconds, 10561171456 bytes of memory usage, 17066916 kB of memory peak and 3-19:29:50 elapsed time
+Statistics on the network after iteration 3 (MF = 17.171837)
+	Number of nodes: 1696415
+	Number of allocated nodes: 1696768
+	Number of edges: 11095298
+	Maximum in degree: 3714 (node 149419)
+	Maximum out degree: 35387 (node 7046)
+	source 7046 (node 7046) with out degree 35387
+	target 149419 (node 149419) with in degree 3714
+
+Execution time and memory used at after iteration 4 (MF = 16.605867): 3.334328e+05 seconds, 10562138112 bytes of memory usage, 17066916 kB of memory peak and 3-20:37:39 elapsed time
+Statistics on the network after iteration 4 (MF = 16.605867)
+	Number of nodes: 1696415
+	Number of allocated nodes: 1696768
+	Number of edges: 11095298
+	Maximum in degree: 3714 (node 149419)
+	Maximum out degree: 35387 (node 7046)
+	source 7046 (node 7046) with out degree 35387
+	target 149419 (node 149419) with in degree 3714

@@ -1,0 +1,208 @@
+Version 1.2 launched as -e 0.1 12 input/roadNet-PA.html/roadNet-PA.txt.gz 2
+
+
+Execution time and memory used at after reading from file: 1.886410e+03 seconds, 252334080 bytes of memory usage, 246456 kB of memory peak and 31:26 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 1088092
+	Number of allocated nodes: 1088512
+	Number of edges: 3083796
+	Maximum in degree: 9 (node 674502)
+	Maximum out degree: 9 (node 674502)
+
+Execution time and memory used at after adding costs: 1.886500e+03 seconds, 252334080 bytes of memory usage, 246456 kB of memory peak and 31:26 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 1088092
+	Number of allocated nodes: 1088512
+	Number of edges: 3083796
+	Maximum in degree: 9 (node 674502)
+	Maximum out degree: 9 (node 674502)
+
+Execution time and memory used at before starting main computation: 2.162480e+03 seconds, 287072256 bytes of memory usage, 290744 kB of memory peak and 36:02 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 1088092
+	Number of allocated nodes: 1088512
+	Number of edges: 3083796
+	Maximum in degree: 9 (node 674502)
+	Maximum out degree: 9 (node 674502)
+	source 683267 (node 674502) with out degree 9
+	target 840699 (node 847932) with in degree 9
+
+Execution time and memory used at after iteration 1 (MF = 9.888889): 9.267648e+04 seconds, 3197542400 bytes of memory usage, 4511916 kB of memory peak and 1-01:44:42 elapsed time
+Statistics on the network after iteration 1 (MF = 9.888889)
+	Number of nodes: 1088092
+	Number of allocated nodes: 1088512
+	Number of edges: 3083796
+	Maximum in degree: 9 (node 674502)
+	Maximum out degree: 9 (node 674502)
+	source 683267 (node 674502) with out degree 9
+	target 840699 (node 847932) with in degree 9
+
+Execution time and memory used at after iteration 2 (MF = 8.444444): 1.063698e+05 seconds, 3197542400 bytes of memory usage, 4512692 kB of memory peak and 1-05:32:56 elapsed time
+Statistics on the network after iteration 2 (MF = 8.444444)
+	Number of nodes: 1088092
+	Number of allocated nodes: 1088512
+	Number of edges: 3083796
+	Maximum in degree: 9 (node 674502)
+	Maximum out degree: 9 (node 674502)
+	source 683267 (node 674502) with out degree 9
+	target 840699 (node 847932) with in degree 9
+
+Execution time and memory used at after iteration 3 (MF = 7.111111): 1.196707e+05 seconds, 3197542400 bytes of memory usage, 4513344 kB of memory peak and 1-09:14:37 elapsed time
+Statistics on the network after iteration 3 (MF = 7.111111)
+	Number of nodes: 1088092
+	Number of allocated nodes: 1088512
+	Number of edges: 3083796
+	Maximum in degree: 9 (node 674502)
+	Maximum out degree: 9 (node 674502)
+	source 683267 (node 674502) with out degree 9
+	target 840699 (node 847932) with in degree 9
+
+Execution time and memory used at after iteration 4 (MF = 8.555556): 1.334146e+05 seconds, 3197542400 bytes of memory usage, 4513836 kB of memory peak and 1-13:03:41 elapsed time
+Statistics on the network after iteration 4 (MF = 8.555556)
+	Number of nodes: 1088092
+	Number of allocated nodes: 1088512
+	Number of edges: 3083796
+	Maximum in degree: 9 (node 674502)
+	Maximum out degree: 9 (node 674502)
+	source 683267 (node 674502) with out degree 9
+	target 840699 (node 847932) with in degree 9
+
+Execution time and memory used at after iteration 5 (MF = 8.555556): 1.479296e+05 seconds, 3197542400 bytes of memory usage, 4514484 kB of memory peak and 1-17:05:36 elapsed time
+Statistics on the network after iteration 5 (MF = 8.555556)
+	Number of nodes: 1088092
+	Number of allocated nodes: 1088512
+	Number of edges: 3083796
+	Maximum in degree: 9 (node 674502)
+	Maximum out degree: 9 (node 674502)
+	source 683267 (node 674502) with out degree 9
+	target 840699 (node 847932) with in degree 9
+
+Execution time and memory used at after iteration 6 (MF = 8.555556): 1.619026e+05 seconds, 3197542400 bytes of memory usage, 4515128 kB of memory peak and 1-20:58:30 elapsed time
+Statistics on the network after iteration 6 (MF = 8.555556)
+	Number of nodes: 1088092
+	Number of allocated nodes: 1088512
+	Number of edges: 3083796
+	Maximum in degree: 9 (node 674502)
+	Maximum out degree: 9 (node 674502)
+	source 683267 (node 674502) with out degree 9
+	target 840699 (node 847932) with in degree 9
+
+Execution time and memory used at after iteration 7 (MF = 9.222222): 1.759914e+05 seconds, 3197542400 bytes of memory usage, 4515748 kB of memory peak and 2-00:53:19 elapsed time
+Statistics on the network after iteration 7 (MF = 9.222222)
+	Number of nodes: 1088092
+	Number of allocated nodes: 1088512
+	Number of edges: 3083796
+	Maximum in degree: 9 (node 674502)
+	Maximum out degree: 9 (node 674502)
+	source 683267 (node 674502) with out degree 9
+	target 840699 (node 847932) with in degree 9
+
+Execution time and memory used at after iteration 8 (MF = 9.222222): 1.904032e+05 seconds, 3197542400 bytes of memory usage, 4516432 kB of memory peak and 2-04:53:31 elapsed time
+Statistics on the network after iteration 8 (MF = 9.222222)
+	Number of nodes: 1088092
+	Number of allocated nodes: 1088512
+	Number of edges: 3083796
+	Maximum in degree: 9 (node 674502)
+	Maximum out degree: 9 (node 674502)
+	source 683267 (node 674502) with out degree 9
+	target 840699 (node 847932) with in degree 9
+
+Execution time and memory used at after iteration 9 (MF = 9.888889): 2.057354e+05 seconds, 3197542400 bytes of memory usage, 4517144 kB of memory peak and 2-09:09:05 elapsed time
+Statistics on the network after iteration 9 (MF = 9.888889)
+	Number of nodes: 1088092
+	Number of allocated nodes: 1088512
+	Number of edges: 3083796
+	Maximum in degree: 9 (node 674502)
+	Maximum out degree: 9 (node 674502)
+	source 683267 (node 674502) with out degree 9
+	target 840699 (node 847932) with in degree 9
+
+Execution time and memory used at after iteration 10 (MF = 8.666667): 2.204985e+05 seconds, 3197542400 bytes of memory usage, 4517916 kB of memory peak and 2-13:15:08 elapsed time
+Statistics on the network after iteration 10 (MF = 8.666667)
+	Number of nodes: 1088092
+	Number of allocated nodes: 1088512
+	Number of edges: 3083796
+	Maximum in degree: 9 (node 674502)
+	Maximum out degree: 9 (node 674502)
+	source 683267 (node 674502) with out degree 9
+	target 840699 (node 847932) with in degree 9
+
+Execution time and memory used at after iteration 11 (MF = 8.666667): 2.347190e+05 seconds, 3197542400 bytes of memory usage, 4518556 kB of memory peak and 2-17:12:10 elapsed time
+Statistics on the network after iteration 11 (MF = 8.666667)
+	Number of nodes: 1088092
+	Number of allocated nodes: 1088512
+	Number of edges: 3083796
+	Maximum in degree: 9 (node 674502)
+	Maximum out degree: 9 (node 674502)
+	source 683267 (node 674502) with out degree 9
+	target 840699 (node 847932) with in degree 9
+
+Execution time and memory used at after iteration 12 (MF = 8.666667): 2.494495e+05 seconds, 3197542400 bytes of memory usage, 4519188 kB of memory peak and 2-21:17:40 elapsed time
+Statistics on the network after iteration 12 (MF = 8.666667)
+	Number of nodes: 1088092
+	Number of allocated nodes: 1088512
+	Number of edges: 3083796
+	Maximum in degree: 9 (node 674502)
+	Maximum out degree: 9 (node 674502)
+	source 683267 (node 674502) with out degree 9
+	target 840699 (node 847932) with in degree 9
+
+Execution time and memory used at after iteration 13 (MF = 7.000000): 2.627604e+05 seconds, 3197542400 bytes of memory usage, 4519856 kB of memory peak and 3-00:59:32 elapsed time
+Statistics on the network after iteration 13 (MF = 7.000000)
+	Number of nodes: 1088092
+	Number of allocated nodes: 1088512
+	Number of edges: 3083796
+	Maximum in degree: 9 (node 674502)
+	Maximum out degree: 9 (node 674502)
+	source 683267 (node 674502) with out degree 9
+	target 840699 (node 847932) with in degree 9
+
+Execution time and memory used at after iteration 14 (MF = 8.777778): 2.767712e+05 seconds, 3197542400 bytes of memory usage, 4520372 kB of memory peak and 3-04:53:03 elapsed time
+Statistics on the network after iteration 14 (MF = 8.777778)
+	Number of nodes: 1088092
+	Number of allocated nodes: 1088512
+	Number of edges: 3083796
+	Maximum in degree: 9 (node 674502)
+	Maximum out degree: 9 (node 674502)
+	source 683267 (node 674502) with out degree 9
+	target 840699 (node 847932) with in degree 9
+
+Execution time and memory used at after iteration 15 (MF = 7.666667): 2.901132e+05 seconds, 3197542400 bytes of memory usage, 4521056 kB of memory peak and 3-08:35:25 elapsed time
+Statistics on the network after iteration 15 (MF = 7.666667)
+	Number of nodes: 1088092
+	Number of allocated nodes: 1088512
+	Number of edges: 3083796
+	Maximum in degree: 9 (node 674502)
+	Maximum out degree: 9 (node 674502)
+	source 683267 (node 674502) with out degree 9
+	target 840699 (node 847932) with in degree 9
+
+Execution time and memory used at after iteration 16 (MF = 9.888889): 3.060193e+05 seconds, 3197542400 bytes of memory usage, 4521628 kB of memory peak and 3-13:00:31 elapsed time
+Statistics on the network after iteration 16 (MF = 9.888889)
+	Number of nodes: 1088092
+	Number of allocated nodes: 1088512
+	Number of edges: 3083796
+	Maximum in degree: 9 (node 674502)
+	Maximum out degree: 9 (node 674502)
+	source 683267 (node 674502) with out degree 9
+	target 840699 (node 847932) with in degree 9
+
+Execution time and memory used at after iteration 17 (MF = 9.888889): 3.206502e+05 seconds, 3197542400 bytes of memory usage, 4522364 kB of memory peak and 3-17:04:22 elapsed time
+Statistics on the network after iteration 17 (MF = 9.888889)
+	Number of nodes: 1088092
+	Number of allocated nodes: 1088512
+	Number of edges: 3083796
+	Maximum in degree: 9 (node 674502)
+	Maximum out degree: 9 (node 674502)
+	source 683267 (node 674502) with out degree 9
+	target 840699 (node 847932) with in degree 9
+
+Execution time and memory used at after iteration 18 (MF = 9.888889): 3.359467e+05 seconds, 3197542400 bytes of memory usage, 4523104 kB of memory peak and 3-21:19:19 elapsed time
+Statistics on the network after iteration 18 (MF = 9.888889)
+	Number of nodes: 1088092
+	Number of allocated nodes: 1088512
+	Number of edges: 3083796
+	Maximum in degree: 9 (node 674502)
+	Maximum out degree: 9 (node 674502)
+	source 683267 (node 674502) with out degree 9
+	target 840699 (node 847932) with in degree 9

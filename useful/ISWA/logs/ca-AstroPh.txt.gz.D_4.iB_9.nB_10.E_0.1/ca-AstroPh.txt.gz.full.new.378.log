@@ -1,0 +1,48 @@
+Version 1.2 launched as -e 0.1 12 input/ca-AstroPh.html/ca-AstroPh.txt.gz 378
+
+
+Execution time and memory used at after reading from file: 2.327000e+01 seconds, 29376512 bytes of memory usage, 28724 kB of memory peak and 00:24 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 18772
+	Number of allocated nodes: 19456
+	Number of edges: 396100
+	Maximum in degree: 504 (node 53213)
+	Maximum out degree: 504 (node 53213)
+
+Execution time and memory used at after adding costs: 2.328000e+01 seconds, 29376512 bytes of memory usage, 28724 kB of memory peak and 00:24 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 18772
+	Number of allocated nodes: 19456
+	Number of edges: 396100
+	Maximum in degree: 504 (node 53213)
+	Maximum out degree: 504 (node 53213)
+
+Execution time and memory used at before starting main computation: 2.349000e+01 seconds, 29937664 bytes of memory usage, 29752 kB of memory peak and 00:24 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 18772
+	Number of allocated nodes: 19456
+	Number of edges: 396100
+	Maximum in degree: 504 (node 53213)
+	Maximum out degree: 504 (node 53213)
+	source 325 (node 53213) with out degree 504
+	target 298 (node 35290) with in degree 427
+
+Execution time and memory used at after iteration 1 (MF = 429.718254): 1.616800e+02 seconds, 357167104 bytes of memory usage, 499968 kB of memory peak and 02:42 elapsed time
+Statistics on the network after iteration 1 (MF = 429.718254)
+	Number of nodes: 18772
+	Number of allocated nodes: 19456
+	Number of edges: 396100
+	Maximum in degree: 504 (node 53213)
+	Maximum out degree: 504 (node 53213)
+	source 325 (node 53213) with out degree 504
+	target 298 (node 35290) with in degree 427
+
+Execution time and memory used at after iteration 2 (MF = 233.795635): 2.044300e+02 seconds, 357167104 bytes of memory usage, 500472 kB of memory peak and 03:25 elapsed time
+Statistics on the network after iteration 2 (MF = 233.795635)
+	Number of nodes: 18772
+	Number of allocated nodes: 19456
+	Number of edges: 396100
+	Maximum in degree: 504 (node 53213)
+	Maximum out degree: 504 (node 53213)
+	source 325 (node 53213) with out degree 504
+	target 298 (node 35290) with in degree 427

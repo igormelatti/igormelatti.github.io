@@ -1,0 +1,68 @@
+Version 1.2 launched as -e 0.1 12 input/gemsec-Facebook.html/artist_edges.csv.gz 369
+
+
+Execution time and memory used at after reading from file: 3.941000e+02 seconds, 47046656 bytes of memory usage, 45980 kB of memory peak and 06:34 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 50517
+	Number of allocated nodes: 51200
+	Number of edges: 819091
+	Maximum in degree: 1290 (node 48099)
+	Maximum out degree: 1238 (node 7675)
+
+Execution time and memory used at after adding costs: 3.941300e+02 seconds, 47046656 bytes of memory usage, 45980 kB of memory peak and 06:34 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 50517
+	Number of allocated nodes: 51200
+	Number of edges: 819091
+	Maximum in degree: 1290 (node 48099)
+	Maximum out degree: 1238 (node 7675)
+
+Execution time and memory used at before starting main computation: 3.946100e+02 seconds, 47857664 bytes of memory usage, 47452 kB of memory peak and 06:35 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 50517
+	Number of allocated nodes: 51200
+	Number of edges: 819091
+	Maximum in degree: 1290 (node 48099)
+	Maximum out degree: 1238 (node 7675)
+	source 556 (node 7675) with out degree 1238
+	target 1616 (node 48099) with in degree 1290
+
+Execution time and memory used at after iteration 1 (MF = 437.838608): 1.591100e+03 seconds, 742850560 bytes of memory usage, 939792 kB of memory peak and 26:31 elapsed time
+Statistics on the network after iteration 1 (MF = 437.838608)
+	Number of nodes: 50517
+	Number of allocated nodes: 51200
+	Number of edges: 819091
+	Maximum in degree: 1290 (node 48099)
+	Maximum out degree: 1238 (node 7675)
+	source 556 (node 7675) with out degree 1238
+	target 1616 (node 48099) with in degree 1290
+
+Execution time and memory used at after iteration 2 (MF = 298.752769): 1.920760e+03 seconds, 742850560 bytes of memory usage, 941304 kB of memory peak and 32:01 elapsed time
+Statistics on the network after iteration 2 (MF = 298.752769)
+	Number of nodes: 50517
+	Number of allocated nodes: 51200
+	Number of edges: 819091
+	Maximum in degree: 1290 (node 48099)
+	Maximum out degree: 1238 (node 7675)
+	source 556 (node 7675) with out degree 1238
+	target 1616 (node 48099) with in degree 1290
+
+Execution time and memory used at after iteration 3 (MF = 306.485759): 2.052542e+04 seconds, 1487421440 bytes of memory usage, 1709084 kB of memory peak and 05:42:08 elapsed time
+Statistics on the network after iteration 3 (MF = 306.485759)
+	Number of nodes: 50517
+	Number of allocated nodes: 51200
+	Number of edges: 819091
+	Maximum in degree: 1290 (node 48099)
+	Maximum out degree: 1238 (node 7675)
+	source 556 (node 7675) with out degree 1238
+	target 1616 (node 48099) with in degree 1290
+
+Execution time and memory used at after iteration 4 (MF = 284.519383): 7.458629e+04 seconds, 1487421440 bytes of memory usage, 1709084 kB of memory peak and 20:43:15 elapsed time
+Statistics on the network after iteration 4 (MF = 284.519383)
+	Number of nodes: 50517
+	Number of allocated nodes: 51200
+	Number of edges: 819091
+	Maximum in degree: 1290 (node 48099)
+	Maximum out degree: 1238 (node 7675)
+	source 556 (node 7675) with out degree 1238
+	target 1616 (node 48099) with in degree 1290

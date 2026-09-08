@@ -1,0 +1,48 @@
+Version 1.2 launched as -e 0.1 12 input/email-Eu-core.html/email-Eu-core.txt.gz 170
+
+
+Execution time and memory used at after reading from file: 4.000000e-02 seconds, 15220736 bytes of memory usage, 14900 kB of memory peak and 00:00 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 1005
+	Number of allocated nodes: 1024
+	Number of edges: 24929
+	Maximum in degree: 211 (node 160)
+	Maximum out degree: 333 (node 160)
+
+Execution time and memory used at after adding costs: 4.000000e-02 seconds, 15220736 bytes of memory usage, 14900 kB of memory peak and 00:00 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 1005
+	Number of allocated nodes: 1024
+	Number of edges: 24929
+	Maximum in degree: 211 (node 160)
+	Maximum out degree: 333 (node 160)
+
+Execution time and memory used at before starting main computation: 4.000000e-02 seconds, 15220736 bytes of memory usage, 15380 kB of memory peak and 00:00 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 1005
+	Number of allocated nodes: 1024
+	Number of edges: 24929
+	Maximum in degree: 211 (node 160)
+	Maximum out degree: 333 (node 160)
+	source 160 (node 160) with out degree 333
+	target 62 (node 62) with in degree 178
+
+Execution time and memory used at after iteration 1 (MF = 155.354779): 8.500000e-01 seconds, 37322752 bytes of memory usage, 43416 kB of memory peak and 00:00 elapsed time
+Statistics on the network after iteration 1 (MF = 155.354779)
+	Number of nodes: 1005
+	Number of allocated nodes: 1024
+	Number of edges: 24929
+	Maximum in degree: 211 (node 160)
+	Maximum out degree: 333 (node 160)
+	source 160 (node 160) with out degree 333
+	target 62 (node 62) with in degree 178
+
+Execution time and memory used at after iteration 2 (MF = 73.575368): 1.220000e+00 seconds, 37322752 bytes of memory usage, 43536 kB of memory peak and 00:01 elapsed time
+Statistics on the network after iteration 2 (MF = 73.575368)
+	Number of nodes: 1005
+	Number of allocated nodes: 1024
+	Number of edges: 24929
+	Maximum in degree: 211 (node 160)
+	Maximum out degree: 333 (node 160)
+	source 160 (node 160) with out degree 333
+	target 62 (node 62) with in degree 178

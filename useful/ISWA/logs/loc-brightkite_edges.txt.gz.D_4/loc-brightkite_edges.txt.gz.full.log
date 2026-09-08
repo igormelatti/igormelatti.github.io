@@ -1,0 +1,68 @@
+Launched as 5 input/loc-Brightkite.html/loc-brightkite_edges.txt.gz 0
+
+
+Execution time and memory used at after reading from file: 4.170000e+01 seconds, 35389440 bytes of memory usage, 34596 kB of memory peak and 00:42 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 58228
+	Number of allocated nodes: 58368
+	Number of edges: 428156
+	Maximum in degree: 1134 (node 40)
+	Maximum out degree: 1134 (node 40)
+
+Execution time and memory used at after adding costs: 4.175000e+01 seconds, 35389440 bytes of memory usage, 34596 kB of memory peak and 00:42 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 58228
+	Number of allocated nodes: 58368
+	Number of edges: 428156
+	Maximum in degree: 1134 (node 40)
+	Maximum out degree: 1134 (node 40)
+
+Execution time and memory used at before starting main computation: 4.281000e+01 seconds, 37146624 bytes of memory usage, 37020 kB of memory peak and 00:43 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 58228
+	Number of allocated nodes: 58368
+	Number of edges: 428156
+	Maximum in degree: 1134 (node 40)
+	Maximum out degree: 1134 (node 40)
+	source 40 (node 40) with out degree 1134
+	target 457 (node 44) with in degree 1055
+
+Execution time and memory used at after creating milp without reductions: 4.348000e+01 seconds, 37146624 bytes of memory usage, 37020 kB of memory peak and 00:44 elapsed time
+Statistics on the network after creating milp without reductions
+	Number of nodes: 58228
+	Number of allocated nodes: 58368
+	Number of edges: 428156
+	Maximum in degree: 1134 (node 40)
+	Maximum out degree: 1134 (node 40)
+	source 40 (node 40) with out degree 1134
+	target 457 (node 44) with in degree 1055
+
+Execution time and memory used at after reachability and chains reduction: 5.113000e+01 seconds, 38768640 bytes of memory usage, 48880 kB of memory peak and 00:52 elapsed time
+Statistics on the network after reachability and chains reduction
+	Number of nodes: 36607
+	Number of allocated nodes: 58368
+	Number of edges: 384679
+	Maximum in degree: 1073 (node 40)
+	Maximum out degree: 1073 (node 40)
+	source 40 (node 40) with out degree 1073
+	target 457 (node 44) with in degree 935
+
+Execution time and memory used at after detours elimination: 4.904532e+04 seconds, 39497728 bytes of memory usage, 48880 kB of memory peak and 13:37:29 elapsed time
+Statistics on the network after detours elimination
+	Number of nodes: 34067
+	Number of allocated nodes: 58368
+	Number of edges: 379171
+	Maximum in degree: 1073 (node 40)
+	Maximum out degree: 1073 (node 40)
+	source 40 (node 40) with out degree 1073
+	target 457 (node 44) with in degree 935
+
+Execution time and memory used at after creating milp with detours elimination (all transformations): 4.904667e+04 seconds, 39497728 bytes of memory usage, 48880 kB of memory peak and 13:37:30 elapsed time
+Statistics on the network after creating milp with detours elimination (all transformations)
+	Number of nodes: 34067
+	Number of allocated nodes: 58368
+	Number of edges: 379171
+	Maximum in degree: 1073 (node 40)
+	Maximum out degree: 1073 (node 40)
+	source 40 (node 40) with out degree 1073
+	target 457 (node 44) with in degree 935

@@ -1,0 +1,58 @@
+Version 1.2 launched as -e 0.1 12 input/email-Enron.html/email-Enron.txt.gz 136
+
+
+Execution time and memory used at after reading from file: 1.478000e+01 seconds, 30760960 bytes of memory usage, 30076 kB of memory peak and 00:15 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 36692
+	Number of allocated nodes: 36864
+	Number of edges: 367662
+	Maximum in degree: 1383 (node 5038)
+	Maximum out degree: 1383 (node 5038)
+
+Execution time and memory used at after adding costs: 1.479000e+01 seconds, 30760960 bytes of memory usage, 30076 kB of memory peak and 00:15 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 36692
+	Number of allocated nodes: 36864
+	Number of edges: 367662
+	Maximum in degree: 1383 (node 5038)
+	Maximum out degree: 1383 (node 5038)
+
+Execution time and memory used at before starting main computation: 1.530000e+01 seconds, 31707136 bytes of memory usage, 31624 kB of memory peak and 00:16 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 36692
+	Number of allocated nodes: 36864
+	Number of edges: 367662
+	Maximum in degree: 1383 (node 5038)
+	Maximum out degree: 1383 (node 5038)
+	source 271 (node 5038) with out degree 1383
+	target 144 (node 273) with in degree 1367
+
+Execution time and memory used at after iteration 1 (MF = 61.413594): 2.171400e+02 seconds, 341565440 bytes of memory usage, 477880 kB of memory peak and 03:38 elapsed time
+Statistics on the network after iteration 1 (MF = 61.413594)
+	Number of nodes: 36692
+	Number of allocated nodes: 36864
+	Number of edges: 367662
+	Maximum in degree: 1383 (node 5038)
+	Maximum out degree: 1383 (node 5038)
+	source 271 (node 5038) with out degree 1383
+	target 144 (node 273) with in degree 1367
+
+Execution time and memory used at after iteration 2 (MF = 23.868402): 2.496000e+02 seconds, 341565440 bytes of memory usage, 478024 kB of memory peak and 04:10 elapsed time
+Statistics on the network after iteration 2 (MF = 23.868402)
+	Number of nodes: 36692
+	Number of allocated nodes: 36864
+	Number of edges: 367662
+	Maximum in degree: 1383 (node 5038)
+	Maximum out degree: 1383 (node 5038)
+	source 271 (node 5038) with out degree 1383
+	target 144 (node 273) with in degree 1367
+
+Execution time and memory used at after iteration 3 (MF = 41.513377): 2.609038e+04 seconds, 413827072 bytes of memory usage, 540068 kB of memory peak and 07:14:53 elapsed time
+Statistics on the network after iteration 3 (MF = 41.513377)
+	Number of nodes: 36692
+	Number of allocated nodes: 36864
+	Number of edges: 367662
+	Maximum in degree: 1383 (node 5038)
+	Maximum out degree: 1383 (node 5038)
+	source 271 (node 5038) with out degree 1383
+	target 144 (node 273) with in degree 1367

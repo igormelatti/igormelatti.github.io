@@ -1,0 +1,65 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title>Efficiently Solving the Network Interdiction Problem on Large Communication Networks: Experimental Results</title>
+    <style>
+      .collapsible {
+	  background-color: #777;
+	  color: white;
+	  cursor: pointer;
+	  padding: 18px;
+	  width: 100%;
+	  border: none;
+	  text-align: left;
+	  outline: none;
+	  font-size: 15px;
+      }
+
+      .active, .collapsible:hover {
+	  background-color: #555;
+      }
+
+      .content {
+	  padding: 0 18px;
+	  display: none;
+	  /* overflow: hidden; */
+	  background-color: #f1f1f1;
+      }
+    </style>
+    <style type="text/css">
+      body,div,thead,tbody,tfoot,tr,th,td,p { font-family:"Liberation Sans"; font-size:x-small }
+a.comment-indicator:hover + comment { background:#ffd; position:absolute; display:block; border:1px solid black; padding:0.5em;  } 
+      a.comment-indicator { background:red; display:inline-block; border:1px solid black; width:0.5em; height:0.5em;  } 
+      comment { display:none;  } 
+    </style>
+  </head>
+  <body>
+    <h1>Overall Experimental Results</h1>
+    <p>In the submitted article, some outliers have been cut from Figures 4a, 4d, 4f  4g, 4h, 4i: click on the following links (each link opens a new tab) for the un-cut corresponding figure: <a target="_blank" href="./input_ne_py_big.png">4a</a>, <a target="_blank" href="./detour_py_big.png">4d</a>, <a target="_blank" href="./exec_times_py_big.png">4f</a>, <a target="_blank" href="./amort_exec_times_py_big.png">4g</a>, <a target="_blank" href="./exec_times_speedup_py_big.png">4h</a>, <a target="_blank" href="./amort_exec_times_speedup_py_big.png">4i</a>.</p>
+    <p>Click on the following links to download a file with all relevant results: <a href="./results.xls">XLS</a>, <a href="./results.ods">ODS</a>, <a href="./results.csv">CSV</a>.</p>
+    <p>The same results in the above files are presented in the following HTML table.</p>
+    <button type="button" class="collapsible">Columns Meaning</button>
+    <div class="content">
+<p>All execution times are in seconds. All memory peaks are in kB.</p>
+<ul>
+<li><b>name</b>: Name of the graph as it is in the SNAP</li>
+<li><b>notes</b>: Whether computation hit a timeout or not</li>
+<li><b>no_red_time, no_red_mem_peak</b>: time to read the input file and create the ILP (state-of-the-art procedure) </li>
+<li><b>reach_chain_time_time, reach_chain_time_mem_peak</b>: execution time and memory peak to perform reachability and chain reduction only</li>
+<li><b>detour_time_time, detour_time_mem_peak</b>: execution time and memory peak to perform detour reduction only</li>
+<li><b>all_time, all_mem_peak</b>: execution time and memory peak to perform all reductions (reachability, chain and detours) </li>
+<li><b>all_write_time, all_write_mem_peak</b>: execution time and memory peak to read the input file, perform all reductions and create the ILP (new proposed procedure)</li>
+<li><b>no_red_nodes, no_red_edges</b>: number of nodes and edges of the original network</li>
+<li><b>reach_chain_nodes, reach_chain_edges</b>: number of nodes and edges of the network after reachability and chain reduction</li>
+<li><b>detour_nodes, detour_edges</b>: number of nodes and edges after detour reduction</li>
+<li><b>B_i</b>: value for the budget of the i-th NIP instance of the current network</li>
+<li><b>Obj_i</b>: value for the GMF (Guaranteed Maximum Flow) for the i-th NIP instance of the current network</li>
+<li><b>Obj_approx_i</b>: value for the GMF (Guaranteed Maximum Flow) as computed by the approximated algorithm with &epsilon;=0.1 for the i-th NIP instance of the current network</li>
+<li><b>time_no_red_i, mem_no_red_i</b>: execution time and memory peak to solve the ILP of the i-th NIP instance of the current network without reductions</li>
+<li><b>time_reach_chain_detour_i, mem_reach_chain_detour_i</b>: execution time and memory peak to solve the ILP of the i-th NIP instance of the current network with all reductions (reachability, chain and detour)</li>
+<li><b>time_reach_chain_detour_i, mem_reach_chain_detour_i</b>: execution time and memory peak to solve the ILP of the i-th NIP instance of the current network with all reductions (reachability, chain and detour)</li>
+<li><b>time_approx_i, mem_approx_i, num_iter_approx_i</b>: execution time, memory peak and number of iterations (shown also for non-completed computations) required by the approximated algorithm with &epsilon;=0.1 for the i-th NIP instance of the current network</li>
+</ul>
+    </div>
+    <button type="button" class="collapsible">Results in HTML Table</button>
+    <div class="content">

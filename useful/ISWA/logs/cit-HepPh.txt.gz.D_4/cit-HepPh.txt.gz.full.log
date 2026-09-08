@@ -1,0 +1,68 @@
+Launched as 5 input/cit-HepPh.html/cit-HepPh.txt.gz 0
+
+
+Execution time and memory used at after reading from file: 1.807000e+02 seconds, 32202752 bytes of memory usage, 31484 kB of memory peak and 03:01 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 34546
+	Number of allocated nodes: 34816
+	Number of edges: 421534
+	Maximum in degree: 846 (node 9803315)
+	Maximum out degree: 411 (node 201071)
+
+Execution time and memory used at after adding costs: 1.807200e+02 seconds, 32202752 bytes of memory usage, 31484 kB of memory peak and 03:01 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 34546
+	Number of allocated nodes: 34816
+	Number of edges: 421534
+	Maximum in degree: 846 (node 9803315)
+	Maximum out degree: 411 (node 201071)
+
+Execution time and memory used at before starting main computation: 1.809700e+02 seconds, 32743424 bytes of memory usage, 32628 kB of memory peak and 03:01 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 34546
+	Number of allocated nodes: 34816
+	Number of edges: 421534
+	Maximum in degree: 846 (node 9803315)
+	Maximum out degree: 411 (node 201071)
+	source 8180 (node 201071) with out degree 411
+	target 839 (node 9804398) with in degree 616
+
+Execution time and memory used at after creating milp without reductions: 1.816500e+02 seconds, 32743424 bytes of memory usage, 32628 kB of memory peak and 03:02 elapsed time
+Statistics on the network after creating milp without reductions
+	Number of nodes: 34546
+	Number of allocated nodes: 34816
+	Number of edges: 421534
+	Maximum in degree: 846 (node 9803315)
+	Maximum out degree: 411 (node 201071)
+	source 8180 (node 201071) with out degree 411
+	target 839 (node 9804398) with in degree 616
+
+Execution time and memory used at after reachability and chains reduction: 3.186700e+02 seconds, 33431552 bytes of memory usage, 34492 kB of memory peak and 05:19 elapsed time
+Statistics on the network after reachability and chains reduction
+	Number of nodes: 12705
+	Number of allocated nodes: 34816
+	Number of edges: 139958
+	Maximum in degree: 377 (node 9804398)
+	Maximum out degree: 322 (node 101336)
+	source 8180 (node 201071) with out degree 296
+	target 839 (node 9804398) with in degree 377
+
+Execution time and memory used at after detours elimination: 4.833500e+02 seconds, 34631680 bytes of memory usage, 34492 kB of memory peak and 08:03 elapsed time
+Statistics on the network after detours elimination
+	Number of nodes: 12705
+	Number of allocated nodes: 34816
+	Number of edges: 139958
+	Maximum in degree: 377 (node 9804398)
+	Maximum out degree: 322 (node 101336)
+	source 8180 (node 201071) with out degree 296
+	target 839 (node 9804398) with in degree 377
+
+Execution time and memory used at after creating milp with detours elimination (all transformations): 4.835500e+02 seconds, 34631680 bytes of memory usage, 34492 kB of memory peak and 08:04 elapsed time
+Statistics on the network after creating milp with detours elimination (all transformations)
+	Number of nodes: 12705
+	Number of allocated nodes: 34816
+	Number of edges: 139958
+	Maximum in degree: 377 (node 9804398)
+	Maximum out degree: 322 (node 101336)
+	source 8180 (node 201071) with out degree 296
+	target 839 (node 9804398) with in degree 377

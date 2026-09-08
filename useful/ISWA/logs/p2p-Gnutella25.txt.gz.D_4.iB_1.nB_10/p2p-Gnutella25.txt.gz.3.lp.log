@@ -1,0 +1,45 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/p2p-Gnutella25.html/p2p-Gnutella25.txt.gz.3.lp -o input/p2p-Gnutella25.html/p2p-Gnutella25.txt.gz.3.lp.sol
+Reading problem data from 'input/p2p-Gnutella25.html/p2p-Gnutella25.txt.gz.3.lp'...
+54708 rows, 132097 columns, 273527 non-zeros
+132097 integer variables, all of which are binary
+186810 lines were read
+GLPK Integer Optimizer 5.0
+54708 rows, 132097 columns, 273527 non-zeros
+132097 integer variables, all of which are binary
+Preprocessing...
+54699 rows, 132086 columns, 273397 non-zeros
+132086 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 54699
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+54699 rows, 132086 columns, 273397 non-zeros
+      0: obj =   0.000000000e+00 inf =   3.600e+01 (36)
+     36: obj =   1.914000000e+01 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [238]...
+*  1636: obj =   1.737000000e+01 inf =   0.000e+00 (347) 8
+*  2848: obj =   1.737000000e+01 inf =   0.000e+00 (478) 8
+*  3883: obj =   1.737000000e+01 inf =   0.000e+00 (571) 9
+*  4820: obj =   1.737000000e+01 inf =   0.000e+00 (627) 8
+*  5695: obj =   1.737000000e+01 inf =   0.000e+00 (724) 8
+*  6639: obj =   1.456000000e+01 inf =   0.000e+00 (605) 9
+Removing LP perturbation [7726]...
+*  7726: obj =   1.339529412e+01 inf =   0.000e+00 (0) 11
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++  7726: mip =     not found yet >=              -inf        (1; 0)
+Solution found by heuristic: 14.62
++  7726: mip =   1.462000000e+01 >=   1.339750000e+01   8.4% (2; 0)
++  7784: >>>>>   1.348000000e+01 >=   1.347470588e+01 < 0.1% (2; 0)
++  7788: mip =   1.348000000e+01 >=     tree is empty   0.0% (0; 3)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   92.1 secs
+Memory used: 158.3 Mb (165949664 bytes)
+Writing MIP solution to 'input/p2p-Gnutella25.html/p2p-Gnutella25.txt.gz.3.lp.sol'...
+Objective:  obj = 13.48 (MINimum)

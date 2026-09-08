@@ -1,0 +1,58 @@
+Version 1.2 launched as -e 0.1 12 input/cit-HepTh.html/cit-HepTh.txt.gz 224
+
+
+Execution time and memory used at after reading from file: 5.477000e+01 seconds, 29204480 bytes of memory usage, 28556 kB of memory peak and 00:55 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 27770
+	Number of allocated nodes: 28672
+	Number of edges: 352768
+	Maximum in degree: 2414 (node 9711200)
+	Maximum out degree: 562 (node 9905111)
+
+Execution time and memory used at after adding costs: 5.478000e+01 seconds, 29204480 bytes of memory usage, 28556 kB of memory peak and 00:55 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 27770
+	Number of allocated nodes: 28672
+	Number of edges: 352768
+	Maximum in degree: 2414 (node 9711200)
+	Maximum out degree: 562 (node 9905111)
+
+Execution time and memory used at before starting main computation: 5.485000e+01 seconds, 29614080 bytes of memory usage, 29436 kB of memory peak and 00:55 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 27770
+	Number of allocated nodes: 28672
+	Number of edges: 352768
+	Maximum in degree: 2414 (node 9711200)
+	Maximum out degree: 562 (node 9905111)
+	source 811 (node 9905111) with out degree 562
+	target 559 (node 9711200) with in degree 2414
+
+Execution time and memory used at after iteration 1 (MF = 201.884073): 2.272100e+02 seconds, 333791232 bytes of memory usage, 419108 kB of memory peak and 03:47 elapsed time
+Statistics on the network after iteration 1 (MF = 201.884073)
+	Number of nodes: 27770
+	Number of allocated nodes: 28672
+	Number of edges: 352768
+	Maximum in degree: 2414 (node 9711200)
+	Maximum out degree: 562 (node 9905111)
+	source 811 (node 9905111) with out degree 562
+	target 559 (node 9711200) with in degree 2414
+
+Execution time and memory used at after iteration 2 (MF = 131.817204): 2.460900e+02 seconds, 333791232 bytes of memory usage, 419372 kB of memory peak and 04:06 elapsed time
+Statistics on the network after iteration 2 (MF = 131.817204)
+	Number of nodes: 27770
+	Number of allocated nodes: 28672
+	Number of edges: 352768
+	Maximum in degree: 2414 (node 9711200)
+	Maximum out degree: 562 (node 9905111)
+	source 811 (node 9905111) with out degree 562
+	target 559 (node 9711200) with in degree 2414
+
+Execution time and memory used at after iteration 3 (MF = 150.344758): 5.527600e+02 seconds, 533135360 bytes of memory usage, 568188 kB of memory peak and 09:13 elapsed time
+Statistics on the network after iteration 3 (MF = 150.344758)
+	Number of nodes: 27770
+	Number of allocated nodes: 28672
+	Number of edges: 352768
+	Maximum in degree: 2414 (node 9711200)
+	Maximum out degree: 562 (node 9905111)
+	source 811 (node 9905111) with out degree 562
+	target 559 (node 9711200) with in degree 2414

@@ -1,0 +1,68 @@
+Launched as -i 5 input/soc-sign-bitcoin-alpha.html/soc-sign-bitcoinalpha.csv.gz 0
+
+
+Execution time and memory used at after reading from file: 1.300000e-01 seconds, 15491072 bytes of memory usage, 15164 kB of memory peak and 00:00 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 3783
+	Number of allocated nodes: 4096
+	Number of edges: 24186
+	Maximum in degree: 398 (node 1)
+	Maximum out degree: 490 (node 1)
+
+Execution time and memory used at after adding costs: 1.300000e-01 seconds, 15491072 bytes of memory usage, 15164 kB of memory peak and 00:00 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 3783
+	Number of allocated nodes: 4096
+	Number of edges: 24186
+	Maximum in degree: 398 (node 1)
+	Maximum out degree: 490 (node 1)
+
+Execution time and memory used at before starting main computation: 1.400000e-01 seconds, 15626240 bytes of memory usage, 15776 kB of memory peak and 00:00 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 3783
+	Number of allocated nodes: 4096
+	Number of edges: 24186
+	Maximum in degree: 398 (node 1)
+	Maximum out degree: 490 (node 1)
+	source 1 (node 1) with out degree 490
+	target 690 (node 3) with in degree 251
+
+Execution time and memory used at after creating milp without reductions: 1.800000e-01 seconds, 15626240 bytes of memory usage, 15776 kB of memory peak and 00:00 elapsed time
+Statistics on the network after creating milp without reductions
+	Number of nodes: 3783
+	Number of allocated nodes: 4096
+	Number of edges: 24186
+	Maximum in degree: 398 (node 1)
+	Maximum out degree: 490 (node 1)
+	source 1 (node 1) with out degree 490
+	target 690 (node 3) with in degree 251
+
+Execution time and memory used at after reachability and chains reduction: 3.700000e-01 seconds, 15626240 bytes of memory usage, 16364 kB of memory peak and 00:01 elapsed time
+Statistics on the network after reachability and chains reduction
+	Number of nodes: 2259
+	Number of allocated nodes: 4096
+	Number of edges: 21134
+	Maximum in degree: 308 (node 1)
+	Maximum out degree: 324 (node 1)
+	source 1 (node 1) with out degree 324
+	target 690 (node 3) with in degree 226
+
+Execution time and memory used at after detours elimination: 3.007000e+01 seconds, 15626240 bytes of memory usage, 16364 kB of memory peak and 00:30 elapsed time
+Statistics on the network after detours elimination
+	Number of nodes: 2228
+	Number of allocated nodes: 4096
+	Number of edges: 21072
+	Maximum in degree: 308 (node 1)
+	Maximum out degree: 324 (node 1)
+	source 1 (node 1) with out degree 324
+	target 690 (node 3) with in degree 226
+
+Execution time and memory used at after creating milp with detours elimination (all transformations): 3.011000e+01 seconds, 15626240 bytes of memory usage, 16364 kB of memory peak and 00:30 elapsed time
+Statistics on the network after creating milp with detours elimination (all transformations)
+	Number of nodes: 2228
+	Number of allocated nodes: 4096
+	Number of edges: 21072
+	Maximum in degree: 308 (node 1)
+	Maximum out degree: 324 (node 1)
+	source 1 (node 1) with out degree 324
+	target 690 (node 3) with in degree 226

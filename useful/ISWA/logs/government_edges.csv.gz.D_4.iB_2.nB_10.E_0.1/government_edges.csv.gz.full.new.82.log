@@ -1,0 +1,58 @@
+Version 1.2 launched as -e 0.1 12 input/gemsec-Facebook.html/government_edges.csv.gz 82
+
+
+Execution time and memory used at after reading from file: 1.520000e+00 seconds, 18022400 bytes of memory usage, 17636 kB of memory peak and 00:02 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 7059
+	Number of allocated nodes: 7168
+	Number of edges: 89430
+	Maximum in degree: 626 (node 6615)
+	Maximum out degree: 412 (node 2141)
+
+Execution time and memory used at after adding costs: 1.530000e+00 seconds, 18022400 bytes of memory usage, 17636 kB of memory peak and 00:02 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 7059
+	Number of allocated nodes: 7168
+	Number of edges: 89430
+	Maximum in degree: 626 (node 6615)
+	Maximum out degree: 412 (node 2141)
+
+Execution time and memory used at before starting main computation: 1.530000e+00 seconds, 18157568 bytes of memory usage, 18248 kB of memory peak and 00:02 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 7059
+	Number of allocated nodes: 7168
+	Number of edges: 89430
+	Maximum in degree: 626 (node 6615)
+	Maximum out degree: 412 (node 2141)
+	source 284 (node 2141) with out degree 412
+	target 89 (node 6615) with in degree 626
+
+Execution time and memory used at after iteration 1 (MF = 148.738921): 8.720000e+00 seconds, 96350208 bytes of memory usage, 115892 kB of memory peak and 00:09 elapsed time
+Statistics on the network after iteration 1 (MF = 148.738921)
+	Number of nodes: 7059
+	Number of allocated nodes: 7168
+	Number of edges: 89430
+	Maximum in degree: 626 (node 6615)
+	Maximum out degree: 412 (node 2141)
+	source 284 (node 2141) with out degree 412
+	target 89 (node 6615) with in degree 626
+
+Execution time and memory used at after iteration 2 (MF = 110.414258): 1.028000e+01 seconds, 96350208 bytes of memory usage, 116116 kB of memory peak and 00:10 elapsed time
+Statistics on the network after iteration 2 (MF = 110.414258)
+	Number of nodes: 7059
+	Number of allocated nodes: 7168
+	Number of edges: 89430
+	Maximum in degree: 626 (node 6615)
+	Maximum out degree: 412 (node 2141)
+	source 284 (node 2141) with out degree 412
+	target 89 (node 6615) with in degree 626
+
+Execution time and memory used at after iteration 3 (MF = 121.346821): 1.165600e+02 seconds, 132366336 bytes of memory usage, 166996 kB of memory peak and 01:57 elapsed time
+Statistics on the network after iteration 3 (MF = 121.346821)
+	Number of nodes: 7059
+	Number of allocated nodes: 7168
+	Number of edges: 89430
+	Maximum in degree: 626 (node 6615)
+	Maximum out degree: 412 (node 2141)
+	source 284 (node 2141) with out degree 412
+	target 89 (node 6615) with in degree 626

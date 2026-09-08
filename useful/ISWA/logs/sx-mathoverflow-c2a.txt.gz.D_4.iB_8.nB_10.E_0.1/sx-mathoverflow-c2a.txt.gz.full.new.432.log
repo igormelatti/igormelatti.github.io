@@ -1,0 +1,40 @@
+Version 1.2 launched as -e 0.1 12 input/sx-mathoverflow.html/sx-mathoverflow-c2a.txt.gz 432
+
+
+Execution time and memory used at after reading from file: 2.940000e+00 seconds, 18735104 bytes of memory usage, 18332 kB of memory peak and 00:03 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 13840
+	Number of allocated nodes: 14336
+	Number of edges: 77212
+	Maximum in degree: 784 (node 11142)
+	Maximum out degree: 550 (node 2926)
+
+Execution time and memory used at before starting main computation: 2.950000e+00 seconds, 18735104 bytes of memory usage, 18812 kB of memory peak and 00:03 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 13840
+	Number of allocated nodes: 14336
+	Number of edges: 77212
+	Maximum in degree: 784 (node 11142)
+	Maximum out degree: 550 (node 2926)
+	source 175 (node 2926) with out degree 550
+	target 3213 (node 11142) with in degree 784
+
+Execution time and memory used at after iteration 1 (MF = 589114015434.000000): 2.839000e+01 seconds, 86614016 bytes of memory usage, 104260 kB of memory peak and 00:28 elapsed time
+Statistics on the network after iteration 1 (MF = 589114015434.000000)
+	Number of nodes: 13840
+	Number of allocated nodes: 14336
+	Number of edges: 77212
+	Maximum in degree: 784 (node 11142)
+	Maximum out degree: 550 (node 2926)
+	source 175 (node 2926) with out degree 550
+	target 3213 (node 11142) with in degree 784
+
+Execution time and memory used at after iteration 2 (MF = 360283833867.000000): 3.133000e+01 seconds, 86614016 bytes of memory usage, 104532 kB of memory peak and 00:31 elapsed time
+Statistics on the network after iteration 2 (MF = 360283833867.000000)
+	Number of nodes: 13840
+	Number of allocated nodes: 14336
+	Number of edges: 77212
+	Maximum in degree: 784 (node 11142)
+	Maximum out degree: 550 (node 2926)
+	source 175 (node 2926) with out degree 550
+	target 3213 (node 11142) with in degree 784

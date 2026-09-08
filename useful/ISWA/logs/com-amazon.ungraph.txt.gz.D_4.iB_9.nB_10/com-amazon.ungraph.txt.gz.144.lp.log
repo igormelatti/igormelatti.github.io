@@ -1,0 +1,58 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/com-Amazon.html/com-amazon.ungraph.txt.gz.144.lp -o input/com-Amazon.html/com-amazon.ungraph.txt.gz.144.lp.sol
+Reading problem data from 'input/com-Amazon.html/com-amazon.ungraph.txt.gz.144.lp'...
+925875 rows, 2186607 columns, 4629362 non-zeros
+2186607 integer variables, all of which are binary
+3112487 lines were read
+GLPK Integer Optimizer 5.0
+925875 rows, 2186607 columns, 4629362 non-zeros
+2186607 integer variables, all of which are binary
+Preprocessing...
+925772 rows, 2186494 columns, 4628572 non-zeros
+2186494 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 925772
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+925772 rows, 2186494 columns, 4628572 non-zeros
+      0: obj =   0.000000000e+00 inf =   2.160e+02 (216)
+    115: obj =   3.860085800e+01 inf =   1.010e+02 (101)
+    216: obj =   7.145240400e+01 inf =   0.000e+00 (0)
+*   334: obj =   7.031795100e+01 inf =   0.000e+00 (227)
+Perturbing LP to avoid stalling [417]...
+*   439: obj =   7.031795100e+01 inf =   0.000e+00 (230) 1
+*   547: obj =   6.393699900e+01 inf =   0.000e+00 (256) 1
+*   688: obj =   5.514707900e+01 inf =   0.000e+00 (343)
+*   811: obj =   4.159945699e+01 inf =   4.225e-08 (926035)
+*   914: obj =   1.880392497e+01 inf =   1.443e-07 (534) 1
+*  1026: obj =   1.383939897e+01 inf =   1.193e-07 (925990)
+*  1135: obj =   1.103220796e+01 inf =   1.180e-07 (581) 1
+*  1244: obj =   4.798039265e+00 inf =   7.100e-08 (925984) 1
+*  1357: obj =   4.887958650e-01 inf =   3.970e-07 (546)
+*  1458: obj =   1.615316401e-01 inf =   1.140e-06 (925923) 1
+*  1559: obj =   1.615316070e-01 inf =   1.339e-06 (925892) 1
+Removing LP perturbation [1614]...
+*  1614: obj =   0.000000000e+00 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++  1614: mip =     not found yet >=              -inf        (1; 0)
++  1720: mip =     not found yet >=   0.000000000e+00        (3; 0)
++  1726: mip =     not found yet >=   0.000000000e+00        (5; 0)
++  1727: mip =     not found yet >=   0.000000000e+00        (6; 0)
+Time used: 88.7 secs.  Memory used: 2124.1 Mb.
++  1729: mip =     not found yet >=   0.000000000e+00        (7; 0)
++  1732: mip =     not found yet >=   0.000000000e+00        (8; 0)
++  1748: mip =     not found yet >=   0.000000000e+00        (10; 0)
++  1754: mip =     not found yet >=   0.000000000e+00        (11; 0)
+Solution found by heuristic: 0
++  1757: mip =   0.000000000e+00 >=     tree is empty   0.0% (0; 21)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   224.3 secs
+Memory used: 2635.9 Mb (2763964784 bytes)
+Writing MIP solution to 'input/com-Amazon.html/com-amazon.ungraph.txt.gz.144.lp.sol'...
+Objective:  obj = 0 (MINimum)

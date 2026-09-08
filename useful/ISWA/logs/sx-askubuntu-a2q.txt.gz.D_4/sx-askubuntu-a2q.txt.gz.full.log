@@ -1,0 +1,60 @@
+Launched as 5 input/sx-askubuntu.html/sx-askubuntu-a2q.txt.gz 0
+
+
+Execution time and memory used at after reading from file: 6.575000e+01 seconds, 39751680 bytes of memory usage, 38856 kB of memory peak and 01:05 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 137517
+	Number of allocated nodes: 138240
+	Number of edges: 247253
+	Maximum in degree: 589 (node 7035)
+	Maximum out degree: 2047 (node 15811)
+
+Execution time and memory used at before starting main computation: 6.582000e+01 seconds, 40022016 bytes of memory usage, 40140 kB of memory peak and 01:06 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 137517
+	Number of allocated nodes: 138240
+	Number of edges: 247253
+	Maximum in degree: 589 (node 7035)
+	Maximum out degree: 2047 (node 15811)
+	source 4729 (node 15811) with out degree 2047
+	target 2236 (node 7035) with in degree 589
+
+Execution time and memory used at after creating milp without reductions: 6.634000e+01 seconds, 40022016 bytes of memory usage, 40140 kB of memory peak and 01:06 elapsed time
+Statistics on the network after creating milp without reductions
+	Number of nodes: 137517
+	Number of allocated nodes: 138240
+	Number of edges: 247253
+	Maximum in degree: 589 (node 7035)
+	Maximum out degree: 2047 (node 15811)
+	source 4729 (node 15811) with out degree 2047
+	target 2236 (node 7035) with in degree 589
+
+Execution time and memory used at after reachability and chains reduction: 8.750400e+02 seconds, 42139648 bytes of memory usage, 44936 kB of memory peak and 14:35 elapsed time
+Statistics on the network after reachability and chains reduction
+	Number of nodes: 8975
+	Number of allocated nodes: 138240
+	Number of edges: 37375
+	Maximum in degree: 328 (node 7035)
+	Maximum out degree: 587 (node 449)
+	source 4729 (node 15811) with out degree 489
+	target 2236 (node 7035) with in degree 328
+
+Execution time and memory used at after detours elimination: 9.495500e+02 seconds, 43257856 bytes of memory usage, 44936 kB of memory peak and 15:49 elapsed time
+Statistics on the network after detours elimination
+	Number of nodes: 8973
+	Number of allocated nodes: 138240
+	Number of edges: 37371
+	Maximum in degree: 328 (node 7035)
+	Maximum out degree: 587 (node 449)
+	source 4729 (node 15811) with out degree 489
+	target 2236 (node 7035) with in degree 328
+
+Execution time and memory used at after creating milp with detours elimination (all transformations): 9.496200e+02 seconds, 43257856 bytes of memory usage, 44936 kB of memory peak and 15:49 elapsed time
+Statistics on the network after creating milp with detours elimination (all transformations)
+	Number of nodes: 8973
+	Number of allocated nodes: 138240
+	Number of edges: 37371
+	Maximum in degree: 328 (node 7035)
+	Maximum out degree: 587 (node 449)
+	source 4729 (node 15811) with out degree 489
+	target 2236 (node 7035) with in degree 328

@@ -1,0 +1,40 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/ca-GrQc.html/ca-GrQc.txt.gz.10.lp -o input/ca-GrQc.html/ca-GrQc.txt.gz.10.lp.sol
+Reading problem data from 'input/ca-GrQc.html/ca-GrQc.txt.gz.10.lp'...
+28971 rows, 63177 columns, 144842 non-zeros
+63177 integer variables, all of which are binary
+92153 lines were read
+GLPK Integer Optimizer 5.0
+28971 rows, 63177 columns, 144842 non-zeros
+63177 integer variables, all of which are binary
+Preprocessing...
+28829 rows, 63035 columns, 144140 non-zeros
+63035 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 28829
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+28829 rows, 63035 columns, 144140 non-zeros
+      0: obj =   0.000000000e+00 inf =   5.900e+01 (59)
+     59: obj =   6.472839900e+01 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [434]...
+*  3034: obj =   2.380246900e+01 inf =   2.998e-14 (744) 26
+*  5313: obj =   2.380243226e+01 inf =   1.840e-03 (749) 21
+Removing LP perturbation [8005]...
+*  8005: obj =   1.805555500e+01 inf =   0.000e+00 (0) 24
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++  8005: mip =     not found yet >=              -inf        (1; 0)
++  8079: >>>>>   1.819753000e+01 >=   1.805864112e+01   0.8% (3; 0)
++  8139: >>>>>   1.818518500e+01 >=   1.817283900e+01 < 0.1% (2; 1)
++  8143: mip =   1.818518500e+01 >=     tree is empty   0.0% (0; 5)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   15.7 secs
+Memory used: 79.6 Mb (83518569 bytes)
+Writing MIP solution to 'input/ca-GrQc.html/ca-GrQc.txt.gz.10.lp.sol'...
+Objective:  obj = 18.185185 (MINimum)

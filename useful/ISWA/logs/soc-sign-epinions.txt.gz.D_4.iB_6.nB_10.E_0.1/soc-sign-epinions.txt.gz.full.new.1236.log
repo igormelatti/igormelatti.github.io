@@ -1,0 +1,38 @@
+Version 1.2 launched as -e 0.1 -i 12 input/soc-sign-epinions.html/soc-sign-epinions.txt.gz 1236
+
+
+Execution time and memory used at after reading from file: 2.020000e+02 seconds, 58114048 bytes of memory usage, 56788 kB of memory peak and 03:22 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 131828
+	Number of allocated nodes: 132096
+	Number of edges: 840799
+	Maximum in degree: 3478 (node 25)
+	Maximum out degree: 2070 (node 68214)
+
+Execution time and memory used at after adding costs: 2.020200e+02 seconds, 58114048 bytes of memory usage, 56788 kB of memory peak and 03:22 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 131828
+	Number of allocated nodes: 132096
+	Number of edges: 840799
+	Maximum in degree: 3478 (node 25)
+	Maximum out degree: 2070 (node 68214)
+
+Execution time and memory used at before starting main computation: 2.032200e+02 seconds, 59465728 bytes of memory usage, 59104 kB of memory peak and 03:23 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 131828
+	Number of allocated nodes: 132096
+	Number of edges: 840799
+	Maximum in degree: 3478 (node 25)
+	Maximum out degree: 2070 (node 68214)
+	source 27619 (node 68214) with out degree 2070
+	target 1016 (node 25) with in degree 3478
+
+Execution time and memory used at after iteration 1 (MF = 606.205299): 2.524290e+03 seconds, 849551360 bytes of memory usage, 1016876 kB of memory peak and 42:04 elapsed time
+Statistics on the network after iteration 1 (MF = 606.205299)
+	Number of nodes: 131828
+	Number of allocated nodes: 132096
+	Number of edges: 840799
+	Maximum in degree: 3478 (node 25)
+	Maximum out degree: 2070 (node 68214)
+	source 27619 (node 68214) with out degree 2070
+	target 1016 (node 25) with in degree 3478

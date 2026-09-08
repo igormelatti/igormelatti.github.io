@@ -1,0 +1,58 @@
+Version 1.2 launched as -e 0.1 12 input/amazon0601.html/amazon0601.txt.gz 6
+
+
+Execution time and memory used at after reading from file: 1.328905e+04 seconds, 174370816 bytes of memory usage, 170320 kB of memory peak and 03:41:30 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 403394
+	Number of allocated nodes: 403456
+	Number of edges: 3387388
+	Maximum in degree: 2751 (node 1041)
+	Maximum out degree: 10 (node 0)
+
+Execution time and memory used at after adding costs: 1.328918e+04 seconds, 174370816 bytes of memory usage, 170320 kB of memory peak and 03:41:30 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 403394
+	Number of allocated nodes: 403456
+	Number of edges: 3387388
+	Maximum in degree: 2751 (node 1041)
+	Maximum out degree: 10 (node 0)
+
+Execution time and memory used at before starting main computation: 1.335607e+04 seconds, 187076608 bytes of memory usage, 188368 kB of memory peak and 03:42:37 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 403394
+	Number of allocated nodes: 403456
+	Number of edges: 3387388
+	Maximum in degree: 2751 (node 1041)
+	Maximum out degree: 10 (node 0)
+	source 0 (node 0) with out degree 10
+	target 194 (node 1041) with in degree 2751
+
+Execution time and memory used at after iteration 1 (MF = 0.139080): 5.088302e+04 seconds, 3160866816 bytes of memory usage, 4445840 kB of memory peak and 14:08:06 elapsed time
+Statistics on the network after iteration 1 (MF = 0.139080)
+	Number of nodes: 403394
+	Number of allocated nodes: 403456
+	Number of edges: 3387388
+	Maximum in degree: 2751 (node 1041)
+	Maximum out degree: 10 (node 0)
+	source 0 (node 0) with out degree 10
+	target 194 (node 1041) with in degree 2751
+
+Execution time and memory used at after iteration 2 (MF = 0.497284): 5.132304e+04 seconds, 3160866816 bytes of memory usage, 4445840 kB of memory peak and 14:15:26 elapsed time
+Statistics on the network after iteration 2 (MF = 0.497284)
+	Number of nodes: 403394
+	Number of allocated nodes: 403456
+	Number of edges: 3387388
+	Maximum in degree: 2751 (node 1041)
+	Maximum out degree: 10 (node 0)
+	source 0 (node 0) with out degree 10
+	target 194 (node 1041) with in degree 2751
+
+Execution time and memory used at after iteration 3 (MF = 0.507063): 5.181156e+04 seconds, 3160866816 bytes of memory usage, 4445856 kB of memory peak and 14:23:34 elapsed time
+Statistics on the network after iteration 3 (MF = 0.507063)
+	Number of nodes: 403394
+	Number of allocated nodes: 403456
+	Number of edges: 3387388
+	Maximum in degree: 2751 (node 1041)
+	Maximum out degree: 10 (node 0)
+	source 0 (node 0) with out degree 10
+	target 194 (node 1041) with in degree 2751

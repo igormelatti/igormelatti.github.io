@@ -1,0 +1,38 @@
+Version 1.2 launched as -e 0.1 12 input/com-Youtube.html/com-youtube.ungraph.txt.gz 425
+
+
+Execution time and memory used at after reading from file: 1.030657e+04 seconds, 255209472 bytes of memory usage, 249264 kB of memory peak and 02:51:48 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 1134890
+	Number of allocated nodes: 1135616
+	Number of edges: 2987624
+	Maximum in degree: 4256 (node 663931)
+	Maximum out degree: 28576 (node 1072)
+
+Execution time and memory used at after adding costs: 1.030668e+04 seconds, 255209472 bytes of memory usage, 249264 kB of memory peak and 02:51:48 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 1134890
+	Number of allocated nodes: 1135616
+	Number of edges: 2987624
+	Maximum in degree: 4256 (node 663931)
+	Maximum out degree: 28576 (node 1072)
+
+Execution time and memory used at before starting main computation: 1.035407e+04 seconds, 266428416 bytes of memory usage, 265136 kB of memory peak and 02:52:35 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 1134890
+	Number of allocated nodes: 1135616
+	Number of edges: 2987624
+	Maximum in degree: 4256 (node 663931)
+	Maximum out degree: 28576 (node 1072)
+	source 381 (node 1072) with out degree 28576
+	target 2606 (node 663931) with in degree 4256
+
+Execution time and memory used at after iteration 1 (MF = 307.793860): 9.014771e+04 seconds, 3126558720 bytes of memory usage, 3647544 kB of memory peak and 1-01:02:34 elapsed time
+Statistics on the network after iteration 1 (MF = 307.793860)
+	Number of nodes: 1134890
+	Number of allocated nodes: 1135616
+	Number of edges: 2987624
+	Maximum in degree: 4256 (node 663931)
+	Maximum out degree: 28576 (node 1072)
+	source 381 (node 1072) with out degree 28576
+	target 2606 (node 663931) with in degree 4256

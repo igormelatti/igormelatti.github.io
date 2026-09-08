@@ -1,0 +1,112 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/gemsec-Facebook.html/government_edges.csv.gz.82.lp -o input/gemsec-Facebook.html/government_edges.csv.gz.82.lp.sol
+Reading problem data from 'input/gemsec-Facebook.html/government_edges.csv.gz.82.lp'...
+89433 rows, 185919 columns, 447152 non-zeros
+185919 integer variables, all of which are binary
+275357 lines were read
+GLPK Integer Optimizer 5.0
+89433 rows, 185919 columns, 447152 non-zeros
+185919 integer variables, all of which are binary
+Preprocessing...
+1 hidden packing inequaliti(es) were detected
+89170 rows, 185656 columns, 445068 non-zeros
+185656 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 89170
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+89170 rows, 185656 columns, 445068 non-zeros
+      0: obj =   0.000000000e+00 inf =   6.260e+02 (626)
+    626: obj =   4.472919000e+02 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [829]...
+*  1747: obj =   4.396811100e+02 inf =   0.000e+00 (937) 7
+*  2585: obj =   4.396811100e+02 inf =   0.000e+00 (956) 8
+*  3353: obj =   4.396811100e+02 inf =   0.000e+00 (1001) 7
+*  4086: obj =   4.396811100e+02 inf =   0.000e+00 (1012) 6
+*  4789: obj =   4.396811100e+02 inf =   0.000e+00 (1017) 7
+*  5481: obj =   4.396811100e+02 inf =   0.000e+00 (1032) 6
+*  6156: obj =   4.396811100e+02 inf =   0.000e+00 (1033) 7
+*  6827: obj =   4.396811100e+02 inf =   0.000e+00 (1058) 6
+*  7463: obj =   4.283217018e+02 inf =   1.825e-04 (4978) 7
+*  8101: obj =   4.283216597e+02 inf =   1.484e-03 (4935) 6
+*  8734: obj =   4.283215518e+02 inf =   2.677e-03 (4752) 6
+*  9367: obj =   4.283214775e+02 inf =   2.233e-03 (4563) 6
+* 10039: obj =   4.235605573e+02 inf =   3.132e-03 (4897) 7
+* 10714: obj =   4.235603891e+02 inf =   3.312e-03 (4741) 7
+* 11395: obj =   3.944649960e+02 inf =   2.134e-03 (5495) 6
+* 12112: obj =   3.944631786e+02 inf =   3.153e-03 (5307) 7
+* 12896: obj =   3.944630206e+02 inf =   6.743e-03 (5147) 7
+* 13657: obj =   3.916656304e+02 inf =   6.519e-03 (5007) 7
+* 14378: obj =   3.833520925e+02 inf =   6.406e-03 (4640) 6
+* 15107: obj =   3.823877919e+02 inf =   6.910e-03 (4483) 7
+* 15811: obj =   3.815472394e+02 inf =   6.348e-03 (4390) 6
+* 16525: obj =   3.796145180e+02 inf =   5.331e-03 (4227) 7
+* 17228: obj =   3.659807561e+02 inf =   4.762e-03 (4456) 6
+* 17907: obj =   3.659804923e+02 inf =   4.936e-03 (4307) 7
+* 18607: obj =   3.633506536e+02 inf =   5.219e-03 (90740) 6
+* 19223: obj =   3.633503505e+02 inf =   5.283e-03 (90731) 6
+* 19801: obj =   3.633498706e+02 inf =   4.599e-03 (90763) 6
+* 20384: obj =   3.631002863e+02 inf =   3.732e-03 (4919) 6
+* 20975: obj =   3.631001166e+02 inf =   2.925e-03 (4750) 5
+* 21643: obj =   3.629261136e+02 inf =   2.542e-03 (4840) 7
+* 22282: obj =   3.629251934e+02 inf =   3.912e-03 (4517) 6
+* 23031: obj =   3.602914019e+02 inf =   4.343e-03 (4359) 6
+* 23810: obj =   3.357915731e+02 inf =   4.013e-03 (4373) 6
+* 24610: obj =   3.337527190e+02 inf =   3.919e-03 (4235) 6
+* 25294: obj =   3.311856432e+02 inf =   4.323e-03 (4250) 6
+* 25924: obj =   3.311855851e+02 inf =   4.480e-03 (4181) 6
+* 26545: obj =   3.311855021e+02 inf =   4.029e-03 (4046) 6
+* 27170: obj =   3.294752990e+02 inf =   4.179e-03 (4154) 6
+* 27819: obj =   3.177367726e+02 inf =   4.076e-03 (3953) 6
+* 28536: obj =   3.011198365e+02 inf =   3.880e-03 (3832) 6
+* 29307: obj =   2.749504466e+02 inf =   3.864e-03 (3976) 6
+* 30052: obj =   2.484100566e+02 inf =   4.192e-03 (3763) 7
+* 30770: obj =   2.415826248e+02 inf =   4.032e-03 (3730) 7
+* 31574: obj =   2.065233818e+02 inf =   3.893e-03 (3274) 6
+* 32380: obj =   2.022050940e+02 inf =   4.618e-03 (3087) 7
+* 33014: obj =   2.006297549e+02 inf =   4.959e-03 (3245) 6
+* 33628: obj =   1.999368810e+02 inf =   4.816e-03 (3393) 5
+* 34239: obj =   1.999367554e+02 inf =   3.987e-03 (3400) 6
+* 34834: obj =   1.919991395e+02 inf =   3.621e-03 (3126) 6
+* 35435: obj =   1.919987124e+02 inf =   3.929e-03 (3075) 6
+* 36092: obj =   1.919985903e+02 inf =   4.822e-03 (3039) 6
+* 36739: obj =   1.868205033e+02 inf =   5.552e-03 (3017) 7
+* 37411: obj =   1.868204113e+02 inf =   5.185e-03 (2954) 6
+* 38130: obj =   1.788412381e+02 inf =   4.666e-03 (2930) 7
+* 38860: obj =   1.613873866e+02 inf =   4.896e-03 (6597) 5
+* 39463: obj =   1.613870363e+02 inf =   4.848e-03 (6488) 6
+* 40065: obj =   1.613859027e+02 inf =   4.246e-03 (4078) 6
+* 40661: obj =   1.613850887e+02 inf =   4.124e-03 (3608) 6
+* 41321: obj =   1.613847811e+02 inf =   4.493e-03 (3295) 6
+* 41995: obj =   1.596924671e+02 inf =   4.218e-03 (2951) 6
+* 42701: obj =   1.419276740e+02 inf =   4.030e-03 (2612) 5
+* 43365: obj =   1.394222645e+02 inf =   3.810e-03 (2443) 6
+* 44065: obj =   1.304727361e+02 inf =   3.976e-03 (2278) 5
+* 44755: obj =   1.178042225e+02 inf =   4.033e-03 (2113) 6
+* 45441: obj =   1.120633713e+02 inf =   3.808e-03 (2023) 7
+* 46104: obj =   1.057507812e+02 inf =   3.674e-03 (1871) 5
+* 46772: obj =   1.005807195e+02 inf =   3.807e-03 (2163) 7
+* 47427: obj =   1.005805582e+02 inf =   4.711e-03 (2125) 6
+* 48123: obj =   9.905012646e+01 inf =   3.979e-03 (1625) 7
+* 48861: obj =   9.445913337e+01 inf =   7.538e-03 (1947) 6
+* 49706: obj =   9.199572202e+01 inf =   6.444e-03 (1768) 8
+* 50578: obj =   8.790513283e+01 inf =   5.905e-03 (1474) 8
+* 51460: obj =   8.452552425e+01 inf =   5.439e-03 (982) 8
+* 52344: obj =   8.296950806e+01 inf =   5.025e-03 (232) 7
+Removing LP perturbation [52674]...
+* 52674: obj =   8.283718900e+01 inf =   0.000e+00 (0) 3
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 52674: mip =     not found yet >=              -inf        (1; 0)
++ 52674: >>>>>   8.283718900e+01 >=   8.283718900e+01   0.0% (1; 0)
++ 52674: mip =   8.283718900e+01 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   374.7 secs
+Memory used: 226.2 Mb (237142254 bytes)
+Writing MIP solution to 'input/gemsec-Facebook.html/government_edges.csv.gz.82.lp.sol'...
+Objective:  obj = 82.837189 (MINimum)

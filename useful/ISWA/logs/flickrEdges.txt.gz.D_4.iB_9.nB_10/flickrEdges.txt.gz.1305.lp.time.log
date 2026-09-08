@@ -1,0 +1,23 @@
+	Command being timed: "/usr/app/src/glpk-5.0/examples/glpsol --lp input/web-flickr.html/flickrEdges.txt.gz.1305.lp -o input/web-flickr.html/flickrEdges.txt.gz.1305.lp.sol"
+	User time (seconds): 110714.97
+	System time (seconds): 878.44
+	Percent of CPU this job got: 91%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 33:46:10
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 5764900
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 1085
+	Minor (reclaiming a frame) page faults: 70280650
+	Voluntary context switches: 1772
+	Involuntary context switches: 2317063
+	Swaps: 0
+	File system inputs: 12272
+	File system outputs: 1221776
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0

@@ -1,0 +1,86 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/cit-HepPh.html/cit-HepPh.txt.gz.82.lp.reach_chain_detours.lp -o
+ input/cit-HepPh.html/cit-HepPh.txt.gz.82.lp.reach_chain_detours.lp.sol
+Reading problem data from 'input/cit-HepPh.html/cit-HepPh.txt.gz.82.lp.reach_chain_detours.lp'...
+139961 rows, 292621 columns, 699792 non-zeros
+292621 integer variables, all of which are binary
+432587 lines were read
+GLPK Integer Optimizer 5.0
+139961 rows, 292621 columns, 699792 non-zeros
+292621 integer variables, all of which are binary
+Preprocessing...
+139958 rows, 292618 columns, 699113 non-zeros
+292618 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 139958
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+139958 rows, 292618 columns, 699113 non-zeros
+      0: obj =   0.000000000e+00 inf =   3.770e+02 (377)
+    377: obj =   2.033373040e+02 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [578]...
+*  1160: obj =   2.008305420e+02 inf =   0.000e+00 (601) 4
+*  1848: obj =   2.008305420e+02 inf =   0.000e+00 (628) 7
+*  2501: obj =   2.008305420e+02 inf =   0.000e+00 (631) 5
+*  3134: obj =   1.844338423e+02 inf =   0.000e+00 (2813) 6
+*  3750: obj =   1.844338423e+02 inf =   0.000e+00 (2949) 5
+*  4323: obj =   1.844338423e+02 inf =   3.247e-15 (3097) 5
+*  4889: obj =   1.617160477e+02 inf =   1.384e-03 (3245) 5
+*  5457: obj =   1.617158506e+02 inf =   3.487e-03 (3026) 6
+*  6029: obj =   1.617157080e+02 inf =   4.479e-03 (2751) 6
+*  6600: obj =   1.617155514e+02 inf =   4.522e-03 (2597) 5
+*  7170: obj =   1.466430902e+02 inf =   4.094e-03 (2294) 6
+*  7739: obj =   1.466429954e+02 inf =   3.705e-03 (2203) 5
+*  8304: obj =   1.434415184e+02 inf =   2.772e-03 (2118) 6
+*  8876: obj =   1.353242959e+02 inf =   1.964e-03 (2004) 5
+*  9440: obj =   1.324198380e+02 inf =   2.043e-03 (1905) 6
+* 10015: obj =   1.283521741e+02 inf =   1.786e-03 (2058) 5
+* 10586: obj =   1.133851301e+02 inf =   1.501e-03 (140987) 5
+* 11119: obj =   1.133846081e+02 inf =   1.736e-03 (140972) 6
+* 11689: obj =   1.110649115e+02 inf =   2.093e-03 (1970) 5
+* 12386: obj =   3.861533733e+01 inf =   2.170e-03 (1852) 5
+* 13023: obj =   2.083831333e+01 inf =   2.210e-03 (1573) 5
+* 13625: obj =   1.387847758e+01 inf =   2.307e-03 (140583) 6
+* 14268: obj =   1.286812299e+01 inf =   3.475e-03 (2133) 6
+* 14888: obj =   1.236122890e+01 inf =   3.197e-03 (1934) 5
+* 15486: obj =   1.236117192e+01 inf =   2.969e-03 (1798) 6
+* 16087: obj =   1.236114389e+01 inf =   2.966e-03 (1781) 5
+* 16689: obj =   9.807121254e+00 inf =   2.874e-03 (4016) 6
+* 17293: obj =   9.176265963e+00 inf =   3.130e-03 (3750) 5
+* 17860: obj =   9.176217878e+00 inf =   4.140e-03 (3601) 5
+* 18392: obj =   9.176164746e+00 inf =   4.933e-03 (3395) 5
+* 18947: obj =   7.540217032e+00 inf =   4.734e-03 (2599) 5
+* 19509: obj =   7.095490654e+00 inf =   4.947e-03 (2399) 5
+* 20058: obj =   5.589509101e+00 inf =   4.792e-03 (2128) 5
+* 20598: obj =   5.317046535e+00 inf =   4.151e-03 (1959) 5
+* 21152: obj =   4.137019448e+00 inf =   3.717e-03 (1812) 5
+* 21680: obj =   4.085478384e+00 inf =   3.766e-03 (1824) 5
+* 22228: obj =   3.097272515e+00 inf =   3.813e-03 (2588) 5
+* 22804: obj =   2.347821939e+00 inf =   3.541e-03 (2413) 5
+* 23359: obj =   2.022177669e+00 inf =   3.321e-03 (2440) 5
+* 23875: obj =   1.966778154e+00 inf =   3.359e-03 (2369) 5
+* 24398: obj =   1.703825988e+00 inf =   2.968e-03 (1841) 5
+* 24928: obj =   1.703807063e+00 inf =   3.161e-03 (1705) 5
+* 25479: obj =   1.599464906e+00 inf =   3.214e-03 (1549) 5
+* 26055: obj =   1.237611747e+00 inf =   3.061e-03 (1407) 5
+* 26596: obj =   1.092061621e+00 inf =   2.768e-03 (140398) 4
+* 27112: obj =   7.072959730e-01 inf =   2.783e-03 (1489) 5
+* 27633: obj =   2.376117376e-01 inf =   2.690e-03 (1088) 5
+* 28207: obj =   4.668757407e-02 inf =   2.917e-03 (965) 5
+Removing LP perturbation [28433]...
+* 28433: obj =   0.000000000e+00 inf =   6.994e-15 (0) 2
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 28433: mip =     not found yet >=              -inf        (1; 0)
++ 28433: >>>>>   0.000000000e+00 >=   0.000000000e+00   0.0% (1; 0)
++ 28433: mip =   0.000000000e+00 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   245.3 secs
+Memory used: 360.1 Mb (377610808 bytes)
+Writing MIP solution to 'input/cit-HepPh.html/cit-HepPh.txt.gz.82.lp.reach_chain_detours.lp.sol'...
+Objective:  obj = 0 (MINimum)

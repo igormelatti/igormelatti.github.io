@@ -1,0 +1,68 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/sx-mathoverflow.html/sx-mathoverflow-a2q.txt.gz.336.lp.reach_chain_detours.lp
+ -o input/sx-mathoverflow.html/sx-mathoverflow-a2q.txt.gz.336.lp.reach_chain_detours.lp.sol
+Reading problem data from 'input/sx-mathoverflow.html/sx-mathoverflow-a2q.txt.gz.336.lp.reach_chain_detours.lp'...
+42789 rows, 88704 columns, 213932 non-zeros
+88704 integer variables, all of which are binary
+131498 lines were read
+GLPK Integer Optimizer 5.0
+42789 rows, 88704 columns, 213932 non-zeros
+88704 integer variables, all of which are binary
+Preprocessing...
+42601 rows, 88516 columns, 212396 non-zeros
+88516 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 42601
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+42601 rows, 88516 columns, 212396 non-zeros
+      0: obj =   0.000000000e+00 inf =   3.880e+02 (388)
+    388: obj =   5.008755912e+11 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [587]...
+*  2297: obj =   4.994318508e+11 inf =   0.000e+00 (847) 14
+*  3645: obj =   4.994318508e+11 inf =   0.000e+00 (899) 12
+*  4932: obj =   4.994318508e+11 inf =   0.000e+00 (916) 12
+*  6216: obj =   4.994318508e+11 inf =   0.000e+00 (950) 12
+*  7317: obj =   3.829827355e+11 inf =   0.000e+00 (2998) 11
+*  8370: obj =   3.829827226e+11 inf =   2.883e-04 (2945) 10
+*  9345: obj =   3.829825190e+11 inf =   9.841e-03 (2851) 10
+* 10311: obj =   3.829823467e+11 inf =   1.497e-02 (2758) 10
+* 11288: obj =   3.820471709e+11 inf =   2.014e-02 (2727) 9
+* 12257: obj =   3.804842074e+11 inf =   2.201e-02 (2700) 10
+* 13240: obj =   3.779293254e+11 inf =   2.298e-02 (2589) 9
+* 14165: obj =   3.775870172e+11 inf =   2.476e-02 (2551) 10
+* 15129: obj =   3.753474315e+11 inf =   3.035e-02 (2485) 9
+* 16106: obj =   3.713260209e+11 inf =   2.584e-02 (2519) 10
+* 17053: obj =   3.439600207e+11 inf =   2.109e-02 (2418) 9
+* 17957: obj =   2.899124355e+11 inf =   2.421e-02 (2363) 9
+* 18811: obj =   9.073223307e+10 inf =   3.151e-02 (2077) 8
+* 19875: obj =   7.914033887e+10 inf =   2.944e-02 (2361) 10
+* 21046: obj =   7.913048890e+10 inf =   3.930e-02 (2183) 12
+* 22532: obj =   7.787870155e+10 inf =   4.701e-02 (338) 15
+* 23578: obj =   7.761888215e+10 inf =   3.566e-02 (2017) 10
+* 24452: obj =   7.411371770e+10 inf =   4.134e-02 (2351) 8
+* 25499: obj =   7.410765301e+10 inf =   3.433e-02 (2244) 10
+* 26819: obj =   7.410241411e+10 inf =   5.032e-02 (1983) 13
+* 28518: obj =   7.338760209e+10 inf =   3.757e-02 (1609) 15
+* 30288: obj =   6.530518177e+10 inf =   2.704e-02 (1256) 17
+* 31825: obj =   6.530497750e+10 inf =   2.744e-02 (906) 12
+* 33233: obj =   6.530467772e+10 inf =   2.947e-02 (690) 12
+* 34614: obj =   6.530417415e+10 inf =   2.593e-02 (553) 12
+* 36110: obj =   6.530360977e+10 inf =   2.174e-02 (117) 14
+Removing LP perturbation [36234]...
+* 36234: obj =   6.531198001e+10 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 36234: mip =     not found yet >=              -inf        (1; 0)
++ 36234: >>>>>   6.531198001e+10 >=   6.531198001e+10   0.0% (1; 0)
++ 36234: mip =   6.531198001e+10 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   151.4 secs
+Memory used: 108.1 Mb (113379662 bytes)
+Writing MIP solution to 'input/sx-mathoverflow.html/sx-mathoverflow-a2q.txt.gz.336.lp.reach_chain_detours.lp.sol'...
+Objective:  obj = 6.531198001e+10 (MINimum)

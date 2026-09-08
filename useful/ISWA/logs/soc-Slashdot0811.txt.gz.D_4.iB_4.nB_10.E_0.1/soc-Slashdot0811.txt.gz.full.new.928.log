@@ -1,0 +1,48 @@
+Version 1.2 launched as -e 0.1 12 input/soc-Slashdot0811.html/soc-Slashdot0811.txt.gz 928
+
+
+Execution time and memory used at after reading from file: 7.068000e+01 seconds, 50667520 bytes of memory usage, 49516 kB of memory peak and 01:10 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 77360
+	Number of allocated nodes: 77824
+	Number of edges: 828161
+	Maximum in degree: 2539 (node 2481)
+	Maximum out degree: 2507 (node 2481)
+
+Execution time and memory used at after adding costs: 7.070000e+01 seconds, 50667520 bytes of memory usage, 49516 kB of memory peak and 01:10 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 77360
+	Number of allocated nodes: 77824
+	Number of edges: 828161
+	Maximum in degree: 2539 (node 2481)
+	Maximum out degree: 2507 (node 2481)
+
+Execution time and memory used at before starting main computation: 7.348000e+01 seconds, 52965376 bytes of memory usage, 52544 kB of memory peak and 01:13 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 77360
+	Number of allocated nodes: 77824
+	Number of edges: 828161
+	Maximum in degree: 2539 (node 2481)
+	Maximum out degree: 2507 (node 2481)
+	source 511 (node 2481) with out degree 2507
+	target 368 (node 394) with in degree 2326
+
+Execution time and memory used at after iteration 1 (MF = 1583.291320): 1.682890e+03 seconds, 813256704 bytes of memory usage, 1059632 kB of memory peak and 28:03 elapsed time
+Statistics on the network after iteration 1 (MF = 1583.291320)
+	Number of nodes: 77360
+	Number of allocated nodes: 77824
+	Number of edges: 828161
+	Maximum in degree: 2539 (node 2481)
+	Maximum out degree: 2507 (node 2481)
+	source 511 (node 2481) with out degree 2507
+	target 368 (node 394) with in degree 2326
+
+Execution time and memory used at after iteration 2 (MF = 937.545779): 2.271310e+03 seconds, 813256704 bytes of memory usage, 1062680 kB of memory peak and 37:51 elapsed time
+Statistics on the network after iteration 2 (MF = 937.545779)
+	Number of nodes: 77360
+	Number of allocated nodes: 77824
+	Number of edges: 828161
+	Maximum in degree: 2539 (node 2481)
+	Maximum out degree: 2507 (node 2481)
+	source 511 (node 2481) with out degree 2507
+	target 368 (node 394) with in degree 2326

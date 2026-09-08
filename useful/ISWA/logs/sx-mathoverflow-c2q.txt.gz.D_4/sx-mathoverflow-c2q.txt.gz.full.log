@@ -1,0 +1,60 @@
+Launched as 5 input/sx-mathoverflow.html/sx-mathoverflow-c2q.txt.gz 0
+
+
+Execution time and memory used at after reading from file: 4.030000e+00 seconds, 19607552 bytes of memory usage, 19184 kB of memory peak and 00:04 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 16836
+	Number of allocated nodes: 17408
+	Number of edges: 91149
+	Maximum in degree: 452 (node 6094)
+	Maximum out degree: 1398 (node 763)
+
+Execution time and memory used at before starting main computation: 4.060000e+00 seconds, 19607552 bytes of memory usage, 19664 kB of memory peak and 00:04 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 16836
+	Number of allocated nodes: 17408
+	Number of edges: 91149
+	Maximum in degree: 452 (node 6094)
+	Maximum out degree: 1398 (node 763)
+	source 128 (node 763) with out degree 1398
+	target 1576 (node 6094) with in degree 452
+
+Execution time and memory used at after creating milp without reductions: 4.260000e+00 seconds, 19607552 bytes of memory usage, 19664 kB of memory peak and 00:04 elapsed time
+Statistics on the network after creating milp without reductions
+	Number of nodes: 16836
+	Number of allocated nodes: 17408
+	Number of edges: 91149
+	Maximum in degree: 452 (node 6094)
+	Maximum out degree: 1398 (node 763)
+	source 128 (node 763) with out degree 1398
+	target 1576 (node 6094) with in degree 452
+
+Execution time and memory used at after reachability and chains reduction: 2.835000e+01 seconds, 19607552 bytes of memory usage, 20508 kB of memory peak and 00:28 elapsed time
+Statistics on the network after reachability and chains reduction
+	Number of nodes: 2415
+	Number of allocated nodes: 17408
+	Number of edges: 38550
+	Maximum in degree: 385 (node 6094)
+	Maximum out degree: 602 (node 290)
+	source 128 (node 763) with out degree 431
+	target 1576 (node 6094) with in degree 385
+
+Execution time and memory used at after detours elimination: 6.333000e+01 seconds, 19607552 bytes of memory usage, 20508 kB of memory peak and 01:03 elapsed time
+Statistics on the network after detours elimination
+	Number of nodes: 2415
+	Number of allocated nodes: 17408
+	Number of edges: 38550
+	Maximum in degree: 385 (node 6094)
+	Maximum out degree: 602 (node 290)
+	source 128 (node 763) with out degree 431
+	target 1576 (node 6094) with in degree 385
+
+Execution time and memory used at after creating milp with detours elimination (all transformations): 6.341000e+01 seconds, 19607552 bytes of memory usage, 20508 kB of memory peak and 01:03 elapsed time
+Statistics on the network after creating milp with detours elimination (all transformations)
+	Number of nodes: 2415
+	Number of allocated nodes: 17408
+	Number of edges: 38550
+	Maximum in degree: 385 (node 6094)
+	Maximum out degree: 602 (node 290)
+	source 128 (node 763) with out degree 431
+	target 1576 (node 6094) with in degree 385

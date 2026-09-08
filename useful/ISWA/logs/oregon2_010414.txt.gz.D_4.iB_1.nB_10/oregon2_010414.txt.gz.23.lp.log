@@ -1,0 +1,58 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/Oregon-2.html/oregon2_010414.txt.gz.23.lp -o input/Oregon-2.html/oregon2_010414.txt.gz.23.lp.sol
+Reading problem data from 'input/Oregon-2.html/oregon2_010414.txt.gz.23.lp'...
+31765 rows, 74543 columns, 158812 non-zeros
+74543 integer variables, all of which are binary
+106313 lines were read
+GLPK Integer Optimizer 5.0
+31765 rows, 74543 columns, 158812 non-zeros
+74543 integer variables, all of which are binary
+Preprocessing...
+1 hidden packing inequaliti(es) were detected
+31373 rows, 74124 columns, 154678 non-zeros
+74124 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 31373
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+31373 rows, 74124 columns, 154678 non-zeros
+      0: obj =   0.000000000e+00 inf =   2.380e+02 (238)
+    238: obj =   6.296851700e+01 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [573]...
+*  3276: obj =   2.591253296e+01 inf =   5.324e-05 (154) 24
+Removing LP perturbation [3628]...
+*  3628: obj =   2.510760363e+01 inf =   0.000e+00 (0) 3
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++  3628: mip =     not found yet >=              -inf        (1; 0)
++  3681: mip =     not found yet >=   2.511115150e+01        (4; 0)
++  3726: mip =     not found yet >=   2.511115150e+01        (7; 0)
++  3768: mip =     not found yet >=   2.511115150e+01        (10; 0)
++  3807: mip =     not found yet >=   2.511115150e+01        (13; 0)
++  3870: mip =     not found yet >=   2.511115150e+01        (16; 0)
++  3912: mip =     not found yet >=   2.511115150e+01        (19; 0)
++  3941: mip =     not found yet >=   2.511115150e+01        (22; 0)
++  4000: >>>>>   2.692729700e+01 >=   2.511115150e+01   6.7% (24; 0)
++  4047: mip =   2.692729700e+01 >=   2.522973953e+01   6.3% (25; 1)
+Time used: 60.7 secs.  Memory used: 72.2 Mb.
++  4078: mip =   2.692729700e+01 >=   2.522973953e+01   6.3% (27; 1)
++  4112: mip =   2.692729700e+01 >=   2.522973953e+01   6.3% (29; 1)
++  4144: mip =   2.692729700e+01 >=   2.522973953e+01   6.3% (31; 1)
++  4197: >>>>>   2.591679900e+01 >=   2.522973953e+01   2.7% (32; 1)
++  4219: mip =   2.591679900e+01 >=   2.530851741e+01   2.3% (18; 32)
++  4258: mip =   2.591679900e+01 >=   2.530851741e+01   2.3% (20; 32)
++  4349: mip =   2.591679900e+01 >=   2.531224400e+01   2.3% (21; 33)
++  4425: >>>>>   2.568701700e+01 >=   2.531224400e+01   1.5% (21; 33)
++  4522: mip =   2.568701700e+01 >=   2.533192886e+01   1.4% (13; 50)
++  4570: >>>>>   2.540046900e+01 >=   2.537849278e+01 < 0.1% (12; 51)
++  4574: mip =   2.540046900e+01 >=     tree is empty   0.0% (0; 79)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   106.4 secs
+Memory used: 97.1 Mb (101840924 bytes)
+Writing MIP solution to 'input/Oregon-2.html/oregon2_010414.txt.gz.23.lp.sol'...
+Objective:  obj = 25.400469 (MINimum)

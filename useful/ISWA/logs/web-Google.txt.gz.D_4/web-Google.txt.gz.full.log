@@ -1,0 +1,48 @@
+Launched as 5 input/web-Google.html/web-Google.txt.gz 0
+
+
+Execution time and memory used at after reading from file: 3.556666e+04 seconds, 289796096 bytes of memory usage, 283040 kB of memory peak and 09:52:50 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 875713
+	Number of allocated nodes: 876544
+	Number of edges: 5105039
+	Maximum in degree: 6326 (node 537039)
+	Maximum out degree: 456 (node 506742)
+
+Execution time and memory used at after adding costs: 3.556690e+04 seconds, 289796096 bytes of memory usage, 283040 kB of memory peak and 09:52:51 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 875713
+	Number of allocated nodes: 876544
+	Number of edges: 5105039
+	Maximum in degree: 6326 (node 537039)
+	Maximum out degree: 456 (node 506742)
+
+Execution time and memory used at before starting main computation: 3.566327e+04 seconds, 305475584 bytes of memory usage, 302768 kB of memory peak and 09:54:27 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 875713
+	Number of allocated nodes: 876544
+	Number of edges: 5105039
+	Maximum in degree: 6326 (node 537039)
+	Maximum out degree: 456 (node 506742)
+	source 89860 (node 506742) with out degree 456
+	target 3178 (node 537039) with in degree 6326
+
+Execution time and memory used at after creating milp without reductions: 3.567180e+04 seconds, 305475584 bytes of memory usage, 302768 kB of memory peak and 09:54:36 elapsed time
+Statistics on the network after creating milp without reductions
+	Number of nodes: 875713
+	Number of allocated nodes: 876544
+	Number of edges: 5105039
+	Maximum in degree: 6326 (node 537039)
+	Maximum out degree: 456 (node 506742)
+	source 89860 (node 506742) with out degree 456
+	target 3178 (node 537039) with in degree 6326
+
+Execution time and memory used at after reachability and chains reduction: 8.129469e+04 seconds, 371150848 bytes of memory usage, 394128 kB of memory peak and 22:35:02 elapsed time
+Statistics on the network after reachability and chains reduction
+	Number of nodes: 416538
+	Number of allocated nodes: 876544
+	Number of edges: 3388563
+	Maximum in degree: 4209 (node 751384)
+	Maximum out degree: 382 (node 506742)
+	source 89860 (node 506742) with out degree 382
+	target 3178 (node 537039) with in degree 3807

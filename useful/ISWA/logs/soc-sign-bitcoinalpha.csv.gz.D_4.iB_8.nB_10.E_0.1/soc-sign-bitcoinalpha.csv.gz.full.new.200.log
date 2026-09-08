@@ -1,0 +1,58 @@
+Version 1.2 launched as -e 0.1 -i 12 input/soc-sign-bitcoin-alpha.html/soc-sign-bitcoinalpha.csv.gz 200
+
+
+Execution time and memory used at after reading from file: 8.000000e-02 seconds, 15519744 bytes of memory usage, 15192 kB of memory peak and 00:00 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 3783
+	Number of allocated nodes: 4096
+	Number of edges: 24186
+	Maximum in degree: 398 (node 1)
+	Maximum out degree: 490 (node 1)
+
+Execution time and memory used at after adding costs: 8.000000e-02 seconds, 15519744 bytes of memory usage, 15192 kB of memory peak and 00:00 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 3783
+	Number of allocated nodes: 4096
+	Number of edges: 24186
+	Maximum in degree: 398 (node 1)
+	Maximum out degree: 490 (node 1)
+
+Execution time and memory used at before starting main computation: 9.000000e-02 seconds, 15654912 bytes of memory usage, 15804 kB of memory peak and 00:00 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 3783
+	Number of allocated nodes: 4096
+	Number of edges: 24186
+	Maximum in degree: 398 (node 1)
+	Maximum out degree: 490 (node 1)
+	source 1 (node 1) with out degree 490
+	target 690 (node 3) with in degree 251
+
+Execution time and memory used at after iteration 1 (MF = 123.763514): 2.170000e+00 seconds, 37085184 bytes of memory usage, 44240 kB of memory peak and 00:02 elapsed time
+Statistics on the network after iteration 1 (MF = 123.763514)
+	Number of nodes: 3783
+	Number of allocated nodes: 4096
+	Number of edges: 24186
+	Maximum in degree: 398 (node 1)
+	Maximum out degree: 490 (node 1)
+	source 1 (node 1) with out degree 490
+	target 690 (node 3) with in degree 251
+
+Execution time and memory used at after iteration 2 (MF = 53.342342): 2.890000e+00 seconds, 37085184 bytes of memory usage, 44356 kB of memory peak and 00:03 elapsed time
+Statistics on the network after iteration 2 (MF = 53.342342)
+	Number of nodes: 3783
+	Number of allocated nodes: 4096
+	Number of edges: 24186
+	Maximum in degree: 398 (node 1)
+	Maximum out degree: 490 (node 1)
+	source 1 (node 1) with out degree 490
+	target 690 (node 3) with in degree 251
+
+Execution time and memory used at after iteration 3 (MF = 78.677928): 1.178000e+01 seconds, 47566848 bytes of memory usage, 51412 kB of memory peak and 00:12 elapsed time
+Statistics on the network after iteration 3 (MF = 78.677928)
+	Number of nodes: 3783
+	Number of allocated nodes: 4096
+	Number of edges: 24186
+	Maximum in degree: 398 (node 1)
+	Maximum out degree: 490 (node 1)
+	source 1 (node 1) with out degree 490
+	target 690 (node 3) with in degree 251

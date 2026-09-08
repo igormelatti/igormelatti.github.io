@@ -1,0 +1,68 @@
+Launched as 5 input/as-Skitter.html/as-skitter.txt.gz 0
+
+
+Execution time and memory used at after reading from file: 6.056171e+04 seconds, 586461184 bytes of memory usage, 572752 kB of memory peak and 16:49:26 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 1696415
+	Number of allocated nodes: 1696768
+	Number of edges: 11095298
+	Maximum in degree: 3714 (node 149419)
+	Maximum out degree: 35387 (node 7046)
+
+Execution time and memory used at after adding costs: 6.056218e+04 seconds, 586461184 bytes of memory usage, 572752 kB of memory peak and 16:49:27 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 1696415
+	Number of allocated nodes: 1696768
+	Number of edges: 11095298
+	Maximum in degree: 3714 (node 149419)
+	Maximum out degree: 35387 (node 7046)
+
+Execution time and memory used at before starting main computation: 6.117104e+04 seconds, 614170624 bytes of memory usage, 606920 kB of memory peak and 16:59:36 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 1696415
+	Number of allocated nodes: 1696768
+	Number of edges: 11095298
+	Maximum in degree: 3714 (node 149419)
+	Maximum out degree: 35387 (node 7046)
+	source 7046 (node 7046) with out degree 35387
+	target 149419 (node 149419) with in degree 3714
+
+Execution time and memory used at after creating milp without reductions: 6.118668e+04 seconds, 614170624 bytes of memory usage, 606920 kB of memory peak and 16:59:51 elapsed time
+Statistics on the network after creating milp without reductions
+	Number of nodes: 1696415
+	Number of allocated nodes: 1696768
+	Number of edges: 11095298
+	Maximum in degree: 3714 (node 149419)
+	Maximum out degree: 35387 (node 7046)
+	source 7046 (node 7046) with out degree 35387
+	target 149419 (node 149419) with in degree 3714
+
+Execution time and memory used at after reachability and chains reduction: 1.859776e+05 seconds, 680075264 bytes of memory usage, 717176 kB of memory peak and 2-03:39:46 elapsed time
+Statistics on the network after reachability and chains reduction
+	Number of nodes: 39011
+	Number of allocated nodes: 1696768
+	Number of edges: 396627
+	Maximum in degree: 2047 (node 149419)
+	Maximum out degree: 6302 (node 7747)
+	source 7046 (node 7046) with out degree 321
+	target 149419 (node 149419) with in degree 2047
+
+Execution time and memory used at after detours elimination: 1.859788e+05 seconds, 680075264 bytes of memory usage, 717176 kB of memory peak and 2-03:39:47 elapsed time
+Statistics on the network after detours elimination
+	Number of nodes: 39011
+	Number of allocated nodes: 1696768
+	Number of edges: 396627
+	Maximum in degree: 2047 (node 149419)
+	Maximum out degree: 6302 (node 7747)
+	source 7046 (node 7046) with out degree 321
+	target 149419 (node 149419) with in degree 2047
+
+Execution time and memory used at after creating milp with detours elimination (all transformations): 1.859794e+05 seconds, 680075264 bytes of memory usage, 717176 kB of memory peak and 2-03:39:48 elapsed time
+Statistics on the network after creating milp with detours elimination (all transformations)
+	Number of nodes: 39011
+	Number of allocated nodes: 1696768
+	Number of edges: 396627
+	Maximum in degree: 2047 (node 149419)
+	Maximum out degree: 6302 (node 7747)
+	source 7046 (node 7046) with out degree 321
+	target 149419 (node 149419) with in degree 2047

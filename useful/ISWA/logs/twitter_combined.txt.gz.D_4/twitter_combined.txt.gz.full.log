@@ -1,0 +1,48 @@
+Launched as 5 input/ego-Twitter.html/twitter_combined.txt.gz 0
+
+
+Execution time and memory used at after reading from file: 3.658600e+02 seconds, 81326080 bytes of memory usage, 79456 kB of memory peak and 06:06 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 81306
+	Number of allocated nodes: 81920
+	Number of edges: 1768135
+	Maximum in degree: 3383 (node 115485051)
+	Maximum out degree: 1205 (node 59804598)
+
+Execution time and memory used at after adding costs: 3.659500e+02 seconds, 81326080 bytes of memory usage, 79456 kB of memory peak and 06:06 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 81306
+	Number of allocated nodes: 81920
+	Number of edges: 1768135
+	Maximum in degree: 3383 (node 115485051)
+	Maximum out degree: 1205 (node 59804598)
+
+Execution time and memory used at before starting main computation: 3.702100e+02 seconds, 83488768 bytes of memory usage, 82368 kB of memory peak and 06:11 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 81306
+	Number of allocated nodes: 81920
+	Number of edges: 1768135
+	Maximum in degree: 3383 (node 115485051)
+	Maximum out degree: 1205 (node 59804598)
+	source 2969 (node 59804598) with out degree 1205
+	target 1758 (node 115485051) with in degree 3383
+
+Execution time and memory used at after creating milp without reductions: 3.727500e+02 seconds, 83488768 bytes of memory usage, 82368 kB of memory peak and 06:13 elapsed time
+Statistics on the network after creating milp without reductions
+	Number of nodes: 81306
+	Number of allocated nodes: 81920
+	Number of edges: 1768135
+	Maximum in degree: 3383 (node 115485051)
+	Maximum out degree: 1205 (node 59804598)
+	source 2969 (node 59804598) with out degree 1205
+	target 1758 (node 115485051) with in degree 3383
+
+Execution time and memory used at after reachability and chains reduction: 1.765400e+03 seconds, 137822208 bytes of memory usage, 136264 kB of memory peak and 29:26 elapsed time
+Statistics on the network after reachability and chains reduction
+	Number of nodes: 68480
+	Number of allocated nodes: 81920
+	Number of edges: 1688645
+	Maximum in degree: 3383 (node 115485051)
+	Maximum out degree: 1159 (node 59804598)
+	source 2969 (node 59804598) with out degree 1159
+	target 1758 (node 115485051) with in degree 3383

@@ -1,0 +1,48 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/com-Amazon.html/com-amazon.ungraph.txt.gz.160.lp -o input/com-Amazon.html/com-amazon.ungraph.txt.gz.160.lp.sol
+Reading problem data from 'input/com-Amazon.html/com-amazon.ungraph.txt.gz.160.lp'...
+925875 rows, 2186607 columns, 4629362 non-zeros
+2186607 integer variables, all of which are binary
+3112487 lines were read
+GLPK Integer Optimizer 5.0
+925875 rows, 2186607 columns, 4629362 non-zeros
+2186607 integer variables, all of which are binary
+Preprocessing...
+925772 rows, 2186494 columns, 4628572 non-zeros
+2186494 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 925772
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+925772 rows, 2186494 columns, 4628572 non-zeros
+      0: obj =   0.000000000e+00 inf =   2.160e+02 (216)
+    115: obj =   3.860085800e+01 inf =   1.010e+02 (101)
+    216: obj =   7.145240400e+01 inf =   0.000e+00 (0)
+*   333: obj =   7.031795100e+01 inf =   0.000e+00 (228)
+Perturbing LP to avoid stalling [417]...
+*   437: obj =   7.031795100e+01 inf =   0.000e+00 (230) 1
+*   542: obj =   6.426473000e+01 inf =   0.000e+00 (253) 1
+*   684: obj =   5.547060800e+01 inf =   0.000e+00 (341)
+*   814: obj =   4.224791700e+01 inf =   0.000e+00 (558)
+*   930: obj =   1.784734099e+01 inf =   4.900e-08 (546) 1
+*  1043: obj =   1.333753099e+01 inf =   5.800e-08 (564)
+*  1163: obj =   1.694675982e+00 inf =   7.208e-08 (573) 1
+*  1270: obj =   1.694675954e+00 inf =   6.388e-08 (494) 1
+*  1379: obj =   9.643812563e-02 inf =   6.222e-08 (347)
+*  1480: obj =  -1.849614297e-08 inf =   1.441e-07 (0) 1
+Removing LP perturbation [1480]...
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++  1480: mip =     not found yet >=              -inf        (1; 0)
+Solution found by heuristic: 0
++  1480: mip =   0.000000000e+00 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   71.6 secs
+Memory used: 2529.1 Mb (2651921116 bytes)
+Writing MIP solution to 'input/com-Amazon.html/com-amazon.ungraph.txt.gz.160.lp.sol'...
+Objective:  obj = 0 (MINimum)

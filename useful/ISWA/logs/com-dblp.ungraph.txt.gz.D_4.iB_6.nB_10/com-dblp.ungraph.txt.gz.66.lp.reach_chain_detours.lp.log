@@ -1,0 +1,41 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/com-DBLP.html/com-dblp.ungraph.txt.gz.66.lp.reach_chain_detours.lp
+ -o input/com-DBLP.html/com-dblp.ungraph.txt.gz.66.lp.reach_chain_detours.lp.sol
+Reading problem data from 'input/com-DBLP.html/com-dblp.ungraph.txt.gz.66.lp.reach_chain_detours.lp'...
+18538 rows, 41010 columns, 92677 non-zeros
+41010 integer variables, all of which are binary
+59553 lines were read
+GLPK Integer Optimizer 5.0
+18538 rows, 41010 columns, 92677 non-zeros
+41010 integer variables, all of which are binary
+Preprocessing...
+18536 rows, 41008 columns, 92479 non-zeros
+41008 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 18536
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+18536 rows, 41008 columns, 92479 non-zeros
+      0: obj =   0.000000000e+00 inf =   1.050e+02 (105)
+    105: obj =   6.114318900e+01 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [562]...
+*  4317: obj =   6.157512876e+00 inf =   4.731e-04 (903) 33
+*  8019: obj =   9.739767183e-01 inf =   1.071e-03 (18659) 34
+* 11236: obj =   2.290281860e-01 inf =   2.254e-03 (475) 31
+Removing LP perturbation [11881]...
+* 11881: obj =   0.000000000e+00 inf =   0.000e+00 (0) 6
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 11881: mip =     not found yet >=              -inf        (1; 0)
++ 11881: >>>>>   0.000000000e+00 >=   0.000000000e+00   0.0% (1; 0)
++ 11881: mip =   0.000000000e+00 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   16.2 secs
+Memory used: 48.6 Mb (50934806 bytes)
+Writing MIP solution to 'input/com-DBLP.html/com-dblp.ungraph.txt.gz.66.lp.reach_chain_detours.lp.sol'...
+Objective:  obj = 0 (MINimum)

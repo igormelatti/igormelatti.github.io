@@ -1,0 +1,68 @@
+Version 1.2 launched as -e 0.1 12 input/ca-HepTh.html/ca-HepTh.txt.gz 45
+
+
+Execution time and memory used at after reading from file: 8.100000e-01 seconds, 17174528 bytes of memory usage, 16808 kB of memory peak and 00:00 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 9877
+	Number of allocated nodes: 10240
+	Number of edges: 51946
+	Maximum in degree: 65 (node 1441)
+	Maximum out degree: 65 (node 1441)
+
+Execution time and memory used at after adding costs: 8.100000e-01 seconds, 17174528 bytes of memory usage, 16808 kB of memory peak and 00:00 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 9877
+	Number of allocated nodes: 10240
+	Number of edges: 51946
+	Maximum in degree: 65 (node 1441)
+	Maximum out degree: 65 (node 1441)
+
+Execution time and memory used at before starting main computation: 8.300000e-01 seconds, 17444864 bytes of memory usage, 17552 kB of memory peak and 00:00 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 9877
+	Number of allocated nodes: 10240
+	Number of edges: 51946
+	Maximum in degree: 65 (node 1441)
+	Maximum out degree: 65 (node 1441)
+	source 86 (node 1441) with out degree 65
+	target 15 (node 19615) with in degree 60
+
+Execution time and memory used at after iteration 1 (MF = 67.230769): 8.460000e+00 seconds, 64000000 bytes of memory usage, 84852 kB of memory peak and 00:08 elapsed time
+Statistics on the network after iteration 1 (MF = 67.230769)
+	Number of nodes: 9877
+	Number of allocated nodes: 10240
+	Number of edges: 51946
+	Maximum in degree: 65 (node 1441)
+	Maximum out degree: 65 (node 1441)
+	source 86 (node 1441) with out degree 65
+	target 15 (node 19615) with in degree 60
+
+Execution time and memory used at after iteration 2 (MF = 35.630769): 9.760000e+00 seconds, 64000000 bytes of memory usage, 84988 kB of memory peak and 00:09 elapsed time
+Statistics on the network after iteration 2 (MF = 35.630769)
+	Number of nodes: 9877
+	Number of allocated nodes: 10240
+	Number of edges: 51946
+	Maximum in degree: 65 (node 1441)
+	Maximum out degree: 65 (node 1441)
+	source 86 (node 1441) with out degree 65
+	target 15 (node 19615) with in degree 60
+
+Execution time and memory used at after iteration 3 (MF = 42.353846): 8.807000e+01 seconds, 81055744 bytes of memory usage, 96648 kB of memory peak and 01:28 elapsed time
+Statistics on the network after iteration 3 (MF = 42.353846)
+	Number of nodes: 9877
+	Number of allocated nodes: 10240
+	Number of edges: 51946
+	Maximum in degree: 65 (node 1441)
+	Maximum out degree: 65 (node 1441)
+	source 86 (node 1441) with out degree 65
+	target 15 (node 19615) with in degree 60
+
+Execution time and memory used at after iteration 4 (MF = 46.153846): 1.860420e+03 seconds, 81055744 bytes of memory usage, 159448 kB of memory peak and 31:00 elapsed time
+Statistics on the network after iteration 4 (MF = 46.153846)
+	Number of nodes: 9877
+	Number of allocated nodes: 10240
+	Number of edges: 51946
+	Maximum in degree: 65 (node 1441)
+	Maximum out degree: 65 (node 1441)
+	source 86 (node 1441) with out degree 65
+	target 15 (node 19615) with in degree 60

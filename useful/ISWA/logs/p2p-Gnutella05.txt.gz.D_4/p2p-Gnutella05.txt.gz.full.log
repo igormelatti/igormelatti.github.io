@@ -1,0 +1,68 @@
+Launched as 5 input/p2p-Gnutella05.html/p2p-Gnutella05.txt.gz 0
+
+
+Execution time and memory used at after reading from file: 3.300000e-01 seconds, 16404480 bytes of memory usage, 16056 kB of memory peak and 00:00 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 8846
+	Number of allocated nodes: 9216
+	Number of edges: 31839
+	Maximum in degree: 79 (node 842)
+	Maximum out degree: 65 (node 3002)
+
+Execution time and memory used at after adding costs: 3.300000e-01 seconds, 16404480 bytes of memory usage, 16056 kB of memory peak and 00:00 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 8846
+	Number of allocated nodes: 9216
+	Number of edges: 31839
+	Maximum in degree: 79 (node 842)
+	Maximum out degree: 65 (node 3002)
+
+Execution time and memory used at before starting main computation: 3.400000e-01 seconds, 16539648 bytes of memory usage, 16668 kB of memory peak and 00:00 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 8846
+	Number of allocated nodes: 9216
+	Number of edges: 31839
+	Maximum in degree: 79 (node 842)
+	Maximum out degree: 65 (node 3002)
+	source 5516 (node 3002) with out degree 65
+	target 371 (node 842) with in degree 79
+
+Execution time and memory used at after creating milp without reductions: 3.700000e-01 seconds, 16539648 bytes of memory usage, 16668 kB of memory peak and 00:00 elapsed time
+Statistics on the network after creating milp without reductions
+	Number of nodes: 8846
+	Number of allocated nodes: 9216
+	Number of edges: 31839
+	Maximum in degree: 79 (node 842)
+	Maximum out degree: 65 (node 3002)
+	source 5516 (node 3002) with out degree 65
+	target 371 (node 842) with in degree 79
+
+Execution time and memory used at after reachability and chains reduction: 1.800000e+00 seconds, 17510400 bytes of memory usage, 17136 kB of memory peak and 00:02 elapsed time
+Statistics on the network after reachability and chains reduction
+	Number of nodes: 3154
+	Number of allocated nodes: 9216
+	Number of edges: 13395
+	Maximum in degree: 79 (node 842)
+	Maximum out degree: 26 (node 6319)
+	source 5516 (node 3002) with out degree 20
+	target 371 (node 842) with in degree 79
+
+Execution time and memory used at after detours elimination: 2.246000e+01 seconds, 16838656 bytes of memory usage, 17468 kB of memory peak and 00:22 elapsed time
+Statistics on the network after detours elimination
+	Number of nodes: 3154
+	Number of allocated nodes: 9216
+	Number of edges: 13395
+	Maximum in degree: 79 (node 842)
+	Maximum out degree: 26 (node 6319)
+	source 5516 (node 3002) with out degree 20
+	target 371 (node 842) with in degree 79
+
+Execution time and memory used at after creating milp with detours elimination (all transformations): 2.248000e+01 seconds, 16838656 bytes of memory usage, 17468 kB of memory peak and 00:22 elapsed time
+Statistics on the network after creating milp with detours elimination (all transformations)
+	Number of nodes: 3154
+	Number of allocated nodes: 9216
+	Number of edges: 13395
+	Maximum in degree: 79 (node 842)
+	Maximum out degree: 26 (node 6319)
+	source 5516 (node 3002) with out degree 20
+	target 371 (node 842) with in degree 79

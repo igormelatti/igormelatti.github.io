@@ -1,0 +1,89 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/soc-RedditHyperlinks.html/soc-redditHyperlinks-title.tsv.gz.130.lp.reach_chain_detours.lp
+ -o input/soc-RedditHyperlinks.html/soc-redditHyperlinks-title.tsv.gz.130.lp.reach_chain_detours.lp.sol
+Reading problem data from 'input/soc-RedditHyperlinks.html/soc-redditHyperlinks-title.tsv.gz.130.lp.reach_chain_detours.lp'...
+143780 rows, 300053 columns, 718887 non-zeros
+300053 integer variables, all of which are binary
+443838 lines were read
+GLPK Integer Optimizer 5.0
+143780 rows, 300053 columns, 718887 non-zeros
+300053 integer variables, all of which are binary
+Preprocessing...
+143504 rows, 299777 columns, 715082 non-zeros
+299777 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 143504
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+143504 rows, 299777 columns, 715082 non-zeros
+      0: obj =   0.000000000e+00 inf =   6.500e+01 (65)
+     65: obj =   5.165771000e+00 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [268]...
+*   747: obj =   3.288109000e+00 inf =   0.000e+00 (97) 6
+*  1279: obj =   3.145154000e+00 inf =   0.000e+00 (85) 5
+*  1839: obj =   2.894982000e+00 inf =   0.000e+00 (98) 5
+*  2359: obj =   2.796975000e+00 inf =   0.000e+00 (122) 5
+*  2905: obj =   2.609621000e+00 inf =   0.000e+00 (94) 5
+*  3388: obj =   2.609621000e+00 inf =   0.000e+00 (81) 5
+*  3933: obj =   2.516837000e+00 inf =   0.000e+00 (114) 5
+*  4414: obj =   2.516837000e+00 inf =   0.000e+00 (96) 5
+*  4856: obj =   2.516837000e+00 inf =   0.000e+00 (133) 4
+*  5320: obj =   2.516837000e+00 inf =   0.000e+00 (132) 5
+*  5726: obj =   2.011132000e+00 inf =   0.000e+00 (130) 3
+*  6163: obj =   2.011132000e+00 inf =   0.000e+00 (127) 5
+*  6573: obj =   2.011132000e+00 inf =   0.000e+00 (142) 3
+*  7031: obj =   2.011132000e+00 inf =   0.000e+00 (118) 5
+*  7452: obj =   2.011132000e+00 inf =   0.000e+00 (147) 4
+*  7861: obj =   1.669689000e+00 inf =   0.000e+00 (168) 4
+*  8227: obj =   1.669689000e+00 inf =   0.000e+00 (158) 3
+*  8610: obj =   1.669689000e+00 inf =   0.000e+00 (176) 4
+*  9140: obj =   1.669689000e+00 inf =   0.000e+00 (157) 5
+*  9572: obj =   1.669689000e+00 inf =   0.000e+00 (121) 4
+* 10046: obj =   1.669689000e+00 inf =   0.000e+00 (127) 5
+* 10525: obj =   1.356425000e+00 inf =   0.000e+00 (107) 5
+* 10978: obj =   1.238212000e+00 inf =   0.000e+00 (135) 4
+* 11427: obj =   1.238212000e+00 inf =   0.000e+00 (120) 4
+* 11866: obj =   1.180205000e+00 inf =   0.000e+00 (105) 5
+* 12242: obj =   1.127009000e+00 inf =   0.000e+00 (134) 3
+* 12627: obj =   1.076837000e+00 inf =   0.000e+00 (121) 4
+* 13037: obj =   7.096890000e-01 inf =   0.000e+00 (148) 3
+* 13402: obj =   7.096890000e-01 inf =   0.000e+00 (162) 4
+* 13796: obj =   7.096890000e-01 inf =   0.000e+00 (158) 4
+* 14253: obj =   7.096890000e-01 inf =   0.000e+00 (166) 4
+* 14666: obj =   7.096890000e-01 inf =   0.000e+00 (159) 4
+* 15045: obj =   3.212360000e-01 inf =   1.193e-15 (113) 4
+* 15449: obj =   3.212360000e-01 inf =   0.000e+00 (144) 3
+* 15854: obj =   0.000000000e+00 inf =   0.000e+00 (136) 4
+* 16200: obj =   0.000000000e+00 inf =   6.939e-18 (130) 3
+* 16557: obj =   0.000000000e+00 inf =   0.000e+00 (115) 3
+* 16990: obj =   0.000000000e+00 inf =   0.000e+00 (107) 4
+* 17391: obj =   0.000000000e+00 inf =   0.000e+00 (76) 4
+* 17846: obj =   0.000000000e+00 inf =   6.939e-18 (31) 4
+* 18244: obj =   0.000000000e+00 inf =   6.939e-18 (10) 3
+* 18648: obj =   0.000000000e+00 inf =   0.000e+00 (27) 4
+* 19051: obj =   0.000000000e+00 inf =   0.000e+00 (18) 4
+* 19467: obj =   0.000000000e+00 inf =   0.000e+00 (37) 4
+* 19880: obj =   0.000000000e+00 inf =   0.000e+00 (24) 3
+* 20289: obj =   0.000000000e+00 inf =   6.939e-18 (28) 4
+* 20705: obj =   0.000000000e+00 inf =   7.216e-15 (43) 4
+* 21127: obj =   0.000000000e+00 inf =   6.939e-18 (54) 3
+* 21541: obj =   0.000000000e+00 inf =   0.000e+00 (12) 4
+* 21959: obj =   0.000000000e+00 inf =   0.000e+00 (4) 4
+* 22422: obj =   0.000000000e+00 inf =   0.000e+00 (26) 4
+Removing LP perturbation [22521]...
+* 22521: obj =   0.000000000e+00 inf =   0.000e+00 (0) 1
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 22521: mip =     not found yet >=              -inf        (1; 0)
+Solution found by heuristic: 0
++ 22521: mip =   0.000000000e+00 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   257.8 secs
+Memory used: 370.5 Mb (388498647 bytes)
+Writing MIP solution to 'input/soc-RedditHyperlinks.html/soc-redditHyperlinks-title.tsv.gz.130.lp.reach_chain_detours.lp.sol'...
+Objective:  obj = 0 (MINimum)

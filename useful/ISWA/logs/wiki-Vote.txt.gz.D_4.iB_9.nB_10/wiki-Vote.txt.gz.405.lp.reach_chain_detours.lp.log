@@ -1,0 +1,44 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/wiki-Vote.html/wiki-Vote.txt.gz.405.lp.reach_chain_detours.lp
+ -o input/wiki-Vote.html/wiki-Vote.txt.gz.405.lp.reach_chain_detours.lp.sol
+Reading problem data from 'input/wiki-Vote.html/wiki-Vote.txt.gz.405.lp.reach_chain_detours.lp'...
+39449 rows, 80191 columns, 197232 non-zeros
+80191 integer variables, all of which are binary
+119645 lines were read
+GLPK Integer Optimizer 5.0
+39449 rows, 80191 columns, 197232 non-zeros
+80191 integer variables, all of which are binary
+Preprocessing...
+1 hidden packing inequaliti(es) were detected
+39306 rows, 80048 columns, 195884 non-zeros
+80048 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 39306
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+39306 rows, 80048 columns, 195884 non-zeros
+      0: obj =   0.000000000e+00 inf =   1.860e+02 (186)
+    186: obj =   9.189333300e+01 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [391]...
+*  2160: obj =   8.655555500e+01 inf =   0.000e+00 (293) 17
+*  3797: obj =   8.655555500e+01 inf =   0.000e+00 (413) 15
+*  5253: obj =   4.383690585e+01 inf =   0.000e+00 (1213) 14
+*  6540: obj =   4.383689199e+01 inf =   6.810e-03 (1135) 13
+*  7798: obj =   2.267478203e+01 inf =   1.661e-02 (975) 12
+Removing LP perturbation [8125]...
+*  8125: obj =   0.000000000e+00 inf =   0.000e+00 (0) 3
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++  8125: mip =     not found yet >=              -inf        (1; 0)
+Solution found by heuristic: 0
++  8125: mip =   0.000000000e+00 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   26.8 secs
+Memory used: 99.2 Mb (103979430 bytes)
+Writing MIP solution to 'input/wiki-Vote.html/wiki-Vote.txt.gz.405.lp.reach_chain_detours.lp.sol'...
+Objective:  obj = 0 (MINimum)

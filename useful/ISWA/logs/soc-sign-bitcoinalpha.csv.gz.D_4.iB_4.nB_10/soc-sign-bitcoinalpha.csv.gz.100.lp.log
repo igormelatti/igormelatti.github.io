@@ -1,0 +1,54 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/soc-sign-bitcoin-alpha.html/soc-sign-bitcoinalpha.csv.gz.100.lp
+ -o input/soc-sign-bitcoin-alpha.html/soc-sign-bitcoinalpha.csv.gz.100.lp.sol
+Reading problem data from 'input/soc-sign-bitcoin-alpha.html/soc-sign-bitcoinalpha.csv.gz.100.lp'...
+24189 rows, 52155 columns, 120932 non-zeros
+52155 integer variables, all of which are binary
+76349 lines were read
+GLPK Integer Optimizer 5.0
+24189 rows, 52155 columns, 120932 non-zeros
+52155 integer variables, all of which are binary
+Preprocessing...
+23546 rows, 51508 columns, 117625 non-zeros
+51508 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 23546
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+23546 rows, 51508 columns, 117625 non-zeros
+      0: obj =   0.000000000e+00 inf =   2.510e+02 (251)
+    251: obj =   1.534256900e+02 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [454]...
+*  3107: obj =   1.483851480e+02 inf =   0.000e+00 (344) 25
+*  5655: obj =   1.483851480e+02 inf =   0.000e+00 (386) 25
+*  7924: obj =   1.263671885e+02 inf =   0.000e+00 (3200) 21
+*  9418: obj =   9.407887995e+01 inf =   2.394e-03 (3136) 15
+* 11373: obj =   8.555713057e+01 inf =   3.069e-03 (8471) 17
+* 15190: obj =   8.370772563e+01 inf =   3.822e-03 (7196) 36
+* 18235: obj =   8.370755035e+01 inf =   1.519e-02 (6792) 23
+* 20497: obj =   8.370725325e+01 inf =   1.667e-02 (6613) 21
+* 22749: obj =   8.370699197e+01 inf =   1.638e-02 (6413) 21
+* 25135: obj =   8.370667575e+01 inf =   1.666e-02 (6208) 23
+* 27798: obj =   8.370633137e+01 inf =   1.252e-02 (5520) 24
+* 30590: obj =   6.919361576e+01 inf =   1.091e-02 (4816) 25
+* 33254: obj =   6.810542079e+01 inf =   1.035e-02 (4171) 24
+* 36092: obj =   6.705335960e+01 inf =   1.054e-02 (3544) 25
+* 38846: obj =   6.558015366e+01 inf =   1.121e-02 (2839) 24
+* 41917: obj =   6.105294509e+01 inf =   9.336e-03 (1687) 25
+Removing LP perturbation [44916]...
+* 44916: obj =   5.633446100e+01 inf =   0.000e+00 (0) 25
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 44916: mip =     not found yet >=              -inf        (1; 0)
++ 44916: >>>>>   5.633446100e+01 >=   5.633446100e+01   0.0% (1; 0)
++ 44916: mip =   5.633446100e+01 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   84.6 secs
+Memory used: 62.4 Mb (65416034 bytes)
+Writing MIP solution to 'input/soc-sign-bitcoin-alpha.html/soc-sign-bitcoinalpha.csv.gz.100.lp.sol'...
+Objective:  obj = 56.334461 (MINimum)

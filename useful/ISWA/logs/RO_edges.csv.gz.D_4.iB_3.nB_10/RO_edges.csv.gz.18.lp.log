@@ -1,0 +1,44 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/gemsec-Deezer.html/RO_edges.csv.gz.18.lp -o input/gemsec-Deezer.html/RO_edges.csv.gz.18.lp.sol
+Reading problem data from 'input/gemsec-Deezer.html/RO_edges.csv.gz.18.lp'...
+125830 rows, 293429 columns, 629137 non-zeros
+293429 integer variables, all of which are binary
+419264 lines were read
+GLPK Integer Optimizer 5.0
+125830 rows, 293429 columns, 629137 non-zeros
+293429 integer variables, all of which are binary
+Preprocessing...
+125808 rows, 293407 columns, 628881 non-zeros
+293407 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 125808
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+125808 rows, 293407 columns, 628881 non-zeros
+      0: obj =   0.000000000e+00 inf =   6.500e+01 (65)
+     65: obj =   3.518966100e+01 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [292]...
+*   942: obj =   1.717816600e+01 inf =   0.000e+00 (184) 4
+*  1706: obj =   1.378352867e+01 inf =   0.000e+00 (450) 5
+*  2429: obj =   1.091379600e+01 inf =   0.000e+00 (126047) 6
+*  3109: obj =   7.436784000e+00 inf =   0.000e+00 (440) 5
+*  3829: obj =   2.017242965e+00 inf =   1.885e-06 (320) 6
+*  4476: obj =   1.609195163e+00 inf =   2.305e-05 (271) 5
+*  5178: obj =   3.979858565e-01 inf =   7.083e-05 (242) 5
+Removing LP perturbation [5536]...
+*  5536: obj =   0.000000000e+00 inf =   0.000e+00 (0) 3
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++  5536: mip =     not found yet >=              -inf        (1; 0)
++  5536: >>>>>   0.000000000e+00 >=   0.000000000e+00   0.0% (1; 0)
++  5536: mip =   0.000000000e+00 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   38.8 secs
+Memory used: 339.6 Mb (356109037 bytes)
+Writing MIP solution to 'input/gemsec-Deezer.html/RO_edges.csv.gz.18.lp.sol'...
+Objective:  obj = 0 (MINimum)

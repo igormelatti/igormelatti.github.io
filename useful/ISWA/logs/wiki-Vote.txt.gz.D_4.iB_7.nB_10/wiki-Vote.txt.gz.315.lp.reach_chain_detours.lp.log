@@ -1,0 +1,46 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/wiki-Vote.html/wiki-Vote.txt.gz.315.lp.reach_chain_detours.lp
+ -o input/wiki-Vote.html/wiki-Vote.txt.gz.315.lp.reach_chain_detours.lp.sol
+Reading problem data from 'input/wiki-Vote.html/wiki-Vote.txt.gz.315.lp.reach_chain_detours.lp'...
+39449 rows, 80191 columns, 197232 non-zeros
+80191 integer variables, all of which are binary
+119645 lines were read
+GLPK Integer Optimizer 5.0
+39449 rows, 80191 columns, 197232 non-zeros
+80191 integer variables, all of which are binary
+Preprocessing...
+1 hidden packing inequaliti(es) were detected
+39306 rows, 80048 columns, 195884 non-zeros
+80048 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 39306
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+39306 rows, 80048 columns, 195884 non-zeros
+      0: obj =   0.000000000e+00 inf =   1.860e+02 (186)
+    186: obj =   9.189333300e+01 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [391]...
+*  2182: obj =   8.655555500e+01 inf =   0.000e+00 (294) 17
+*  3773: obj =   8.655555500e+01 inf =   0.000e+00 (389) 15
+*  5196: obj =   4.797628124e+01 inf =   1.249e-04 (1219) 13
+*  6412: obj =   4.797625634e+01 inf =   1.021e-02 (1139) 13
+*  7678: obj =   2.176419198e+01 inf =   1.519e-02 (1031) 11
+*  8832: obj =   2.176415649e+01 inf =   2.738e-02 (1020) 12
+* 10018: obj =   2.176411432e+01 inf =   3.442e-02 (983) 12
+Removing LP perturbation [10787]...
+* 10787: obj =   0.000000000e+00 inf =   7.667e-13 (0) 7
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 10787: mip =     not found yet >=              -inf        (1; 0)
+Solution found by heuristic: 0
++ 10787: mip =   0.000000000e+00 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   38.6 secs
+Memory used: 99.2 Mb (103979430 bytes)
+Writing MIP solution to 'input/wiki-Vote.html/wiki-Vote.txt.gz.315.lp.reach_chain_detours.lp.sol'...
+Objective:  obj = 0 (MINimum)

@@ -1,0 +1,46 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/ego-Facebook.html/facebook_combined.txt.gz.25.lp -o input/ego-Facebook.html/facebook_combined.txt.gz.25.lp.sol
+Reading problem data from 'input/ego-Facebook.html/facebook_combined.txt.gz.25.lp'...
+88237 rows, 180507 columns, 441172 non-zeros
+180507 integer variables, all of which are binary
+268749 lines were read
+GLPK Integer Optimizer 5.0
+88237 rows, 180507 columns, 441172 non-zeros
+180507 integer variables, all of which are binary
+Preprocessing...
+1 hidden packing inequaliti(es) were detected
+88230 rows, 180500 columns, 439856 non-zeros
+180500 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 88230
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+88230 rows, 180500 columns, 439856 non-zeros
+      0: obj =   0.000000000e+00 inf =   2.510e+02 (251)
+    251: obj =   7.207110200e+01 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [454]...
+*  1441: obj =   6.992658900e+01 inf =   0.000e+00 (459) 8
+*  2479: obj =   6.822069656e+01 inf =   0.000e+00 (998) 9
+*  3491: obj =   6.813733749e+01 inf =   6.870e-16 (999) 9
+*  4491: obj =   6.566244692e+01 inf =   7.762e-05 (980) 10
+*  5572: obj =   6.465190178e+01 inf =   2.616e-03 (1235) 9
+*  6648: obj =   6.417417048e+01 inf =   2.831e-03 (1130) 10
+*  7748: obj =   6.258578574e+01 inf =   2.920e-03 (803) 9
+*  8903: obj =   6.258569819e+01 inf =   2.828e-03 (366) 8
+Removing LP perturbation [9344]...
+*  9344: obj =   6.258578500e+01 inf =   0.000e+00 (0) 4
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++  9344: mip =     not found yet >=              -inf        (1; 0)
++  9344: >>>>>   6.258578500e+01 >=   6.258578500e+01   0.0% (1; 0)
++  9344: mip =   6.258578500e+01 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   43.1 secs
+Memory used: 222.0 Mb (232759674 bytes)
+Writing MIP solution to 'input/ego-Facebook.html/facebook_combined.txt.gz.25.lp.sol'...
+Objective:  obj = 62.585785 (MINimum)

@@ -1,0 +1,41 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/CollegeMsg.html/CollegeMsg.txt.gz.39.lp.reach_chain_detours.lp
+ -o input/CollegeMsg.html/CollegeMsg.txt.gz.39.lp.reach_chain_detours.lp.sol
+Reading problem data from 'input/CollegeMsg.html/CollegeMsg.txt.gz.39.lp.reach_chain_detours.lp'...
+18749 rows, 38722 columns, 93732 non-zeros
+38722 integer variables, all of which are binary
+57476 lines were read
+GLPK Integer Optimizer 5.0
+18749 rows, 38722 columns, 93732 non-zeros
+38722 integer variables, all of which are binary
+Preprocessing...
+1 hidden packing inequaliti(es) were detected
+18695 rows, 38668 columns, 93199 non-zeros
+38668 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 18695
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+18695 rows, 38668 columns, 93199 non-zeros
+      0: obj =   0.000000000e+00 inf =   1.360e+02 (136)
+    136: obj =   1.476416465e+11 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [336]...
+*  3692: obj =   1.311753929e+11 inf =   1.895e-03 (1184) 32
+*  6510: obj =   1.051475504e+11 inf =   9.488e-03 (836) 27
+Removing LP perturbation [9746]...
+*  9746: obj =   1.051477362e+11 inf =   0.000e+00 (0) 21
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++  9746: mip =     not found yet >=              -inf        (1; 0)
++  9746: >>>>>   1.051477362e+11 >=   1.051477362e+11   0.0% (1; 0)
++  9746: mip =   1.051477362e+11 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   13.6 secs
+Memory used: 47.6 Mb (49863782 bytes)
+Writing MIP solution to 'input/CollegeMsg.html/CollegeMsg.txt.gz.39.lp.reach_chain_detours.lp.sol'...
+Objective:  obj = 1.051477362e+11 (MINimum)

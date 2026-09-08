@@ -1,0 +1,138 @@
+Version 1.2 launched as -e 0.1 12 input/ego-Gplus.html/gplus_combined.txt.gz 5050
+
+
+Execution time and memory used at after reading from file: 1.219557e+05 seconds, 465592320 bytes of memory usage, 454716 kB of memory peak and 1-09:52:48 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 107614
+	Number of allocated nodes: 108544
+	Number of edges: 13673453
+	Maximum in degree: 17055 (node 111091089527727420853)
+	Maximum out degree: 5056 (node 106228758905254036967)
+
+Execution time and memory used at after adding costs: 1.219570e+05 seconds, 465592320 bytes of memory usage, 454716 kB of memory peak and 1-09:52:50 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 107614
+	Number of allocated nodes: 108544
+	Number of edges: 13673453
+	Maximum in degree: 17055 (node 111091089527727420853)
+	Maximum out degree: 5056 (node 106228758905254036967)
+
+Execution time and memory used at before starting main computation: 1.220064e+05 seconds, 467890176 bytes of memory usage, 458376 kB of memory peak and 1-09:53:39 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 107614
+	Number of allocated nodes: 108544
+	Number of edges: 13673453
+	Maximum in degree: 17055 (node 111091089527727420853)
+	Maximum out degree: 5056 (node 106228758905254036967)
+	source 6966 (node 106228758905254036967) with out degree 5056
+	target 208 (node 111091089527727420853) with in degree 17055
+
+Execution time and memory used at after iteration 1 (MF = 1013.904482): 2.754166e+05 seconds, 12843888640 bytes of memory usage, 16518952 kB of memory peak and 3-04:30:46 elapsed time
+Statistics on the network after iteration 1 (MF = 1013.904482)
+	Number of nodes: 107614
+	Number of allocated nodes: 108544
+	Number of edges: 13673453
+	Maximum in degree: 17055 (node 111091089527727420853)
+	Maximum out degree: 5056 (node 106228758905254036967)
+	source 6966 (node 106228758905254036967) with out degree 5056
+	target 208 (node 111091089527727420853) with in degree 17055
+
+Execution time and memory used at after iteration 2 (MF = 48.582063): 2.798025e+05 seconds, 12843679744 bytes of memory usage, 16518952 kB of memory peak and 3-05:43:52 elapsed time
+Statistics on the network after iteration 2 (MF = 48.582063)
+	Number of nodes: 107614
+	Number of allocated nodes: 108544
+	Number of edges: 13673453
+	Maximum in degree: 17055 (node 111091089527727420853)
+	Maximum out degree: 5056 (node 106228758905254036967)
+	source 6966 (node 106228758905254036967) with out degree 5056
+	target 208 (node 111091089527727420853) with in degree 17055
+
+Execution time and memory used at after iteration 3 (MF = 965.007869): 2.875242e+05 seconds, 12847468544 bytes of memory usage, 16520580 kB of memory peak and 3-07:52:34 elapsed time
+Statistics on the network after iteration 3 (MF = 965.007869)
+	Number of nodes: 107614
+	Number of allocated nodes: 108544
+	Number of edges: 13673453
+	Maximum in degree: 17055 (node 111091089527727420853)
+	Maximum out degree: 5056 (node 106228758905254036967)
+	source 6966 (node 106228758905254036967) with out degree 5056
+	target 208 (node 111091089527727420853) with in degree 17055
+
+Execution time and memory used at after iteration 4 (MF = 965.007869): 2.952466e+05 seconds, 12851552256 bytes of memory usage, 16522996 kB of memory peak and 3-10:01:17 elapsed time
+Statistics on the network after iteration 4 (MF = 965.007869)
+	Number of nodes: 107614
+	Number of allocated nodes: 108544
+	Number of edges: 13673453
+	Maximum in degree: 17055 (node 111091089527727420853)
+	Maximum out degree: 5056 (node 106228758905254036967)
+	source 6966 (node 106228758905254036967) with out degree 5056
+	target 208 (node 111091089527727420853) with in degree 17055
+
+Execution time and memory used at after iteration 5 (MF = 965.012799): 3.021507e+05 seconds, 12855365632 bytes of memory usage, 16525172 kB of memory peak and 3-11:56:22 elapsed time
+Statistics on the network after iteration 5 (MF = 965.012799)
+	Number of nodes: 107614
+	Number of allocated nodes: 108544
+	Number of edges: 13673453
+	Maximum in degree: 17055 (node 111091089527727420853)
+	Maximum out degree: 5056 (node 106228758905254036967)
+	source 6966 (node 106228758905254036967) with out degree 5056
+	target 208 (node 111091089527727420853) with in degree 17055
+
+Execution time and memory used at after iteration 6 (MF = 965.007869): 3.090777e+05 seconds, 12859371520 bytes of memory usage, 16527400 kB of memory peak and 3-13:51:49 elapsed time
+Statistics on the network after iteration 6 (MF = 965.007869)
+	Number of nodes: 107614
+	Number of allocated nodes: 108544
+	Number of edges: 13673453
+	Maximum in degree: 17055 (node 111091089527727420853)
+	Maximum out degree: 5056 (node 106228758905254036967)
+	source 6966 (node 106228758905254036967) with out degree 5056
+	target 208 (node 111091089527727420853) with in degree 17055
+
+Execution time and memory used at after iteration 7 (MF = 965.012799): 3.160040e+05 seconds, 12863725568 bytes of memory usage, 16529824 kB of memory peak and 3-15:47:16 elapsed time
+Statistics on the network after iteration 7 (MF = 965.012799)
+	Number of nodes: 107614
+	Number of allocated nodes: 108544
+	Number of edges: 13673453
+	Maximum in degree: 17055 (node 111091089527727420853)
+	Maximum out degree: 5056 (node 106228758905254036967)
+	source 6966 (node 106228758905254036967) with out degree 5056
+	target 208 (node 111091089527727420853) with in degree 17055
+
+Execution time and memory used at after iteration 8 (MF = 965.007869): 3.233696e+05 seconds, 12867629056 bytes of memory usage, 16532004 kB of memory peak and 3-17:50:03 elapsed time
+Statistics on the network after iteration 8 (MF = 965.007869)
+	Number of nodes: 107614
+	Number of allocated nodes: 108544
+	Number of edges: 13673453
+	Maximum in degree: 17055 (node 111091089527727420853)
+	Maximum out degree: 5056 (node 106228758905254036967)
+	source 6966 (node 106228758905254036967) with out degree 5056
+	target 208 (node 111091089527727420853) with in degree 17055
+
+Execution time and memory used at after iteration 9 (MF = 965.007869): 3.305936e+05 seconds, 12871680000 bytes of memory usage, 16534236 kB of memory peak and 3-19:50:27 elapsed time
+Statistics on the network after iteration 9 (MF = 965.007869)
+	Number of nodes: 107614
+	Number of allocated nodes: 108544
+	Number of edges: 13673453
+	Maximum in degree: 17055 (node 111091089527727420853)
+	Maximum out degree: 5056 (node 106228758905254036967)
+	source 6966 (node 106228758905254036967) with out degree 5056
+	target 208 (node 111091089527727420853) with in degree 17055
+
+Execution time and memory used at after iteration 10 (MF = 965.007869): 3.377767e+05 seconds, 12875853824 bytes of memory usage, 17017096 kB of memory peak and 3-21:50:11 elapsed time
+Statistics on the network after iteration 10 (MF = 965.007869)
+	Number of nodes: 107614
+	Number of allocated nodes: 108544
+	Number of edges: 13673453
+	Maximum in degree: 17055 (node 111091089527727420853)
+	Maximum out degree: 5056 (node 106228758905254036967)
+	source 6966 (node 106228758905254036967) with out degree 5056
+	target 208 (node 111091089527727420853) with in degree 17055
+
+Execution time and memory used at after iteration 11 (MF = 965.007869): 3.450158e+05 seconds, 12879855616 bytes of memory usage, 17019292 kB of memory peak and 3-23:50:50 elapsed time
+Statistics on the network after iteration 11 (MF = 965.007869)
+	Number of nodes: 107614
+	Number of allocated nodes: 108544
+	Number of edges: 13673453
+	Maximum in degree: 17055 (node 111091089527727420853)
+	Maximum out degree: 5056 (node 106228758905254036967)
+	source 6966 (node 106228758905254036967) with out degree 5056
+	target 208 (node 111091089527727420853) with in degree 17055

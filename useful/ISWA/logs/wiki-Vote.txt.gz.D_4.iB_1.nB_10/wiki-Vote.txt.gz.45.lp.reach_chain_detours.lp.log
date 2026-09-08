@@ -1,0 +1,48 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/wiki-Vote.html/wiki-Vote.txt.gz.45.lp.reach_chain_detours.lp -o
+ input/wiki-Vote.html/wiki-Vote.txt.gz.45.lp.reach_chain_detours.lp.sol
+Reading problem data from 'input/wiki-Vote.html/wiki-Vote.txt.gz.45.lp.reach_chain_detours.lp'...
+39449 rows, 80191 columns, 197232 non-zeros
+80191 integer variables, all of which are binary
+119645 lines were read
+GLPK Integer Optimizer 5.0
+39449 rows, 80191 columns, 197232 non-zeros
+80191 integer variables, all of which are binary
+Preprocessing...
+1 hidden packing inequaliti(es) were detected
+39306 rows, 80048 columns, 195884 non-zeros
+80048 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 39306
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+39306 rows, 80048 columns, 195884 non-zeros
+      0: obj =   0.000000000e+00 inf =   1.860e+02 (186)
+    186: obj =   9.189333300e+01 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [391]...
+*  2200: obj =   8.655555500e+01 inf =   0.000e+00 (296) 17
+*  3819: obj =   8.655555500e+01 inf =   0.000e+00 (396) 16
+*  5360: obj =   6.282580571e+01 inf =   4.860e-03 (3547) 15
+*  7345: obj =   6.282545160e+01 inf =   1.852e-02 (3180) 19
+*  9433: obj =   6.282532547e+01 inf =   2.204e-02 (2843) 20
+* 11493: obj =   6.282520310e+01 inf =   2.509e-02 (2537) 19
+* 13655: obj =   6.282505515e+01 inf =   2.037e-02 (2032) 17
+* 15784: obj =   6.282489800e+01 inf =   1.680e-02 (1525) 17
+* 18022: obj =   6.282479506e+01 inf =   1.625e-02 (919) 17
+Removing LP perturbation [19887]...
+* 19887: obj =   6.282592400e+01 inf =   0.000e+00 (0) 15
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 19887: mip =     not found yet >=              -inf        (1; 0)
++ 19887: >>>>>   6.282592400e+01 >=   6.282592400e+01   0.0% (1; 0)
++ 19887: mip =   6.282592400e+01 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   49.5 secs
+Memory used: 99.2 Mb (103979430 bytes)
+Writing MIP solution to 'input/wiki-Vote.html/wiki-Vote.txt.gz.45.lp.reach_chain_detours.lp.sol'...
+Objective:  obj = 62.825924 (MINimum)

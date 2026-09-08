@@ -1,0 +1,42 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/gemsec-Facebook.html/government_edges.csv.gz.123.lp.reach_chain_detours.lp
+ -o input/gemsec-Facebook.html/government_edges.csv.gz.123.lp.reach_chain_detours.lp.sol
+Reading problem data from 'input/gemsec-Facebook.html/government_edges.csv.gz.123.lp.reach_chain_detours.lp'...
+20697 rows, 43400 columns, 103472 non-zeros
+43400 integer variables, all of which are binary
+64102 lines were read
+GLPK Integer Optimizer 5.0
+20697 rows, 43400 columns, 103472 non-zeros
+43400 integer variables, all of which are binary
+Preprocessing...
+1 hidden packing inequaliti(es) were detected
+20695 rows, 43398 columns, 102769 non-zeros
+43398 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 20695
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+20695 rows, 43398 columns, 102769 non-zeros
+      0: obj =   0.000000000e+00 inf =   3.750e+02 (375)
+    375: obj =   2.693670470e+02 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [577]...
+*  3768: obj =   2.311166722e+02 inf =   5.551e-17 (1172) 29
+*  6645: obj =   1.830306079e+02 inf =   4.862e-04 (1475) 27
+*  9639: obj =   7.270973623e+01 inf =   5.646e-04 (1061) 24
+Removing LP perturbation [11675]...
+* 11675: obj =   5.492678200e+01 inf =   0.000e+00 (0) 15
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 11675: mip =     not found yet >=              -inf        (1; 0)
++ 11675: >>>>>   5.492678200e+01 >=   5.492678200e+01   0.0% (1; 0)
++ 11675: mip =   5.492678200e+01 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   17.5 secs
+Memory used: 52.7 Mb (55298464 bytes)
+Writing MIP solution to 'input/gemsec-Facebook.html/government_edges.csv.gz.123.lp.reach_chain_detours.lp.sol'...
+Objective:  obj = 54.926782 (MINimum)

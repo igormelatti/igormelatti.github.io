@@ -1,0 +1,48 @@
+Version 1.2 launched as -e 0.1 -i 12 input/soc-RedditHyperlinks.html/soc-redditHyperlinks-body.tsv.gz 1206
+
+
+Execution time and memory used at after reading from file: 3.430000e+00 seconds, 23252992 bytes of memory usage, 22744 kB of memory peak and 00:03 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 35776
+	Number of allocated nodes: 35840
+	Number of edges: 137821
+	Maximum in degree: 2161 (node askreddit)
+	Maximum out degree: 1350 (node subredditdrama)
+
+Execution time and memory used at after adding costs: 3.430000e+00 seconds, 23252992 bytes of memory usage, 22744 kB of memory peak and 00:03 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 35776
+	Number of allocated nodes: 35840
+	Number of edges: 137821
+	Maximum in degree: 2161 (node askreddit)
+	Maximum out degree: 1350 (node subredditdrama)
+
+Execution time and memory used at before starting main computation: 3.480000e+00 seconds, 23658496 bytes of memory usage, 23760 kB of memory peak and 00:03 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 35776
+	Number of allocated nodes: 35840
+	Number of edges: 137821
+	Maximum in degree: 2161 (node askreddit)
+	Maximum out degree: 1350 (node subredditdrama)
+	source 122 (node subredditdrama) with out degree 1350
+	target 59 (node askreddit) with in degree 2161
+
+Execution time and memory used at after iteration 1 (MF = 520.329536): 1.907100e+02 seconds, 151613440 bytes of memory usage, 183212 kB of memory peak and 03:11 elapsed time
+Statistics on the network after iteration 1 (MF = 520.329536)
+	Number of nodes: 35776
+	Number of allocated nodes: 35840
+	Number of edges: 137821
+	Maximum in degree: 2161 (node askreddit)
+	Maximum out degree: 1350 (node subredditdrama)
+	source 122 (node subredditdrama) with out degree 1350
+	target 59 (node askreddit) with in degree 2161
+
+Execution time and memory used at after iteration 2 (MF = 202.855882): 2.182400e+02 seconds, 151613440 bytes of memory usage, 185012 kB of memory peak and 03:38 elapsed time
+Statistics on the network after iteration 2 (MF = 202.855882)
+	Number of nodes: 35776
+	Number of allocated nodes: 35840
+	Number of edges: 137821
+	Maximum in degree: 2161 (node askreddit)
+	Maximum out degree: 1350 (node subredditdrama)
+	source 122 (node subredditdrama) with out degree 1350
+	target 59 (node askreddit) with in degree 2161

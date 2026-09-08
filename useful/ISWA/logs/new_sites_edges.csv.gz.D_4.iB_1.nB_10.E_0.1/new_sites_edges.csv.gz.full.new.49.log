@@ -1,0 +1,78 @@
+Version 1.2 launched as -e 0.1 12 input/gemsec-Facebook.html/new_sites_edges.csv.gz 49
+
+
+Execution time and memory used at after reading from file: 3.213000e+01 seconds, 24547328 bytes of memory usage, 24008 kB of memory peak and 00:33 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 27919
+	Number of allocated nodes: 28672
+	Number of edges: 205965
+	Maximum in degree: 585 (node 27517)
+	Maximum out degree: 497 (node 7314)
+
+Execution time and memory used at after adding costs: 3.213000e+01 seconds, 24547328 bytes of memory usage, 24008 kB of memory peak and 00:33 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 27919
+	Number of allocated nodes: 28672
+	Number of edges: 205965
+	Maximum in degree: 585 (node 27517)
+	Maximum out degree: 497 (node 7314)
+
+Execution time and memory used at before starting main computation: 3.216000e+01 seconds, 24817664 bytes of memory usage, 24752 kB of memory peak and 00:33 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 27919
+	Number of allocated nodes: 28672
+	Number of edges: 205965
+	Maximum in degree: 585 (node 27517)
+	Maximum out degree: 497 (node 7314)
+	source 637 (node 7314) with out degree 497
+	target 1010 (node 27517) with in degree 585
+
+Execution time and memory used at after iteration 1 (MF = 128.914048): 1.230200e+02 seconds, 210112512 bytes of memory usage, 257388 kB of memory peak and 02:04 elapsed time
+Statistics on the network after iteration 1 (MF = 128.914048)
+	Number of nodes: 27919
+	Number of allocated nodes: 28672
+	Number of edges: 205965
+	Maximum in degree: 585 (node 27517)
+	Maximum out degree: 497 (node 7314)
+	source 637 (node 7314) with out degree 497
+	target 1010 (node 27517) with in degree 585
+
+Execution time and memory used at after iteration 2 (MF = 104.998152): 1.283300e+02 seconds, 210112512 bytes of memory usage, 257840 kB of memory peak and 02:09 elapsed time
+Statistics on the network after iteration 2 (MF = 104.998152)
+	Number of nodes: 27919
+	Number of allocated nodes: 28672
+	Number of edges: 205965
+	Maximum in degree: 585 (node 27517)
+	Maximum out degree: 497 (node 7314)
+	source 637 (node 7314) with out degree 497
+	target 1010 (node 27517) with in degree 585
+
+Execution time and memory used at after iteration 3 (MF = 106.505545): 1.269790e+03 seconds, 304869376 bytes of memory usage, 405132 kB of memory peak and 21:10 elapsed time
+Statistics on the network after iteration 3 (MF = 106.505545)
+	Number of nodes: 27919
+	Number of allocated nodes: 28672
+	Number of edges: 205965
+	Maximum in degree: 585 (node 27517)
+	Maximum out degree: 497 (node 7314)
+	source 637 (node 7314) with out degree 497
+	target 1010 (node 27517) with in degree 585
+
+Execution time and memory used at after iteration 4 (MF = 103.667283): 1.729190e+03 seconds, 304869376 bytes of memory usage, 405132 kB of memory peak and 28:50 elapsed time
+Statistics on the network after iteration 4 (MF = 103.667283)
+	Number of nodes: 27919
+	Number of allocated nodes: 28672
+	Number of edges: 205965
+	Maximum in degree: 585 (node 27517)
+	Maximum out degree: 497 (node 7314)
+	source 637 (node 7314) with out degree 497
+	target 1010 (node 27517) with in degree 585
+
+Execution time and memory used at after iteration 5 (MF = 108.200555): 2.073677e+05 seconds, 308363264 bytes of memory usage, 712128 kB of memory peak and 2-09:36:27 elapsed time
+Statistics on the network after iteration 5 (MF = 108.200555)
+	Number of nodes: 27919
+	Number of allocated nodes: 28672
+	Number of edges: 205965
+	Maximum in degree: 585 (node 27517)
+	Maximum out degree: 497 (node 7314)
+	source 637 (node 7314) with out degree 497
+	target 1010 (node 27517) with in degree 585

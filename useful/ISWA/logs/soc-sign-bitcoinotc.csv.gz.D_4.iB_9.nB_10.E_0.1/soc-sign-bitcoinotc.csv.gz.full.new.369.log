@@ -1,0 +1,78 @@
+Version 1.2 launched as -e 0.1 -i 12 input/soc-sign-bitcoin-otc.html/soc-sign-bitcoinotc.csv.gz 369
+
+
+Execution time and memory used at after reading from file: 2.600000e-01 seconds, 16113664 bytes of memory usage, 15772 kB of memory peak and 00:00 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 5881
+	Number of allocated nodes: 6144
+	Number of edges: 35592
+	Maximum in degree: 535 (node 35)
+	Maximum out degree: 763 (node 35)
+
+Execution time and memory used at after adding costs: 2.600000e-01 seconds, 16113664 bytes of memory usage, 15772 kB of memory peak and 00:00 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 5881
+	Number of allocated nodes: 6144
+	Number of edges: 35592
+	Maximum in degree: 535 (node 35)
+	Maximum out degree: 763 (node 35)
+
+Execution time and memory used at before starting main computation: 3.000000e-01 seconds, 16248832 bytes of memory usage, 16384 kB of memory peak and 00:00 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 5881
+	Number of allocated nodes: 6144
+	Number of edges: 35592
+	Maximum in degree: 535 (node 35)
+	Maximum out degree: 763 (node 35)
+	source 23 (node 35) with out degree 763
+	target 2571 (node 2642) with in degree 412
+
+Execution time and memory used at after iteration 1 (MF = 197.780431): 5.990000e+00 seconds, 47849472 bytes of memory usage, 58428 kB of memory peak and 00:06 elapsed time
+Statistics on the network after iteration 1 (MF = 197.780431)
+	Number of nodes: 5881
+	Number of allocated nodes: 6144
+	Number of edges: 35592
+	Maximum in degree: 535 (node 35)
+	Maximum out degree: 763 (node 35)
+	source 23 (node 35) with out degree 763
+	target 2571 (node 2642) with in degree 412
+
+Execution time and memory used at after iteration 2 (MF = 43.533128): 7.270000e+00 seconds, 47849472 bytes of memory usage, 58824 kB of memory peak and 00:07 elapsed time
+Statistics on the network after iteration 2 (MF = 43.533128)
+	Number of nodes: 5881
+	Number of allocated nodes: 6144
+	Number of edges: 35592
+	Maximum in degree: 535 (node 35)
+	Maximum out degree: 763 (node 35)
+	source 23 (node 35) with out degree 763
+	target 2571 (node 2642) with in degree 412
+
+Execution time and memory used at after iteration 3 (MF = 157.627889): 5.603000e+01 seconds, 55152640 bytes of memory usage, 63384 kB of memory peak and 00:56 elapsed time
+Statistics on the network after iteration 3 (MF = 157.627889)
+	Number of nodes: 5881
+	Number of allocated nodes: 6144
+	Number of edges: 35592
+	Maximum in degree: 535 (node 35)
+	Maximum out degree: 763 (node 35)
+	source 23 (node 35) with out degree 763
+	target 2571 (node 2642) with in degree 412
+
+Execution time and memory used at after iteration 4 (MF = 157.815871): 1.231900e+02 seconds, 58331136 bytes of memory usage, 77124 kB of memory peak and 02:03 elapsed time
+Statistics on the network after iteration 4 (MF = 157.815871)
+	Number of nodes: 5881
+	Number of allocated nodes: 6144
+	Number of edges: 35592
+	Maximum in degree: 535 (node 35)
+	Maximum out degree: 763 (node 35)
+	source 23 (node 35) with out degree 763
+	target 2571 (node 2642) with in degree 412
+
+Execution time and memory used at after iteration 5 (MF = 155.674114): 1.535100e+02 seconds, 57163776 bytes of memory usage, 77124 kB of memory peak and 02:33 elapsed time
+Statistics on the network after iteration 5 (MF = 155.674114)
+	Number of nodes: 5881
+	Number of allocated nodes: 6144
+	Number of edges: 35592
+	Maximum in degree: 535 (node 35)
+	Maximum out degree: 763 (node 35)
+	source 23 (node 35) with out degree 763
+	target 2571 (node 2642) with in degree 412

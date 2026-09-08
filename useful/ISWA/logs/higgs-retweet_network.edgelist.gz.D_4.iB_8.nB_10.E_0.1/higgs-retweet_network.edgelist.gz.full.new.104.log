@@ -1,0 +1,41 @@
+Version 1.2 launched as -e 0.1 12 input/higgs-twitter.html/higgs-retweet_network.edgelist.gz 104
+
+
+Execution time and memory used at after reading from file: 1.006520e+03 seconds, 57704448 bytes of memory usage, 56388 kB of memory peak and 16:46 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 256491
+	Number of allocated nodes: 257024
+	Number of edges: 328132
+	Maximum in degree: 14060 (node 88)
+	Maximum out degree: 134 (node 38535)
+
+Execution time and memory used at before starting main computation: 1.006520e+03 seconds, 57704448 bytes of memory usage, 57872 kB of memory peak and 16:46 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 256491
+	Number of allocated nodes: 257024
+	Number of edges: 328132
+	Maximum in degree: 14060 (node 88)
+	Maximum out degree: 134 (node 38535)
+	source 274 (node 38535) with out degree 134
+	target 19 (node 88) with in degree 14060
+
+Execution time and memory used at after iteration 1 (MF = 44.000000): 5.990500e+03 seconds, 403124224 bytes of memory usage, 449284 kB of memory peak and 01:39:51 elapsed time
+Statistics on the network after iteration 1 (MF = 44.000000)
+	Number of nodes: 256491
+	Number of allocated nodes: 257024
+	Number of edges: 328132
+	Maximum in degree: 14060 (node 88)
+	Maximum out degree: 134 (node 38535)
+	source 274 (node 38535) with out degree 134
+	target 19 (node 88) with in degree 14060
+GMF with memory efficient alternating algo is 0.000000
+
+Execution time and memory used at after executing the alternating algorithm: 6.024860e+03 seconds, 392511488 bytes of memory usage, 449284 kB of memory peak and 01:40:25 elapsed time
+Statistics on the network after executing the alternating algorithm
+	Number of nodes: 256491
+	Number of allocated nodes: 257024
+	Number of edges: 328132
+	Maximum in degree: 14060 (node 88)
+	Maximum out degree: 134 (node 38535)
+	source 274 (node 38535) with out degree 134
+	target 19 (node 88) with in degree 14060

@@ -1,0 +1,20 @@
+Version 1.2 launched as -e 0.1 12 input/sx-stackoverflow.html/sx-stackoverflow-c2q.txt.gz 1323
+
+
+Execution time and memory used at after reading from file: 2.524005e+05 seconds, 549584896 bytes of memory usage, 536740 kB of memory peak and 2-22:07:12 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 1655353
+	Number of allocated nodes: 1655808
+	Number of edges: 10106821
+	Maximum in degree: 1474 (node 875317)
+	Maximum out degree: 26176 (node 17034)
+
+Execution time and memory used at before starting main computation: 2.526418e+05 seconds, 556748800 bytes of memory usage, 551196 kB of memory peak and 2-22:11:13 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 1655353
+	Number of allocated nodes: 1655808
+	Number of edges: 10106821
+	Maximum in degree: 1474 (node 875317)
+	Maximum out degree: 26176 (node 17034)
+	source 5516 (node 17034) with out degree 26176
+	target 260229 (node 875317) with in degree 1474

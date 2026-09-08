@@ -1,0 +1,39 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/Oregon-2.html/oregon2_010526.txt.gz.184.lp.reach_chain_detours.lp
+ -o input/Oregon-2.html/oregon2_010526.txt.gz.184.lp.reach_chain_detours.lp.sol
+Reading problem data from 'input/Oregon-2.html/oregon2_010526.txt.gz.184.lp.reach_chain_detours.lp'...
+2680 rows, 5745 columns, 13387 non-zeros
+5745 integer variables, all of which are binary
+8430 lines were read
+GLPK Integer Optimizer 5.0
+2680 rows, 5745 columns, 13387 non-zeros
+5745 integer variables, all of which are binary
+Preprocessing...
+1 hidden packing inequaliti(es) were detected
+2678 rows, 5743 columns, 13061 non-zeros
+5743 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 2678
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+2678 rows, 5743 columns, 13061 non-zeros
+      0: obj =   0.000000000e+00 inf =   1.930e+02 (193)
+    193: obj =   5.054152600e+01 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [396]...
+Removing LP perturbation [1807]...
+*  1807: obj =   0.000000000e+00 inf =   0.000e+00 (0) 12
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++  1807: mip =     not found yet >=              -inf        (1; 0)
+Solution found by heuristic: 0
++  1807: mip =   0.000000000e+00 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   0.3 secs
+Memory used: 6.9 Mb (7236805 bytes)
+Writing MIP solution to 'input/Oregon-2.html/oregon2_010526.txt.gz.184.lp.reach_chain_detours.lp.sol'...
+Objective:  obj = 0 (MINimum)

@@ -1,0 +1,68 @@
+Launched as 5 input/soc-Epinions1.html/soc-Epinions1.txt.gz 0
+
+
+Execution time and memory used at after reading from file: 3.288000e+01 seconds, 40226816 bytes of memory usage, 39320 kB of memory peak and 00:33 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 75879
+	Number of allocated nodes: 76800
+	Number of edges: 508837
+	Maximum in degree: 3035 (node 18)
+	Maximum out degree: 1801 (node 645)
+
+Execution time and memory used at after adding costs: 3.290000e+01 seconds, 40226816 bytes of memory usage, 39320 kB of memory peak and 00:33 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 75879
+	Number of allocated nodes: 76800
+	Number of edges: 508837
+	Maximum in degree: 3035 (node 18)
+	Maximum out degree: 1801 (node 645)
+
+Execution time and memory used at before starting main computation: 3.343000e+01 seconds, 41308160 bytes of memory usage, 41156 kB of memory peak and 00:34 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 75879
+	Number of allocated nodes: 76800
+	Number of edges: 508837
+	Maximum in degree: 3035 (node 18)
+	Maximum out degree: 1801 (node 645)
+	source 363 (node 645) with out degree 1801
+	target 14 (node 18) with in degree 3035
+
+Execution time and memory used at after creating milp without reductions: 3.413000e+01 seconds, 41308160 bytes of memory usage, 41156 kB of memory peak and 00:34 elapsed time
+Statistics on the network after creating milp without reductions
+	Number of nodes: 75879
+	Number of allocated nodes: 76800
+	Number of edges: 508837
+	Maximum in degree: 3035 (node 18)
+	Maximum out degree: 1801 (node 645)
+	source 363 (node 645) with out degree 1801
+	target 14 (node 18) with in degree 3035
+
+Execution time and memory used at after reachability and chains reduction: 3.060300e+02 seconds, 43253760 bytes of memory usage, 54660 kB of memory peak and 05:06 elapsed time
+Statistics on the network after reachability and chains reduction
+	Number of nodes: 26762
+	Number of allocated nodes: 76800
+	Number of edges: 433186
+	Maximum in degree: 2746 (node 18)
+	Maximum out degree: 1645 (node 645)
+	source 363 (node 645) with out degree 1645
+	target 14 (node 18) with in degree 2746
+
+Execution time and memory used at after detours elimination: 4.574102e+04 seconds, 43696128 bytes of memory usage, 54660 kB of memory peak and 12:42:23 elapsed time
+Statistics on the network after detours elimination
+	Number of nodes: 25815
+	Number of allocated nodes: 76800
+	Number of edges: 431129
+	Maximum in degree: 2746 (node 18)
+	Maximum out degree: 1645 (node 645)
+	source 363 (node 645) with out degree 1645
+	target 14 (node 18) with in degree 2746
+
+Execution time and memory used at after creating milp with detours elimination (all transformations): 4.574157e+04 seconds, 43696128 bytes of memory usage, 54660 kB of memory peak and 12:42:23 elapsed time
+Statistics on the network after creating milp with detours elimination (all transformations)
+	Number of nodes: 25815
+	Number of allocated nodes: 76800
+	Number of edges: 431129
+	Maximum in degree: 2746 (node 18)
+	Maximum out degree: 1645 (node 645)
+	source 363 (node 645) with out degree 1645
+	target 14 (node 18) with in degree 2746

@@ -1,0 +1,48 @@
+Version 1.2 launched as -e 0.1 12 input/higgs-twitter.html/higgs-social_network.edgelist.gz 125
+
+
+Execution time and memory used at after reading from file: 8.242575e+04 seconds, 548130816 bytes of memory usage, 535320 kB of memory peak and 22:53:51 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 456626
+	Number of allocated nodes: 456704
+	Number of edges: 14855819
+	Maximum in degree: 51386 (node 1503)
+	Maximum out degree: 1259 (node 13115)
+
+Execution time and memory used at after adding costs: 8.242612e+04 seconds, 548130816 bytes of memory usage, 535320 kB of memory peak and 22:53:52 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 456626
+	Number of allocated nodes: 456704
+	Number of edges: 14855819
+	Maximum in degree: 51386 (node 1503)
+	Maximum out degree: 1259 (node 13115)
+
+Execution time and memory used at before starting main computation: 8.281813e+04 seconds, 559620096 bytes of memory usage, 551876 kB of memory peak and 23:00:24 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 456626
+	Number of allocated nodes: 456704
+	Number of edges: 14855819
+	Maximum in degree: 51386 (node 1503)
+	Maximum out degree: 1259 (node 13115)
+	source 13114 (node 13115) with out degree 1259
+	target 1502 (node 1503) with in degree 51386
+
+Execution time and memory used at after iteration 1 (MF = 78.054725): 2.168608e+05 seconds, 13014695936 bytes of memory usage, 17907896 kB of memory peak and 2-12:14:30 elapsed time
+Statistics on the network after iteration 1 (MF = 78.054725)
+	Number of nodes: 456626
+	Number of allocated nodes: 456704
+	Number of edges: 14855819
+	Maximum in degree: 51386 (node 1503)
+	Maximum out degree: 1259 (node 13115)
+	source 13114 (node 13115) with out degree 1259
+	target 1502 (node 1503) with in degree 51386
+
+Execution time and memory used at after iteration 2 (MF = 69.450413): 2.579959e+05 seconds, 22157942784 bytes of memory usage, 25402388 kB of memory peak and 2-23:40:06 elapsed time
+Statistics on the network after iteration 2 (MF = 69.450413)
+	Number of nodes: 456626
+	Number of allocated nodes: 456704
+	Number of edges: 14855819
+	Maximum in degree: 51386 (node 1503)
+	Maximum out degree: 1259 (node 13115)
+	source 13114 (node 13115) with out degree 1259
+	target 1502 (node 1503) with in degree 51386

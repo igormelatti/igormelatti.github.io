@@ -1,0 +1,68 @@
+Version 1.2 launched as -e 0.1 12 input/loc-Brightkite.html/loc-brightkite_edges.txt.gz 420
+
+
+Execution time and memory used at after reading from file: 3.698000e+01 seconds, 35422208 bytes of memory usage, 34628 kB of memory peak and 00:37 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 58228
+	Number of allocated nodes: 58368
+	Number of edges: 428156
+	Maximum in degree: 1134 (node 40)
+	Maximum out degree: 1134 (node 40)
+
+Execution time and memory used at after adding costs: 3.699000e+01 seconds, 35422208 bytes of memory usage, 34628 kB of memory peak and 00:37 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 58228
+	Number of allocated nodes: 58368
+	Number of edges: 428156
+	Maximum in degree: 1134 (node 40)
+	Maximum out degree: 1134 (node 40)
+
+Execution time and memory used at before starting main computation: 3.802000e+01 seconds, 37179392 bytes of memory usage, 37052 kB of memory peak and 00:39 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 58228
+	Number of allocated nodes: 58368
+	Number of edges: 428156
+	Maximum in degree: 1134 (node 40)
+	Maximum out degree: 1134 (node 40)
+	source 40 (node 40) with out degree 1134
+	target 457 (node 44) with in degree 1055
+
+Execution time and memory used at after iteration 1 (MF = 532.371252): 6.382900e+02 seconds, 481734656 bytes of memory usage, 578704 kB of memory peak and 10:39 elapsed time
+Statistics on the network after iteration 1 (MF = 532.371252)
+	Number of nodes: 58228
+	Number of allocated nodes: 58368
+	Number of edges: 428156
+	Maximum in degree: 1134 (node 40)
+	Maximum out degree: 1134 (node 40)
+	source 40 (node 40) with out degree 1134
+	target 457 (node 44) with in degree 1055
+
+Execution time and memory used at after iteration 2 (MF = 465.822751): 1.017970e+03 seconds, 573992960 bytes of memory usage, 603016 kB of memory peak and 16:58 elapsed time
+Statistics on the network after iteration 2 (MF = 465.822751)
+	Number of nodes: 58228
+	Number of allocated nodes: 58368
+	Number of edges: 428156
+	Maximum in degree: 1134 (node 40)
+	Maximum out degree: 1134 (node 40)
+	source 40 (node 40) with out degree 1134
+	target 457 (node 44) with in degree 1055
+
+Execution time and memory used at after iteration 3 (MF = 259.081129): 1.763720e+03 seconds, 638541824 bytes of memory usage, 725320 kB of memory peak and 29:24 elapsed time
+Statistics on the network after iteration 3 (MF = 259.081129)
+	Number of nodes: 58228
+	Number of allocated nodes: 58368
+	Number of edges: 428156
+	Maximum in degree: 1134 (node 40)
+	Maximum out degree: 1134 (node 40)
+	source 40 (node 40) with out degree 1134
+	target 457 (node 44) with in degree 1055
+
+Execution time and memory used at after iteration 4 (MF = 365.604056): 2.805789e+05 seconds, 620560384 bytes of memory usage, 1832920 kB of memory peak and 3-05:56:18 elapsed time
+Statistics on the network after iteration 4 (MF = 365.604056)
+	Number of nodes: 58228
+	Number of allocated nodes: 58368
+	Number of edges: 428156
+	Maximum in degree: 1134 (node 40)
+	Maximum out degree: 1134 (node 40)
+	source 40 (node 40) with out degree 1134
+	target 457 (node 44) with in degree 1055

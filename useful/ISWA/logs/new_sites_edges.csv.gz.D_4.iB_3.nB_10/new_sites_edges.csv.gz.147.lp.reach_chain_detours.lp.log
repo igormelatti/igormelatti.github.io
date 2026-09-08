@@ -1,0 +1,62 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/gemsec-Facebook.html/new_sites_edges.csv.gz.147.lp.reach_chain_detours.lp
+ -o input/gemsec-Facebook.html/new_sites_edges.csv.gz.147.lp.reach_chain_detours.lp.sol
+Reading problem data from 'input/gemsec-Facebook.html/new_sites_edges.csv.gz.147.lp.reach_chain_detours.lp'...
+42886 rows, 91932 columns, 214417 non-zeros
+91932 integer variables, all of which are binary
+134823 lines were read
+GLPK Integer Optimizer 5.0
+42886 rows, 91932 columns, 214417 non-zeros
+91932 integer variables, all of which are binary
+Preprocessing...
+42884 rows, 91930 columns, 213665 non-zeros
+91930 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 42884
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+42884 rows, 91930 columns, 213665 non-zeros
+      0: obj =   0.000000000e+00 inf =   3.580e+02 (358)
+    358: obj =   2.113077570e+02 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [559]...
+*  2548: obj =   1.870808218e+02 inf =   2.776e-17 (1326) 15
+*  4133: obj =   1.830778382e+02 inf =   1.850e-06 (2473) 14
+*  5487: obj =   1.782338166e+02 inf =   1.710e-05 (2552) 12
+*  6676: obj =   1.747063870e+02 inf =   2.712e-05 (2838) 11
+*  7852: obj =   1.487883061e+02 inf =   1.038e-03 (3031) 11
+*  9012: obj =   1.487880155e+02 inf =   8.869e-04 (2756) 12
+* 10228: obj =   1.276291741e+02 inf =   7.252e-04 (2445) 12
+* 11576: obj =   1.190396827e+02 inf =   1.696e-03 (3168) 13
+* 13029: obj =   1.190393818e+02 inf =   1.619e-03 (2667) 13
+* 14478: obj =   1.152390116e+02 inf =   1.647e-03 (2425) 12
+* 15646: obj =   1.141243932e+02 inf =   5.383e-03 (2474) 10
+* 16728: obj =   1.141242879e+02 inf =   6.028e-03 (2622) 10
+* 17756: obj =   1.112341408e+02 inf =   4.190e-03 (2857) 9
+* 18776: obj =   1.099213569e+02 inf =   3.197e-03 (2759) 10
+* 19809: obj =   1.083070396e+02 inf =   2.195e-03 (2636) 10
+* 20840: obj =   1.012661084e+02 inf =   2.274e-03 (2391) 10
+* 22085: obj =   7.909335034e+01 inf =   2.222e-03 (2495) 11
+* 23443: obj =   6.352018503e+01 inf =   2.362e-03 (2396) 13
+* 24764: obj =   5.358116947e+01 inf =   2.560e-03 (2108) 12
+* 26168: obj =   4.237358714e+01 inf =   2.468e-03 (1656) 12
+* 27610: obj =   3.961839945e+01 inf =   2.764e-03 (1413) 14
+* 29060: obj =   3.789014278e+01 inf =   2.523e-03 (1309) 14
+* 30605: obj =   3.512969565e+01 inf =   2.471e-03 (1167) 14
+* 32514: obj =   3.274693205e+01 inf =   2.110e-03 (11) 17
+Removing LP perturbation [32530]...
+* 32530: obj =   3.274768650e+01 inf =   0.000e+00 (0)
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 32530: mip =     not found yet >=              -inf        (1; 0)
++ 32571: >>>>>   3.275230900e+01 >=   3.274775143e+01 < 0.1% (2; 0)
++ 32599: mip =   3.275230900e+01 >=     tree is empty   0.0% (0; 3)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   121.5 secs
+Memory used: 115.5 Mb (121138876 bytes)
+Writing MIP solution to 'input/gemsec-Facebook.html/new_sites_edges.csv.gz.147.lp.reach_chain_detours.lp.sol'...
+Objective:  obj = 32.752309 (MINimum)

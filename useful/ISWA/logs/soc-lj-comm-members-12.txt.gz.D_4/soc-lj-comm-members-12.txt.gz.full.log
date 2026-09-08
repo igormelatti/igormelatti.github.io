@@ -1,0 +1,19 @@
+Launched as 5 input/soc-lj-comm-members.html/soc-lj-comm-members-12.txt.gz 0
+
+
+Execution time and memory used at after reading from file: 2.419609e+05 seconds, 637612032 bytes of memory usage, 622704 kB of memory peak and 2-19:12:54 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 1726665
+	Number of allocated nodes: 1727488
+	Number of edges: 12572267
+	Maximum in degree: 191529 (node 10000013)
+	Maximum out degree: 2461 (node 441031)
+
+Execution time and memory used at after adding costs: 2.419612e+05 seconds, 637612032 bytes of memory usage, 622704 kB of memory peak and 2-19:12:55 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 1726665
+	Number of allocated nodes: 1727488
+	Number of edges: 12572267
+	Maximum in degree: 191529 (node 10000013)
+	Maximum out degree: 2461 (node 441031)
+main: complete_input.c:33: add_st: Assertion `how_many(nodes_ok) > 1' failed.

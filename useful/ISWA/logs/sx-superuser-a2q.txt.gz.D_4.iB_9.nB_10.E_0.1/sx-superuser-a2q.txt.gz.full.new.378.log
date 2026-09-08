@@ -1,0 +1,40 @@
+Version 1.2 launched as -e 0.1 12 input/sx-superuser.html/sx-superuser-a2q.txt.gz 378
+
+
+Execution time and memory used at after reading from file: 1.358400e+02 seconds, 48078848 bytes of memory usage, 46988 kB of memory peak and 02:16 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 167981
+	Number of allocated nodes: 168960
+	Number of edges: 384346
+	Maximum in degree: 429 (node 2805)
+	Maximum out degree: 3101 (node 8672)
+
+Execution time and memory used at before starting main computation: 1.359800e+02 seconds, 48619520 bytes of memory usage, 48656 kB of memory peak and 02:16 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 167981
+	Number of allocated nodes: 168960
+	Number of edges: 384346
+	Maximum in degree: 429 (node 2805)
+	Maximum out degree: 3101 (node 8672)
+	source 3012 (node 8672) with out degree 3101
+	target 1117 (node 2805) with in degree 429
+
+Execution time and memory used at after iteration 1 (MF = 309691010810.000000): 4.489250e+03 seconds, 415752192 bytes of memory usage, 485816 kB of memory peak and 01:14:50 elapsed time
+Statistics on the network after iteration 1 (MF = 309691010810.000000)
+	Number of nodes: 167981
+	Number of allocated nodes: 168960
+	Number of edges: 384346
+	Maximum in degree: 429 (node 2805)
+	Maximum out degree: 3101 (node 8672)
+	source 3012 (node 8672) with out degree 3101
+	target 1117 (node 2805) with in degree 429
+
+Execution time and memory used at after iteration 2 (MF = 164330975791.000000): 4.500900e+03 seconds, 415752192 bytes of memory usage, 485940 kB of memory peak and 01:15:02 elapsed time
+Statistics on the network after iteration 2 (MF = 164330975791.000000)
+	Number of nodes: 167981
+	Number of allocated nodes: 168960
+	Number of edges: 384346
+	Maximum in degree: 429 (node 2805)
+	Maximum out degree: 3101 (node 8672)
+	source 3012 (node 8672) with out degree 3101
+	target 1117 (node 2805) with in degree 429

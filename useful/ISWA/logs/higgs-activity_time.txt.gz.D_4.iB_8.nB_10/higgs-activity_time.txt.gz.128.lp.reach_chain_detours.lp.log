@@ -1,0 +1,85 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/higgs-twitter.html/higgs-activity_time.txt.gz.128.lp.reach_chain_detours.lp
+ -o input/higgs-twitter.html/higgs-activity_time.txt.gz.128.lp.reach_chain_detours.lp.sol
+Reading problem data from 'input/higgs-twitter.html/higgs-activity_time.txt.gz.128.lp.reach_chain_detours.lp'...
+21923 rows, 48638 columns, 109602 non-zeros
+48638 integer variables, all of which are binary
+70566 lines were read
+GLPK Integer Optimizer 5.0
+21923 rows, 48638 columns, 109602 non-zeros
+48638 integer variables, all of which are binary
+Preprocessing...
+1 hidden packing inequaliti(es) were detected
+21889 rows, 48604 columns, 108083 non-zeros
+48604 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 21889
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+21889 rows, 48604 columns, 108083 non-zeros
+      0: obj =   0.000000000e+00 inf =   1.251e+03 (1251)
+   1251: obj =   1.678059274e+12 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [1450]...
+*  4740: obj =   1.675375899e+12 inf =   0.000e+00 (2395) 22
+*  7120: obj =   1.675375899e+12 inf =   0.000e+00 (2534) 21
+*  9029: obj =   1.599849291e+12 inf =   3.450e-04 (4396) 19
+* 10938: obj =   1.527720160e+12 inf =   3.324e-04 (4382) 16
+* 12645: obj =   1.514095737e+12 inf =   3.284e-03 (4399) 16
+* 14397: obj =   1.496091919e+12 inf =   2.669e-03 (6936) 17
+* 17151: obj =   1.420164539e+12 inf =   2.587e-03 (5963) 23
+* 19918: obj =   1.314538261e+12 inf =   1.622e-03 (5432) 24
+* 22391: obj =   1.280459077e+12 inf =   1.696e-03 (4648) 21
+* 24239: obj =   1.231224906e+12 inf =   1.587e-03 (4498) 17
+* 26064: obj =   1.139971210e+12 inf =   1.531e-03 (4414) 17
+* 28004: obj =   9.593187437e+11 inf =   1.671e-03 (4151) 19
+* 30014: obj =   5.352083385e+11 inf =   2.683e-03 (7079) 19
+* 32487: obj =   5.351911876e+11 inf =   7.568e-03 (6120) 24
+* 34934: obj =   5.351708154e+11 inf =   9.929e-03 (4540) 23
+* 37089: obj =   5.258090670e+11 inf =   6.293e-03 (6833) 20
+* 39300: obj =   5.257950478e+11 inf =   8.225e-03 (4320) 21
+* 41900: obj =   5.177516777e+11 inf =   1.007e-02 (5761) 25
+* 44561: obj =   5.177431493e+11 inf =   9.499e-03 (5115) 26
+* 46971: obj =   5.177396575e+11 inf =   8.567e-03 (3931) 23
+* 49487: obj =   5.150706710e+11 inf =   8.763e-03 (6061) 25
+* 52001: obj =   5.150690736e+11 inf =   9.066e-03 (5092) 24
+* 54481: obj =   5.150680063e+11 inf =   7.152e-03 (23025) 22
+* 56560: obj =   4.842102614e+11 inf =   7.143e-03 (6645) 19
+* 57996: obj =   4.841890952e+11 inf =   1.184e-02 (5995) 14
+* 59311: obj =   4.841791469e+11 inf =   1.123e-02 (5330) 13
+* 61110: obj =   4.841722230e+11 inf =   9.728e-03 (4655) 18
+* 62845: obj =   4.841669645e+11 inf =   7.775e-03 (4182) 17
+* 64721: obj =   4.841620516e+11 inf =   7.584e-03 (3826) 18
+* 66838: obj =   4.841584763e+11 inf =   6.243e-03 (3530) 21
+* 68835: obj =   4.825023839e+11 inf =   5.627e-03 (3145) 19
+* 71229: obj =   4.775297040e+11 inf =   6.505e-03 (23414) 23
+* 73176: obj =   4.775165409e+11 inf =   6.432e-03 (23099) 19
+* 75148: obj =   4.775122285e+11 inf =   7.106e-03 (5796) 19
+* 77328: obj =   4.775104175e+11 inf =   8.469e-03 (5396) 21
+* 79399: obj =   4.775094400e+11 inf =   7.049e-03 (4956) 19
+* 81435: obj =   4.775084614e+11 inf =   5.957e-03 (23080) 19
+* 84017: obj =   3.084948107e+11 inf =   5.185e-03 (4202) 22
+* 85544: obj =   3.084900188e+11 inf =   9.546e-03 (6211) 14
+* 87107: obj =   3.084871033e+11 inf =   9.582e-03 (5322) 15
+* 90017: obj =   3.084851158e+11 inf =   6.902e-03 (4202) 28
+* 92536: obj =   2.870342557e+11 inf =   8.535e-03 (4787) 25
+* 95080: obj =   2.870293549e+11 inf =   6.820e-03 (4275) 24
+* 97663: obj =   2.870260278e+11 inf =   7.233e-03 (3786) 23
+*100637: obj =   2.815897219e+10 inf =   7.153e-03 (2970) 22
+*103753: obj =   1.340062781e+10 inf =   6.024e-03 (1203) 18
+Removing LP perturbation [104810]...
+*104810: obj =   1.341152985e+10 inf =   0.000e+00 (0) 3
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++104810: mip =     not found yet >=              -inf        (1; 0)
++104810: >>>>>   1.341152985e+10 >=   1.341152985e+10   0.0% (1; 0)
++104810: mip =   1.341152985e+10 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   232.6 secs
+Memory used: 57.1 Mb (59824942 bytes)
+Writing MIP solution to 'input/higgs-twitter.html/higgs-activity_time.txt.gz.128.lp.reach_chain_detours.lp.sol'...
+Objective:  obj = 1.341152985e+10 (MINimum)

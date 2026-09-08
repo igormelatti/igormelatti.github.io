@@ -1,0 +1,44 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/p2p-Gnutella09.html/p2p-Gnutella09.txt.gz.6.lp -o input/p2p-Gnutella09.html/p2p-Gnutella09.txt.gz.6.lp.sol
+Reading problem data from 'input/p2p-Gnutella09.html/p2p-Gnutella09.txt.gz.6.lp'...
+26016 rows, 60140 columns, 130067 non-zeros
+60140 integer variables, all of which are binary
+86161 lines were read
+GLPK Integer Optimizer 5.0
+26016 rows, 60140 columns, 130067 non-zeros
+60140 integer variables, all of which are binary
+Preprocessing...
+26002 rows, 60126 columns, 129864 non-zeros
+60126 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 26002
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+26002 rows, 60126 columns, 129864 non-zeros
+      0: obj =   0.000000000e+00 inf =   9.200e+01 (92)
+     92: obj =   7.087581700e+01 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [295]...
+*  2742: obj =   6.509716883e+01 inf =   0.000e+00 (852) 19
+*  4615: obj =   6.089102977e+01 inf =   3.684e-03 (1744) 18
+*  6517: obj =   6.088987882e+01 inf =   5.258e-03 (1523) 19
+*  8240: obj =   5.971581456e+01 inf =   3.902e-03 (1506) 17
+* 10052: obj =   1.079721504e+01 inf =   4.921e-03 (1643) 17
+* 12029: obj =   9.894707634e+00 inf =   5.386e-03 (1151) 20
+* 14213: obj =   9.352123303e+00 inf =   4.587e-03 (482) 20
+Removing LP perturbation [14844]...
+* 14844: obj =   9.352942000e+00 inf =   0.000e+00 (0) 5
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 14844: mip =     not found yet >=              -inf        (1; 0)
++ 14844: >>>>>   9.352942000e+00 >=   9.352942000e+00   0.0% (1; 0)
++ 14844: mip =   9.352942000e+00 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   36.4 secs
+Memory used: 70.5 Mb (73936676 bytes)
+Writing MIP solution to 'input/p2p-Gnutella09.html/p2p-Gnutella09.txt.gz.6.lp.sol'...
+Objective:  obj = 9.352942 (MINimum)

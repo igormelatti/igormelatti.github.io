@@ -1,0 +1,149 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/sx-askubuntu.html/sx-askubuntu-a2q.txt.gz.522.lp -o input/sx-askubuntu.html/sx-askubuntu-a2q.txt.gz.522.lp.sol
+Reading problem data from 'input/sx-askubuntu.html/sx-askubuntu-a2q.txt.gz.522.lp'...
+247256 rows, 628541 columns, 1236267 non-zeros
+628541 integer variables, all of which are binary
+875802 lines were read
+GLPK Integer Optimizer 5.0
+247256 rows, 628541 columns, 1236267 non-zeros
+628541 integer variables, all of which are binary
+Preprocessing...
+1 hidden packing inequaliti(es) were detected
+246531 rows, 627724 columns, 1230737 non-zeros
+627724 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 246531
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+246531 rows, 627724 columns, 1230737 non-zeros
+      0: obj =   0.000000000e+00 inf =   5.890e+02 (589)
+    414: obj =   5.519993006e+11 inf =   1.750e+02 (175)
+    589: obj =   7.956470956e+11 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [788]...
+*  1038: obj =   7.956470956e+11 inf =   0.000e+00 (1038)
+*  1368: obj =   7.927335747e+11 inf =   0.000e+00 (1192) 1
+*  1754: obj =   7.927335747e+11 inf =   0.000e+00 (1213) 4
+*  2139: obj =   7.927335747e+11 inf =   0.000e+00 (1212) 3
+*  2507: obj =   7.927335747e+11 inf =   0.000e+00 (1204) 4
+*  2874: obj =   7.927335747e+11 inf =   0.000e+00 (1223) 3
+*  3227: obj =   7.927335747e+11 inf =   0.000e+00 (1235) 4
+*  3572: obj =   7.927335747e+11 inf =   0.000e+00 (1251) 3
+*  3913: obj =   7.927335747e+11 inf =   0.000e+00 (1276) 3
+*  4246: obj =   7.927335747e+11 inf =   0.000e+00 (1280) 3
+*  4572: obj =   7.927335747e+11 inf =   0.000e+00 (1285) 3
+*  4894: obj =   7.927335747e+11 inf =   0.000e+00 (1282) 3
+*  5210: obj =   7.927335747e+11 inf =   0.000e+00 (1297) 3
+*  5521: obj =   7.927335747e+11 inf =   0.000e+00 (1305) 3
+*  5829: obj =   7.927335747e+11 inf =   0.000e+00 (1326) 3
+*  6132: obj =   7.927335747e+11 inf =   0.000e+00 (1313) 3
+*  6431: obj =   7.927335747e+11 inf =   0.000e+00 (1311) 3
+*  6729: obj =   7.927335747e+11 inf =   0.000e+00 (1328) 3
+*  7023: obj =   7.927335747e+11 inf =   0.000e+00 (1336) 3
+*  7317: obj =   7.927335747e+11 inf =   0.000e+00 (1344) 2
+*  7600: obj =   7.927335747e+11 inf =   0.000e+00 (1347) 3
+*  7886: obj =   7.927335747e+11 inf =   0.000e+00 (1359) 3
+*  8166: obj =   7.393454106e+11 inf =   1.027e-15 (5086) 3
+*  8455: obj =   7.393454106e+11 inf =   8.105e-15 (5082) 3
+*  8752: obj =   7.393454080e+11 inf =   1.195e-06 (5044) 2
+*  9054: obj =   6.568875760e+11 inf =   5.082e-05 (4996) 3
+*  9391: obj =   6.376053427e+11 inf =   6.259e-04 (4899) 3
+*  9850: obj =   3.579638600e+11 inf =   1.182e-03 (4724) 1
+* 10159: obj =   3.575428979e+11 inf =   2.999e-03 (4709) 3
+* 10444: obj =   3.575428638e+11 inf =   8.125e-03 (4671) 2
+* 10769: obj =   3.575428450e+11 inf =   7.917e-03 (4635) 3
+* 11088: obj =   3.575428100e+11 inf =   1.018e-02 (4638) 3
+* 11413: obj =   3.392194947e+11 inf =   9.520e-03 (4632) 3
+* 11747: obj =   2.367466049e+11 inf =   6.678e-03 (4367) 1
+* 12058: obj =   2.010720902e+11 inf =   9.153e-03 (4313) 2
+* 12374: obj =   2.010720620e+11 inf =   9.375e-03 (4308) 3
+* 12681: obj =   2.010720423e+11 inf =   9.368e-03 (4297) 3
+* 12999: obj =   1.805109941e+11 inf =   6.606e-03 (4190) 2
+* 13322: obj =   1.665722960e+11 inf =   6.274e-03 (4158) 3
+* 13652: obj =   1.233885067e+11 inf =   6.042e-03 (6315) 3
+* 13975: obj =   7.446322451e+10 inf =   5.680e-03 (5818) 3
+* 14284: obj =   7.446005942e+10 inf =   7.622e-03 (4031) 3
+* 14598: obj =   7.445996159e+10 inf =   9.553e-03 (3991) 3
+* 14901: obj =   7.445990946e+10 inf =   1.082e-02 (3963) 2
+* 15186: obj =   7.445982735e+10 inf =   1.354e-02 (3972) 3
+* 15473: obj =   7.445979953e+10 inf =   1.522e-02 (4007) 2
+* 15751: obj =   7.445977396e+10 inf =   1.641e-02 (4010) 3
+* 16027: obj =   7.445964807e+10 inf =   2.199e-02 (4033) 2
+* 16305: obj =   7.445955290e+10 inf =   2.413e-02 (4033) 3
+* 16618: obj =   2.996985729e+10 inf =   2.358e-02 (5611) 3
+* 16924: obj =  -4.063300949e+05 inf =   2.568e-02 (228) 2
+* 17209: obj =  -4.584485256e+05 inf =   2.706e-02 (211) 3
+* 17494: obj =  -5.017716160e+05 inf =   2.723e-02 (200) 3
+* 17773: obj =  -5.588549796e+05 inf =   2.924e-02 (191) 2
+* 18056: obj =  -6.059168410e+05 inf =   2.855e-02 (185) 3
+* 18337: obj =  -6.916161298e+05 inf =   2.952e-02 (171) 3
+* 18619: obj =  -7.077438310e+05 inf =   2.761e-02 (158) 2
+* 18931: obj =  -7.191619292e+05 inf =   2.696e-02 (36) 3
+Removing LP perturbation [19131]...
+* 19131: obj =   0.000000000e+00 inf =   0.000e+00 (0) 2
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 19131: mip =     not found yet >=              -inf        (1; 0)
++ 19131: mip =     not found yet >=   0.000000000e+00        (2; 0)
++ 19307: mip =     not found yet >=   0.000000000e+00        (3; 0)
++ 19309: mip =     not found yet >=   0.000000000e+00        (4; 0)
++ 19311: mip =     not found yet >=   0.000000000e+00        (5; 0)
++ 19491: mip =     not found yet >=   0.000000000e+00        (6; 0)
+Time used: 60.2 secs.  Memory used: 583.8 Mb.
++ 19493: mip =     not found yet >=   0.000000000e+00        (7; 0)
++ 19495: mip =     not found yet >=   0.000000000e+00        (8; 0)
++ 19552: mip =     not found yet >=   0.000000000e+00        (9; 0)
++ 19557: mip =     not found yet >=   0.000000000e+00        (10; 0)
++ 19562: mip =     not found yet >=   0.000000000e+00        (11; 0)
++ 19564: mip =     not found yet >=   0.000000000e+00        (12; 0)
+Time used: 120.4 secs.  Memory used: 583.8 Mb.
++ 19566: mip =     not found yet >=   0.000000000e+00        (13; 0)
++ 19568: mip =     not found yet >=   0.000000000e+00        (14; 0)
++ 19869: mip =     not found yet >=   0.000000000e+00        (15; 0)
++ 19870: mip =     not found yet >=   0.000000000e+00        (16; 0)
++ 19871: mip =     not found yet >=   0.000000000e+00        (17; 0)
++ 19874: mip =     not found yet >=   0.000000000e+00        (18; 0)
+Time used: 184.3 secs.  Memory used: 583.8 Mb.
++ 19876: mip =     not found yet >=   0.000000000e+00        (19; 0)
++ 19892: mip =     not found yet >=   0.000000000e+00        (20; 0)
++ 19894: mip =     not found yet >=   0.000000000e+00        (21; 0)
++ 19926: mip =     not found yet >=   0.000000000e+00        (22; 0)
++ 19927: mip =     not found yet >=   0.000000000e+00        (23; 0)
++ 20261: mip =     not found yet >=   0.000000000e+00        (24; 0)
+Time used: 244.9 secs.  Memory used: 583.8 Mb.
++ 20348: mip =     not found yet >=   0.000000000e+00        (25; 0)
++ 20350: mip =     not found yet >=   0.000000000e+00        (26; 0)
++ 20361: mip =     not found yet >=   0.000000000e+00        (27; 0)
++ 20398: mip =     not found yet >=   0.000000000e+00        (28; 0)
++ 20515: mip =     not found yet >=   0.000000000e+00        (29; 0)
+# 20935: obj =  -3.469730363e-01 inf =   0.000e+00 (2612) 3 51%
+# 21123: obj =   0.000000000e+00 inf =   0.000e+00 (0) 2 100%
++ 21123: mip =     not found yet >=   0.000000000e+00        (30; 0)
+Time used: 310.3 secs.  Memory used: 583.8 Mb.
++ 21393: mip =     not found yet >=   0.000000000e+00        (31; 0)
++ 21395: mip =     not found yet >=   0.000000000e+00        (32; 0)
++ 21398: mip =     not found yet >=   0.000000000e+00        (33; 0)
++ 21399: mip =     not found yet >=   0.000000000e+00        (34; 0)
++ 21534: mip =     not found yet >=   0.000000000e+00        (35; 0)
++ 21546: mip =     not found yet >=   0.000000000e+00        (36; 0)
++ 21554: mip =     not found yet >=   0.000000000e+00        (37; 0)
++ 21581: mip =     not found yet >=   0.000000000e+00        (38; 0)
+Time used: 371.6 secs.  Memory used: 583.8 Mb.
++ 21658: mip =     not found yet >=   0.000000000e+00        (39; 0)
+# 22072: obj =  -1.203079461e+00 inf =   0.000e+00 (673) 3 47%
+# 22261: obj =  -2.464451798e+00 inf =   0.000e+00 (156) 2 100%
+# 22451: obj =  -4.377124613e+00 inf =   0.000e+00 (1827) 2 100%
+# 22479: obj =   0.000000000e+00 inf =   0.000e+00 (0) 100%
++ 22479: mip =     not found yet >=   0.000000000e+00        (40; 0)
++ 22689: mip =     not found yet >=   0.000000000e+00        (41; 0)
+Solution found by heuristic: 0
++ 22691: mip =   0.000000000e+00 >=     tree is empty   0.0% (0; 81)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   714.2 secs
+Memory used: 725.2 Mb (760461216 bytes)
+Writing MIP solution to 'input/sx-askubuntu.html/sx-askubuntu-a2q.txt.gz.522.lp.sol'...
+Objective:  obj = 0 (MINimum)

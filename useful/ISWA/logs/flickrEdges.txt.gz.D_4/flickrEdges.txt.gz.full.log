@@ -1,0 +1,68 @@
+Launched as 5 input/web-flickr.html/flickrEdges.txt.gz 0
+
+
+Execution time and memory used at after reading from file: 5.105980e+03 seconds, 102031360 bytes of memory usage, 99676 kB of memory peak and 01:25:06 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 105938
+	Number of allocated nodes: 106496
+	Number of edges: 2316948
+	Maximum in degree: 1459 (node 533676565)
+	Maximum out degree: 4399 (node 177199736)
+
+Execution time and memory used at after adding costs: 5.106250e+03 seconds, 102031360 bytes of memory usage, 99676 kB of memory peak and 01:25:07 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 105938
+	Number of allocated nodes: 106496
+	Number of edges: 2316948
+	Maximum in degree: 1459 (node 533676565)
+	Maximum out degree: 4399 (node 177199736)
+
+Execution time and memory used at before starting main computation: 5.107400e+03 seconds, 103383040 bytes of memory usage, 101892 kB of memory peak and 01:25:08 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 105938
+	Number of allocated nodes: 106496
+	Number of edges: 2316948
+	Maximum in degree: 1459 (node 533676565)
+	Maximum out degree: 4399 (node 177199736)
+	source 312 (node 177199736) with out degree 4399
+	target 3408 (node 533676565) with in degree 1459
+
+Execution time and memory used at after creating milp without reductions: 5.111870e+03 seconds, 103383040 bytes of memory usage, 101892 kB of memory peak and 01:25:12 elapsed time
+Statistics on the network after creating milp without reductions
+	Number of nodes: 105938
+	Number of allocated nodes: 106496
+	Number of edges: 2316948
+	Maximum in degree: 1459 (node 533676565)
+	Maximum out degree: 4399 (node 177199736)
+	source 312 (node 177199736) with out degree 4399
+	target 3408 (node 533676565) with in degree 1459
+
+Execution time and memory used at after reachability and chains reduction: 1.391806e+04 seconds, 104054784 bytes of memory usage, 110144 kB of memory peak and 03:51:59 elapsed time
+Statistics on the network after reachability and chains reduction
+	Number of nodes: 20838
+	Number of allocated nodes: 106496
+	Number of edges: 541929
+	Maximum in degree: 1083 (node 533676565)
+	Maximum out degree: 1784 (node 177199736)
+	source 312 (node 177199736) with out degree 1784
+	target 3408 (node 533676565) with in degree 1083
+
+Execution time and memory used at after detours elimination: 1.391911e+04 seconds, 104386560 bytes of memory usage, 110144 kB of memory peak and 03:52:00 elapsed time
+Statistics on the network after detours elimination
+	Number of nodes: 20838
+	Number of allocated nodes: 106496
+	Number of edges: 541929
+	Maximum in degree: 1083 (node 533676565)
+	Maximum out degree: 1784 (node 177199736)
+	source 312 (node 177199736) with out degree 1784
+	target 3408 (node 533676565) with in degree 1083
+
+Execution time and memory used at after creating milp with detours elimination (all transformations): 1.392032e+04 seconds, 104386560 bytes of memory usage, 110144 kB of memory peak and 03:52:01 elapsed time
+Statistics on the network after creating milp with detours elimination (all transformations)
+	Number of nodes: 20838
+	Number of allocated nodes: 106496
+	Number of edges: 541929
+	Maximum in degree: 1083 (node 533676565)
+	Maximum out degree: 1784 (node 177199736)
+	source 312 (node 177199736) with out degree 1784
+	target 3408 (node 533676565) with in degree 1083

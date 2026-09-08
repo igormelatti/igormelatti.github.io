@@ -1,0 +1,68 @@
+Launched as 5 input/email-Enron.html/email-Enron.txt.gz 0
+
+
+Execution time and memory used at after reading from file: 1.343000e+01 seconds, 30732288 bytes of memory usage, 30048 kB of memory peak and 00:14 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 36692
+	Number of allocated nodes: 36864
+	Number of edges: 367662
+	Maximum in degree: 1383 (node 5038)
+	Maximum out degree: 1383 (node 5038)
+
+Execution time and memory used at after adding costs: 1.344000e+01 seconds, 30732288 bytes of memory usage, 30048 kB of memory peak and 00:14 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 36692
+	Number of allocated nodes: 36864
+	Number of edges: 367662
+	Maximum in degree: 1383 (node 5038)
+	Maximum out degree: 1383 (node 5038)
+
+Execution time and memory used at before starting main computation: 1.393000e+01 seconds, 31678464 bytes of memory usage, 31596 kB of memory peak and 00:14 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 36692
+	Number of allocated nodes: 36864
+	Number of edges: 367662
+	Maximum in degree: 1383 (node 5038)
+	Maximum out degree: 1383 (node 5038)
+	source 271 (node 5038) with out degree 1383
+	target 144 (node 273) with in degree 1367
+
+Execution time and memory used at after creating milp without reductions: 1.438000e+01 seconds, 31678464 bytes of memory usage, 31596 kB of memory peak and 00:15 elapsed time
+Statistics on the network after creating milp without reductions
+	Number of nodes: 36692
+	Number of allocated nodes: 36864
+	Number of edges: 367662
+	Maximum in degree: 1383 (node 5038)
+	Maximum out degree: 1383 (node 5038)
+	source 271 (node 5038) with out degree 1383
+	target 144 (node 273) with in degree 1367
+
+Execution time and memory used at after reachability and chains reduction: 2.331000e+01 seconds, 32481280 bytes of memory usage, 42328 kB of memory peak and 00:24 elapsed time
+Statistics on the network after reachability and chains reduction
+	Number of nodes: 24146
+	Number of allocated nodes: 36864
+	Number of edges: 341198
+	Maximum in degree: 1184 (node 273)
+	Maximum out degree: 1165 (node 458)
+	source 271 (node 5038) with out degree 161
+	target 144 (node 273) with in degree 1184
+
+Execution time and memory used at after detours elimination: 1.415906e+04 seconds, 32186368 bytes of memory usage, 42328 kB of memory peak and 03:56:00 elapsed time
+Statistics on the network after detours elimination
+	Number of nodes: 23488
+	Number of allocated nodes: 36864
+	Number of edges: 338668
+	Maximum in degree: 1184 (node 273)
+	Maximum out degree: 1165 (node 458)
+	source 271 (node 5038) with out degree 161
+	target 144 (node 273) with in degree 1184
+
+Execution time and memory used at after creating milp with detours elimination (all transformations): 1.415947e+04 seconds, 32186368 bytes of memory usage, 42328 kB of memory peak and 03:56:00 elapsed time
+Statistics on the network after creating milp with detours elimination (all transformations)
+	Number of nodes: 23488
+	Number of allocated nodes: 36864
+	Number of edges: 338668
+	Maximum in degree: 1184 (node 273)
+	Maximum out degree: 1165 (node 458)
+	source 271 (node 5038) with out degree 161
+	target 144 (node 273) with in degree 1184

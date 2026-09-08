@@ -1,0 +1,30 @@
+Version 1.2 launched as -e 0.1 12 input/sx-superuser.html/sx-superuser.txt.gz 2259
+
+
+Execution time and memory used at after reading from file: 1.208720e+03 seconds, 66469888 bytes of memory usage, 64948 kB of memory peak and 20:09 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 194085
+	Number of allocated nodes: 194560
+	Number of edges: 854377
+	Maximum in degree: 2512 (node 8672)
+	Maximum out degree: 14254 (node 83283)
+
+Execution time and memory used at before starting main computation: 1.211500e+03 seconds, 69308416 bytes of memory usage, 68960 kB of memory peak and 20:12 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 194085
+	Number of allocated nodes: 194560
+	Number of edges: 854377
+	Maximum in degree: 2512 (node 8672)
+	Maximum out degree: 14254 (node 83283)
+	source 38708 (node 83283) with out degree 14254
+	target 3012 (node 8672) with in degree 2512
+
+Execution time and memory used at after iteration 1 (MF = 3136513404886.000000): 1.339184e+04 seconds, 888238080 bytes of memory usage, 1041400 kB of memory peak and 03:43:13 elapsed time
+Statistics on the network after iteration 1 (MF = 3136513404886.000000)
+	Number of nodes: 194085
+	Number of allocated nodes: 194560
+	Number of edges: 854377
+	Maximum in degree: 2512 (node 8672)
+	Maximum out degree: 14254 (node 83283)
+	source 38708 (node 83283) with out degree 14254
+	target 3012 (node 8672) with in degree 2512

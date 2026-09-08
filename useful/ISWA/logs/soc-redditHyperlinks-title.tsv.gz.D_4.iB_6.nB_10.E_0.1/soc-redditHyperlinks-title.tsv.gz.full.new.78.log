@@ -1,0 +1,138 @@
+Version 1.2 launched as -e 0.1 -i 12 input/soc-RedditHyperlinks.html/soc-redditHyperlinks-title.tsv.gz 78
+
+Warning: node t:1930s replaced with t_1930s
+Warning: node t:1930s replaced with t_1930s
+Warning: node t:1930s replaced with t_1930s
+Warning: node t:1930s replaced with t_1930s
+Warning: node t:1930s replaced with t_1930s
+Warning: node t:1930s replaced with t_1930s
+Warning: node t:1930s replaced with t_1930s
+Warning: node t:1930s replaced with t_1930s
+Warning: node t:2112 replaced with t_2112
+Warning: node t:1930s replaced with t_1930s
+
+Execution time and memory used at after reading from file: 1.089000e+01 seconds, 28766208 bytes of memory usage, 28128 kB of memory peak and 00:10 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 54075
+	Number of allocated nodes: 54272
+	Number of edges: 234792
+	Maximum in degree: 4164 (node askreddit)
+	Maximum out degree: 3111 (node bestof)
+
+Execution time and memory used at after adding costs: 1.091000e+01 seconds, 28766208 bytes of memory usage, 28128 kB of memory peak and 00:10 elapsed time
+Statistics on the network after adding costs
+	Number of nodes: 54075
+	Number of allocated nodes: 54272
+	Number of edges: 234792
+	Maximum in degree: 4164 (node askreddit)
+	Maximum out degree: 3111 (node bestof)
+
+Execution time and memory used at before starting main computation: 1.166000e+01 seconds, 29171712 bytes of memory usage, 29216 kB of memory peak and 00:11 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 54075
+	Number of allocated nodes: 54272
+	Number of edges: 234792
+	Maximum in degree: 4164 (node askreddit)
+	Maximum out degree: 3111 (node bestof)
+	source 16 (node bestof) with out degree 3111
+	target 16030 (node fivenightsatfreddys) with in degree 135
+
+Execution time and memory used at after iteration 1 (MF = 5.073952): 6.892300e+02 seconds, 247132160 bytes of memory usage, 300584 kB of memory peak and 11:29 elapsed time
+Statistics on the network after iteration 1 (MF = 5.073952)
+	Number of nodes: 54075
+	Number of allocated nodes: 54272
+	Number of edges: 234792
+	Maximum in degree: 4164 (node askreddit)
+	Maximum out degree: 3111 (node bestof)
+	source 16 (node bestof) with out degree 3111
+	target 16030 (node fivenightsatfreddys) with in degree 135
+
+Execution time and memory used at after iteration 2 (MF = 1.157938): 6.981200e+02 seconds, 247132160 bytes of memory usage, 300608 kB of memory peak and 11:38 elapsed time
+Statistics on the network after iteration 2 (MF = 1.157938)
+	Number of nodes: 54075
+	Number of allocated nodes: 54272
+	Number of edges: 234792
+	Maximum in degree: 4164 (node askreddit)
+	Maximum out degree: 3111 (node bestof)
+	source 16 (node bestof) with out degree 3111
+	target 16030 (node fivenightsatfreddys) with in degree 135
+
+Execution time and memory used at after iteration 3 (MF = 3.995601): 7.091800e+02 seconds, 247132160 bytes of memory usage, 310744 kB of memory peak and 11:49 elapsed time
+Statistics on the network after iteration 3 (MF = 3.995601)
+	Number of nodes: 54075
+	Number of allocated nodes: 54272
+	Number of edges: 234792
+	Maximum in degree: 4164 (node askreddit)
+	Maximum out degree: 3111 (node bestof)
+	source 16 (node bestof) with out degree 3111
+	target 16030 (node fivenightsatfreddys) with in degree 135
+
+Execution time and memory used at after iteration 4 (MF = 3.542818): 2.455898e+04 seconds, 321613824 bytes of memory usage, 401892 kB of memory peak and 06:49:21 elapsed time
+Statistics on the network after iteration 4 (MF = 3.542818)
+	Number of nodes: 54075
+	Number of allocated nodes: 54272
+	Number of edges: 234792
+	Maximum in degree: 4164 (node askreddit)
+	Maximum out degree: 3111 (node bestof)
+	source 16 (node bestof) with out degree 3111
+	target 16030 (node fivenightsatfreddys) with in degree 135
+
+Execution time and memory used at after iteration 5 (MF = 3.679725): 2.486144e+04 seconds, 342241280 bytes of memory usage, 401892 kB of memory peak and 06:54:24 elapsed time
+Statistics on the network after iteration 5 (MF = 3.679725)
+	Number of nodes: 54075
+	Number of allocated nodes: 54272
+	Number of edges: 234792
+	Maximum in degree: 4164 (node askreddit)
+	Maximum out degree: 3111 (node bestof)
+	source 16 (node bestof) with out degree 3111
+	target 16030 (node fivenightsatfreddys) with in degree 135
+
+Execution time and memory used at after iteration 6 (MF = 3.622405): 2.497936e+04 seconds, 336801792 bytes of memory usage, 554996 kB of memory peak and 06:56:22 elapsed time
+Statistics on the network after iteration 6 (MF = 3.622405)
+	Number of nodes: 54075
+	Number of allocated nodes: 54272
+	Number of edges: 234792
+	Maximum in degree: 4164 (node askreddit)
+	Maximum out degree: 3111 (node bestof)
+	source 16 (node bestof) with out degree 3111
+	target 16030 (node fivenightsatfreddys) with in degree 135
+
+Execution time and memory used at after iteration 7 (MF = 3.771821): 5.519909e+04 seconds, 321613824 bytes of memory usage, 554996 kB of memory peak and 15:20:02 elapsed time
+Statistics on the network after iteration 7 (MF = 3.771821)
+	Number of nodes: 54075
+	Number of allocated nodes: 54272
+	Number of edges: 234792
+	Maximum in degree: 4164 (node askreddit)
+	Maximum out degree: 3111 (node bestof)
+	source 16 (node bestof) with out degree 3111
+	target 16030 (node fivenightsatfreddys) with in degree 135
+
+Execution time and memory used at after iteration 8 (MF = 3.137457): 5.525091e+04 seconds, 333430784 bytes of memory usage, 554996 kB of memory peak and 15:20:54 elapsed time
+Statistics on the network after iteration 8 (MF = 3.137457)
+	Number of nodes: 54075
+	Number of allocated nodes: 54272
+	Number of edges: 234792
+	Maximum in degree: 4164 (node askreddit)
+	Maximum out degree: 3111 (node bestof)
+	source 16 (node bestof) with out degree 3111
+	target 16030 (node fivenightsatfreddys) with in degree 135
+
+Execution time and memory used at after iteration 9 (MF = 3.803986): 5.530875e+04 seconds, 323973120 bytes of memory usage, 554996 kB of memory peak and 15:21:52 elapsed time
+Statistics on the network after iteration 9 (MF = 3.803986)
+	Number of nodes: 54075
+	Number of allocated nodes: 54272
+	Number of edges: 234792
+	Maximum in degree: 4164 (node askreddit)
+	Maximum out degree: 3111 (node bestof)
+	source 16 (node bestof) with out degree 3111
+	target 16030 (node fivenightsatfreddys) with in degree 135
+
+Execution time and memory used at after iteration 10 (MF = 3.711890): 5.536345e+04 seconds, 333459456 bytes of memory usage, 554996 kB of memory peak and 15:22:47 elapsed time
+Statistics on the network after iteration 10 (MF = 3.711890)
+	Number of nodes: 54075
+	Number of allocated nodes: 54272
+	Number of edges: 234792
+	Maximum in degree: 4164 (node askreddit)
+	Maximum out degree: 3111 (node bestof)
+	source 16 (node bestof) with out degree 3111
+	target 16030 (node fivenightsatfreddys) with in degree 135

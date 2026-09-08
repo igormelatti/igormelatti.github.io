@@ -1,0 +1,91 @@
+GLPSOL--GLPK LP/MIP Solver 5.0
+Parameter(s) specified in the command line:
+ --lp input/soc-sign-bitcoin-otc.html/soc-sign-bitcoinotc.csv.gz.41.lp -o
+ input/soc-sign-bitcoin-otc.html/soc-sign-bitcoinotc.csv.gz.41.lp.sol
+Reading problem data from 'input/soc-sign-bitcoin-otc.html/soc-sign-bitcoinotc.csv.gz.41.lp'...
+35595 rows, 77065 columns, 177962 non-zeros
+77065 integer variables, all of which are binary
+112665 lines were read
+GLPK Integer Optimizer 5.0
+35595 rows, 77065 columns, 177962 non-zeros
+77065 integer variables, all of which are binary
+Preprocessing...
+34652 rows, 76115 columns, 173021 non-zeros
+76115 integer variables, all of which are binary
+Scaling...
+ A: min|aij| =  1.000e+00  max|aij| =  1.000e+00  ratio =  1.000e+00
+Problem data seem to be well scaled
+Constructing initial basis...
+Size of triangular part is 34652
+Solving LP relaxation...
+GLPK Simplex Optimizer 5.0
+34652 rows, 76115 columns, 173021 non-zeros
+      0: obj =   0.000000000e+00 inf =   4.120e+02 (412)
+    412: obj =   2.746664020e+02 inf =   0.000e+00 (0)
+Perturbing LP to avoid stalling [615]...
+*  3044: obj =   2.664468340e+02 inf =   0.000e+00 (590) 23
+*  5356: obj =   2.664468340e+02 inf =   0.000e+00 (544) 23
+*  7442: obj =   2.664468340e+02 inf =   0.000e+00 (573) 20
+*  9318: obj =   2.664468340e+02 inf =   0.000e+00 (609) 18
+* 11060: obj =   2.664468340e+02 inf =   0.000e+00 (624) 17
+* 12753: obj =   2.664468340e+02 inf =   0.000e+00 (664) 16
+* 14143: obj =   2.657221302e+02 inf =   0.000e+00 (5054) 14
+* 15079: obj =   2.653789001e+02 inf =   0.000e+00 (5636) 8
+* 15910: obj =   2.653109583e+02 inf =   5.230e-04 (5594) 9
+* 16718: obj =   2.653109384e+02 inf =   3.513e-03 (5543) 8
+* 17628: obj =   2.401024478e+02 inf =   2.322e-03 (5151) 9
+* 18812: obj =   2.401013721e+02 inf =   7.884e-03 (14131) 11
+* 21060: obj =   2.401008856e+02 inf =   9.741e-03 (13453) 22
+* 23027: obj =   2.401004487e+02 inf =   1.165e-02 (12869) 19
+* 25274: obj =   2.401001992e+02 inf =   1.226e-02 (12341) 21
+* 27280: obj =   2.400999850e+02 inf =   1.511e-02 (11981) 19
+* 29495: obj =   2.400997819e+02 inf =   1.080e-02 (11280) 21
+* 31887: obj =   2.400996817e+02 inf =   1.092e-02 (10639) 22
+* 33702: obj =   2.400994146e+02 inf =   2.586e-02 (10487) 17
+* 35151: obj =   2.400991646e+02 inf =   4.121e-02 (10272) 14
+* 36834: obj =   2.400989256e+02 inf =   3.447e-02 (10053) 16
+* 38562: obj =   2.400986220e+02 inf =   3.829e-02 (9858) 17
+* 39989: obj =   2.400983848e+02 inf =   3.961e-02 (9753) 13
+* 41699: obj =   2.400980603e+02 inf =   4.594e-02 (9554) 16
+* 43344: obj =   2.400974434e+02 inf =   5.459e-02 (9362) 15
+* 44906: obj =   2.400971610e+02 inf =   5.143e-02 (9180) 16
+* 46577: obj =   2.400965575e+02 inf =   6.340e-02 (9004) 15
+* 48174: obj =   2.400957641e+02 inf =   6.390e-02 (8768) 15
+* 49670: obj =   2.400951931e+02 inf =   8.051e-02 (8629) 14
+* 51276: obj =   2.400945695e+02 inf =   7.320e-02 (8439) 15
+* 53003: obj =   2.400937209e+02 inf =   7.107e-02 (8279) 16
+* 54645: obj =   2.400934026e+02 inf =   6.130e-02 (8174) 14
+* 56198: obj =   2.400931326e+02 inf =   6.152e-02 (8002) 15
+* 57908: obj =   2.400928079e+02 inf =   5.166e-02 (7667) 16
+* 59561: obj =   2.400925751e+02 inf =   4.162e-02 (7347) 16
+* 61336: obj =   2.400922938e+02 inf =   3.857e-02 (6925) 16
+* 62859: obj =   2.400920827e+02 inf =   3.729e-02 (6783) 15
+* 64526: obj =   2.400917237e+02 inf =   3.024e-02 (6308) 14
+* 66151: obj =   2.400914250e+02 inf =   2.903e-02 (6040) 15
+* 68025: obj =   2.400909538e+02 inf =   2.701e-02 (5623) 17
+* 69514: obj =   2.400907069e+02 inf =   2.751e-02 (5434) 14
+* 71108: obj =   2.400903977e+02 inf =   3.304e-02 (5216) 15
+* 72672: obj =   2.400901108e+02 inf =   3.579e-02 (4989) 14
+* 74162: obj =   2.400895977e+02 inf =   3.686e-02 (4799) 14
+* 75745: obj =   2.400890259e+02 inf =   3.519e-02 (4670) 15
+* 77638: obj =   2.026341317e+02 inf =   3.088e-02 (4248) 16
+* 79272: obj =   1.978473068e+02 inf =   3.315e-02 (3906) 15
+* 81106: obj =   1.942846371e+02 inf =   3.034e-02 (3495) 16
+* 82997: obj =   1.908699168e+02 inf =   2.596e-02 (3109) 17
+* 84924: obj =   1.844853469e+02 inf =   2.355e-02 (2633) 17
+* 86811: obj =   1.789675020e+02 inf =   2.291e-02 (2138) 16
+* 88703: obj =   1.743541134e+02 inf =   2.055e-02 (1671) 16
+* 90680: obj =   1.677361264e+02 inf =   1.925e-02 (1101) 17
+Removing LP perturbation [92511]...
+* 92511: obj =   1.653227950e+02 inf =   0.000e+00 (0) 16
+OPTIMAL LP SOLUTION FOUND
+Integer optimization begins...
+Long-step dual simplex will be used
++ 92511: mip =     not found yet >=              -inf        (1; 0)
++ 92511: >>>>>   1.653227950e+02 >=   1.653227950e+02   0.0% (1; 0)
++ 92511: mip =   1.653227950e+02 >=     tree is empty   0.0% (0; 1)
+INTEGER OPTIMAL SOLUTION FOUND
+Time used:   270.1 secs
+Memory used: 91.3 Mb (95689201 bytes)
+Writing MIP solution to 'input/soc-sign-bitcoin-otc.html/soc-sign-bitcoinotc.csv.gz.41.lp.sol'...
+Objective:  obj = 165.322795 (MINimum)

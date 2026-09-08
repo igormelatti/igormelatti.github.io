@@ -1,0 +1,60 @@
+Launched as 5 input/higgs-twitter.html/higgs-retweet_network.edgelist.gz 0
+
+
+Execution time and memory used at after reading from file: 1.310360e+03 seconds, 57667584 bytes of memory usage, 56352 kB of memory peak and 21:51 elapsed time
+Statistics on the network after reading from file
+	Number of nodes: 256491
+	Number of allocated nodes: 257024
+	Number of edges: 328132
+	Maximum in degree: 14060 (node 88)
+	Maximum out degree: 134 (node 38535)
+
+Execution time and memory used at before starting main computation: 1.310370e+03 seconds, 57667584 bytes of memory usage, 57836 kB of memory peak and 21:51 elapsed time
+Statistics on the network before starting main computation
+	Number of nodes: 256491
+	Number of allocated nodes: 257024
+	Number of edges: 328132
+	Maximum in degree: 14060 (node 88)
+	Maximum out degree: 134 (node 38535)
+	source 274 (node 38535) with out degree 134
+	target 19 (node 88) with in degree 14060
+
+Execution time and memory used at after creating milp without reductions: 1.311030e+03 seconds, 57667584 bytes of memory usage, 57836 kB of memory peak and 21:51 elapsed time
+Statistics on the network after creating milp without reductions
+	Number of nodes: 256491
+	Number of allocated nodes: 257024
+	Number of edges: 328132
+	Maximum in degree: 14060 (node 88)
+	Maximum out degree: 134 (node 38535)
+	source 274 (node 38535) with out degree 134
+	target 19 (node 88) with in degree 14060
+
+Execution time and memory used at after reachability and chains reduction: 1.919370e+03 seconds, 58699776 bytes of memory usage, 68504 kB of memory peak and 32:00 elapsed time
+Statistics on the network after reachability and chains reduction
+	Number of nodes: 965
+	Number of allocated nodes: 257024
+	Number of edges: 3869
+	Maximum in degree: 212 (node 88)
+	Maximum out degree: 40 (node 38535)
+	source 274 (node 38535) with out degree 40
+	target 19 (node 88) with in degree 212
+
+Execution time and memory used at after detours elimination: 1.920710e+03 seconds, 59224064 bytes of memory usage, 68504 kB of memory peak and 32:01 elapsed time
+Statistics on the network after detours elimination
+	Number of nodes: 932
+	Number of allocated nodes: 257024
+	Number of edges: 3802
+	Maximum in degree: 212 (node 88)
+	Maximum out degree: 40 (node 38535)
+	source 274 (node 38535) with out degree 40
+	target 19 (node 88) with in degree 212
+
+Execution time and memory used at after creating milp with detours elimination (all transformations): 1.920720e+03 seconds, 59224064 bytes of memory usage, 68504 kB of memory peak and 32:01 elapsed time
+Statistics on the network after creating milp with detours elimination (all transformations)
+	Number of nodes: 932
+	Number of allocated nodes: 257024
+	Number of edges: 3802
+	Maximum in degree: 212 (node 88)
+	Maximum out degree: 40 (node 38535)
+	source 274 (node 38535) with out degree 40
+	target 19 (node 88) with in degree 212
